@@ -15,19 +15,22 @@ async function loadTopics() {
     try {
         console.log('Starting to load topics...');
 
-        const configResponse = await fetch(`${basePath}/vocabulary/config.json`);
+        const configPath = `${basePath}/vocabulary/config.json`;
+        console.log('Loading config from:', configPath);
+        const configResponse = await fetch(configPath);
         if (!configResponse.ok) {
-            throw new Error(`Failed to load config: ${configResponse.status}`);
+            throw new Error(`Failed to load config: ${configResponse.statusText} (${configResponse.status})`);
         }
         const config = await configResponse.json();
         console.log('Loaded config:', config);
 
         // Load each topic
         for (const topicName of config.topics) {
-            console.log(`Loading topic: ${topicName}`);
-            const response = await fetch(`${basePath}/vocabulary/${topicName}.json`);
+            const topicPath = `${basePath}/vocabulary/${topicName}.json`;
+            console.log(`Loading topic from: ${topicPath}`);
+            const response = await fetch(topicPath);
             if (!response.ok) {
-                throw new Error(`Failed to load topic ${topicName}: ${response.status}`);
+                throw new Error(`Failed to load topic ${topicName}: ${response.statusText} (${response.status})`);
             }
             topics[topicName] = await response.json();
         }

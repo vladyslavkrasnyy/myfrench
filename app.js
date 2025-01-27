@@ -10,7 +10,6 @@ let timer = null;
 // Base path for GitHub Pages
 const basePath = '/myfrench';
 
-// Load topics from config
 async function loadTopics() {
     try {
         console.log('Starting to load topics...');
@@ -24,19 +23,24 @@ async function loadTopics() {
         const config = await configResponse.json();
         console.log('Loaded config:', config);
 
-        // Load each topic
-        for (const topicName of config.topics) {
-            const topicPath = `${basePath}/vocabulary/${topicName}.json`;
-            console.log(`Loading topic from: ${topicPath}`);
-            const response = await fetch(topicPath);
-            if (!response.ok) {
-                throw new Error(`Failed to load topic ${topicName}: ${response.statusText} (${response.status})`);
+        // Ensure config.topics is an array before proceeding
+        if (Array.isArray(config.topics)) {
+            // Load each topic
+            for (const topicName of config.topics) {
+                const topicPath = `${basePath}/vocabulary/${topicName}.json`;
+                console.log(`Loading topic from: ${topicPath}`);
+                const response = await fetch(topicPath);
+                if (!response.ok) {
+                    throw new Error(`Failed to load topic ${topicName}: ${response.statusText} (${response.status})`);
+                }
+                topics[topicName] = await response.json();
             }
-            topics[topicName] = await response.json();
-        }
 
-        console.log('All topics loaded:', topics);
-        displayTopics();
+            console.log('All topics loaded:', topics);
+            displayTopics();
+        } else {
+            throw new Error('Invalid format: config.topics should be an array.');
+        }
     } catch (error) {
         console.error('Error loading topics:', error);
         document.getElementById('topicList').innerHTML = `
@@ -47,6 +51,7 @@ async function loadTopics() {
         `;
     }
 }
+
 
 // Display available topics
 function displayTopics() {

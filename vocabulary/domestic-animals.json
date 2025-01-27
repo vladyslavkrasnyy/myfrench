@@ -1,0 +1,26 @@
+{
+  "name": "Domestic Animals",
+  "description": "Common pets and farm animals",
+  "words": [
+    { "french": "le chat", "english": "cat", "example": "Le chat dort sur le canapé." },
+    { "french": "le chien", "english": "dog", "example": "Le chien joue dans le jardin." },
+    { "french": "le lapin", "english": "rabbit", "example": "Le lapin mange une carotte." },
+    { "french": "le hamster", "english": "hamster", "example": "Le hamster court dans sa roue." },
+    { "french": "le cochon d'Inde", "english": "guinea pig", "example": "Le cochon d'Inde aime les légumes." },
+    { "french": "le perroquet", "english": "parrot", "example": "Le perroquet parle beaucoup." },
+    { "french": "la perruche", "english": "budgie", "example": "La perruche est de couleur bleue." },
+    { "french": "le poisson rouge", "english": "goldfish", "example": "Le poisson rouge nage dans son bocal." },
+    { "french": "la tortue", "english": "turtle", "example": "La tortue mange de la laitue." },
+    { "french": "le cheval", "english": "horse", "example": "Le cheval galope dans le pré." },
+    { "french": "la vache", "english": "cow", "example": "La vache donne du lait." },
+    { "french": "le cochon", "english": "pig", "example": "Le cochon se roule dans la boue." },
+    { "french": "le mouton", "english": "sheep", "example": "Le mouton a de la laine." },
+    { "french": "l'agneau", "english": "lamb", "example": "L'agneau suit sa mère." },
+    { "french": "la poule", "english": "chicken", "example": "La poule pond des œufs." },
+    { "french": "le coq", "english": "rooster", "example": "Le coq chante le matin." },
+    { "french": "le canard", "english": "duck", "example": "Le canard nage sur le lac." },
+    { "french": "l'oie", "english": "goose", "example": "L'oie mange de l'herbe." },
+    { "french": "la chèvre", "english": "goat", "example": "La chèvre grimpe sur les rochers." },
+    { "french": "l'âne", "english": "donkey", "example": "L'âne porte des sacs lourds." }
+  ]
+}

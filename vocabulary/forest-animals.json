@@ -1,0 +1,26 @@
+{
+  "name": "Forest Animals",
+  "description": "Animals living in forests and woodlands",
+  "words": [
+    { "french": "l'écureuil", "english": "squirrel", "example": "L'écureuil ramasse des noix." },
+    { "french": "le hibou", "english": "owl", "example": "Le hibou chasse la nuit." },
+    { "french": "le hérisson", "english": "hedgehog", "example": "Le hérisson se roule en boule." },
+    { "french": "la biche", "english": "doe", "example": "La biche surveille son faon." },
+    { "french": "le blaireau", "english": "badger", "example": "Le blaireau creuse son terrier." },
+    { "french": "le lapin sauvage", "english": "wild rabbit", "example": "Le lapin sauvage court vite." },
+    { "french": "la chouette", "english": "small owl", "example": "La chouette dort le jour." },
+    { "french": "le pic-vert", "english": "woodpecker", "example": "Le pic-vert tape sur l'arbre." },
+    { "french": "le sanglier", "english": "wild boar", "example": "Le sanglier cherche sa nourriture." },
+    { "french": "le raton laveur", "english": "raccoon", "example": "Le raton laveur lave sa nourriture." },
+    { "french": "la marmotte", "english": "marmot", "example": "La marmotte hiberne en hiver." },
+    { "french": "le castor", "english": "beaver", "example": "Le castor construit un barrage." },
+    { "french": "la belette", "english": "weasel", "example": "La belette est très agile." },
+    { "french": "le faon", "english": "fawn", "example": "Le faon suit sa mère." },
+    { "french": "le lynx", "english": "lynx", "example": "Le lynx a une excellente vue." },
+    { "french": "la fouine", "english": "marten", "example": "La fouine se déplace silencieusement." },
+    { "french": "le chevreuil", "english": "roe deer", "example": "Le chevreuil bondit avec grâce." },
+    { "french": "le lièvre", "english": "hare", "example": "Le lièvre court très vite." },
+    { "french": "la taupe", "english": "mole", "example": "La taupe creuse des galeries." },
+    { "french": "le faucon", "english": "falcon", "example": "Le faucon vole très haut." }
+  ]
+}

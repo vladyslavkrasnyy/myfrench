@@ -1,0 +1,26 @@
+{
+  "name": "Wild Animals",
+  "description": "Wild animals from around the world",
+  "words": [
+    { "french": "le lion", "english": "lion", "example": "Le lion est le roi des animaux." },
+    { "french": "le tigre", "english": "tiger", "example": "Le tigre chasse dans la jungle." },
+    { "french": "l'éléphant", "english": "elephant", "example": "L'éléphant mange beaucoup de feuilles." },
+    { "french": "la girafe", "english": "giraffe", "example": "La girafe a un long cou." },
+    { "french": "le zèbre", "english": "zebra", "example": "Le zèbre a des rayures noires et blanches." },
+    { "french": "le rhinocéros", "english": "rhinoceros", "example": "Le rhinocéros a une corne sur le nez." },
+    { "french": "l'hippopotame", "english": "hippopotamus", "example": "L'hippopotame aime être dans l'eau." },
+    { "french": "le kangourou", "english": "kangaroo", "example": "Le kangourou saute très haut." },
+    { "french": "le koala", "english": "koala", "example": "Le koala mange des feuilles d'eucalyptus." },
+    { "french": "le panda", "english": "panda", "example": "Le panda mange du bambou." },
+    { "french": "le loup", "english": "wolf", "example": "Le loup vit en meute." },
+    { "french": "l'ours", "english": "bear", "example": "L'ours pêche des poissons." },
+    { "french": "le renard", "english": "fox", "example": "Le renard est très rusé." },
+    { "french": "le cerf", "english": "deer", "example": "Le cerf a de grands bois." },
+    { "french": "le singe", "english": "monkey", "example": "Le singe grimpe aux arbres." },
+    { "french": "le gorille", "english": "gorilla", "example": "Le gorille est très fort." },
+    { "french": "le crocodile", "english": "crocodile", "example": "Le crocodile nage dans la rivière." },
+    { "french": "le serpent", "english": "snake", "example": "Le serpent rampe sur le sol." },
+    { "french": "le chameau", "english": "camel", "example": "Le chameau traverse le désert." },
+    { "french": "la baleine", "english": "whale", "example": "La baleine nage dans l'océan." }
+  ]
+}

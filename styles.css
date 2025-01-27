@@ -4,16 +4,24 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 20px;
-    background: #f5f5f5;
+    background: #f4f4f5;
+    color: #18181b;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #18181b;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 .section {
@@ -23,79 +31,110 @@ body {
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
-    margin: 10px 0;
+    gap: 15px;
+    margin: 15px 0;
 }
 
 button {
-    padding: 15px 20px;
+    padding: 15px 25px;
     font-size: 16px;
-    border: none;
-    border-radius: 6px;
-    background: #2563eb;
-    color: white;
+    border: 1px solid #e4e4e7;
+    border-radius: 8px;
+    background: white;
+    color: #18181b;
     cursor: pointer;
-    transition: background-color 0.2s;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 button:hover {
-    background: #1d4ed8;
+    background: #f4f4f5;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+    transform: translateY(0);
 }
 
 button.secondary {
-    background: #6b7280;
+    background: #f4f4f5;
+    border-color: #e4e4e7;
 }
 
 .word-card {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     margin: 20px 0;
-    border: 1px solid #e5e7eb;
-    border-radius: 8px;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    background: #fafafa;
 }
 
 .french-word {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #18181b;
 }
 
 .english-word {
-    font-size: 24px;
-    color: #2563eb;
-    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #52525b;
+    margin-bottom: 15px;
 }
 
 .example {
     font-style: italic;
-    color: #6b7280;
+    color: #71717a;
+    line-height: 1.6;
 }
 
 .controls {
     display: flex;
-    gap: 10px;
+    gap: 12px;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .status-bar {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    background: #f8fafc;
-    border-radius: 6px;
+    padding: 15px;
+    background: #fafafa;
+    border-radius: 8px;
     margin-bottom: 20px;
+    font-weight: 500;
+    color: #52525b;
 }
 
 .options {
-    margin-top: 20px;
+    margin-top: 25px;
+}
+
+.options button {
+    padding: 20px;
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+    transition: all 0.2s ease;
 }
 
 .correct {
-    background: #22c55e !important;
+    background: #dcfce7 !important;
+    border-color: #bbf7d0 !important;
+    color: #166534 !important;
 }
 
 .wrong {
-    background: #ef4444 !important;
+    background: #fee2e2 !important;
+    border-color: #fecaca !important;
+    color: #991b1b !important;
+}
+
+button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
 }
 
 #summary {
@@ -103,6 +142,63 @@ button.secondary {
 }
 
 #summaryContent {
-    font-size: 18px;
-    margin: 20px 0;
+    font-size: 1.2rem;
+    margin: 25px 0;
+    line-height: 1.8;
+}
+
+/* Timer styling */
+.timer {
+    font-weight: 600;
+    color: #52525b;
+}
+
+/* Score display */
+.score {
+    font-weight: 600;
+    color: #52525b;
+}
+
+/* Topic buttons specific styling */
+#topicList button {
+    font-size: 1.2rem;
+    padding: 20px;
+    text-align: center;
+    background: #fafafa;
+    border: 1px solid #e4e4e7;
+    transition: all 0.2s ease;
+}
+
+#topicList button:hover {
+    background: #f4f4f5;
+    border-color: #d4d4d8;
+}
+
+/* Mode selection buttons */
+#modeSelection button {
+    padding: 25px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .french-word {
+        font-size: 2rem;
+    }
+
+    .english-word {
+        font-size: 1.5rem;
+    }
 }

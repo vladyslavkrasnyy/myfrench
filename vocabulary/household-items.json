@@ -1,0 +1,26 @@
+{
+  "name": "Household Items",
+  "description": "Common tools, cleaning supplies, and small items used in the house.",
+  "words": [
+    { "french": "l'aspirateur", "english": "vacuum cleaner", "example": "L'aspirateur est sous l'escalier." },
+    { "french": "le balai", "english": "broom", "example": "Le balai est dans le placard." },
+    { "french": "le panier", "english": "basket", "example": "Le panier est sur la table." },
+    { "french": "le couteau", "english": "knife", "example": "Le couteau est sur la table." },
+    { "french": "la fourchette", "english": "fork", "example": "Je mange avec une fourchette." },
+    { "french": "la cuillère", "english": "spoon", "example": "La cuillère est dans le tiroir." },
+    { "french": "l'assiette", "english": "plate", "example": "Les assiettes sont dans le placard." },
+    { "french": "le verre", "english": "glass", "example": "Je bois dans un verre." },
+    { "french": "le tapis", "english": "rug", "example": "Le tapis est dans le salon." },
+    { "french": "le rideau", "english": "curtain", "example": "Les rideaux sont bleus." },
+    { "french": "l'étagère", "english": "shelf", "example": "L'étagère est pleine de livres." },
+    { "french": "l'armoire", "english": "wardrobe", "example": "L'armoire est dans la chambre." },
+    { "french": "le canapé", "english": "sofa", "example": "Le canapé est très confortable." },
+    { "french": "la table", "english": "table", "example": "La table est en bois." },
+    { "french": "la chaise", "english": "chair", "example": "J'ai besoin d'une chaise." },
+    { "french": "la lampe", "english": "lamp", "example": "La lampe est allumée." },
+    { "french": "l'horloge", "english": "clock", "example": "L'horloge est sur le mur." },
+    { "french": "le coussin", "english": "cushion", "example": "Le coussin est sur le canapé." },
+    { "french": "la plante", "english": "plant", "example": "La plante est sur la fenêtre." },
+    { "french": "le panier à linge", "english": "laundry basket", "example": "Le panier à linge est plein." }
+  ]
+}

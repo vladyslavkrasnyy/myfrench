@@ -1,0 +1,26 @@
+{
+  "name": "Rooms in a House",
+  "description": "Different rooms found in a house.",
+  "words": [
+    { "french": "le salon", "english": "living room", "example": "Nous avons un canapé dans le salon." },
+    { "french": "la cuisine", "english": "kitchen", "example": "La cuisine est bien équipée." },
+    { "french": "la chambre", "english": "bedroom", "example": "Je me repose dans ma chambre." },
+    { "french": "la salle de bain", "english": "bathroom", "example": "La salle de bain est à l'étage." },
+    { "french": "le bureau", "english": "office", "example": "Il travaille dans le bureau." },
+    { "french": "la salle à manger", "english": "dining room", "example": "La salle à manger est juste à côté de la cuisine." },
+    { "french": "le hall", "english": "hallway", "example": "Le hall est décoré avec des tableaux." },
+    { "french": "la cave", "english": "cellar", "example": "Nous stockons les bouteilles de vin dans la cave." },
+    { "french": "le grenier", "english": "attic", "example": "Il y a de vieux meubles dans le grenier." },
+    { "french": "le garage", "english": "garage", "example": "Le garage est plein de boîtes." },
+    { "french": "la terrasse", "english": "terrace", "example": "Nous dînons souvent sur la terrasse." },
+    { "french": "le balcon", "english": "balcony", "example": "Le balcon donne sur le jardin." },
+    { "french": "la buanderie", "english": "laundry room", "example": "La buanderie est au sous-sol." },
+    { "french": "l'entrée", "english": "entrance", "example": "L'entrée de la maison est bien éclairée." },
+    { "french": "le vestibule", "english": "vestibule", "example": "Il y a un miroir dans le vestibule." },
+    { "french": "la véranda", "english": "veranda", "example": "La véranda est très lumineuse." },
+    { "french": "la bibliothèque", "english": "library", "example": "La bibliothèque est remplie de livres anciens." },
+    { "french": "l'escalier", "english": "staircase", "example": "L'escalier est en bois." },
+    { "french": "la salle de jeux", "english": "game room", "example": "Les enfants jouent dans la salle de jeux." },
+    { "french": "le salon de jardin", "english": "garden lounge", "example": "Le salon de jardin est parfait pour les soirées d'été." }
+  ]
+}

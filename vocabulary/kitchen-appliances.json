@@ -1,0 +1,25 @@
+{
+  "name": "Kitchen Appliances",
+  "description": "Specific to cooking and food preparation, such as stoves, refrigerators, blenders, etc.",
+  "words": [
+    { "french": "le réfrigérateur", "english": "refrigerator", "example": "Le lait est dans le réfrigérateur." },
+    { "french": "le four", "english": "oven", "example": "Je fais cuire le pain dans le four." },
+    { "french": "le micro-ondes", "english": "microwave", "example": "Je chauffe la soupe dans le micro-ondes." },
+    { "french": "le grille-pain", "english": "toaster", "example": "Le grille-pain grille le pain." },
+    { "french": "le mixeur", "english": "blender", "example": "Je prépare un smoothie avec le mixeur." },
+    { "french": "le robot culinaire", "english": "food processor", "example": "Le robot culinaire hache les légumes." },
+    { "french": "la bouilloire", "english": "kettle", "example": "Je fais chauffer de l'eau dans la bouilloire." },
+    { "french": "la cafetière", "english": "coffee maker", "example": "La cafetière prépare le café." },
+    { "french": "le lave-vaisselle", "english": "dishwasher", "example": "Je mets les assiettes dans le lave-vaisselle." },
+    { "french": "la friteuse", "english": "deep fryer", "example": "Je fais frire les frites dans la friteuse." },
+    { "french": "la machine à pain", "english": "bread machine", "example": "La machine à pain fait du pain frais." },
+    { "french": "le mixeur plongeant", "english": "hand blender", "example": "Je prépare la soupe avec un mixeur plongeant." },
+    { "french": "le presse-agrumes", "english": "juicer", "example": "Le presse-agrumes fait du jus d'orange." },
+    { "french": "la yaourtière", "english": "yogurt maker", "example": "La yaourtière prépare des yaourts maison." },
+    { "french": "le réchauffeur", "english": "warmer", "example": "Le réchauffeur garde les aliments chauds." },
+    { "french": "le hachoir", "english": "meat grinder", "example": "Le hachoir est utilisé pour la viande." },
+    { "french": "le fer à repasser", "english": "iron", "example": "Je repasse mes vêtements avec le fer à repasser." },
+    { "french": "la balance de cuisine", "english": "kitchen scale", "example": "Je pèse les ingrédients avec la balance de cuisine." },
+    { "french": "le batteur", "english": "mixer", "example": "Je bats les œufs avec le batteur." }
+  ]
+}

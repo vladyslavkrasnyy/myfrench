@@ -1,0 +1,25 @@
+{
+  "name": "Waste Management",
+  "description": "Items related to trash, recycling, and composting.",
+  "words": [
+    { "french": "la poubelle", "english": "trash bin", "example": "La poubelle est pleine." },
+    { "french": "le recyclage", "english": "recycling", "example": "Le recyclage est important pour l'environnement." },
+    { "french": "le compost", "english": "compost", "example": "Le compost est prêt pour le jardin." },
+    { "french": "les déchets", "english": "waste", "example": "Les déchets doivent être triés." },
+    { "french": "la collecte des déchets", "english": "waste collection", "example": "La collecte des déchets est le mardi." },
+    { "french": "le sac poubelle", "english": "garbage bag", "example": "Le sac poubelle est trop lourd." },
+    { "french": "le tri sélectif", "english": "sorting", "example": "Le tri sélectif aide à protéger la planète." },
+    { "french": "le conteneur", "english": "container", "example": "Le conteneur est destiné au recyclage." },
+    { "french": "le plastique", "english": "plastic", "example": "Le plastique est recyclé." },
+    { "french": "le verre", "english": "glass", "example": "Le verre est recyclé séparément." },
+    { "french": "le carton", "english": "cardboard", "example": "Le carton doit être aplatir avant d'être recyclé." },
+    { "french": "l'éco-quartier", "english": "eco-district", "example": "L'éco-quartier favorise le recyclage." },
+    { "french": "le bac à compost", "english": "compost bin", "example": "Le bac à compost est dans le jardin." },
+    { "french": "le papier", "english": "paper", "example": "Le papier est jeté dans le bac de recyclage." },
+    { "french": "le déchet organique", "english": "organic waste", "example": "Le déchet organique va dans le compost." },
+    { "french": "l'incinérateur", "english": "incinerator", "example": "L'incinérateur brûle les déchets non recyclables." },
+    { "french": "le centre de recyclage", "english": "recycling center", "example": "Le centre de recyclage est à 5 km." },
+    { "french": "les déchets ménagers", "english": "household waste", "example": "Les déchets ménagers sont collectés une fois par semaine." },
+    { "french": "les déchets électroniques", "english": "electronic waste", "example": "Les déchets électroniques doivent être recyclés." }
+  ]
+}

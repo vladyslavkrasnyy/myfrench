@@ -1,0 +1,25 @@
+{
+  "name": "Security",
+  "description": "Items related to home security, like locks, cameras, alarms, etc.",
+  "words": [
+    { "french": "la serrure", "english": "lock", "example": "La serrure est cassée." },
+    { "french": "la clé", "english": "key", "example": "J'ai perdu ma clé." },
+    { "french": "l'alarme", "english": "alarm", "example": "L'alarme sonne toute la nuit." },
+    { "french": "le détecteur de mouvement", "english": "motion detector", "example": "Le détecteur de mouvement est activé." },
+    { "french": "la caméra de sécurité", "english": "security camera", "example": "La caméra de sécurité surveille l'entrée." },
+    { "french": "le système de surveillance", "english": "surveillance system", "example": "Le système de surveillance est connecté à mon téléphone." },
+    { "french": "le coffre-fort", "english": "safe", "example": "Le coffre-fort est dans le placard." },
+    { "french": "le portail", "english": "gate", "example": "Le portail est fermé à clé." },
+    { "french": "le verrou", "english": "bolt", "example": "Le verrou empêche la porte de s'ouvrir." },
+    { "french": "la porte blindée", "english": "security door", "example": "La porte blindée est très solide." },
+    { "french": "le détecteur de fumée", "english": "smoke detector", "example": "Le détecteur de fumée émet un bip." },
+    { "french": "la sirène", "english": "siren", "example": "La sirène est très bruyante." },
+    { "french": "l'interphone", "english": "intercom", "example": "L'interphone fonctionne parfaitement." },
+    { "french": "la gâche électrique", "english": "electric strike", "example": "La gâche électrique ouvre la porte." },
+    { "french": "le contrôle d'accès", "english": "access control", "example": "Le contrôle d'accès est installé à l'entrée." },
+    { "french": "la caméra d'entrée", "english": "door camera", "example": "La caméra d'entrée montre la porte d'entrée." },
+    { "french": "le système d'alarme", "english": "alarm system", "example": "Le système d'alarme protège toute la maison." },
+    { "french": "l'agent de sécurité", "english": "security guard", "example": "L'agent de sécurité patrouille dans le bâtiment." },
+    { "french": "le badge d'accès", "english": "access badge", "example": "Le badge d'accès ouvre la porte du bureau." }
+  ]
+}

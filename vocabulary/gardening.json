@@ -1,0 +1,26 @@
+{
+  "name": "Gardening",
+  "description": "Items and activities related to garden maintenance and plants.",
+  "words": [
+    { "french": "le jardin", "english": "garden", "example": "Le jardin est fleuri." },
+    { "french": "la plante", "english": "plant", "example": "La plante est verte." },
+    { "french": "le pot de fleurs", "english": "flower pot", "example": "Le pot de fleurs est en terre cuite." },
+    { "french": "le semis", "english": "seedling", "example": "Les semis poussent bien." },
+    { "french": "la pelle", "english": "shovel", "example": "J'utilise la pelle pour creuser." },
+    { "french": "le râteau", "english": "rake", "example": "Le râteau est dans le garage." },
+    { "french": "le tuyau", "english": "hose", "example": "Le tuyau d'arrosage est long." },
+    { "french": "le sécateur", "english": "pruning shears", "example": "J'utilise le sécateur pour tailler les arbres." },
+    { "french": "la tondeuse", "english": "lawnmower", "example": "La tondeuse est en panne." },
+    { "french": "le bac à compost", "english": "compost bin", "example": "Le bac à compost est plein." },
+    { "french": "le désherbant", "english": "weed killer", "example": "Le désherbant est efficace." },
+    { "french": "la serre", "english": "greenhouse", "example": "La serre est chauffée." },
+    { "french": "le potager", "english": "vegetable garden", "example": "Le potager est à côté de la maison." },
+    { "french": "la brouette", "english": "wheelbarrow", "example": "La brouette est utilisée pour transporter le terreau." },
+    { "french": "les graines", "english": "seeds", "example": "Les graines ont germé." },
+    { "french": "le compost", "english": "compost", "example": "Le compost est prêt à être utilisé." },
+    { "french": "le paillis", "english": "mulch", "example": "Le paillis est utilisé pour protéger les plantes." },
+    { "french": "le cerisier", "english": "cherry tree", "example": "Le cerisier est en fleur." },
+    { "french": "la bêche", "english": "spade", "example": "La bêche est dans le jardin." },
+    { "french": "les fleurs", "english": "flowers", "example": "Les fleurs sont colorées." }
+  ]
+}

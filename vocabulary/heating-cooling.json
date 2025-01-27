@@ -1,0 +1,25 @@
+{
+  "name": "Heating and Cooling",
+  "description": "Systems and appliances related to temperature control in the house.",
+  "words": [
+    { "french": "le chauffage", "english": "heating", "example": "Le chauffage est allumé." },
+    { "french": "la climatisation", "english": "air conditioning", "example": "La climatisation fonctionne bien." },
+    { "french": "le radiateur", "english": "radiator", "example": "Le radiateur est chaud." },
+    { "french": "le thermostat", "english": "thermostat", "example": "Le thermostat règle la température." },
+    { "french": "le ventilateur", "english": "fan", "example": "Le ventilateur est sur la table." },
+    { "french": "la pompe à chaleur", "english": "heat pump", "example": "La pompe à chaleur chauffe l'eau." },
+    { "french": "la chaudière", "english": "boiler", "example": "La chaudière chauffe l'eau pour la maison." },
+    { "french": "l'air purificateur", "english": "air purifier", "example": "L'air purificateur nettoie l'air." },
+    { "french": "le radiateur à infrarouge", "english": "infrared heater", "example": "Le radiateur à infrarouge chauffe rapidement." },
+    { "french": "l'échangeur de chaleur", "english": "heat exchanger", "example": "L'échangeur de chaleur réduit la consommation d'énergie." },
+    { "french": "le climatiseur", "english": "air conditioner", "example": "Le climatiseur est dans le salon." },
+    { "french": "le chauffe-eau", "english": "water heater", "example": "Le chauffe-eau est dans la salle de bain." },
+    { "french": "le refroidisseur d'air", "english": "air cooler", "example": "Le refroidisseur d'air fonctionne silencieusement." },
+    { "french": "la ventilation", "english": "ventilation", "example": "La ventilation est essentielle pour l'air frais." },
+    { "french": "le radiateur électrique", "english": "electric heater", "example": "Le radiateur électrique chauffe la chambre." },
+    { "french": "l'isolation", "english": "insulation", "example": "L'isolation garde la maison chaude." },
+    { "french": "le système de ventilation", "english": "ventilation system", "example": "Le système de ventilation fonctionne toute la nuit." },
+    { "french": "l'humidificateur", "english": "humidifier", "example": "L'humidificateur ajoute de l'humidité dans l'air." },
+    { "french": "le rafraîchisseur", "english": "cooler", "example": "Le rafraîchisseur est dans la cuisine." }
+  ]
+}

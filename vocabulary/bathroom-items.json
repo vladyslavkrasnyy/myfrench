@@ -1,0 +1,25 @@
+{
+  "name": "Bathroom Items",
+  "description": "Items specifically for the bathroom, such as towels, shower curtains, soaps, etc.",
+  "words": [
+    { "french": "la serviette", "english": "towel", "example": "Je me sèche avec la serviette." },
+    { "french": "le savon", "english": "soap", "example": "Le savon est dans le porte-savon." },
+    { "french": "le shampoing", "english": "shampoo", "example": "Le shampoing est sur l'étagère." },
+    { "french": "le dentifrice", "english": "toothpaste", "example": "J'achète du dentifrice à la pharmacie." },
+    { "french": "la brosse à dents", "english": "toothbrush", "example": "Je me brosse les dents avec ma brosse à dents." },
+    { "french": "le porte-savon", "english": "soap dish", "example": "Le porte-savon est sur le lavabo." },
+    { "french": "le peigne", "english": "comb", "example": "Je me coiffe avec un peigne." },
+    { "french": "le miroir", "english": "mirror", "example": "Je me regarde dans le miroir." },
+    { "french": "la baignoire", "english": "bathtub", "example": "Je me détends dans la baignoire." },
+    { "french": "la douche", "english": "shower", "example": "Je prends une douche chaque matin." },
+    { "french": "les rideaux de douche", "english": "shower curtains", "example": "Les rideaux de douche sont bleus." },
+    { "french": "le tapis de bain", "english": "bath mat", "example": "Le tapis de bain est moelleux." },
+    { "french": "le robinet", "english": "faucet", "example": "Le robinet fuit." },
+    { "french": "le sèche-serviettes", "english": "towel warmer", "example": "Le sèche-serviettes est dans la salle de bain." },
+    { "french": "le gel douche", "english": "body wash", "example": "J'utilise du gel douche pour me laver." },
+    { "french": "le gant de toilette", "english": "washcloth", "example": "Le gant de toilette est dans le panier." },
+    { "french": "la poubelle", "english": "bin", "example": "La poubelle est pleine." },
+    { "french": "le déodorant", "english": "deodorant", "example": "Le déodorant est sur la table." },
+    { "french": "la crème hydratante", "english": "moisturizer", "example": "Je mets de la crème hydratante après la douche." }
+  ]
+}

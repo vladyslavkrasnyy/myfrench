@@ -1,0 +1,25 @@
+{
+  "name": "Lighting",
+  "description": "Lamps, light fixtures, bulbs, etc.",
+  "words": [
+    { "french": "la lampe", "english": "lamp", "example": "La lampe éclaire la pièce." },
+    { "french": "l'ampoule", "english": "lightbulb", "example": "L'ampoule est grillée." },
+    { "french": "la lampe de table", "english": "table lamp", "example": "La lampe de table est allumée." },
+    { "french": "le lustre", "english": "chandelier", "example": "Le lustre est au plafond." },
+    { "french": "le plafonnier", "english": "ceiling light", "example": "Le plafonnier éclaire toute la pièce." },
+    { "french": "le projecteur", "english": "spotlight", "example": "Le projecteur est très puissant." },
+    { "french": "la guirlande", "english": "string lights", "example": "La guirlande est décorative." },
+    { "french": "le néon", "english": "neon light", "example": "Le néon brille dans la nuit." },
+    { "french": "la lampe de poche", "english": "flashlight", "example": "J'utilise la lampe de poche pour chercher quelque chose." },
+    { "french": "la torche", "english": "torch", "example": "La torche éclaire le sentier." },
+    { "french": "le réverbère", "english": "streetlight", "example": "Les réverbères illuminent la rue." },
+    { "french": "la lumière", "english": "light", "example": "La lumière est trop forte." },
+    { "french": "le variateur", "english": "dimmer switch", "example": "Le variateur ajuste l'intensité de la lumière." },
+    { "french": "la lampe à huile", "english": "oil lamp", "example": "La lampe à huile éclaire doucement." },
+    { "french": "le luminaire", "english": "light fixture", "example": "Le luminaire est moderne." },
+    { "french": "l'éclairage", "english": "lighting", "example": "L'éclairage de la pièce est trop faible." },
+    { "french": "la bougie", "english": "candle", "example": "La bougie sent bon." },
+    { "french": "le lampadaire", "english": "floor lamp", "example": "Le lampadaire est près du canapé." },
+    { "french": "la lampe suspendue", "english": "pendant light", "example": "La lampe suspendue est au-dessus de la table." }
+  ]
+}

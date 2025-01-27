@@ -1,0 +1,25 @@
+{
+  "name": "Personal Items",
+  "description": "Common items that people might store in their homes, like clothing, toiletries, and personal care items.",
+  "words": [
+    { "french": "les vêtements", "english": "clothes", "example": "Les vêtements sont dans l'armoire." },
+    { "french": "le parfum", "english": "perfume", "example": "Elle met du parfum tous les matins." },
+    { "french": "les chaussures", "english": "shoes", "example": "Les chaussures sont sous le lit." },
+    { "french": "le maquillage", "english": "makeup", "example": "Elle a du maquillage dans son sac." },
+    { "french": "le savon", "english": "soap", "example": "Le savon est dans la salle de bain." },
+    { "french": "le shampoing", "english": "shampoo", "example": "Le shampoing est sur l'étagère." },
+    { "french": "le rasoir", "english": "razor", "example": "J'ai utilisé le rasoir pour me raser." },
+    { "french": "le déodorant", "english": "deodorant", "example": "Le déodorant est dans le tiroir." },
+    { "french": "la brosse à dents", "english": "toothbrush", "example": "La brosse à dents est dans le porte-brosse." },
+    { "french": "le peigne", "english": "comb", "example": "Je me coiffe avec le peigne." },
+    { "french": "les lunettes", "english": "glasses", "example": "Je porte mes lunettes pour mieux voir." },
+    { "french": "la montre", "english": "watch", "example": "La montre est sur la table." },
+    { "french": "le portefeuille", "english": "wallet", "example": "Mon portefeuille est dans ma poche." },
+    { "french": "le sac à main", "english": "handbag", "example": "Le sac à main est sur la chaise." },
+    { "french": "les clés", "english": "keys", "example": "Les clés sont sur le comptoir." },
+    { "french": "les lunettes de soleil", "english": "sunglasses", "example": "Je porte mes lunettes de soleil." },
+    { "french": "les écouteurs", "english": "earphones", "example": "Les écouteurs sont dans mon sac." },
+    { "french": "le chargeur", "english": "charger", "example": "Le chargeur est branché." },
+    { "french": "la crème hydratante", "english": "moisturizer", "example": "Je mets de la crème hydratante sur mon visage." }
+  ]
+}

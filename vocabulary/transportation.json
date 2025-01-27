@@ -1,0 +1,106 @@
+{
+  "name": "Transportation",
+  "description": "Common vocabulary for transportation and travel",
+  "words": [
+    {
+      "french": "le métro",
+      "english": "subway",
+      "example": "Je prends le métro pour aller au travail."
+    },
+    {
+      "french": "le bus",
+      "english": "bus",
+      "example": "Le bus est à l'heure."
+    },
+    {
+      "french": "le train",
+      "english": "train",
+      "example": "Le train part dans dix minutes."
+    },
+    {
+      "french": "le tramway",
+      "english": "tram",
+      "example": "Le tramway traverse la ville."
+    },
+    {
+      "french": "le taxi",
+      "english": "taxi",
+      "example": "Je prends un taxi à l'aéroport."
+    },
+    {
+      "french": "l'avion",
+      "english": "airplane",
+      "example": "L'avion décolle à midi."
+    },
+    {
+      "french": "le vélo",
+      "english": "bicycle",
+      "example": "Je fais du vélo le weekend."
+    },
+    {
+      "french": "la voiture",
+      "english": "car",
+      "example": "Ma voiture est garée là-bas."
+    },
+    {
+      "french": "le bateau",
+      "english": "boat",
+      "example": "Le bateau traverse la rivière."
+    },
+    {
+      "french": "la moto",
+      "english": "motorcycle",
+      "example": "Il va au travail en moto."
+    },
+    {
+      "french": "l'autocar",
+      "english": "coach",
+      "example": "L'autocar fait des voyages longue distance."
+    },
+    {
+      "french": "le TGV",
+      "english": "high-speed train",
+      "example": "Le TGV est très rapide."
+    },
+    {
+      "french": "le scooter",
+      "english": "scooter",
+      "example": "Le scooter est pratique en ville."
+    },
+    {
+      "french": "le ferry",
+      "english": "ferry",
+      "example": "Le ferry traverse la Manche."
+    },
+    {
+      "french": "l'hélicoptère",
+      "english": "helicopter",
+      "example": "L'hélicoptère survole la ville."
+    },
+    {
+      "french": "la trottinette",
+      "english": "scooter (kick scooter)",
+      "example": "Les enfants aiment la trottinette."
+    },
+    {
+      "french": "le RER",
+      "english": "regional express train",
+      "example": "Le RER va en banlieue."
+    },
+    {
+      "french": "le funiculaire",
+      "english": "funicular",
+      "example": "Le funiculaire monte la colline."
+    },
+    {
+      "french": "la navette",
+      "english": "shuttle",
+      "example": "La navette va à l'aéroport."
+    },
+    {
+      "french": "le téléphérique",
+      "english": "cable car",
+      "example": "Le téléphérique monte à la montagne."
+    }
+  ]
+}

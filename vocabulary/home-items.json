@@ -1,0 +1,26 @@
+{
+  "name": "Home Items",
+  "description": "Common objects and furniture at home",
+  "words": [
+    { "french": "la table", "english": "table", "example": "La table est dans la cuisine." },
+    { "french": "la chaise", "english": "chair", "example": "Je m'assieds sur la chaise." },
+    { "french": "le lit", "english": "bed", "example": "Je dors dans mon lit." },
+    { "french": "l'armoire", "english": "wardrobe", "example": "Mes vêtements sont dans l'armoire." },
+    { "french": "le canapé", "english": "sofa", "example": "Je me repose sur le canapé." },
+    { "french": "la lampe", "english": "lamp", "example": "J'allume la lampe." },
+    { "french": "le miroir", "english": "mirror", "example": "Je me regarde dans le miroir." },
+    { "french": "le tapis", "english": "rug/carpet", "example": "Le tapis est sur le sol." },
+    { "french": "la fenêtre", "english": "window", "example": "J'ouvre la fenêtre." },
+    { "french": "la porte", "english": "door", "example": "Je ferme la porte." },
+    { "french": "le rideau", "english": "curtain", "example": "Je tire le rideau." },
+    { "french": "l'étagère", "english": "shelf", "example": "Les livres sont sur l'étagère." },
+    { "french": "le placard", "english": "cupboard", "example": "Je range les assiettes dans le placard." },
+    { "french": "le fauteuil", "english": "armchair", "example": "Le fauteuil est confortable." },
+    { "french": "le bureau", "english": "desk", "example": "Je travaille à mon bureau." },
+    { "french": "la télévision", "english": "television", "example": "Je regarde la télévision." },
+    { "french": "le tableau", "english": "painting", "example": "Le tableau est au mur." },
+    { "french": "l'horloge", "english": "clock", "example": "L'horloge indique midi." },
+    { "french": "la bibliothèque", "english": "bookcase", "example": "La bibliothèque est pleine de livres." },
+    { "french": "le coussin", "english": "cushion", "example": "Le coussin est sur le canapé." }
+  ]
+}

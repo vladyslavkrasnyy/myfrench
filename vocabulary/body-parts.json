@@ -1,0 +1,26 @@
+{
+  "name": "Body Parts",
+  "description": "Parts of the human body",
+  "words": [
+    { "french": "la tête", "english": "head", "example": "J'ai mal à la tête." },
+    { "french": "le visage", "english": "face", "example": "Je me lave le visage." },
+    { "french": "les yeux", "english": "eyes", "example": "Elle a les yeux bleus." },
+    { "french": "le nez", "english": "nose", "example": "Son nez est petit." },
+    { "french": "la bouche", "english": "mouth", "example": "J'ouvre la bouche." },
+    { "french": "les oreilles", "english": "ears", "example": "J'écoute avec mes oreilles." },
+    { "french": "les cheveux", "english": "hair", "example": "Je me brosse les cheveux." },
+    { "french": "le cou", "english": "neck", "example": "Je tourne le cou." },
+    { "french": "les épaules", "english": "shoulders", "example": "Je hausse les épaules." },
+    { "french": "les bras", "english": "arms", "example": "Je lève les bras." },
+    { "french": "les mains", "english": "hands", "example": "Je me lave les mains." },
+    { "french": "les doigts", "english": "fingers", "example": "Je compte sur mes doigts." },
+    { "french": "la poitrine", "english": "chest", "example": "Ma poitrine se soulève quand je respire." },
+    { "french": "le ventre", "english": "belly", "example": "J'ai mal au ventre." },
+    { "french": "le dos", "english": "back", "example": "Je me couche sur le dos." },
+    { "french": "les jambes", "english": "legs", "example": "Je cours avec mes jambes." },
+    { "french": "les genoux", "english": "knees", "example": "Je plie les genoux." },
+    { "french": "les pieds", "english": "feet", "example": "Je marche sur mes pieds." },
+    { "french": "les orteils", "english": "toes", "example": "Je bouge mes orteils." },
+    { "french": "le coeur", "english": "heart", "example": "Mon coeur bat vite." }
+  ]
+}

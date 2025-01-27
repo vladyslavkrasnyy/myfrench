@@ -1,0 +1,106 @@
+{
+  "name": "Extended Family",
+  "description": "Common vocabulary for extended family members",
+  "words": [
+    {
+      "french": "le grand-père",
+      "english": "grandfather",
+      "example": "Mon grand-père raconte des histoires."
+    },
+    {
+      "french": "la grand-mère",
+      "english": "grandmother",
+      "example": "Ma grand-mère fait des gâteaux."
+    },
+    {
+      "french": "l'oncle",
+      "english": "uncle",
+      "example": "Mon oncle vit à Lyon."
+    },
+    {
+      "french": "la tante",
+      "english": "aunt",
+      "example": "Ma tante est professeure."
+    },
+    {
+      "french": "le cousin",
+      "english": "cousin (male)",
+      "example": "Mon cousin joue au football."
+    },
+    {
+      "french": "la cousine",
+      "english": "cousin (female)",
+      "example": "Ma cousine étudie la médecine."
+    },
+    {
+      "french": "le neveu",
+      "english": "nephew",
+      "example": "Mon neveu a cinq ans."
+    },
+    {
+      "french": "la nièce",
+      "english": "niece",
+      "example": "Ma nièce apprend le piano."
+    },
+    {
+      "french": "les grands-parents",
+      "english": "grandparents",
+      "example": "Mes grands-parents habitent à la campagne."
+    },
+    {
+      "french": "le beau-père",
+      "english": "father-in-law/stepfather",
+      "example": "Mon beau-père est retraité."
+    },
+    {
+      "french": "la belle-mère",
+      "english": "mother-in-law/stepmother",
+      "example": "Ma belle-mère est gentille."
+    },
+    {
+      "french": "le beau-frère",
+      "english": "brother-in-law",
+      "example": "Mon beau-frère travaille à l'étranger."
+    },
+    {
+      "french": "la belle-sœur",
+      "english": "sister-in-law",
+      "example": "Ma belle-sœur est enceinte."
+    },
+    {
+      "french": "l'arrière-grand-père",
+      "english": "great-grandfather",
+      "example": "Mon arrière-grand-père a cent ans."
+    },
+    {
+      "french": "l'arrière-grand-mère",
+      "english": "great-grandmother",
+      "example": "Mon arrière-grand-mère fait de la couture."
+    },
+    {
+      "french": "le petit-fils",
+      "english": "grandson",
+      "example": "Son petit-fils apprend à lire."
+    },
+    {
+      "french": "la petite-fille",
+      "english": "granddaughter",
+      "example": "Sa petite-fille danse bien."
+    },
+    {
+      "french": "le gendre",
+      "english": "son-in-law",
+      "example": "Mon gendre est ingénieur."
+    },
+    {
+      "french": "la belle-fille",
+      "english": "daughter-in-law",
+      "example": "Ma belle-fille parle français."
+    },
+    {
+      "french": "la famille éloignée",
+      "english": "distant relatives",
+      "example": "Ma famille éloignée vit au Canada."
+    }
+  ]
+}

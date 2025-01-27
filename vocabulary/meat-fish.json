@@ -1,0 +1,106 @@
+{
+  "name": "Meat and Fish",
+  "description": "Common vocabulary for meat, fish, and seafood",
+  "words": [
+    {
+      "french": "le poulet",
+      "english": "chicken",
+      "example": "Je cuisine du poulet rôti."
+    },
+    {
+      "french": "le bœuf",
+      "english": "beef",
+      "example": "Le bœuf est tendre."
+    },
+    {
+      "french": "le saumon",
+      "english": "salmon",
+      "example": "J'aime le saumon grillé."
+    },
+    {
+      "french": "le porc",
+      "english": "pork",
+      "example": "Le porc est bien cuit."
+    },
+    {
+      "french": "le thon",
+      "english": "tuna",
+      "example": "Je mange du thon en salade."
+    },
+    {
+      "french": "l'agneau",
+      "english": "lamb",
+      "example": "L'agneau est très savoureux."
+    },
+    {
+      "french": "la crevette",
+      "english": "shrimp",
+      "example": "Les crevettes sont fraîches."
+    },
+    {
+      "french": "le canard",
+      "english": "duck",
+      "example": "Le canard est croustillant."
+    },
+    {
+      "french": "la morue",
+      "english": "cod",
+      "example": "La morue est un poisson blanc."
+    },
+    {
+      "french": "la dinde",
+      "english": "turkey",
+      "example": "Nous mangeons de la dinde à Noël."
+    },
+    {
+      "french": "le veau",
+      "english": "veal",
+      "example": "Le veau est très tendre."
+    },
+    {
+      "french": "le homard",
+      "english": "lobster",
+      "example": "Le homard est un plat de luxe."
+    },
+    {
+      "french": "le lapin",
+      "english": "rabbit",
+      "example": "Le lapin est préparé en sauce."
+    },
+    {
+      "french": "les moules",
+      "english": "mussels",
+      "example": "Les moules sont cuites au vin blanc."
+    },
+    {
+      "french": "le jambon",
+      "english": "ham",
+      "example": "Je mange du jambon au petit-déjeuner."
+    },
+    {
+      "french": "la truite",
+      "english": "trout",
+      "example": "La truite est un poisson d'eau douce."
+    },
+    {
+      "french": "les huîtres",
+      "english": "oysters",
+      "example": "Les huîtres se mangent crues."
+    },
+    {
+      "french": "la sole",
+      "english": "sole",
+      "example": "La sole est un poisson plat."
+    },
+    {
+      "french": "le foie",
+      "english": "liver",
+      "example": "Le foie est riche en fer."
+    },
+    {
+      "french": "le crabe",
+      "english": "crab",
+      "example": "Le crabe est délicieux."
+    }
+  ]
+}

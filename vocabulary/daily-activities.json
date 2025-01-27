@@ -1,0 +1,106 @@
+{
+  "name": "Daily Activities",
+  "description": "Common vocabulary for daily routines and activities",
+  "words": [
+    {
+      "french": "se réveiller",
+      "english": "to wake up",
+      "example": "Je me réveille à sept heures."
+    },
+    {
+      "french": "se brosser les dents",
+      "english": "to brush teeth",
+      "example": "Je me brosse les dents deux fois par jour."
+    },
+    {
+      "french": "prendre une douche",
+      "english": "to take a shower",
+      "example": "Je prends une douche le matin."
+    },
+    {
+      "french": "s'habiller",
+      "english": "to get dressed",
+      "example": "Je m'habille après la douche."
+    },
+    {
+      "french": "prendre le petit-déjeuner",
+      "english": "to have breakfast",
+      "example": "Je prends le petit-déjeuner à huit heures."
+    },
+    {
+      "french": "aller au travail",
+      "english": "to go to work",
+      "example": "Je vais au travail en voiture."
+    },
+    {
+      "french": "travailler sur l'ordinateur",
+      "english": "to work on the computer",
+      "example": "Je travaille sur l'ordinateur toute la journée."
+    },
+    {
+      "french": "répondre aux emails",
+      "english": "to respond to emails",
+      "example": "Je réponds aux emails chaque matin."
+    },
+    {
+      "french": "participer à une réunion",
+      "english": "to attend a meeting",
+      "example": "Je participe à une réunion importante."
+    },
+    {
+      "french": "déjeuner",
+      "english": "to have lunch",
+      "example": "Je déjeune avec mes collègues."
+    },
+    {
+      "french": "faire du sport",
+      "english": "to exercise",
+      "example": "Je fais du sport après le travail."
+    },
+    {
+      "french": "faire les courses",
+      "english": "to go grocery shopping",
+      "example": "Je fais les courses le weekend."
+    },
+    {
+      "french": "préparer le dîner",
+      "english": "to prepare dinner",
+      "example": "Je prépare le dîner pour ma famille."
+    },
+    {
+      "french": "faire la vaisselle",
+      "english": "to do the dishes",
+      "example": "Je fais la vaisselle après le repas."
+    },
+    {
+      "french": "regarder la télévision",
+      "english": "to watch television",
+      "example": "Je regarde la télévision le soir."
+    },
+    {
+      "french": "lire un livre",
+      "english": "to read a book",
+      "example": "Je lis un livre avant de dormir."
+    },
+    {
+      "french": "promener le chien",
+      "english": "to walk the dog",
+      "example": "Je promène le chien deux fois par jour."
+    },
+    {
+      "french": "faire le ménage",
+      "english": "to clean the house",
+      "example": "Je fais le ménage le weekend."
+    },
+    {
+      "french": "écouter de la musique",
+      "english": "to listen to music",
+      "example": "J'écoute de la musique pendant que je travaille."
+    },
+    {
+      "french": "se coucher",
+      "english": "to go to bed",
+      "example": "Je me couche à vingt-trois heures."
+    }
+  ]
+}

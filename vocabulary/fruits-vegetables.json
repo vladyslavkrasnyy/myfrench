@@ -1,0 +1,106 @@
+{
+  "name": "Fruits and Vegetables",
+  "description": "Common vocabulary for fruits and vegetables",
+  "words": [
+    {
+      "french": "une pomme",
+      "english": "an apple",
+      "example": "Je mange une pomme au déjeuner."
+    },
+    {
+      "french": "une banane",
+      "english": "a banana",
+      "example": "La banane est mûre."
+    },
+    {
+      "french": "une carotte",
+      "english": "a carrot",
+      "example": "Les carottes sont bonnes pour la santé."
+    },
+    {
+      "french": "une tomate",
+      "english": "a tomato",
+      "example": "J'ajoute une tomate à ma salade."
+    },
+    {
+      "french": "des épinards",
+      "english": "spinach",
+      "example": "Les épinards sont riches en fer."
+    },
+    {
+      "french": "un brocoli",
+      "english": "broccoli",
+      "example": "Je cuis le brocoli à la vapeur."
+    },
+    {
+      "french": "une orange",
+      "english": "an orange",
+      "example": "Cette orange est juteuse."
+    },
+    {
+      "french": "une fraise",
+      "english": "a strawberry",
+      "example": "Les fraises sont sucrées."
+    },
+    {
+      "french": "un poivron",
+      "english": "a bell pepper",
+      "example": "Le poivron est rouge."
+    },
+    {
+      "french": "un oignon",
+      "english": "an onion",
+      "example": "Je coupe un oignon pour la soupe."
+    },
+    {
+      "french": "une courgette",
+      "english": "a zucchini",
+      "example": "La courgette est fraîche."
+    },
+    {
+      "french": "un raisin",
+      "english": "grapes",
+      "example": "Le raisin est délicieux."
+    },
+    {
+      "french": "une poire",
+      "english": "a pear",
+      "example": "La poire est mûre."
+    },
+    {
+      "french": "un champignon",
+      "english": "a mushroom",
+      "example": "J'aime les champignons frais."
+    },
+    {
+      "french": "un citron",
+      "english": "a lemon",
+      "example": "Le citron est acide."
+    },
+    {
+      "french": "une aubergine",
+      "english": "an eggplant",
+      "example": "Je cuisine une aubergine."
+    },
+    {
+      "french": "un chou",
+      "english": "a cabbage",
+      "example": "Le chou est vert."
+    },
+    {
+      "french": "une pêche",
+      "english": "a peach",
+      "example": "La pêche est douce."
+    },
+    {
+      "french": "un concombre",
+      "english": "a cucumber",
+      "example": "Le concombre est rafraîchissant."
+    },
+    {
+      "french": "une framboise",
+      "english": "a raspberry",
+      "example": "Les framboises sont fraîches."
+    }
+  ]
+}

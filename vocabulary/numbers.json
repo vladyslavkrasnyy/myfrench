@@ -1,21 +1,106 @@
 {
-  "name": "Numbers",
-  "description": "Basic numbers and counting",
+  "name": "Numbers 1-20",
+  "description": "Basic numbers from one to twenty",
   "words": [
-    { "french": "zéro", "english": "zero", "example": "Il y a zéro erreur." },
-    { "french": "un", "english": "one", "example": "J'ai un chat." },
-    { "french": "deux", "english": "two", "example": "J'ai deux frères." },
-    { "french": "trois", "english": "three", "example": "Il y a trois pommes." },
-    { "french": "quatre", "english": "four", "example": "Quatre saisons dans l'année." },
-    { "french": "cinq", "english": "five", "example": "J'ai cinq doigts." },
-    { "french": "six", "english": "six", "example": "Six jours par semaine." },
-    { "french": "sept", "english": "seven", "example": "Sept jours dans une semaine." },
-    { "french": "huit", "english": "eight", "example": "Il est huit heures." },
-    { "french": "neuf", "english": "nine", "example": "Neuf vies d'un chat." },
-    { "french": "dix", "english": "ten", "example": "Dix doigts sur les mains." },
-    { "french": "onze", "english": "eleven", "example": "Il y a onze joueurs." },
-    { "french": "douze", "english": "twelve", "example": "Douze mois dans l'année." },
-    { "french": "vingt", "english": "twenty", "example": "J'ai vingt ans." },
-    { "french": "cent", "english": "hundred", "example": "Cent euros." }
+    {
+      "french": "un",
+      "english": "one",
+      "example": "J'ai un chat."
+    },
+    {
+      "french": "deux",
+      "english": "two",
+      "example": "Il y a deux livres."
+    },
+    {
+      "french": "trois",
+      "english": "three",
+      "example": "J'ai trois frères."
+    },
+    {
+      "french": "quatre",
+      "english": "four",
+      "example": "La table a quatre pieds."
+    },
+    {
+      "french": "cinq",
+      "english": "five",
+      "example": "Il y a cinq personnes."
+    },
+    {
+      "french": "six",
+      "english": "six",
+      "example": "Six heures du soir."
+    },
+    {
+      "french": "sept",
+      "english": "seven",
+      "example": "La semaine a sept jours."
+    },
+    {
+      "french": "huit",
+      "english": "eight",
+      "example": "J'ai huit ans."
+    },
+    {
+      "french": "neuf",
+      "english": "nine",
+      "example": "Il est neuf heures."
+    },
+    {
+      "french": "dix",
+      "english": "ten",
+      "example": "Dix euros, s'il vous plaît."
+    },
+    {
+      "french": "onze",
+      "english": "eleven",
+      "example": "Onze joueurs dans l'équipe."
+    },
+    {
+      "french": "douze",
+      "english": "twelve",
+      "example": "Douze mois dans l'année."
+    },
+    {
+      "french": "treize",
+      "english": "thirteen",
+      "example": "Elle a treize ans."
+    },
+    {
+      "french": "quatorze",
+      "english": "fourteen",
+      "example": "Le quatorze juillet."
+    },
+    {
+      "french": "quinze",
+      "english": "fifteen",
+      "example": "Quinze minutes d'attente."
+    },
+    {
+      "french": "seize",
+      "english": "sixteen",
+      "example": "Il a seize ans."
+    },
+    {
+      "french": "dix-sept",
+      "english": "seventeen",
+      "example": "Dix-sept euros cinquante."
+    },
+    {
+      "french": "dix-huit",
+      "english": "eighteen",
+      "example": "Elle a dix-huit ans."
+    },
+    {
+      "french": "dix-neuf",
+      "english": "nineteen",
+      "example": "Dix-neuf livres sur l'étagère."
+    },
+    {
+      "french": "vingt",
+      "english": "twenty",
+      "example": "Vingt étudiants dans la classe."
+    }
   ]
 }

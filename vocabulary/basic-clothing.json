@@ -1,0 +1,106 @@
+{
+  "name": "Basic Clothing Items",
+  "description": "Common vocabulary for everyday clothing items",
+  "words": [
+    {
+      "french": "un pantalon",
+      "english": "pants/trousers",
+      "example": "Je porte un pantalon noir."
+    },
+    {
+      "french": "une chemise",
+      "english": "a shirt",
+      "example": "Cette chemise est en coton."
+    },
+    {
+      "french": "une jupe",
+      "english": "a skirt",
+      "example": "Elle porte une jupe bleue."
+    },
+    {
+      "french": "une robe",
+      "english": "a dress",
+      "example": "La robe est élégante."
+    },
+    {
+      "french": "un t-shirt",
+      "english": "a t-shirt",
+      "example": "Je mets un t-shirt blanc."
+    },
+    {
+      "french": "un pull",
+      "english": "a sweater",
+      "example": "Ce pull est très chaud."
+    },
+    {
+      "french": "un jean",
+      "english": "jeans",
+      "example": "Mon jean préféré est bleu."
+    },
+    {
+      "french": "un manteau",
+      "english": "a coat",
+      "example": "Le manteau est imperméable."
+    },
+    {
+      "french": "une veste",
+      "english": "a jacket",
+      "example": "J'ai acheté une veste en cuir."
+    },
+    {
+      "french": "un short",
+      "english": "shorts",
+      "example": "Il fait chaud, je mets un short."
+    },
+    {
+      "french": "un pyjama",
+      "english": "pajamas",
+      "example": "Je dors en pyjama."
+    },
+    {
+      "french": "des sous-vêtements",
+      "english": "underwear",
+      "example": "J'achète des sous-vêtements neufs."
+    },
+    {
+      "french": "des chaussettes",
+      "english": "socks",
+      "example": "Mes chaussettes sont blanches."
+    },
+    {
+      "french": "un costume",
+      "english": "a suit",
+      "example": "Il porte un costume au bureau."
+    },
+    {
+      "french": "un sweat-shirt",
+      "english": "a sweatshirt",
+      "example": "Ce sweat-shirt est confortable."
+    },
+    {
+      "french": "un blazer",
+      "english": "a blazer",
+      "example": "Le blazer est parfait pour le bureau."
+    },
+    {
+      "french": "un débardeur",
+      "english": "a tank top",
+      "example": "Je porte un débardeur en été."
+    },
+    {
+      "french": "un cardigan",
+      "english": "a cardigan",
+      "example": "Ce cardigan est en laine."
+    },
+    {
+      "french": "un collant",
+      "english": "tights",
+      "example": "Elle porte un collant noir."
+    },
+    {
+      "french": "un legging",
+      "english": "leggings",
+      "example": "Le legging est très à la mode."
+    }
+  ]
+}

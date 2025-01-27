@@ -1,0 +1,106 @@
+{
+  "name": "Dairy Products",
+  "description": "Common vocabulary for dairy and related products",
+  "words": [
+    {
+      "french": "le lait",
+      "english": "milk",
+      "example": "Je bois du lait chaque matin."
+    },
+    {
+      "french": "le fromage",
+      "english": "cheese",
+      "example": "Le fromage français est excellent."
+    },
+    {
+      "french": "le yaourt",
+      "english": "yogurt",
+      "example": "Je mange un yaourt au petit-déjeuner."
+    },
+    {
+      "french": "la crème",
+      "english": "cream",
+      "example": "J'ajoute de la crème au café."
+    },
+    {
+      "french": "le beurre",
+      "english": "butter",
+      "example": "Le beurre est salé."
+    },
+    {
+      "french": "la crème fraîche",
+      "english": "sour cream",
+      "example": "La crème fraîche est épaisse."
+    },
+    {
+      "french": "le camembert",
+      "english": "camembert",
+      "example": "Le camembert est crémeux."
+    },
+    {
+      "french": "le brie",
+      "english": "brie",
+      "example": "Le brie est un fromage doux."
+    },
+    {
+      "french": "la mozzarella",
+      "english": "mozzarella",
+      "example": "La mozzarella fond sur la pizza."
+    },
+    {
+      "french": "le roquefort",
+      "english": "roquefort",
+      "example": "Le roquefort a un goût fort."
+    },
+    {
+      "french": "la ricotta",
+      "english": "ricotta",
+      "example": "La ricotta est légère."
+    },
+    {
+      "french": "le fromage blanc",
+      "english": "quark",
+      "example": "Le fromage blanc est peu calorique."
+    },
+    {
+      "french": "le gruyère",
+      "english": "gruyere",
+      "example": "Le gruyère est parfait pour gratiner."
+    },
+    {
+      "french": "la crème glacée",
+      "english": "ice cream",
+      "example": "La crème glacée est au chocolat."
+    },
+    {
+      "french": "le mascarpone",
+      "english": "mascarpone",
+      "example": "Le mascarpone est utilisé dans le tiramisu."
+    },
+    {
+      "french": "le parmesan",
+      "english": "parmesan",
+      "example": "Je râpe du parmesan sur les pâtes."
+    },
+    {
+      "french": "le petit-suisse",
+      "english": "petit-suisse cheese",
+      "example": "Le petit-suisse est riche en calcium."
+    },
+    {
+      "french": "la faisselle",
+      "english": "cottage cheese",
+      "example": "La faisselle est fraîche."
+    },
+    {
+      "french": "le babybel",
+      "english": "babybel",
+      "example": "Le babybel est pratique à emporter."
+    },
+    {
+      "french": "le chèvre",
+      "english": "goat cheese",
+      "example": "Le chèvre est sur la salade."
+    }
+  ]
+}

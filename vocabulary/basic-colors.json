@@ -1,0 +1,106 @@
+{
+  "name": "Basic Colors",
+  "description": "Common vocabulary for basic colors",
+  "words": [
+    {
+      "french": "rouge",
+      "english": "red",
+      "example": "La pomme est rouge."
+    },
+    {
+      "french": "bleu",
+      "english": "blue",
+      "example": "Le ciel est bleu."
+    },
+    {
+      "french": "jaune",
+      "english": "yellow",
+      "example": "Le soleil est jaune."
+    },
+    {
+      "french": "vert",
+      "english": "green",
+      "example": "L'herbe est verte."
+    },
+    {
+      "french": "noir",
+      "english": "black",
+      "example": "Mon chat est noir."
+    },
+    {
+      "french": "blanc",
+      "english": "white",
+      "example": "La neige est blanche."
+    },
+    {
+      "french": "gris",
+      "english": "gray",
+      "example": "Les nuages sont gris."
+    },
+    {
+      "french": "marron",
+      "english": "brown",
+      "example": "Le chocolat est marron."
+    },
+    {
+      "french": "orange",
+      "english": "orange",
+      "example": "La carotte est orange."
+    },
+    {
+      "french": "violet",
+      "english": "purple",
+      "example": "Les raisins sont violets."
+    },
+    {
+      "french": "rose",
+      "english": "pink",
+      "example": "La fleur est rose."
+    },
+    {
+      "french": "beige",
+      "english": "beige",
+      "example": "Le sable est beige."
+    },
+    {
+      "french": "doré",
+      "english": "golden",
+      "example": "La médaille est dorée."
+    },
+    {
+      "french": "argenté",
+      "english": "silver",
+      "example": "La cuillère est argentée."
+    },
+    {
+      "french": "multicolore",
+      "english": "multicolored",
+      "example": "L'arc-en-ciel est multicolore."
+    },
+    {
+      "french": "clair",
+      "english": "light (color)",
+      "example": "Le bleu clair est doux."
+    },
+    {
+      "french": "foncé",
+      "english": "dark (color)",
+      "example": "Le vert foncé est élégant."
+    },
+    {
+      "french": "pâle",
+      "english": "pale",
+      "example": "Sa peau est pâle."
+    },
+    {
+      "french": "vif",
+      "english": "bright",
+      "example": "Le rouge vif attire l'attention."
+    },
+    {
+      "french": "coloré",
+      "english": "colorful",
+      "example": "Le tableau est très coloré."
+    }
+  ]
+}

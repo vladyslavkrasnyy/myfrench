@@ -1,0 +1,106 @@
+{
+  "name": "Large Numbers",
+  "description": "Vocabulary for large numbers and mathematical terms",
+  "words": [
+    {
+      "french": "trente",
+      "english": "thirty",
+      "example": "J'ai trente ans."
+    },
+    {
+      "french": "quarante",
+      "english": "forty",
+      "example": "Il y a quarante personnes."
+    },
+    {
+      "french": "cinquante",
+      "english": "fifty",
+      "example": "Cinquante euros."
+    },
+    {
+      "french": "soixante",
+      "english": "sixty",
+      "example": "La vitesse limite est soixante kilomètres."
+    },
+    {
+      "french": "soixante-dix",
+      "english": "seventy",
+      "example": "Elle a soixante-dix ans."
+    },
+    {
+      "french": "quatre-vingts",
+      "english": "eighty",
+      "example": "L'immeuble a quatre-vingts étages."
+    },
+    {
+      "french": "quatre-vingt-dix",
+      "english": "ninety",
+      "example": "Il y a quatre-vingt-dix étudiants."
+    },
+    {
+      "french": "cent",
+      "english": "hundred",
+      "example": "Cent personnes dans la salle."
+    },
+    {
+      "french": "mille",
+      "english": "thousand",
+      "example": "Mille euros par mois."
+    },
+    {
+      "french": "un million",
+      "english": "million",
+      "example": "La ville a un million d'habitants."
+    },
+    {
+      "french": "un milliard",
+      "english": "billion",
+      "example": "Un milliard d'euros de budget."
+    },
+    {
+      "french": "demi",
+      "english": "half",
+      "example": "Une heure et demie."
+    },
+    {
+      "french": "double",
+      "english": "double",
+      "example": "Le prix est double."
+    },
+    {
+      "french": "triple",
+      "english": "triple",
+      "example": "La production est triple."
+    },
+    {
+      "french": "premier",
+      "english": "first",
+      "example": "C'est son premier jour."
+    },
+    {
+      "french": "dernier",
+      "english": "last",
+      "example": "C'est le dernier jour."
+    },
+    {
+      "french": "pair",
+      "english": "even",
+      "example": "Deux est un nombre pair."
+    },
+    {
+      "french": "impair",
+      "english": "odd",
+      "example": "Trois est un nombre impair."
+    },
+    {
+      "french": "zéro",
+      "english": "zero",
+      "example": "La température est à zéro."
+    },
+    {
+      "french": "nombreux",
+      "english": "numerous",
+      "example": "Il y a de nombreux livres."
+    }
+  ]
+}

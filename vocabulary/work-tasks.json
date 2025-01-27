@@ -1,0 +1,106 @@
+{
+  "name": "Work Tasks",
+  "description": "Common vocabulary for professional and work-related tasks",
+  "words": [
+    {
+      "french": "envoyer un rapport",
+      "english": "to send a report",
+      "example": "J'envoie un rapport hebdomadaire à mon patron."
+    },
+    {
+      "french": "organiser une réunion",
+      "english": "to organize a meeting",
+      "example": "J'organise une réunion avec l'équipe marketing."
+    },
+    {
+      "french": "présenter un projet",
+      "english": "to present a project",
+      "example": "Je présente un projet aux investisseurs."
+    },
+    {
+      "french": "analyser les données",
+      "english": "to analyze data",
+      "example": "J'analyse les données des ventes mensuelles."
+    },
+    {
+      "french": "gérer une équipe",
+      "english": "to manage a team",
+      "example": "Je gère une équipe de dix personnes."
+    },
+    {
+      "french": "prendre des notes",
+      "english": "to take notes",
+      "example": "Je prends des notes pendant la conférence."
+    },
+    {
+      "french": "fixer des objectifs",
+      "english": "to set goals",
+      "example": "Je fixe des objectifs trimestriels."
+    },
+    {
+      "french": "résoudre un problème",
+      "english": "to solve a problem",
+      "example": "Je résous un problème technique."
+    },
+    {
+      "french": "former un stagiaire",
+      "english": "to train an intern",
+      "example": "Je forme un nouveau stagiaire cette semaine."
+    },
+    {
+      "french": "négocier un contrat",
+      "english": "to negotiate a contract",
+      "example": "Je négocie un contrat avec un client."
+    },
+    {
+      "french": "mettre à jour le site web",
+      "english": "to update the website",
+      "example": "Je mets à jour le site web de l'entreprise."
+    },
+    {
+      "french": "faire un budget",
+      "english": "to create a budget",
+      "example": "Je fais un budget pour le prochain trimestre."
+    },
+    {
+      "french": "planifier un événement",
+      "english": "to plan an event",
+      "example": "Je planifie un événement d'entreprise."
+    },
+    {
+      "french": "rédiger un email",
+      "english": "to write an email",
+      "example": "Je rédige un email important au client."
+    },
+    {
+      "french": "évaluer la performance",
+      "english": "to evaluate performance",
+      "example": "J'évalue la performance de mon équipe."
+    },
+    {
+      "french": "développer une stratégie",
+      "english": "to develop a strategy",
+      "example": "Je développe une stratégie marketing."
+    },
+    {
+      "french": "coordonner un projet",
+      "english": "to coordinate a project",
+      "example": "Je coordonne un projet international."
+    },
+    {
+      "french": "préparer une présentation",
+      "english": "to prepare a presentation",
+      "example": "Je prépare une présentation pour la réunion."
+    },
+    {
+      "french": "faire des recherches",
+      "english": "to do research",
+      "example": "Je fais des recherches sur le marché."
+    },
+    {
+      "french": "établir un rapport",
+      "english": "to establish a report",
+      "example": "J'établis un rapport financier mensuel."
+    }
+  ]
+}

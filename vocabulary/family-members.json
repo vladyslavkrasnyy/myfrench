@@ -1,0 +1,106 @@
+{
+  "name": "Family Members",
+  "description": "Common vocabulary for immediate family members",
+  "words": [
+    {
+      "french": "le père",
+      "english": "father",
+      "example": "Mon père travaille beaucoup."
+    },
+    {
+      "french": "la mère",
+      "english": "mother",
+      "example": "Ma mère fait la cuisine."
+    },
+    {
+      "french": "le fils",
+      "english": "son",
+      "example": "Leur fils a dix ans."
+    },
+    {
+      "french": "la fille",
+      "english": "daughter",
+      "example": "Sa fille étudie à Paris."
+    },
+    {
+      "french": "le frère",
+      "english": "brother",
+      "example": "Mon frère est plus âgé que moi."
+    },
+    {
+      "french": "la sœur",
+      "english": "sister",
+      "example": "Ma sœur joue du piano."
+    },
+    {
+      "french": "les parents",
+      "english": "parents",
+      "example": "Mes parents sont en vacances."
+    },
+    {
+      "french": "les enfants",
+      "english": "children",
+      "example": "Les enfants jouent dans le jardin."
+    },
+    {
+      "french": "le mari",
+      "english": "husband",
+      "example": "Son mari est médecin."
+    },
+    {
+      "french": "la femme",
+      "english": "wife",
+      "example": "Sa femme parle trois langues."
+    },
+    {
+      "french": "le bébé",
+      "english": "baby",
+      "example": "Le bébé dort paisiblement."
+    },
+    {
+      "french": "les jumeaux",
+      "english": "twins",
+      "example": "Les jumeaux sont identiques."
+    },
+    {
+      "french": "le papa",
+      "english": "dad",
+      "example": "Mon papa rentre du travail."
+    },
+    {
+      "french": "la maman",
+      "english": "mom",
+      "example": "Ma maman fait du jardinage."
+    },
+    {
+      "french": "les frères et sœurs",
+      "english": "siblings",
+      "example": "J'ai trois frères et sœurs."
+    },
+    {
+      "french": "l'époux",
+      "english": "spouse (male)",
+      "example": "Son époux est architecte."
+    },
+    {
+      "french": "l'épouse",
+      "english": "spouse (female)",
+      "example": "Son épouse enseigne l'anglais."
+    },
+    {
+      "french": "le nouveau-né",
+      "english": "newborn",
+      "example": "Le nouveau-né a une semaine."
+    },
+    {
+      "french": "l'aîné",
+      "english": "eldest child",
+      "example": "L'aîné est responsable."
+    },
+    {
+      "french": "le cadet",
+      "english": "youngest child",
+      "example": "Le cadet est très créatif."
+    }
+  ]
+}

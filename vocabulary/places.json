@@ -1,0 +1,26 @@
+{
+  "name": "Places",
+  "description": "Common places and locations",
+  "words": [
+    { "french": "la maison", "english": "house", "example": "J'habite dans une maison." },
+    { "french": "l'appartement", "english": "apartment", "example": "Son appartement est au troisième étage." },
+    { "french": "le magasin", "english": "store", "example": "Je vais au magasin." },
+    { "french": "le supermarché", "english": "supermarket", "example": "Je fais les courses au supermarché." },
+    { "french": "la banque", "english": "bank", "example": "Je vais à la banque." },
+    { "french": "la poste", "english": "post office", "example": "J'envoie une lettre à la poste." },
+    { "french": "l'hôpital", "english": "hospital", "example": "L'hôpital est près d'ici." },
+    { "french": "la pharmacie", "english": "pharmacy", "example": "J'achète des médicaments à la pharmacie." },
+    { "french": "le restaurant", "english": "restaurant", "example": "Nous dînons au restaurant." },
+    { "french": "le café", "english": "cafe", "example": "Je prends un café au café." },
+    { "french": "l'école", "english": "school", "example": "Les enfants vont à l'école." },
+    { "french": "la bibliothèque", "english": "library", "example": "J'étudie à la bibliothèque." },
+    { "french": "le parc", "english": "park", "example": "Je me promène dans le parc." },
+    { "french": "la gare", "english": "train station", "example": "Le train part de la gare." },
+    { "french": "l'aéroport", "english": "airport", "example": "Je vais à l'aéroport." },
+    { "french": "le cinéma", "english": "cinema", "example": "Nous allons au cinéma." },
+    { "french": "le musée", "english": "museum", "example": "Le musée est fermé le lundi." },
+    { "french": "la plage", "english": "beach", "example": "J'aime aller à la plage." },
+    { "french": "le jardin", "english": "garden", "example": "Les fleurs poussent dans le jardin." },
+    { "french": "le bureau", "english": "office", "example": "Je travaille au bureau." }
+  ]
+}

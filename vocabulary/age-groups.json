@@ -1,0 +1,106 @@
+{
+  "name": "Age Groups",
+  "description": "Common vocabulary for different age groups and life stages",
+  "words": [
+    {
+      "french": "le nouveau-né",
+      "english": "newborn",
+      "example": "Le nouveau-né a trois jours."
+    },
+    {
+      "french": "le nourrisson",
+      "english": "infant",
+      "example": "Le nourrisson boit son lait."
+    },
+    {
+      "french": "le bébé",
+      "english": "baby",
+      "example": "Le bébé commence à marcher."
+    },
+    {
+      "french": "le bambin",
+      "english": "toddler",
+      "example": "Le bambin joue avec ses jouets."
+    },
+    {
+      "french": "l'enfant",
+      "english": "child",
+      "example": "L'enfant va à l'école."
+    },
+    {
+      "french": "le préadolescent",
+      "english": "preteen",
+      "example": "Le préadolescent aime les jeux vidéo."
+    },
+    {
+      "french": "l'adolescent",
+      "english": "teenager",
+      "example": "L'adolescent est au lycée."
+    },
+    {
+      "french": "le jeune adulte",
+      "english": "young adult",
+      "example": "Le jeune adulte cherche un emploi."
+    },
+    {
+      "french": "l'adulte",
+      "english": "adult",
+      "example": "L'adulte travaille beaucoup."
+    },
+    {
+      "french": "le trentenaire",
+      "english": "person in their thirties",
+      "example": "Le trentenaire a une famille."
+    },
+    {
+      "french": "le quadragénaire",
+      "english": "person in their forties",
+      "example": "Le quadragénaire change de carrière."
+    },
+    {
+      "french": "le quinquagénaire",
+      "english": "person in their fifties",
+      "example": "Le quinquagénaire prépare sa retraite."
+    },
+    {
+      "french": "le sexagénaire",
+      "english": "person in their sixties",
+      "example": "Le sexagénaire est à la retraite."
+    },
+    {
+      "french": "le septuagénaire",
+      "english": "person in their seventies",
+      "example": "Le septuagénaire fait du jardinage."
+    },
+    {
+      "french": "l'octogénaire",
+      "english": "person in their eighties",
+      "example": "L'octogénaire vit seul."
+    },
+    {
+      "french": "le senior",
+      "english": "senior",
+      "example": "Le senior est très actif."
+    },
+    {
+      "french": "la personne âgée",
+      "english": "elderly person",
+      "example": "La personne âgée lit beaucoup."
+    },
+    {
+      "french": "le retraité",
+      "english": "retired person",
+      "example": "Le retraité voyage souvent."
+    },
+    {
+      "french": "le centenaire",
+      "english": "centenarian",
+      "example": "Le centenaire fête son anniversaire."
+    },
+    {
+      "french": "le mineur",
+      "english": "minor",
+      "example": "Le mineur doit avoir une autorisation."
+    }
+  ]
+}

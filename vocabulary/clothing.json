@@ -1,0 +1,26 @@
+{
+  "name": "Clothing",
+  "description": "Clothes and accessories",
+  "words": [
+    { "french": "le pantalon", "english": "pants/trousers", "example": "Je porte un pantalon noir." },
+    { "french": "la chemise", "english": "shirt", "example": "Sa chemise est bleue." },
+    { "french": "le t-shirt", "english": "t-shirt", "example": "Je mets un t-shirt blanc." },
+    { "french": "la robe", "english": "dress", "example": "Elle porte une belle robe." },
+    { "french": "la jupe", "english": "skirt", "example": "Sa jupe est courte." },
+    { "french": "le pull", "english": "sweater", "example": "Je mets un pull en hiver." },
+    { "french": "le manteau", "english": "coat", "example": "Mon manteau est chaud." },
+    { "french": "les chaussures", "english": "shoes", "example": "Mes chaussures sont neuves." },
+    { "french": "les bottes", "english": "boots", "example": "Je porte des bottes quand il pleut." },
+    { "french": "les baskets", "english": "sneakers", "example": "Je cours avec mes baskets." },
+    { "french": "les chaussettes", "english": "socks", "example": "Je mets des chaussettes propres." },
+    { "french": "le chapeau", "english": "hat", "example": "Je porte un chapeau au soleil." },
+    { "french": "l'écharpe", "english": "scarf", "example": "Je mets une écharpe quand il fait froid." },
+    { "french": "les gants", "english": "gloves", "example": "Je porte des gants en hiver." },
+    { "french": "la ceinture", "english": "belt", "example": "Je mets une ceinture avec mon pantalon." },
+    { "french": "le maillot de bain", "english": "swimsuit", "example": "Je porte un maillot de bain à la plage." },
+    { "french": "le pyjama", "english": "pajamas", "example": "Je dors en pyjama." },
+    { "french": "les bijoux", "english": "jewelry", "example": "Elle porte de beaux bijoux." },
+    { "french": "la montre", "english": "watch", "example": "Je regarde l'heure sur ma montre." },
+    { "french": "les lunettes", "english": "glasses", "example": "Il porte des lunettes pour lire." }
+  ]
+}

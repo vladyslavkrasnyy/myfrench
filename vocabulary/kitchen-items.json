@@ -1,0 +1,26 @@
+{
+  "name": "Kitchen Items",
+  "description": "Common kitchen utensils and appliances",
+  "words": [
+    { "french": "le four", "english": "oven", "example": "Je préchauffe le four." },
+    { "french": "le réfrigérateur", "english": "refrigerator", "example": "Je range les aliments dans le réfrigérateur." },
+    { "french": "la cuisinière", "english": "stove", "example": "Je cuisine sur la cuisinière." },
+    { "french": "l'évier", "english": "sink", "example": "Je lave la vaisselle dans l'évier." },
+    { "french": "la casserole", "english": "saucepan", "example": "Je fais bouillir l'eau dans la casserole." },
+    { "french": "la poêle", "english": "frying pan", "example": "Je fais cuire les œufs dans la poêle." },
+    { "french": "le couteau", "english": "knife", "example": "Je coupe le pain avec le couteau." },
+    { "french": "la fourchette", "english": "fork", "example": "Je mange avec une fourchette." },
+    { "french": "la cuillère", "english": "spoon", "example": "Je prends ma soupe avec une cuillère." },
+    { "french": "l'assiette", "english": "plate", "example": "Je mets la nourriture dans l'assiette." },
+    { "french": "le verre", "english": "glass", "example": "Je bois dans un verre." },
+    { "french": "la tasse", "english": "cup", "example": "Je bois du café dans une tasse." },
+    { "french": "le bol", "english": "bowl", "example": "Je mange des céréales dans un bol." },
+    { "french": "le micro-ondes", "english": "microwave", "example": "Je réchauffe mon plat au micro-ondes." },
+    { "french": "le grille-pain", "english": "toaster", "example": "Je fais griller le pain dans le grille-pain." },
+    { "french": "la bouilloire", "english": "kettle", "example": "Je fais chauffer l'eau dans la bouilloire." },
+    { "french": "la passoire", "english": "colander", "example": "J'égoutte les pâtes dans la passoire." },
+    { "french": "le plateau", "english": "tray", "example": "Je porte le repas sur un plateau." },
+    { "french": "le tire-bouchon", "english": "corkscrew", "example": "J'ouvre le vin avec le tire-bouchon." },
+    { "french": "la planche à découper", "english": "cutting board", "example": "Je coupe les légumes sur la planche à découper." }
+  ]
+}

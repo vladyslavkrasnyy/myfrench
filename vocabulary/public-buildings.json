@@ -1,0 +1,106 @@
+{
+  "name": "Public Buildings",
+  "description": "Common vocabulary for public buildings and institutions",
+  "words": [
+    {
+      "french": "la mairie",
+      "english": "town hall",
+      "example": "Je vais à la mairie pour mes papiers."
+    },
+    {
+      "french": "l'hôpital",
+      "english": "hospital",
+      "example": "L'hôpital est ouvert 24 heures sur 24."
+    },
+    {
+      "french": "la bibliothèque",
+      "english": "library",
+      "example": "J'emprunte des livres à la bibliothèque."
+    },
+    {
+      "french": "le musée",
+      "english": "museum",
+      "example": "Le musée expose des œuvres d'art."
+    },
+    {
+      "french": "l'école",
+      "english": "school",
+      "example": "Les enfants vont à l'école."
+    },
+    {
+      "french": "la poste",
+      "english": "post office",
+      "example": "J'envoie une lettre à la poste."
+    },
+    {
+      "french": "la gare",
+      "english": "train station",
+      "example": "Le train arrive à la gare."
+    },
+    {
+      "french": "le théâtre",
+      "english": "theater",
+      "example": "Nous allons au théâtre ce soir."
+    },
+    {
+      "french": "le commissariat",
+      "english": "police station",
+      "example": "Le commissariat est ouvert."
+    },
+    {
+      "french": "la piscine",
+      "english": "swimming pool",
+      "example": "Je nage à la piscine municipale."
+    },
+    {
+      "french": "la caserne de pompiers",
+      "english": "fire station",
+      "example": "La caserne de pompiers est proche."
+    },
+    {
+      "french": "l'université",
+      "english": "university",
+      "example": "Les étudiants sont à l'université."
+    },
+    {
+      "french": "le stade",
+      "english": "stadium",
+      "example": "Le match a lieu au stade."
+    },
+    {
+      "french": "l'église",
+      "english": "church",
+      "example": "L'église est au centre du village."
+    },
+    {
+      "french": "la cathédrale",
+      "english": "cathedral",
+      "example": "La cathédrale est magnifique."
+    },
+    {
+      "french": "le tribunal",
+      "english": "courthouse",
+      "example": "Le tribunal est un grand bâtiment."
+    },
+    {
+      "french": "le gymnase",
+      "english": "gymnasium",
+      "example": "Je fais du sport au gymnase."
+    },
+    {
+      "french": "la médiathèque",
+      "english": "media library",
+      "example": "La médiathèque prête des films."
+    },
+    {
+      "french": "le conservatoire",
+      "english": "music school",
+      "example": "J'apprends le piano au conservatoire."
+    },
+    {
+      "french": "le centre culturel",
+      "english": "cultural center",
+      "example": "Il y a une exposition au centre culturel."
+    }
+  ]
+}

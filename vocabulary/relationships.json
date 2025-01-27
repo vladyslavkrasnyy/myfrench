@@ -1,0 +1,106 @@
+{
+  "name": "Relationships",
+  "description": "Common vocabulary for different types of relationships",
+  "words": [
+    {
+      "french": "le petit ami",
+      "english": "boyfriend",
+      "example": "Mon petit ami est musicien."
+    },
+    {
+      "french": "la petite amie",
+      "english": "girlfriend",
+      "example": "Sa petite amie est étudiante."
+    },
+    {
+      "french": "le fiancé",
+      "english": "fiancé",
+      "example": "Son fiancé est américain."
+    },
+    {
+      "french": "la fiancée",
+      "english": "fiancée",
+      "example": "Ma fiancée arrive demain."
+    },
+    {
+      "french": "le couple",
+      "english": "couple",
+      "example": "Le couple habite à Paris."
+    },
+    {
+      "french": "l'ami",
+      "english": "friend (male)",
+      "example": "C'est mon meilleur ami."
+    },
+    {
+      "french": "l'amie",
+      "english": "friend (female)",
+      "example": "Elle est une amie proche."
+    },
+    {
+      "french": "le partenaire",
+      "english": "partner",
+      "example": "Mon partenaire travaille ici."
+    },
+    {
+      "french": "l'ex-mari",
+      "english": "ex-husband",
+      "example": "Son ex-mari vit en Espagne."
+    },
+    {
+      "french": "l'ex-femme",
+      "english": "ex-wife",
+      "example": "Son ex-femme est avocate."
+    },
+    {
+      "french": "le compagnon",
+      "english": "partner (male)",
+      "example": "Son compagnon est chef."
+    },
+    {
+      "french": "la compagne",
+      "english": "partner (female)",
+      "example": "Sa compagne est artiste."
+    },
+    {
+      "french": "le conjoint",
+      "english": "spouse",
+      "example": "Mon conjoint voyage souvent."
+    },
+    {
+      "french": "le célibataire",
+      "english": "single person",
+      "example": "Il est célibataire."
+    },
+    {
+      "french": "les amoureux",
+      "english": "lovers",
+      "example": "Les amoureux se promènent."
+    },
+    {
+      "french": "le colocataire",
+      "english": "roommate",
+      "example": "Mon colocataire est étudiant."
+    },
+    {
+      "french": "le voisin",
+      "english": "neighbor (male)",
+      "example": "Mon voisin est sympathique."
+    },
+    {
+      "french": "la voisine",
+      "english": "neighbor (female)",
+      "example": "Ma voisine a un chat."
+    },
+    {
+      "french": "le collègue",
+      "english": "colleague",
+      "example": "Mon collègue est en réunion."
+    },
+    {
+      "french": "le camarade de classe",
+      "english": "classmate",
+      "example": "C'est mon camarade de classe."
+    }
+  ]
+}

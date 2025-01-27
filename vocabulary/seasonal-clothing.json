@@ -1,0 +1,106 @@
+{
+  "name": "Seasonal Clothing",
+  "description": "Common vocabulary for clothing worn in different seasons",
+  "words": [
+    {
+      "french": "un maillot de bain",
+      "english": "a swimsuit",
+      "example": "Je porte un maillot de bain à la piscine."
+    },
+    {
+      "french": "un imperméable",
+      "english": "a raincoat",
+      "example": "J'ai besoin d'un imperméable pour la pluie."
+    },
+    {
+      "french": "une doudoune",
+      "english": "a puffer jacket",
+      "example": "Ma doudoune me tient chaud en hiver."
+    },
+    {
+      "french": "un bonnet",
+      "english": "a winter hat",
+      "example": "Je mets mon bonnet quand il fait froid."
+    },
+    {
+      "french": "une combinaison de ski",
+      "english": "a ski suit",
+      "example": "La combinaison de ski est imperméable."
+    },
+    {
+      "french": "un paréo",
+      "english": "a beach wrap",
+      "example": "Elle porte un paréo sur la plage."
+    },
+    {
+      "french": "des moufles",
+      "english": "mittens",
+      "example": "Les moufles sont plus chaudes que les gants."
+    },
+    {
+      "french": "un coupe-vent",
+      "english": "a windbreaker",
+      "example": "Le coupe-vent me protège du vent."
+    },
+    {
+      "french": "un gilet",
+      "english": "a vest",
+      "example": "Je porte un gilet entre les saisons."
+    },
+    {
+      "french": "une veste de pluie",
+      "english": "a rain jacket",
+      "example": "Cette veste de pluie est légère."
+    },
+    {
+      "french": "des bottes de pluie",
+      "english": "rain boots",
+      "example": "Les bottes de pluie sont indispensables."
+    },
+    {
+      "french": "une robe d'été",
+      "english": "a summer dress",
+      "example": "Cette robe d'été est en coton."
+    },
+    {
+      "french": "un poncho",
+      "english": "a poncho",
+      "example": "Le poncho me protège de la pluie."
+    },
+    {
+      "french": "des gants de ski",
+      "english": "ski gloves",
+      "example": "Les gants de ski sont imperméables."
+    },
+    {
+      "french": "un cache-oreilles",
+      "english": "ear muffs",
+      "example": "Le cache-oreilles protège du froid."
+    },
+    {
+      "french": "une chemise légère",
+      "english": "a light shirt",
+      "example": "Je porte une chemise légère en été."
+    },
+    {
+      "french": "un short de bain",
+      "english": "swim shorts",
+      "example": "Mon short de bain sèche rapidement."
+    },
+    {
+      "french": "une écharpe d'hiver",
+      "english": "a winter scarf",
+      "example": "Cette écharpe d'hiver est en laine."
+    },
+    {
+      "french": "des lunettes de soleil",
+      "english": "sunglasses",
+      "example": "Les lunettes de soleil sont essentielles."
+    },
+    {
+      "french": "un pull d'hiver",
+      "english": "a winter sweater",
+      "example": "Ce pull d'hiver est très chaud."
+    }
+  ]
+}

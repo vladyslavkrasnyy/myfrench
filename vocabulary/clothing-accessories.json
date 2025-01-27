@@ -1,0 +1,106 @@
+{
+  "name": "Accessories",
+  "description": "Common vocabulary for fashion accessories",
+  "words": [
+    {
+      "french": "une ceinture",
+      "english": "a belt",
+      "example": "Cette ceinture est en cuir."
+    },
+    {
+      "french": "une écharpe",
+      "english": "a scarf",
+      "example": "Je porte une écharpe en hiver."
+    },
+    {
+      "french": "un chapeau",
+      "english": "a hat",
+      "example": "Le chapeau me protège du soleil."
+    },
+    {
+      "french": "des lunettes",
+      "english": "glasses",
+      "example": "Mes lunettes sont sur la table."
+    },
+    {
+      "french": "un sac à main",
+      "english": "a handbag",
+      "example": "Mon sac à main est noir."
+    },
+    {
+      "french": "un portefeuille",
+      "english": "a wallet",
+      "example": "J'ai perdu mon portefeuille."
+    },
+    {
+      "french": "un collier",
+      "english": "a necklace",
+      "example": "Ce collier est en or."
+    },
+    {
+      "french": "des boucles d'oreilles",
+      "english": "earrings",
+      "example": "Elle porte des boucles d'oreilles en argent."
+    },
+    {
+      "french": "une montre",
+      "english": "a watch",
+      "example": "Ma montre est suisse."
+    },
+    {
+      "french": "un bracelet",
+      "english": "a bracelet",
+      "example": "Le bracelet est un cadeau."
+    },
+    {
+      "french": "une bague",
+      "english": "a ring",
+      "example": "La bague est trop grande."
+    },
+    {
+      "french": "un foulard",
+      "english": "a silk scarf",
+      "example": "Le foulard est coloré."
+    },
+    {
+      "french": "des gants",
+      "english": "gloves",
+      "example": "Les gants sont chauds."
+    },
+    {
+      "french": "un parapluie",
+      "english": "an umbrella",
+      "example": "J'ai oublié mon parapluie."
+    },
+    {
+      "french": "un sac à dos",
+      "english": "a backpack",
+      "example": "Mon sac à dos est plein."
+    },
+    {
+      "french": "une casquette",
+      "english": "a cap",
+      "example": "Il porte une casquette rouge."
+    },
+    {
+      "french": "un bandana",
+      "english": "a bandana",
+      "example": "Le bandana est en soie."
+    },
+    {
+      "french": "une cravate",
+      "english": "a tie",
+      "example": "La cravate est rayée."
+    },
+    {
+      "french": "un nœud papillon",
+      "english": "a bow tie",
+      "example": "Il porte un nœud papillon noir."
+    },
+    {
+      "french": "une broche",
+      "english": "a brooch",
+      "example": "La broche est ancienne."
+    }
+  ]
+}

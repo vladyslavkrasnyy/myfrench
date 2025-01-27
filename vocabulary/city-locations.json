@@ -1,0 +1,106 @@
+{
+  "name": "City Locations",
+  "description": "Common vocabulary for places and locations in a city",
+  "words": [
+    {
+      "french": "le centre-ville",
+      "english": "city center",
+      "example": "Je travaille dans le centre-ville."
+    },
+    {
+      "french": "la rue",
+      "english": "street",
+      "example": "Cette rue est très animée."
+    },
+    {
+      "french": "le quartier",
+      "english": "neighborhood",
+      "example": "J'habite dans un nouveau quartier."
+    },
+    {
+      "french": "le parc",
+      "english": "park",
+      "example": "Le parc est grand et vert."
+    },
+    {
+      "french": "la place",
+      "english": "square",
+      "example": "Rendez-vous sur la place centrale."
+    },
+    {
+      "french": "le carrefour",
+      "english": "intersection",
+      "example": "Le feu est rouge au carrefour."
+    },
+    {
+      "french": "le boulevard",
+      "english": "boulevard",
+      "example": "Ce boulevard est très large."
+    },
+    {
+      "french": "le pont",
+      "english": "bridge",
+      "example": "Le pont traverse la rivière."
+    },
+    {
+      "french": "le jardin public",
+      "english": "public garden",
+      "example": "Le jardin public est fleuri."
+    },
+    {
+      "french": "l'avenue",
+      "english": "avenue",
+      "example": "Cette avenue mène au centre."
+    },
+    {
+      "french": "la fontaine",
+      "english": "fountain",
+      "example": "La fontaine est au milieu de la place."
+    },
+    {
+      "french": "le rond-point",
+      "english": "roundabout",
+      "example": "Prenez le deuxième rond-point."
+    },
+    {
+      "french": "la ruelle",
+      "english": "alley",
+      "example": "Cette ruelle est étroite."
+    },
+    {
+      "french": "le trottoir",
+      "english": "sidewalk",
+      "example": "Marchez sur le trottoir."
+    },
+    {
+      "french": "la zone piétonne",
+      "english": "pedestrian zone",
+      "example": "La zone piétonne est animée."
+    },
+    {
+      "french": "le quai",
+      "english": "quay/waterfront",
+      "example": "Nous nous promenons sur le quai."
+    },
+    {
+      "french": "le passage",
+      "english": "passage/walkway",
+      "example": "Le passage mène au marché."
+    },
+    {
+      "french": "l'impasse",
+      "english": "dead end",
+      "example": "Cette rue est une impasse."
+    },
+    {
+      "french": "le parking",
+      "english": "parking lot",
+      "example": "Le parking est complet."
+    },
+    {
+      "french": "la piste cyclable",
+      "english": "bike path",
+      "example": "Je prends la piste cyclable."
+    }
+  ]
+}

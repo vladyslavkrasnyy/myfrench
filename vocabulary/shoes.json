@@ -1,0 +1,106 @@
+{
+  "name": "Shoes",
+  "description": "Common vocabulary for different types of footwear",
+  "words": [
+    {
+      "french": "des baskets",
+      "english": "sneakers",
+      "example": "Je porte des baskets pour courir."
+    },
+    {
+      "french": "des chaussures à talons",
+      "english": "high heels",
+      "example": "Elle porte des chaussures à talons pour la soirée."
+    },
+    {
+      "french": "des bottes",
+      "english": "boots",
+      "example": "Ces bottes sont imperméables."
+    },
+    {
+      "french": "des sandales",
+      "english": "sandals",
+      "example": "Je porte des sandales en été."
+    },
+    {
+      "french": "des mocassins",
+      "english": "loafers",
+      "example": "Ces mocassins sont confortables."
+    },
+    {
+      "french": "des ballerines",
+      "english": "ballet flats",
+      "example": "Elle aime porter des ballerines."
+    },
+    {
+      "french": "des chaussures de sport",
+      "english": "sports shoes",
+      "example": "J'ai besoin de nouvelles chaussures de sport."
+    },
+    {
+      "french": "des tongs",
+      "english": "flip-flops",
+      "example": "Je porte des tongs à la plage."
+    },
+    {
+      "french": "des pantoufles",
+      "english": "slippers",
+      "example": "Mes pantoufles sont chaudes."
+    },
+    {
+      "french": "des escarpins",
+      "english": "pumps",
+      "example": "Ces escarpins sont élégants."
+    },
+    {
+      "french": "des bottines",
+      "english": "ankle boots",
+      "example": "Les bottines sont à la mode."
+    },
+    {
+      "french": "des chaussures de randonnée",
+      "english": "hiking boots",
+      "example": "J'ai acheté des chaussures de randonnée."
+    },
+    {
+      "french": "des derbies",
+      "english": "derby shoes",
+      "example": "Il porte des derbies noires."
+    },
+    {
+      "french": "des espadrilles",
+      "english": "espadrilles",
+      "example": "Les espadrilles sont parfaites pour l'été."
+    },
+    {
+      "french": "des chaussures de danse",
+      "english": "dance shoes",
+      "example": "Elle a des chaussures de danse spéciales."
+    },
+    {
+      "french": "des richelieus",
+      "english": "oxford shoes",
+      "example": "Ces richelieus sont en cuir."
+    },
+    {
+      "french": "des tennis",
+      "english": "tennis shoes",
+      "example": "Je joue au tennis avec ces tennis."
+    },
+    {
+      "french": "des mules",
+      "english": "mules",
+      "example": "Elle porte des mules dans le jardin."
+    },
+    {
+      "french": "des sabots",
+      "english": "clogs",
+      "example": "Les sabots sont traditionnels."
+    },
+    {
+      "french": "des chaussons",
+      "english": "soft slippers",
+      "example": "Je mets mes chaussons à la maison."
+    }
+  ]
+}

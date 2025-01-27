@@ -1,0 +1,106 @@
+{
+  "name": "Beverages",
+  "description": "Common vocabulary for drinks and beverages",
+  "words": [
+    {
+      "french": "l'eau",
+      "english": "water",
+      "example": "Je bois de l'eau minérale."
+    },
+    {
+      "french": "le café",
+      "english": "coffee",
+      "example": "Je prends un café le matin."
+    },
+    {
+      "french": "le thé",
+      "english": "tea",
+      "example": "Le thé est chaud."
+    },
+    {
+      "french": "le vin",
+      "english": "wine",
+      "example": "Le vin rouge est excellent."
+    },
+    {
+      "french": "la bière",
+      "english": "beer",
+      "example": "Une bière fraîche, s'il vous plaît."
+    },
+    {
+      "french": "le jus d'orange",
+      "english": "orange juice",
+      "example": "Je bois du jus d'orange frais."
+    },
+    {
+      "french": "le chocolat chaud",
+      "english": "hot chocolate",
+      "example": "Le chocolat chaud est crémeux."
+    },
+    {
+      "french": "le soda",
+      "english": "soda",
+      "example": "Je préfère le soda sans sucre."
+    },
+    {
+      "french": "le champagne",
+      "english": "champagne",
+      "example": "Nous célébrons avec du champagne."
+    },
+    {
+      "french": "le cidre",
+      "english": "cider",
+      "example": "Le cidre est une boisson normande."
+    },
+    {
+      "french": "le smoothie",
+      "english": "smoothie",
+      "example": "Je prépare un smoothie aux fruits."
+    },
+    {
+      "french": "le coca",
+      "english": "cola",
+      "example": "Un coca avec des glaçons."
+    },
+    {
+      "french": "la limonade",
+      "english": "lemonade",
+      "example": "La limonade est rafraîchissante."
+    },
+    {
+      "french": "le milkshake",
+      "english": "milkshake",
+      "example": "Je commande un milkshake à la vanille."
+    },
+    {
+      "french": "le cognac",
+      "english": "cognac",
+      "example": "Le cognac se boit en digestif."
+    },
+    {
+      "french": "le jus de pomme",
+      "english": "apple juice",
+      "example": "Le jus de pomme est sucré."
+    },
+    {
+      "french": "l'expresso",
+      "english": "espresso",
+      "example": "Un expresso après le repas."
+    },
+    {
+      "french": "le cappuccino",
+      "english": "cappuccino",
+      "example": "Le cappuccino est recouvert de mousse."
+    },
+    {
+      "french": "le thé glacé",
+      "english": "iced tea",
+      "example": "Le thé glacé est parfait en été."
+    },
+    {
+      "french": "l'eau gazeuse",
+      "english": "sparkling water",
+      "example": "Je préfère l'eau gazeuse."
+    }
+  ]
+}

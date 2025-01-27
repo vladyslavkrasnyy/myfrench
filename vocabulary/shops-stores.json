@@ -1,0 +1,106 @@
+{
+  "name": "Shops and Stores",
+  "description": "Common vocabulary for different types of shops and retail establishments",
+  "words": [
+    {
+      "french": "la boulangerie",
+      "english": "bakery",
+      "example": "J'achète du pain à la boulangerie."
+    },
+    {
+      "french": "la pharmacie",
+      "english": "pharmacy",
+      "example": "Je vais à la pharmacie pour mes médicaments."
+    },
+    {
+      "french": "le supermarché",
+      "english": "supermarket",
+      "example": "Je fais les courses au supermarché."
+    },
+    {
+      "french": "la librairie",
+      "english": "bookstore",
+      "example": "J'achète un livre à la librairie."
+    },
+    {
+      "french": "la boucherie",
+      "english": "butcher shop",
+      "example": "La viande de la boucherie est fraîche."
+    },
+    {
+      "french": "le magasin de vêtements",
+      "english": "clothing store",
+      "example": "Je cherche une robe au magasin de vêtements."
+    },
+    {
+      "french": "la pâtisserie",
+      "english": "pastry shop",
+      "example": "Les gâteaux de la pâtisserie sont délicieux."
+    },
+    {
+      "french": "le fleuriste",
+      "english": "florist",
+      "example": "J'achète des fleurs chez le fleuriste."
+    },
+    {
+      "french": "la bijouterie",
+      "english": "jewelry store",
+      "example": "Cette bijouterie vend des montres."
+    },
+    {
+      "french": "l'épicerie",
+      "english": "grocery store",
+      "example": "L'épicerie du coin est pratique."
+    },
+    {
+      "french": "le café",
+      "english": "café",
+      "example": "On se retrouve au café."
+    },
+    {
+      "french": "la quincaillerie",
+      "english": "hardware store",
+      "example": "Je vais à la quincaillerie pour des outils."
+    },
+    {
+      "french": "le salon de coiffure",
+      "english": "hair salon",
+      "example": "J'ai rendez-vous au salon de coiffure."
+    },
+    {
+      "french": "la papeterie",
+      "english": "stationery store",
+      "example": "J'achète des cahiers à la papeterie."
+    },
+    {
+      "french": "le pressing",
+      "english": "dry cleaner's",
+      "example": "Je dépose mon costume au pressing."
+    },
+    {
+      "french": "la poissonnerie",
+      "english": "fish market",
+      "example": "Le poisson est frais à la poissonnerie."
+    },
+    {
+      "french": "le tabac",
+      "english": "tobacco shop",
+      "example": "J'achète un journal au tabac."
+    },
+    {
+      "french": "la parfumerie",
+      "english": "perfume shop",
+      "example": "Elle travaille dans une parfumerie."
+    },
+    {
+      "french": "le kiosque",
+      "english": "newsstand",
+      "example": "Je prends un magazine au kiosque."
+    },
+    {
+      "french": "la fromagerie",
+      "english": "cheese shop",
+      "example": "Cette fromagerie vend des fromages locaux."
+    }
+  ]
+}

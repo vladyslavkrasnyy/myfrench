@@ -1,0 +1,106 @@
+{
+  "name": "Advanced Colors",
+  "description": "Vocabulary for more specific and nuanced colors",
+  "words": [
+    {
+      "french": "bordeaux",
+      "english": "burgundy",
+      "example": "Le vin est de couleur bordeaux."
+    },
+    {
+      "french": "turquoise",
+      "english": "turquoise",
+      "example": "La mer est turquoise."
+    },
+    {
+      "french": "indigo",
+      "english": "indigo",
+      "example": "Le jean est indigo."
+    },
+    {
+      "french": "écarlate",
+      "english": "scarlet",
+      "example": "Sa robe est écarlate."
+    },
+    {
+      "french": "corail",
+      "english": "coral",
+      "example": "Le rouge à lèvres est corail."
+    },
+    {
+      "french": "mauve",
+      "english": "mauve",
+      "example": "Les fleurs sont mauves."
+    },
+    {
+      "french": "ocre",
+      "english": "ochre",
+      "example": "Les murs sont ocre."
+    },
+    {
+      "french": "pourpre",
+      "english": "purple-red",
+      "example": "La robe est pourpre."
+    },
+    {
+      "french": "crème",
+      "english": "cream",
+      "example": "Le papier est crème."
+    },
+    {
+      "french": "ivoire",
+      "english": "ivory",
+      "example": "Le piano est couleur ivoire."
+    },
+    {
+      "french": "marine",
+      "english": "navy blue",
+      "example": "Son costume est bleu marine."
+    },
+    {
+      "french": "safran",
+      "english": "saffron",
+      "example": "L'épice est safran."
+    },
+    {
+      "french": "kaki",
+      "english": "khaki",
+      "example": "Le pantalon est kaki."
+    },
+    {
+      "french": "vermillon",
+      "english": "vermilion",
+      "example": "Le coucher de soleil est vermillon."
+    },
+    {
+      "french": "châtain",
+      "english": "chestnut brown",
+      "example": "Ses cheveux sont châtains."
+    },
+    {
+      "french": "émeraude",
+      "english": "emerald",
+      "example": "Ses yeux sont émeraude."
+    },
+    {
+      "french": "saumon",
+      "english": "salmon pink",
+      "example": "Le pull est couleur saumon."
+    },
+    {
+      "french": "bronze",
+      "english": "bronze",
+      "example": "La statue est bronze."
+    },
+    {
+      "french": "lavande",
+      "english": "lavender",
+      "example": "Le savon est lavande."
+    },
+    {
+      "french": "prune",
+      "english": "plum",
+      "example": "Le vernis est couleur prune."
+    }
+  ]
+}

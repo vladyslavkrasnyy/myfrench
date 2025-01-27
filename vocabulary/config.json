@@ -1,3 +1,27 @@
 {
-  "topics": ["food", "domestic-animals", "forest-animals", "wild-animals", "numbers"]
+  "topics": [
+    "daily-activities",
+    "work-tasks",
+    "hobbies",
+    "basic-clothing",
+    "clothing-accessories",
+    "shoes",
+    "seasonal-clothing",
+    "fruits-vegetables",
+    "meat-fish",
+    "dairy-products",
+    "beverages",
+    "city-locations",
+    "public-buildings",
+    "transportation",
+    "shops",
+    "family-members",
+    "relationships",
+    "age-groups",
+    "extended-family",
+    "basic-colors",
+    "advanced-colors",
+    "numbers-1-20",
+    "large-numbers"
+  ]
 }

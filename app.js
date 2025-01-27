@@ -23,22 +23,20 @@ async function loadTopics() {
         const config = await configResponse.json();
         console.log('Loaded config:', config);
 
-        // Log the config to check its structure
-        console.log('config.topics:', config.topics);
-
         // Ensure config.topics is an object before proceeding
         if (typeof config.topics === 'object' && config.topics !== null) {
-            // Iterate over each topic
-            for (const topicName in config.topics) {
-                if (config.topics.hasOwnProperty(topicName)) {
-                    const topicPath = `${basePath}/vocabulary/${config.topics[topicName]}`;
-                    console.log(`Loading topic from: ${topicPath}`);
-                    const response = await fetch(topicPath);
-                    if (!response.ok) {
-                        throw new Error(`Failed to load topic ${topicName}: ${response.statusText} (${response.status})`);
-                    }
-                    topics[topicName] = await response.json();
+            // Convert the object to an array of [key, value] pairs
+            const topicEntries = Object.entries(config.topics);
+
+            // Iterate over each [topicName, topicFile]
+            for (const [topicName, topicFile] of topicEntries) {
+                const topicPath = `${basePath}/vocabulary/${topicFile}`;
+                console.log(`Loading topic from: ${topicPath}`);
+                const response = await fetch(topicPath);
+                if (!response.ok) {
+                    throw new Error(`Failed to load topic ${topicName}: ${response.statusText} (${response.status})`);
                 }
+                topics[topicName] = await response.json();
             }
 
             console.log('All topics loaded:', topics);
@@ -56,8 +54,6 @@ async function loadTopics() {
         `;
     }
 }
-
-
 
 // Display available topics
 function displayTopics() {

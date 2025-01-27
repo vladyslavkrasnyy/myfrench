@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Vocabulary Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>French Vocabulary Learning</h1>
+        
+        <!-- Topic Selection -->
+        <div id="topicSelection" class="section">
+            <h2>Select Topic</h2>
+            <div id="topicList" class="grid"></div>
+        </div>
+
+        <!-- Mode Selection -->
+        <div id="modeSelection" class="section" style="display: none;">
+            <h2>Choose Mode</h2>
+            <div class="grid">
+                <button onclick="startLearningMode()">Learning Mode</button>
+                <button onclick="startTestingMode()">Testing Mode</button>
+                <button onclick="showTopics()" class="secondary">Back to Topics</button>
+            </div>
+        </div>
+
+        <!-- Learning Mode -->
+        <div id="learningMode" class="section" style="display: none;">
+            <div class="word-card">
+                <div id="frenchWord" class="french-word"></div>
+                <div id="englishWord" class="english-word"></div>
+                <div id="example" class="example"></div>
+            </div>
+            <div class="controls">
+                <button onclick="previousWord()">Previous</button>
+                <button onclick="nextWord()">Next</button>
+                <button onclick="showModeSelection()" class="secondary">Back</button>
+            </div>
+        </div>
+
+        <!-- Testing Mode -->
+        <div id="testingMode" class="section" style="display: none;">
+            <div class="status-bar">
+                <span>Score: <span id="score">0</span></span>
+                <span>Question: <span id="questionCount">1</span>/10</span>
+                <span>Time: <span id="timer">20</span>s</span>
+            </div>
+            <div class="word-card">
+                <div id="testFrenchWord" class="french-word"></div>
+                <div id="testExample" class="example"></div>
+            </div>
+            <div id="options" class="options grid"></div>
+        </div>
+
+        <!-- Summary -->
+        <div id="summary" class="section" style="display: none;">
+            <h2>Summary</h2>
+            <div id="summaryContent"></div>
+            <button onclick="showTopics()">Back to Topics</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

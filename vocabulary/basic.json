@@ -1,0 +1,18 @@
+{
+  "name": "Basic Phrases",
+  "description": "Essential French expressions",
+  "words": [
+    { "french": "bonjour", "english": "hello", "example": "Bonjour, comment allez-vous?" },
+    { "french": "merci", "english": "thank you", "example": "Merci beaucoup!" }
+  ]
+}
+
+// vocabulary/food.json
+{
+  "name": "Food and Drinks",
+  "description": "Common food vocabulary",
+  "words": [
+    { "french": "le pain", "english": "bread", "example": "Je mange le pain." },
+    { "french": "le fromage", "english": "cheese", "example": "Le fromage est délicieux." }
+  ]
+}

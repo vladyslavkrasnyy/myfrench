@@ -1,0 +1,21 @@
+{
+  "name": "Numbers",
+  "description": "Basic numbers and counting",
+  "words": [
+    { "french": "zéro", "english": "zero", "example": "Il y a zéro erreur." },
+    { "french": "un", "english": "one", "example": "J'ai un chat." },
+    { "french": "deux", "english": "two", "example": "J'ai deux frères." },
+    { "french": "trois", "english": "three", "example": "Il y a trois pommes." },
+    { "french": "quatre", "english": "four", "example": "Quatre saisons dans l'année." },
+    { "french": "cinq", "english": "five", "example": "J'ai cinq doigts." },
+    { "french": "six", "english": "six", "example": "Six jours par semaine." },
+    { "french": "sept", "english": "seven", "example": "Sept jours dans une semaine." },
+    { "french": "huit", "english": "eight", "example": "Il est huit heures." },
+    { "french": "neuf", "english": "nine", "example": "Neuf vies d'un chat." },
+    { "french": "dix", "english": "ten", "example": "Dix doigts sur les mains." },
+    { "french": "onze", "english": "eleven", "example": "Il y a onze joueurs." },
+    { "french": "douze", "english": "twelve", "example": "Douze mois dans l'année." },
+    { "french": "vingt", "english": "twenty", "example": "J'ai vingt ans." },
+    { "french": "cent", "english": "hundred", "example": "Cent euros." }
+  ]
+}

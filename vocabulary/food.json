@@ -1,0 +1,21 @@
+{
+  "name": "Food & Drinks",
+  "description": "Common food and beverage vocabulary",
+  "words": [
+    { "french": "le pain", "english": "bread", "example": "Je mange le pain." },
+    { "french": "le fromage", "english": "cheese", "example": "Le fromage est délicieux." },
+    { "french": "la pomme", "english": "apple", "example": "La pomme est rouge." },
+    { "french": "le lait", "english": "milk", "example": "Je bois le lait." },
+    { "french": "l'eau", "english": "water", "example": "Je bois de l'eau." },
+    { "french": "le café", "english": "coffee", "example": "Je prends un café." },
+    { "french": "le thé", "english": "tea", "example": "Elle boit du thé." },
+    { "french": "la soupe", "english": "soup", "example": "La soupe est chaude." },
+    { "french": "le poulet", "english": "chicken", "example": "Je cuisine le poulet." },
+    { "french": "le poisson", "english": "fish", "example": "Le poisson est frais." },
+    { "french": "la viande", "english": "meat", "example": "La viande est cuite." },
+    { "french": "les légumes", "english": "vegetables", "example": "J'aime les légumes." },
+    { "french": "le riz", "english": "rice", "example": "Le riz est blanc." },
+    { "french": "les pâtes", "english": "pasta", "example": "Les pâtes sont italiennes." },
+    { "french": "le gâteau", "english": "cake", "example": "Le gâteau est sucré." }
+  ]
+}

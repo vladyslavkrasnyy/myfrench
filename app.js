@@ -1,4 +1,3 @@
-// app.js
 let topics = {};
 let currentTopic = null;
 let currentIndex = 0;

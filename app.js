@@ -6,9 +6,53 @@ let options = [];
 let score = 0;
 let questionCount = 0;
 let timer = null;
+let currentLanguage = 'english'; // Default language
 
 // Base path for GitHub Pages
 const basePath = '/myfrench';
+
+// Supported languages configuration
+const supportedLanguages = {
+    english: {
+        name: 'English',
+        code: 'en'
+    },
+    ukrainian: {
+        name: 'Українська',
+        code: 'uk'
+    }
+    // Add more languages as needed
+};
+
+// UI text translations
+const uiTranslations = {
+    english: {
+        selectTopic: 'Select Topic',
+        chooseMode: 'Choose Mode',
+        learningMode: 'Learning Mode',
+        testingMode: 'Testing Mode',
+        backToTopics: 'Back to Topics',
+        score: 'Score',
+        question: 'Question',
+        time: 'Time',
+        summary: 'Summary',
+        finalScore: 'Final Score',
+        accuracy: 'Accuracy'
+    },
+    ukrainian: {
+        selectTopic: 'Оберіть тему',
+        chooseMode: 'Оберіть режим',
+        learningMode: 'Режим навчання',
+        testingMode: 'Режим тестування',
+        backToTopics: 'Назад до тем',
+        score: 'Бали',
+        question: 'Питання',
+        time: 'Час',
+        summary: 'Підсумок',
+        finalScore: 'Фінальний рахунок',
+        accuracy: 'Точність'
+    }
+};
 
 async function loadTopics() {
     try {
@@ -18,28 +62,33 @@ async function loadTopics() {
         console.log('Loading config from:', configPath);
         const configResponse = await fetch(configPath);
         if (!configResponse.ok) {
-            throw new Error(`Failed to load config: ${configResponse.statusText} (${configResponse.status})`);
+            throw new Error(`Failed to load config: ${configResponse.statusText}`);
         }
         const config = await configResponse.json();
-        console.log('Loaded config:', config);
 
-        // Ensure config.topics is an object before proceeding
         if (typeof config.topics === 'object' && config.topics !== null) {
-            // Convert the object to an array of [key, value] pairs
-            const topicEntries = Object.entries(config.topics);
-
-            // Iterate over each [topicName, topicFile]
-            for (const [topicName, topicFile] of topicEntries) {
+            for (const [topicName, topicFile] of Object.entries(config.topics)) {
                 const topicPath = `${basePath}/vocabulary/${topicFile}`;
-                console.log(`Loading topic from: ${topicPath}`);
                 const response = await fetch(topicPath);
                 if (!response.ok) {
-                    throw new Error(`Failed to load topic ${topicName}: ${response.statusText} (${response.status})`);
+                    throw new Error(`Failed to load topic ${topicName}`);
                 }
                 topics[topicName] = await response.json();
+
+                // Load media for each word if available
+                for (let word of topics[topicName].words) {
+                    word.media = {
+                        image: `${basePath}/media/images/${word.french.replace(/\s+/g, '_')}.jpg`,
+                        audio: {
+                            french: `${basePath}/media/audio/fr/${word.french.replace(/\s+/g, '_')}.mp3`,
+                            [currentLanguage]: `${basePath}/media/audio/${supportedLanguages[currentLanguage].code}/${word[currentLanguage].replace(/\s+/g, '_')}.mp3`
+                        }
+                    };
+                }
             }
 
             console.log('All topics loaded:', topics);
+            displayLanguageSelector();
             displayTopics();
         } else {
             throw new Error('Invalid format: config.topics should be an object.');
@@ -53,6 +102,67 @@ async function loadTopics() {
             </div>
         `;
     }
+}
+
+function displayLanguageSelector() {
+    const selector = document.getElementById('languageSelector');
+    selector.innerHTML = '';
+
+    Object.entries(supportedLanguages).forEach(([langKey, langInfo]) => {
+        const option = document.createElement('option');
+        option.value = langKey;
+        option.textContent = langInfo.name;
+        option.selected = langKey === currentLanguage;
+        selector.appendChild(option);
+    });
+}
+
+function changeLanguage(langKey) {
+    currentLanguage = langKey;
+    updateUILanguage();
+    displayTopics();
+}
+
+function updateUILanguage() {
+    const translations = uiTranslations[currentLanguage];
+
+    // Update all UI elements with translated text
+    document.querySelector('#topicSelection h2').textContent = translations.selectTopic;
+    document.querySelector('#modeSelection h2').textContent = translations.chooseMode;
+    // ... update other UI elements
+}
+
+// Display current word in learning mode with media
+function displayCurrentWord() {
+    const word = topics[currentTopic].words[currentIndex];
+    document.getElementById('frenchWord').textContent = word.french;
+    document.getElementById('nativeWord').textContent = word[currentLanguage];
+    document.getElementById('example').textContent = word.example;
+
+    // Display image if available
+    const imageContainer = document.getElementById('wordImage');
+    imageContainer.innerHTML = `<img src="${word.media.image}" alt="${word.french}" onerror="this.style.display='none'">`;
+
+    // Add audio players
+    const audioContainer = document.getElementById('wordAudio');
+    audioContainer.innerHTML = `
+        <div class="audio-controls">
+            <button onclick="playAudio('${word.media.audio.french}')" class="audio-btn">
+                🔊 French
+            </button>
+            <button onclick="playAudio('${word.media.audio[currentLanguage]}')" class="audio-btn">
+                🔊 ${supportedLanguages[currentLanguage].name}
+            </button>
+        </div>
+    `;
+}
+
+// Audio playback function
+function playAudio(audioUrl) {
+    const audio = new Audio(audioUrl);
+    audio.play().catch(error => {
+        console.error('Error playing audio:', error);
+    });
 }
 
 // Display available topics
@@ -94,14 +204,6 @@ function startTestingMode() {
     questionCount = 0;
     showSection('testingMode');
     generateQuestion();
-}
-
-// Display current word in learning mode
-function displayCurrentWord() {
-    const word = topics[currentTopic].words[currentIndex];
-    document.getElementById('frenchWord').textContent = word.french;
-    document.getElementById('englishWord').textContent = word.english;
-    document.getElementById('example').textContent = word.example;
 }
 
 // Navigation in learning mode

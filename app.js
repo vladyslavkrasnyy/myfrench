@@ -265,7 +265,6 @@ function generateQuestion() {
 
     // Update display
     document.getElementById('testFrenchWord').textContent = currentWord.french;
-    document.getElementById('testExample').textContent = currentWord[`example${currentLanguage === 'ukrainian' ? '_uk' : ''}`];
     document.getElementById('questionCount').textContent = questionCount;
     document.getElementById('score').textContent = score;
 

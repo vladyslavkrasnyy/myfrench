@@ -319,7 +319,7 @@ function handleTimeout() {
     });
     score = Math.max(0, score - 2); // Deduct 2 points for timeout
     document.getElementById('score').textContent = score;
-    setTimeout(generateQuestion, 1500);
+    setTimeout(generateQuestion, 1000);
 }
 
 // Show summary

@@ -80,14 +80,11 @@ async function loadTopics() {
                 }
                 topics[topicName] = await response.json();
 
-                // Load media for each word if available
+                // Modified media configuration to only include French audio
                 for (let word of topics[topicName].words) {
                     word.media = {
                         image: `${basePath}/media/images/${word.french.replace(/\s+/g, '_')}.jpg`,
-                        audio: {
-                            french: `${basePath}/media/audio/fr/${word.french.replace(/\s+/g, '_')}.mp3`,
-                            [currentLanguage]: `${basePath}/media/audio/${supportedLanguages[currentLanguage].code}/${word[currentLanguage].replace(/\s+/g, '_')}.mp3`
-                        }
+                        audio: `${basePath}/media/audio/fr/${word.french.replace(/\s+/g, '_')}.mp3`
                     };
                 }
             }
@@ -203,11 +200,11 @@ function displayCurrentWord() {
     const imageContainer = document.getElementById('wordImage');
     imageContainer.innerHTML = `<img src="${word.media.image}" alt="${word.french}" onerror="this.style.display='none'">`;
 
-    // Add audio players
+    // Add single audio player for French pronunciation
     const audioContainer = document.getElementById('wordAudio');
     audioContainer.innerHTML = `
         <div class="audio-controls">
-            <button onclick="playAudio('${word.media.audio.french}')" class="audio-btn" title="Listen in French">
+            <button onclick="playAudio('${word.media.audio}')" class="audio-btn" title="Listen in French">
                 🔊
             </button>
         </div>

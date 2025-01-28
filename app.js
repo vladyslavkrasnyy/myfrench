@@ -199,12 +199,10 @@ function displayCurrentWord() {
     // Update the native translation based on selected language
     document.getElementById('nativeWord').textContent = word[currentLanguage === 'english' ? 'english' : 'ukrainian'];
 
-    // Handle the example with proper fallback
+    // Always display the French example regardless of interface language
     const exampleElement = document.getElementById('example');
-    const exampleText = word.example;
-
-    if (exampleText) {
-        exampleElement.textContent = exampleText;
+    if (word.example) {
+        exampleElement.textContent = word.example;
         exampleElement.style.display = 'block';
     } else {
         exampleElement.style.display = 'none';

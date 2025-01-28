@@ -210,9 +210,6 @@ function displayCurrentWord() {
             <button onclick="playAudio('${word.media.audio.french}')" class="audio-btn" title="Listen in French">
                 🔊
             </button>
-            <button onclick="playAudio('${word.media.audio[currentLanguage]}')" class="audio-btn" title="Listen in ${supportedLanguages[currentLanguage].name}">
-                🔊
-            </button>
         </div>
     `;
 }

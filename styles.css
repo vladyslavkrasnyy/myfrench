@@ -236,20 +236,30 @@ button:disabled {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin: 1rem 0;
 }
 
 .audio-btn {
-    padding: 0.5rem 1rem;
-    background-color: #666666;
-    color: white;
-    border: none;
-    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .audio-btn:hover {
-    background-color: #555555;
+    transform: scale(1.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.audio-btn:active {
+    transform: scale(0.95);
 }
 
 .native-word {

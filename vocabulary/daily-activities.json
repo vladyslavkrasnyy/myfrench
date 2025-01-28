@@ -1,105 +1,127 @@
 {
   "name": "Daily Activities",
+  "name_uk": "Щоденні справи",
   "description": "Common vocabulary for daily routines and activities",
+  "description_uk": "Словник щоденних справ та активностей",
   "words": [
     {
       "french": "se réveiller",
       "english": "to wake up",
+      "ukrainian": "прокидатися",
       "example": "Je me réveille à sept heures."
     },
     {
       "french": "se brosser les dents",
       "english": "to brush teeth",
+      "ukrainian": "чистити зуби",
       "example": "Je me brosse les dents deux fois par jour."
     },
     {
       "french": "prendre une douche",
       "english": "to take a shower",
+      "ukrainian": "приймати душ",
       "example": "Je prends une douche le matin."
     },
     {
       "french": "s'habiller",
       "english": "to get dressed",
+      "ukrainian": "одягатися",
       "example": "Je m'habille après la douche."
     },
     {
       "french": "prendre le petit-déjeuner",
       "english": "to have breakfast",
+      "ukrainian": "снідати",
       "example": "Je prends le petit-déjeuner à huit heures."
     },
     {
       "french": "aller au travail",
       "english": "to go to work",
+      "ukrainian": "йти на роботу",
       "example": "Je vais au travail en voiture."
     },
     {
       "french": "travailler sur l'ordinateur",
       "english": "to work on the computer",
+      "ukrainian": "працювати за комп'ютером",
       "example": "Je travaille sur l'ordinateur toute la journée."
     },
     {
       "french": "répondre aux emails",
       "english": "to respond to emails",
+      "ukrainian": "відповідати на електронні листи",
       "example": "Je réponds aux emails chaque matin."
     },
     {
       "french": "participer à une réunion",
       "english": "to attend a meeting",
+      "ukrainian": "брати участь у зустрічі",
       "example": "Je participe à une réunion importante."
     },
     {
       "french": "déjeuner",
       "english": "to have lunch",
+      "ukrainian": "обідати",
       "example": "Je déjeune avec mes collègues."
     },
     {
       "french": "faire du sport",
       "english": "to exercise",
+      "ukrainian": "займатися спортом",
       "example": "Je fais du sport après le travail."
     },
     {
       "french": "faire les courses",
       "english": "to go grocery shopping",
+      "ukrainian": "робити покупки",
       "example": "Je fais les courses le weekend."
     },
     {
       "french": "préparer le dîner",
       "english": "to prepare dinner",
+      "ukrainian": "готувати вечерю",
       "example": "Je prépare le dîner pour ma famille."
     },
     {
       "french": "faire la vaisselle",
       "english": "to do the dishes",
+      "ukrainian": "мити посуд",
       "example": "Je fais la vaisselle après le repas."
     },
     {
       "french": "regarder la télévision",
       "english": "to watch television",
+      "ukrainian": "дивитися телевізор",
       "example": "Je regarde la télévision le soir."
     },
     {
       "french": "lire un livre",
       "english": "to read a book",
+      "ukrainian": "читати книгу",
       "example": "Je lis un livre avant de dormir."
     },
     {
       "french": "promener le chien",
       "english": "to walk the dog",
+      "ukrainian": "вигулювати собаку",
       "example": "Je promène le chien deux fois par jour."
     },
     {
       "french": "faire le ménage",
       "english": "to clean the house",
+      "ukrainian": "прибирати в будинку",
       "example": "Je fais le ménage le weekend."
     },
     {
       "french": "écouter de la musique",
       "english": "to listen to music",
+      "ukrainian": "слухати музику",
       "example": "J'écoute de la musique pendant que je travaille."
     },
     {
       "french": "se coucher",
       "english": "to go to bed",
+      "ukrainian": "лягати спати",
       "example": "Je me couche à vingt-trois heures."
     }
   ]

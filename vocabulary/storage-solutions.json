@@ -1,25 +1,122 @@
 {
   "name": "Storage Solutions",
+  "name_uk": "Системи зберігання",
   "description": "Items or systems for organizing and storing household belongings.",
+  "description_uk": "Предмети або системи для організації та зберігання домашніх речей.",
   "words": [
-    { "french": "l'étagère", "english": "shelf", "example": "Les livres sont sur l'étagère." },
-    { "french": "la boîte de rangement", "english": "storage box", "example": "Je range les jouets dans la boîte de rangement." },
-    { "french": "le panier", "english": "basket", "example": "Le panier est rempli de linge." },
-    { "french": "le coffre", "english": "chest", "example": "Le coffre contient des vêtements d'hiver." },
-    { "french": "le placard", "english": "cupboard", "example": "Les verres sont dans le placard." },
-    { "french": "le tiroir", "english": "drawer", "example": "Je mets mes stylos dans le tiroir." },
-    { "french": "l'armoire", "english": "wardrobe", "example": "L'armoire est pleine de vêtements." },
-    { "french": "le hangar", "english": "shed", "example": "Le hangar est utilisé pour stocker les outils." },
-    { "french": "la boîte à outils", "english": "toolbox", "example": "La boîte à outils est sous l'établi." },
-    { "french": "le casier", "english": "locker", "example": "Le casier contient mes affaires de sport." },
-    { "french": "le porte-vêtements", "english": "clothes rack", "example": "Le porte-vêtements est dans l'entrée." },
-    { "french": "le congélateur", "english": "freezer", "example": "Je mets la viande dans le congélateur." },
-    { "french": "le réfrigérateur", "english": "refrigerator", "example": "Les légumes sont dans le réfrigérateur." },
-    { "french": "le porte-manteau", "english": "coat rack", "example": "Le porte-manteau est dans l'entrée." },
-    { "french": "le panier à linge", "english": "laundry basket", "example": "Le panier à linge est plein." },
-    { "french": "la commode", "english": "dresser", "example": "Les serviettes sont dans la commode." },
-    { "french": "le bac de rangement", "english": "storage bin", "example": "Les jouets sont dans le bac de rangement." },
-    { "french": "le support", "english": "stand", "example": "Le support est pour les livres." },
-    { "french": "le placard sous l'évier", "english": "under-sink cabinet", "example": "Le produit de nettoyage est dans le placard sous l'évier." }
+    {
+      "french": "l'étagère",
+      "english": "shelf",
+      "ukrainian": "полиця",
+      "example": "Les livres sont sur l'étagère."
+    },
+    {
+      "french": "la boîte de rangement",
+      "english": "storage box",
+      "ukrainian": "ящик для зберігання",
+      "example": "Je range les jouets dans la boîte de rangement."
+    },
+    {
+      "french": "le panier",
+      "english": "basket",
+      "ukrainian": "кошик",
+      "example": "Le panier est rempli de linge."
+    },
+    {
+      "french": "le coffre",
+      "english": "chest",
+      "ukrainian": "скриня",
+      "example": "Le coffre contient des vêtements d'hiver."
+    },
+    {
+      "french": "le placard",
+      "english": "cupboard",
+      "ukrainian": "шафа",
+      "example": "Les verres sont dans le placard."
+    },
+    {
+      "french": "le tiroir",
+      "english": "drawer",
+      "ukrainian": "шухляда",
+      "example": "Je mets mes stylos dans le tiroir."
+    },
+    {
+      "french": "l'armoire",
+      "english": "wardrobe",
+      "ukrainian": "шафа для одягу",
+      "example": "L'armoire est pleine de vêtements."
+    },
+    {
+      "french": "le hangar",
+      "english": "shed",
+      "ukrainian": "сарай",
+      "example": "Le hangar est utilisé pour stocker les outils."
+    },
+    {
+      "french": "la boîte à outils",
+      "english": "toolbox",
+      "ukrainian": "ящик для інструментів",
+      "example": "La boîte à outils est sous l'établi."
+    },
+    {
+      "french": "le casier",
+      "english": "locker",
+      "ukrainian": "шафка",
+      "example": "Le casier contient mes affaires de sport."
+    },
+    {
+      "french": "le porte-vêtements",
+      "english": "clothes rack",
+      "ukrainian": "вішалка для одягу",
+      "example": "Le porte-vêtements est dans l'entrée."
+    },
+    {
+      "french": "le congélateur",
+      "english": "freezer",
+      "ukrainian": "морозильна камера",
+      "example": "Je mets la viande dans le congélateur."
+    },
+    {
+      "french": "le réfrigérateur",
+      "english": "refrigerator",
+      "ukrainian": "холодильник",
+      "example": "Les légumes sont dans le réfrigérateur."
+    },
+    {
+      "french": "le porte-manteau",
+      "english": "coat rack",
+      "ukrainian": "вішалка для пальто",
+      "example": "Le porte-manteau est dans l'entrée."
+    },
+    {
+      "french": "le panier à linge",
+      "english": "laundry basket",
+      "ukrainian": "кошик для білизни",
+      "example": "Le panier à linge est plein."
+    },
+    {
+      "french": "la commode",
+      "english": "dresser",
+      "ukrainian": "комод",
+      "example": "Les serviettes sont dans la commode."
+    },
+    {
+      "french": "le bac de rangement",
+      "english": "storage bin",
+      "ukrainian": "контейнер для зберігання",
+      "example": "Les jouets sont dans le bac de rangement."
+    },
+    {
+      "french": "le support",
+      "english": "stand",
+      "ukrainian": "підставка",
+      "example": "Le support est pour les livres."
+    },
+    {
+      "french": "le placard sous l'évier",
+      "english": "under-sink cabinet",
+      "ukrainian": "шафа під раковиною",
+      "example": "Le produit de nettoyage est dans le placard sous l'évier."
+    }
   ]
 }

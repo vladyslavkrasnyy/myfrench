@@ -1,105 +1,127 @@
 {
   "name": "Extended Family",
+  "name_uk": "Далека родина",
   "description": "Common vocabulary for extended family members",
+  "description_uk": "Словник термінів для далеких родичів",
   "words": [
     {
       "french": "le grand-père",
       "english": "grandfather",
+      "ukrainian": "дідусь",
       "example": "Mon grand-père raconte des histoires."
     },
     {
       "french": "la grand-mère",
       "english": "grandmother",
+      "ukrainian": "бабуся",
       "example": "Ma grand-mère fait des gâteaux."
     },
     {
       "french": "l'oncle",
       "english": "uncle",
+      "ukrainian": "дядько",
       "example": "Mon oncle vit à Lyon."
     },
     {
       "french": "la tante",
       "english": "aunt",
+      "ukrainian": "тітка",
       "example": "Ma tante est professeure."
     },
     {
       "french": "le cousin",
       "english": "cousin (male)",
+      "ukrainian": "двоюрідний брат",
       "example": "Mon cousin joue au football."
     },
     {
       "french": "la cousine",
       "english": "cousin (female)",
+      "ukrainian": "двоюрідна сестра",
       "example": "Ma cousine étudie la médecine."
     },
     {
       "french": "le neveu",
       "english": "nephew",
+      "ukrainian": "племінник",
       "example": "Mon neveu a cinq ans."
     },
     {
       "french": "la nièce",
       "english": "niece",
+      "ukrainian": "племінниця",
       "example": "Ma nièce apprend le piano."
     },
     {
       "french": "les grands-parents",
       "english": "grandparents",
+      "ukrainian": "бабуся і дідусь",
       "example": "Mes grands-parents habitent à la campagne."
     },
     {
       "french": "le beau-père",
       "english": "father-in-law/stepfather",
+      "ukrainian": "тесть/свекор/вітчим",
       "example": "Mon beau-père est retraité."
     },
     {
       "french": "la belle-mère",
       "english": "mother-in-law/stepmother",
+      "ukrainian": "теща/свекруха/мачуха",
       "example": "Ma belle-mère est gentille."
     },
     {
       "french": "le beau-frère",
       "english": "brother-in-law",
+      "ukrainian": "шурин/дівер",
       "example": "Mon beau-frère travaille à l'étranger."
     },
     {
       "french": "la belle-sœur",
       "english": "sister-in-law",
+      "ukrainian": "зовиця/братова",
       "example": "Ma belle-sœur est enceinte."
     },
     {
       "french": "l'arrière-grand-père",
       "english": "great-grandfather",
+      "ukrainian": "прадід",
       "example": "Mon arrière-grand-père a cent ans."
     },
     {
       "french": "l'arrière-grand-mère",
       "english": "great-grandmother",
+      "ukrainian": "прабабуся",
       "example": "Mon arrière-grand-mère fait de la couture."
     },
     {
       "french": "le petit-fils",
       "english": "grandson",
+      "ukrainian": "онук",
       "example": "Son petit-fils apprend à lire."
     },
     {
       "french": "la petite-fille",
       "english": "granddaughter",
+      "ukrainian": "онука",
       "example": "Sa petite-fille danse bien."
     },
     {
       "french": "le gendre",
       "english": "son-in-law",
+      "ukrainian": "зять",
       "example": "Mon gendre est ingénieur."
     },
     {
       "french": "la belle-fille",
       "english": "daughter-in-law",
+      "ukrainian": "невістка",
       "example": "Ma belle-fille parle français."
     },
     {
       "french": "la famille éloignée",
       "english": "distant relatives",
+      "ukrainian": "далекі родичі",
       "example": "Ma famille éloignée vit au Canada."
     }
   ]

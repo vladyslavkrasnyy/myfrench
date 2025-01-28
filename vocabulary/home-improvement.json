@@ -1,25 +1,122 @@
 {
   "name": "Home Improvement",
+  "name_uk": "Ремонт та покращення будинку",
   "description": "Renovation, repairs, and enhancements to the house's structure and design.",
+  "description_uk": "Ремонт, виправлення та вдосконалення структури та дизайну будинку.",
   "words": [
-    { "french": "la rénovation", "english": "renovation", "example": "La rénovation de la cuisine commence demain." },
-    { "french": "le bricolage", "english": "DIY", "example": "Je fais du bricolage pour améliorer ma maison." },
-    { "french": "la peinture", "english": "painting", "example": "Je vais refaire la peinture des murs." },
-    { "french": "le marteau", "english": "hammer", "example": "J'utilise un marteau pour enfoncer les clous." },
-    { "french": "la perceuse", "english": "drill", "example": "La perceuse est très puissante." },
-    { "french": "les clous", "english": "nails", "example": "Les clous sont utilisés pour fixer les planches." },
-    { "french": "la scie", "english": "saw", "example": "Je coupe le bois avec la scie." },
-    { "french": "les vis", "english": "screws", "example": "Les vis sont nécessaires pour assembler les meubles." },
-    { "french": "le tournevis", "english": "screwdriver", "example": "Je serre les vis avec un tournevis." },
-    { "french": "le rouleau", "english": "paint roller", "example": "J'utilise un rouleau pour appliquer la peinture." },
-    { "french": "les pinceaux", "english": "brushes", "example": "Les pinceaux sont utilisés pour peindre les détails." },
-    { "french": "le plâtre", "english": "plaster", "example": "Le plâtre est utilisé pour les réparations murales." },
-    { "french": "les outils", "english": "tools", "example": "J'ai tous les outils nécessaires pour ce travail." },
-    { "french": "l'échelle", "english": "ladder", "example": "Je monte sur l'échelle pour atteindre le plafond." },
-    { "french": "le ciment", "english": "cement", "example": "Le ciment est utilisé pour réparer le mur." },
-    { "french": "la plomberie", "english": "plumbing", "example": "J'ai dû réparer la plomberie de la salle de bain." },
-    { "french": "le carrelage", "english": "tiling", "example": "Le carrelage de la cuisine est neuf." },
-    { "french": "la menuiserie", "english": "carpentry", "example": "La menuiserie est nécessaire pour fabriquer des meubles." },
-    { "french": "la toiture", "english": "roofing", "example": "La toiture a été refaite l'année dernière." }
+    {
+      "french": "la rénovation",
+      "english": "renovation",
+      "ukrainian": "ремонт",
+      "example": "La rénovation de la cuisine commence demain."
+    },
+    {
+      "french": "le bricolage",
+      "english": "DIY",
+      "ukrainian": "самостійний ремонт",
+      "example": "Je fais du bricolage pour améliorer ma maison."
+    },
+    {
+      "french": "la peinture",
+      "english": "painting",
+      "ukrainian": "фарбування",
+      "example": "Je vais refaire la peinture des murs."
+    },
+    {
+      "french": "le marteau",
+      "english": "hammer",
+      "ukrainian": "молоток",
+      "example": "J'utilise un marteau pour enfoncer les clous."
+    },
+    {
+      "french": "la perceuse",
+      "english": "drill",
+      "ukrainian": "дриль",
+      "example": "La perceuse est très puissante."
+    },
+    {
+      "french": "les clous",
+      "english": "nails",
+      "ukrainian": "цвяхи",
+      "example": "Les clous sont utilisés pour fixer les planches."
+    },
+    {
+      "french": "la scie",
+      "english": "saw",
+      "ukrainian": "пилка",
+      "example": "Je coupe le bois avec la scie."
+    },
+    {
+      "french": "les vis",
+      "english": "screws",
+      "ukrainian": "шурупи",
+      "example": "Les vis sont nécessaires pour assembler les meubles."
+    },
+    {
+      "french": "le tournevis",
+      "english": "screwdriver",
+      "ukrainian": "викрутка",
+      "example": "Je serre les vis avec un tournevis."
+    },
+    {
+      "french": "le rouleau",
+      "english": "paint roller",
+      "ukrainian": "малярний валик",
+      "example": "J'utilise un rouleau pour appliquer la peinture."
+    },
+    {
+      "french": "les pinceaux",
+      "english": "brushes",
+      "ukrainian": "пензлі",
+      "example": "Les pinceaux sont utilisés pour peindre les détails."
+    },
+    {
+      "french": "le plâtre",
+      "english": "plaster",
+      "ukrainian": "гіпс",
+      "example": "Le plâtre est utilisé pour les réparations murales."
+    },
+    {
+      "french": "les outils",
+      "english": "tools",
+      "ukrainian": "інструменти",
+      "example": "J'ai tous les outils nécessaires pour ce travail."
+    },
+    {
+      "french": "l'échelle",
+      "english": "ladder",
+      "ukrainian": "драбина",
+      "example": "Je monte sur l'échelle pour atteindre le plafond."
+    },
+    {
+      "french": "le ciment",
+      "english": "cement",
+      "ukrainian": "цемент",
+      "example": "Le ciment est utilisé pour réparer le mur."
+    },
+    {
+      "french": "la plomberie",
+      "english": "plumbing",
+      "ukrainian": "водопровід",
+      "example": "J'ai dû réparer la plomberie de la salle de bain."
+    },
+    {
+      "french": "le carrelage",
+      "english": "tiling",
+      "ukrainian": "облицювання плиткою",
+      "example": "Le carrelage de la cuisine est neuf."
+    },
+    {
+      "french": "la menuiserie",
+      "english": "carpentry",
+      "ukrainian": "столярна справа",
+      "example": "La menuiserie est nécessaire pour fabriquer des meubles."
+    },
+    {
+      "french": "la toiture",
+      "english": "roofing",
+      "ukrainian": "покрівельні роботи",
+      "example": "La toiture a été refaite l'année dernière."
+    }
   ]
 }

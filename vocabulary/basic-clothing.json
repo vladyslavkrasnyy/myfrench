@@ -1,105 +1,127 @@
 {
   "name": "Basic Clothing Items",
+  "name_uk": "Базовий одяг",
   "description": "Common vocabulary for everyday clothing items",
+  "description_uk": "Словник повсякденного одягу",
   "words": [
     {
       "french": "un pantalon",
       "english": "pants/trousers",
+      "ukrainian": "штани",
       "example": "Je porte un pantalon noir."
     },
     {
       "french": "une chemise",
       "english": "a shirt",
+      "ukrainian": "сорочка",
       "example": "Cette chemise est en coton."
     },
     {
       "french": "une jupe",
       "english": "a skirt",
+      "ukrainian": "спідниця",
       "example": "Elle porte une jupe bleue."
     },
     {
       "french": "une robe",
       "english": "a dress",
+      "ukrainian": "сукня",
       "example": "La robe est élégante."
     },
     {
       "french": "un t-shirt",
       "english": "a t-shirt",
+      "ukrainian": "футболка",
       "example": "Je mets un t-shirt blanc."
     },
     {
       "french": "un pull",
       "english": "a sweater",
+      "ukrainian": "светр",
       "example": "Ce pull est très chaud."
     },
     {
       "french": "un jean",
       "english": "jeans",
+      "ukrainian": "джинси",
       "example": "Mon jean préféré est bleu."
     },
     {
       "french": "un manteau",
       "english": "a coat",
+      "ukrainian": "пальто",
       "example": "Le manteau est imperméable."
     },
     {
       "french": "une veste",
       "english": "a jacket",
+      "ukrainian": "куртка",
       "example": "J'ai acheté une veste en cuir."
     },
     {
       "french": "un short",
       "english": "shorts",
+      "ukrainian": "шорти",
       "example": "Il fait chaud, je mets un short."
     },
     {
       "french": "un pyjama",
       "english": "pajamas",
+      "ukrainian": "піжама",
       "example": "Je dors en pyjama."
     },
     {
       "french": "des sous-vêtements",
       "english": "underwear",
+      "ukrainian": "спідня білизна",
       "example": "J'achète des sous-vêtements neufs."
     },
     {
       "french": "des chaussettes",
       "english": "socks",
+      "ukrainian": "шкарпетки",
       "example": "Mes chaussettes sont blanches."
     },
     {
       "french": "un costume",
       "english": "a suit",
+      "ukrainian": "костюм",
       "example": "Il porte un costume au bureau."
     },
     {
       "french": "un sweat-shirt",
       "english": "a sweatshirt",
+      "ukrainian": "світшот",
       "example": "Ce sweat-shirt est confortable."
     },
     {
       "french": "un blazer",
       "english": "a blazer",
+      "ukrainian": "блейзер",
       "example": "Le blazer est parfait pour le bureau."
     },
     {
       "french": "un débardeur",
       "english": "a tank top",
+      "ukrainian": "майка",
       "example": "Je porte un débardeur en été."
     },
     {
       "french": "un cardigan",
       "english": "a cardigan",
+      "ukrainian": "кардиган",
       "example": "Ce cardigan est en laine."
     },
     {
       "french": "un collant",
       "english": "tights",
+      "ukrainian": "колготки",
       "example": "Elle porte un collant noir."
     },
     {
       "french": "un legging",
       "english": "leggings",
+      "ukrainian": "легінси",
       "example": "Le legging est très à la mode."
     }
   ]

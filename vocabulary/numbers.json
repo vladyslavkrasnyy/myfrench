@@ -1,105 +1,127 @@
 {
   "name": "Numbers 1-20",
   "description": "Basic numbers from one to twenty",
+  "name_uk": "Числа від 1 до 20",
+  "description_uk": "Основні числа від одного до двадцяти",
   "words": [
     {
       "french": "un",
       "english": "one",
+      "ukrainian": "один",
       "example": "J'ai un chat."
     },
     {
       "french": "deux",
       "english": "two",
+      "ukrainian": "два",
       "example": "Il y a deux livres."
     },
     {
       "french": "trois",
       "english": "three",
+      "ukrainian": "три",
       "example": "J'ai trois frères."
     },
     {
       "french": "quatre",
       "english": "four",
+      "ukrainian": "чотири",
       "example": "La table a quatre pieds."
     },
     {
       "french": "cinq",
       "english": "five",
+      "ukrainian": "п’ять",
       "example": "Il y a cinq personnes."
     },
     {
       "french": "six",
       "english": "six",
+      "ukrainian": "шість",
       "example": "Six heures du soir."
     },
     {
       "french": "sept",
       "english": "seven",
+      "ukrainian": "сім",
       "example": "La semaine a sept jours."
     },
     {
       "french": "huit",
       "english": "eight",
+      "ukrainian": "вісім",
       "example": "J'ai huit ans."
     },
     {
       "french": "neuf",
       "english": "nine",
+      "ukrainian": "дев’ять",
       "example": "Il est neuf heures."
     },
     {
       "french": "dix",
       "english": "ten",
+      "ukrainian": "десять",
       "example": "Dix euros, s'il vous plaît."
     },
     {
       "french": "onze",
       "english": "eleven",
+      "ukrainian": "одинадцять",
       "example": "Onze joueurs dans l'équipe."
     },
     {
       "french": "douze",
       "english": "twelve",
+      "ukrainian": "дванадцять",
       "example": "Douze mois dans l'année."
     },
     {
       "french": "treize",
       "english": "thirteen",
+      "ukrainian": "тринадцять",
       "example": "Elle a treize ans."
     },
     {
       "french": "quatorze",
       "english": "fourteen",
+      "ukrainian": "чотирнадцять",
       "example": "Le quatorze juillet."
     },
     {
       "french": "quinze",
       "english": "fifteen",
+      "ukrainian": "п’ятнадцять",
       "example": "Quinze minutes d'attente."
     },
     {
       "french": "seize",
       "english": "sixteen",
+      "ukrainian": "шістнадцять",
       "example": "Il a seize ans."
     },
     {
       "french": "dix-sept",
       "english": "seventeen",
+      "ukrainian": "сімнадцять",
       "example": "Dix-sept euros cinquante."
     },
     {
       "french": "dix-huit",
       "english": "eighteen",
+      "ukrainian": "вісімнадцять",
       "example": "Elle a dix-huit ans."
     },
     {
       "french": "dix-neuf",
       "english": "nineteen",
+      "ukrainian": "дев’ятнадцять",
       "example": "Dix-neuf livres sur l'étagère."
     },
     {
       "french": "vingt",
       "english": "twenty",
+      "ukrainian": "двадцять",
       "example": "Vingt étudiants dans la classe."
     }
   ]

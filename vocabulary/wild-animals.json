@@ -1,26 +1,128 @@
 {
   "name": "Wild Animals",
+  "name_uk": "Дикі тварини",
   "description": "Wild animals from around the world",
+  "description_uk": "Дикі тварини з усього світу",
   "words": [
-    { "french": "le lion", "english": "lion", "example": "Le lion est le roi des animaux." },
-    { "french": "le tigre", "english": "tiger", "example": "Le tigre chasse dans la jungle." },
-    { "french": "l'éléphant", "english": "elephant", "example": "L'éléphant mange beaucoup de feuilles." },
-    { "french": "la girafe", "english": "giraffe", "example": "La girafe a un long cou." },
-    { "french": "le zèbre", "english": "zebra", "example": "Le zèbre a des rayures noires et blanches." },
-    { "french": "le rhinocéros", "english": "rhinoceros", "example": "Le rhinocéros a une corne sur le nez." },
-    { "french": "l'hippopotame", "english": "hippopotamus", "example": "L'hippopotame aime être dans l'eau." },
-    { "french": "le kangourou", "english": "kangaroo", "example": "Le kangourou saute très haut." },
-    { "french": "le koala", "english": "koala", "example": "Le koala mange des feuilles d'eucalyptus." },
-    { "french": "le panda", "english": "panda", "example": "Le panda mange du bambou." },
-    { "french": "le loup", "english": "wolf", "example": "Le loup vit en meute." },
-    { "french": "l'ours", "english": "bear", "example": "L'ours pêche des poissons." },
-    { "french": "le renard", "english": "fox", "example": "Le renard est très rusé." },
-    { "french": "le cerf", "english": "deer", "example": "Le cerf a de grands bois." },
-    { "french": "le singe", "english": "monkey", "example": "Le singe grimpe aux arbres." },
-    { "french": "le gorille", "english": "gorilla", "example": "Le gorille est très fort." },
-    { "french": "le crocodile", "english": "crocodile", "example": "Le crocodile nage dans la rivière." },
-    { "french": "le serpent", "english": "snake", "example": "Le serpent rampe sur le sol." },
-    { "french": "le chameau", "english": "camel", "example": "Le chameau traverse le désert." },
-    { "french": "la baleine", "english": "whale", "example": "La baleine nage dans l'océan." }
+    {
+      "french": "le lion",
+      "english": "lion",
+      "ukrainian": "лев",
+      "example": "Le lion est le roi des animaux."
+    },
+    {
+      "french": "le tigre",
+      "english": "tiger",
+      "ukrainian": "тигр",
+      "example": "Le tigre chasse dans la jungle."
+    },
+    {
+      "french": "l'éléphant",
+      "english": "elephant",
+      "ukrainian": "слон",
+      "example": "L'éléphant mange beaucoup de feuilles."
+    },
+    {
+      "french": "la girafe",
+      "english": "giraffe",
+      "ukrainian": "жирафа",
+      "example": "La girafe a un long cou."
+    },
+    {
+      "french": "le zèbre",
+      "english": "zebra",
+      "ukrainian": "зебра",
+      "example": "Le zèbre a des rayures noires et blanches."
+    },
+    {
+      "french": "le rhinocéros",
+      "english": "rhinoceros",
+      "ukrainian": "носоріг",
+      "example": "Le rhinocéros a une corne sur le nez."
+    },
+    {
+      "french": "l'hippopotame",
+      "english": "hippopotamus",
+      "ukrainian": "бегемот",
+      "example": "L'hippopotame aime être dans l'eau."
+    },
+    {
+      "french": "le kangourou",
+      "english": "kangaroo",
+      "ukrainian": "кенгуру",
+      "example": "Le kangourou saute très haut."
+    },
+    {
+      "french": "le koala",
+      "english": "koala",
+      "ukrainian": "коала",
+      "example": "Le koala mange des feuilles d'eucalyptus."
+    },
+    {
+      "french": "le panda",
+      "english": "panda",
+      "ukrainian": "панда",
+      "example": "Le panda mange du bambou."
+    },
+    {
+      "french": "le loup",
+      "english": "wolf",
+      "ukrainian": "вовк",
+      "example": "Le loup vit en meute."
+    },
+    {
+      "french": "l'ours",
+      "english": "bear",
+      "ukrainian": "ведмідь",
+      "example": "L'ours pêche des poissons."
+    },
+    {
+      "french": "le renard",
+      "english": "fox",
+      "ukrainian": "лисиця",
+      "example": "Le renard est très rusé."
+    },
+    {
+      "french": "le cerf",
+      "english": "deer",
+      "ukrainian": "олень",
+      "example": "Le cerf a de grands bois."
+    },
+    {
+      "french": "le singe",
+      "english": "monkey",
+      "ukrainian": "мавпа",
+      "example": "Le singe grimpe aux arbres."
+    },
+    {
+      "french": "le gorille",
+      "english": "gorilla",
+      "ukrainian": "горила",
+      "example": "Le gorille est très fort."
+    },
+    {
+      "french": "le crocodile",
+      "english": "crocodile",
+      "ukrainian": "крокодил",
+      "example": "Le crocodile nage dans la rivière."
+    },
+    {
+      "french": "le serpent",
+      "english": "snake",
+      "ukrainian": "змія",
+      "example": "Le serpent rampe sur le sol."
+    },
+    {
+      "french": "le chameau",
+      "english": "camel",
+      "ukrainian": "верблюд",
+      "example": "Le chameau traverse le désert."
+    },
+    {
+      "french": "la baleine",
+      "english": "whale",
+      "ukrainian": "кит",
+      "example": "La baleine nage dans l'océan."
+    }
   ]
 }

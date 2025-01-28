@@ -1,24 +1,116 @@
 {
   "name": "Flooring",
+  "name_uk": "Підлогове покриття",
   "description": "Different types of flooring materials, such as hardwood, tiles, carpets, etc.",
+  "description_uk": "Різні типи матеріалів для підлогового покриття, таких як дерево, плитка, килими тощо.",
   "words": [
-    { "french": "le parquet", "english": "wooden floor", "example": "Le parquet est en chêne." },
-    { "french": "le carrelage", "english": "tile", "example": "Le carrelage de la cuisine est très moderne." },
-    { "french": "la moquette", "english": "carpet", "example": "La moquette est douce et confortable." },
-    { "french": "le linoléum", "english": "linoleum", "example": "Le linoléum est facile à nettoyer." },
-    { "french": "le béton", "english": "concrete", "example": "Le sol en béton est très durable." },
-    { "french": "le vinyle", "english": "vinyl", "example": "Le vinyle est une alternative abordable au parquet." },
-    { "french": "le stratifié", "english": "laminate", "example": "Le stratifié imite l'aspect du bois." },
-    { "french": "le tapis", "english": "rug", "example": "Le tapis dans le salon est très coloré." },
-    { "french": "le granit", "english": "granite", "example": "Le sol en granit est très résistant." },
-    { "french": "le marbre", "english": "marble", "example": "Le marbre est utilisé pour les sols et les comptoirs." },
-    { "french": "la pierre", "english": "stone", "example": "Le sol est recouvert de pierres naturelles." },
-    { "french": "le ciment", "english": "cement", "example": "Le sol est en ciment brut." },
-    { "french": "l'osb", "english": "OSB (oriented strand board)", "example": "L'OSB est utilisé pour les sous-planchers." },
-    { "french": "le carreau", "english": "tile (small)", "example": "Les carreaux de la salle de bain sont très beaux." },
-    { "french": "la terre cuite", "english": "terra cotta", "example": "Les tuiles en terre cuite sont traditionnelles." },
-    { "french": "la céramique", "english": "ceramic", "example": "Le sol en céramique est facile à entretenir." },
-    { "french": "le parquet flottant", "english": "floating floor", "example": "Le parquet flottant est facile à installer." },
-    { "french": "le tapis de sol", "english": "floor mat", "example": "Le tapis de sol est posé près de la porte." }
+    {
+      "french": "le parquet",
+      "english": "wooden floor",
+      "ukrainian": "дерев'яна підлога",
+      "example": "Le parquet est en chêne."
+    },
+    {
+      "french": "le carrelage",
+      "english": "tile",
+      "ukrainian": "плитка",
+      "example": "Le carrelage de la cuisine est très moderne."
+    },
+    {
+      "french": "la moquette",
+      "english": "carpet",
+      "ukrainian": "килим",
+      "example": "La moquette est douce et confortable."
+    },
+    {
+      "french": "le linoléum",
+      "english": "linoleum",
+      "ukrainian": "лінолеум",
+      "example": "Le linoléum est facile à nettoyer."
+    },
+    {
+      "french": "le béton",
+      "english": "concrete",
+      "ukrainian": "бетон",
+      "example": "Le sol en béton est très durable."
+    },
+    {
+      "french": "le vinyle",
+      "english": "vinyl",
+      "ukrainian": "вініл",
+      "example": "Le vinyle est une alternative abordable au parquet."
+    },
+    {
+      "french": "le stratifié",
+      "english": "laminate",
+      "ukrainian": "ламінат",
+      "example": "Le stratifié imite l'aspect du bois."
+    },
+    {
+      "french": "le tapis",
+      "english": "rug",
+      "ukrainian": "килимок",
+      "example": "Le tapis dans le salon est très coloré."
+    },
+    {
+      "french": "le granit",
+      "english": "granite",
+      "ukrainian": "граніт",
+      "example": "Le sol en granit est très résistant."
+    },
+    {
+      "french": "le marbre",
+      "english": "marble",
+      "ukrainian": "мармур",
+      "example": "Le marbre est utilisé pour les sols et les comptoirs."
+    },
+    {
+      "french": "la pierre",
+      "english": "stone",
+      "ukrainian": "камінь",
+      "example": "Le sol est recouvert de pierres naturelles."
+    },
+    {
+      "french": "le ciment",
+      "english": "cement",
+      "ukrainian": "цемент",
+      "example": "Le sol est en ciment brut."
+    },
+    {
+      "french": "l'osb",
+      "english": "OSB (oriented strand board)",
+      "ukrainian": "ОСБ (орієнтовно-стружкова плита)",
+      "example": "L'OSB est utilisé pour les sous-planchers."
+    },
+    {
+      "french": "le carreau",
+      "english": "tile (small)",
+      "ukrainian": "плитка (маленька)",
+      "example": "Les carreaux de la salle de bain sont très beaux."
+    },
+    {
+      "french": "la terre cuite",
+      "english": "terra cotta",
+      "ukrainian": "теракота",
+      "example": "Les tuiles en terre cuite sont traditionnelles."
+    },
+    {
+      "french": "la céramique",
+      "english": "ceramic",
+      "ukrainian": "кераміка",
+      "example": "Le sol en céramique est facile à entretenir."
+    },
+    {
+      "french": "le parquet flottant",
+      "english": "floating floor",
+      "ukrainian": "плаваючий паркет",
+      "example": "Le parquet flottant est facile à installer."
+    },
+    {
+      "french": "le tapis de sol",
+      "english": "floor mat",
+      "ukrainian": "килимок",
+      "example": "Le tapis de sol est posé près de la porte."
+    }
   ]
 }

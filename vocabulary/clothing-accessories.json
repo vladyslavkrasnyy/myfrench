@@ -1,105 +1,127 @@
 {
   "name": "Accessories",
+  "name_uk": "Аксесуари",
   "description": "Common vocabulary for fashion accessories",
+  "description_uk": "Словник поширених модних аксесуарів",
   "words": [
     {
       "french": "une ceinture",
       "english": "a belt",
+      "ukrainian": "пояс",
       "example": "Cette ceinture est en cuir."
     },
     {
       "french": "une écharpe",
       "english": "a scarf",
+      "ukrainian": "шарф",
       "example": "Je porte une écharpe en hiver."
     },
     {
       "french": "un chapeau",
       "english": "a hat",
+      "ukrainian": "капелюх",
       "example": "Le chapeau me protège du soleil."
     },
     {
       "french": "des lunettes",
       "english": "glasses",
+      "ukrainian": "окуляри",
       "example": "Mes lunettes sont sur la table."
     },
     {
       "french": "un sac à main",
       "english": "a handbag",
+      "ukrainian": "сумочка",
       "example": "Mon sac à main est noir."
     },
     {
       "french": "un portefeuille",
       "english": "a wallet",
+      "ukrainian": "гаманець",
       "example": "J'ai perdu mon portefeuille."
     },
     {
       "french": "un collier",
       "english": "a necklace",
+      "ukrainian": "намисто",
       "example": "Ce collier est en or."
     },
     {
       "french": "des boucles d'oreilles",
       "english": "earrings",
+      "ukrainian": "сережки",
       "example": "Elle porte des boucles d'oreilles en argent."
     },
     {
       "french": "une montre",
       "english": "a watch",
+      "ukrainian": "годинник",
       "example": "Ma montre est suisse."
     },
     {
       "french": "un bracelet",
       "english": "a bracelet",
+      "ukrainian": "браслет",
       "example": "Le bracelet est un cadeau."
     },
     {
       "french": "une bague",
       "english": "a ring",
+      "ukrainian": "каблучка",
       "example": "La bague est trop grande."
     },
     {
       "french": "un foulard",
       "english": "a silk scarf",
+      "ukrainian": "хустка",
       "example": "Le foulard est coloré."
     },
     {
       "french": "des gants",
       "english": "gloves",
+      "ukrainian": "рукавички",
       "example": "Les gants sont chauds."
     },
     {
       "french": "un parapluie",
       "english": "an umbrella",
+      "ukrainian": "парасолька",
       "example": "J'ai oublié mon parapluie."
     },
     {
       "french": "un sac à dos",
       "english": "a backpack",
+      "ukrainian": "рюкзак",
       "example": "Mon sac à dos est plein."
     },
     {
       "french": "une casquette",
       "english": "a cap",
+      "ukrainian": "кепка",
       "example": "Il porte une casquette rouge."
     },
     {
       "french": "un bandana",
       "english": "a bandana",
+      "ukrainian": "бандана",
       "example": "Le bandana est en soie."
     },
     {
       "french": "une cravate",
       "english": "a tie",
+      "ukrainian": "краватка",
       "example": "La cravate est rayée."
     },
     {
       "french": "un nœud papillon",
       "english": "a bow tie",
+      "ukrainian": "метелик",
       "example": "Il porte un nœud papillon noir."
     },
     {
       "french": "une broche",
       "english": "a brooch",
+      "ukrainian": "брошка",
       "example": "La broche est ancienne."
     }
   ]

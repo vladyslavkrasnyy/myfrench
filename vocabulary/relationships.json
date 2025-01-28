@@ -1,105 +1,127 @@
 {
   "name": "Relationships",
   "description": "Common vocabulary for different types of relationships",
+  "name_uk": "Відносини",
+  "description_uk": "Звичайний словниковий запас для різних типів відносин",
   "words": [
     {
       "french": "le petit ami",
       "english": "boyfriend",
+      "ukrainian": "хлопець",
       "example": "Mon petit ami est musicien."
     },
     {
       "french": "la petite amie",
       "english": "girlfriend",
+      "ukrainian": "дівчина",
       "example": "Sa petite amie est étudiante."
     },
     {
       "french": "le fiancé",
       "english": "fiancé",
+      "ukrainian": "наречений",
       "example": "Son fiancé est américain."
     },
     {
       "french": "la fiancée",
       "english": "fiancée",
+      "ukrainian": "наречена",
       "example": "Ma fiancée arrive demain."
     },
     {
       "french": "le couple",
       "english": "couple",
+      "ukrainian": "пара",
       "example": "Le couple habite à Paris."
     },
     {
       "french": "l'ami",
       "english": "friend (male)",
+      "ukrainian": "друг (чоловік)",
       "example": "C'est mon meilleur ami."
     },
     {
       "french": "l'amie",
       "english": "friend (female)",
+      "ukrainian": "подруга",
       "example": "Elle est une amie proche."
     },
     {
       "french": "le partenaire",
       "english": "partner",
+      "ukrainian": "партнер",
       "example": "Mon partenaire travaille ici."
     },
     {
       "french": "l'ex-mari",
       "english": "ex-husband",
+      "ukrainian": "колишній чоловік",
       "example": "Son ex-mari vit en Espagne."
     },
     {
       "french": "l'ex-femme",
       "english": "ex-wife",
+      "ukrainian": "колишня дружина",
       "example": "Son ex-femme est avocate."
     },
     {
       "french": "le compagnon",
       "english": "partner (male)",
+      "ukrainian": "спільник (чоловік)",
       "example": "Son compagnon est chef."
     },
     {
       "french": "la compagne",
       "english": "partner (female)",
+      "ukrainian": "спільниця",
       "example": "Sa compagne est artiste."
     },
     {
       "french": "le conjoint",
       "english": "spouse",
+      "ukrainian": "подружжя",
       "example": "Mon conjoint voyage souvent."
     },
     {
       "french": "le célibataire",
       "english": "single person",
+      "ukrainian": "неодружений",
       "example": "Il est célibataire."
     },
     {
       "french": "les amoureux",
       "english": "lovers",
+      "ukrainian": "закохані",
       "example": "Les amoureux se promènent."
     },
     {
       "french": "le colocataire",
       "english": "roommate",
+      "ukrainian": "сусід по кімнаті",
       "example": "Mon colocataire est étudiant."
     },
     {
       "french": "le voisin",
       "english": "neighbor (male)",
+      "ukrainian": "сусід (чоловік)",
       "example": "Mon voisin est sympathique."
     },
     {
       "french": "la voisine",
       "english": "neighbor (female)",
+      "ukrainian": "сусідка",
       "example": "Ma voisine a un chat."
     },
     {
       "french": "le collègue",
       "english": "colleague",
+      "ukrainian": "колега",
       "example": "Mon collègue est en réunion."
     },
     {
       "french": "le camarade de classe",
       "english": "classmate",
+      "ukrainian": "однокласник",
       "example": "C'est mon camarade de classe."
     }
   ]

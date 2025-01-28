@@ -1,105 +1,127 @@
 {
   "name": "Dairy Products",
+  "name_uk": "Молочні продукти",
   "description": "Common vocabulary for dairy and related products",
+  "description_uk": "Словник поширених молочних та супутніх продуктів",
   "words": [
     {
       "french": "le lait",
       "english": "milk",
+      "ukrainian": "молоко",
       "example": "Je bois du lait chaque matin."
     },
     {
       "french": "le fromage",
       "english": "cheese",
+      "ukrainian": "сир",
       "example": "Le fromage français est excellent."
     },
     {
       "french": "le yaourt",
       "english": "yogurt",
+      "ukrainian": "йогурт",
       "example": "Je mange un yaourt au petit-déjeuner."
     },
     {
       "french": "la crème",
       "english": "cream",
+      "ukrainian": "вершки",
       "example": "J'ajoute de la crème au café."
     },
     {
       "french": "le beurre",
       "english": "butter",
+      "ukrainian": "масло",
       "example": "Le beurre est salé."
     },
     {
       "french": "la crème fraîche",
       "english": "sour cream",
+      "ukrainian": "сметана",
       "example": "La crème fraîche est épaisse."
     },
     {
       "french": "le camembert",
       "english": "camembert",
+      "ukrainian": "камамбер",
       "example": "Le camembert est crémeux."
     },
     {
       "french": "le brie",
       "english": "brie",
+      "ukrainian": "брі",
       "example": "Le brie est un fromage doux."
     },
     {
       "french": "la mozzarella",
       "english": "mozzarella",
+      "ukrainian": "моцарела",
       "example": "La mozzarella fond sur la pizza."
     },
     {
       "french": "le roquefort",
       "english": "roquefort",
+      "ukrainian": "рокфор",
       "example": "Le roquefort a un goût fort."
     },
     {
       "french": "la ricotta",
       "english": "ricotta",
+      "ukrainian": "рікота",
       "example": "La ricotta est légère."
     },
     {
       "french": "le fromage blanc",
       "english": "quark",
+      "ukrainian": "сир кисломолочний",
       "example": "Le fromage blanc est peu calorique."
     },
     {
       "french": "le gruyère",
       "english": "gruyere",
+      "ukrainian": "грюєр",
       "example": "Le gruyère est parfait pour gratiner."
     },
     {
       "french": "la crème glacée",
       "english": "ice cream",
+      "ukrainian": "морозиво",
       "example": "La crème glacée est au chocolat."
     },
     {
       "french": "le mascarpone",
       "english": "mascarpone",
+      "ukrainian": "маскарпоне",
       "example": "Le mascarpone est utilisé dans le tiramisu."
     },
     {
       "french": "le parmesan",
       "english": "parmesan",
+      "ukrainian": "пармезан",
       "example": "Je râpe du parmesan sur les pâtes."
     },
     {
       "french": "le petit-suisse",
       "english": "petit-suisse cheese",
+      "ukrainian": "петі-сюіс",
       "example": "Le petit-suisse est riche en calcium."
     },
     {
       "french": "la faisselle",
       "english": "cottage cheese",
+      "ukrainian": "домашній сир",
       "example": "La faisselle est fraîche."
     },
     {
       "french": "le babybel",
       "english": "babybel",
+      "ukrainian": "бебібел",
       "example": "Le babybel est pratique à emporter."
     },
     {
       "french": "le chèvre",
       "english": "goat cheese",
+      "ukrainian": "козячий сир",
       "example": "Le chèvre est sur la salade."
     }
   ]

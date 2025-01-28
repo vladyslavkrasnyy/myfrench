@@ -1,25 +1,122 @@
 {
   "name": "Cleaning Appliances",
+  "name_uk": "Прилади для прибирання",
   "description": "Appliances used for cleaning tasks like vacuums, steamers, and pressure washers.",
+  "description_uk": "Прилади, що використовуються для прибирання, такі як пилососи, пароочисники та мийки високого тиску",
   "words": [
-    { "french": "l'aspirateur", "english": "vacuum cleaner", "example": "J'utilise l'aspirateur pour nettoyer le sol." },
-    { "french": "le balai", "english": "broom", "example": "Je nettoie le sol avec le balai." },
-    { "french": "le seau", "english": "bucket", "example": "Le seau est rempli d'eau." },
-    { "french": "la serpillère", "english": "mop", "example": "Je passe la serpillère sur le sol." },
-    { "french": "le nettoyeur haute pression", "english": "pressure washer", "example": "Le nettoyeur haute pression nettoie la terrasse." },
-    { "french": "le nettoyeur vapeur", "english": "steam cleaner", "example": "Le nettoyeur vapeur est efficace pour les tapis." },
-    { "french": "l'aspirateur robot", "english": "robot vacuum", "example": "L'aspirateur robot nettoie la maison automatiquement." },
-    { "french": "la balayeuse", "english": "sweeper", "example": "La balayeuse nettoie les poussières." },
-    { "french": "l'extracteur de poussière", "english": "dust extractor", "example": "L'extracteur de poussière est dans l'atelier." },
-    { "french": "la raclette", "english": "squeegee", "example": "J'utilise la raclette pour les fenêtres." },
-    { "french": "le nettoyant", "english": "cleaner", "example": "Le nettoyant est utilisé pour les vitres." },
-    { "french": "le chiffon", "english": "cloth", "example": "Je nettoie la table avec le chiffon." },
-    { "french": "l'aspirateur de voiture", "english": "car vacuum", "example": "L'aspirateur de voiture est dans le garage." },
-    { "french": "le nettoyeur de vitres", "english": "window cleaner", "example": "Le nettoyeur de vitres est très pratique." },
-    { "french": "le détergent", "english": "detergent", "example": "Le détergent est utilisé pour la lessive." },
-    { "french": "la machine à laver", "english": "washing machine", "example": "La machine à laver est dans la buanderie." },
-    { "french": "le lave-vitre", "english": "window washer", "example": "Le lave-vitre nettoie les fenêtres efficacement." },
-    { "french": "le déshumidificateur", "english": "dehumidifier", "example": "Le déshumidificateur réduit l'humidité." },
-    { "french": "le ventilateur", "english": "fan", "example": "Le ventilateur est dans le salon." }
+    {
+      "french": "l'aspirateur",
+      "english": "vacuum cleaner",
+      "ukrainian": "пилосос",
+      "example": "J'utilise l'aspirateur pour nettoyer le sol."
+    },
+    {
+      "french": "le balai",
+      "english": "broom",
+      "ukrainian": "мітла",
+      "example": "Je nettoie le sol avec le balai."
+    },
+    {
+      "french": "le seau",
+      "english": "bucket",
+      "ukrainian": "відро",
+      "example": "Le seau est rempli d'eau."
+    },
+    {
+      "french": "la serpillère",
+      "english": "mop",
+      "ukrainian": "швабра",
+      "example": "Je passe la serpillère sur le sol."
+    },
+    {
+      "french": "le nettoyeur haute pression",
+      "english": "pressure washer",
+      "ukrainian": "мийка високого тиску",
+      "example": "Le nettoyeur haute pression nettoie la terrasse."
+    },
+    {
+      "french": "le nettoyeur vapeur",
+      "english": "steam cleaner",
+      "ukrainian": "пароочисник",
+      "example": "Le nettoyeur vapeur est efficace pour les tapis."
+    },
+    {
+      "french": "l'aspirateur robot",
+      "english": "robot vacuum",
+      "ukrainian": "робот-пилосос",
+      "example": "L'aspirateur robot nettoie la maison automatiquement."
+    },
+    {
+      "french": "la balayeuse",
+      "english": "sweeper",
+      "ukrainian": "підмітальна машина",
+      "example": "La balayeuse nettoie les poussières."
+    },
+    {
+      "french": "l'extracteur de poussière",
+      "english": "dust extractor",
+      "ukrainian": "пиловловлювач",
+      "example": "L'extracteur de poussière est dans l'atelier."
+    },
+    {
+      "french": "la raclette",
+      "english": "squeegee",
+      "ukrainian": "скребок для вікон",
+      "example": "J'utilise la raclette pour les fenêtres."
+    },
+    {
+      "french": "le nettoyant",
+      "english": "cleaner",
+      "ukrainian": "засіб для чищення",
+      "example": "Le nettoyant est utilisé pour les vitres."
+    },
+    {
+      "french": "le chiffon",
+      "english": "cloth",
+      "ukrainian": "ганчірка",
+      "example": "Je nettoie la table avec le chiffon."
+    },
+    {
+      "french": "l'aspirateur de voiture",
+      "english": "car vacuum",
+      "ukrainian": "автомобільний пилосос",
+      "example": "L'aspirateur de voiture est dans le garage."
+    },
+    {
+      "french": "le nettoyeur de vitres",
+      "english": "window cleaner",
+      "ukrainian": "очищувач вікон",
+      "example": "Le nettoyeur de vitres est très pratique."
+    },
+    {
+      "french": "le détergent",
+      "english": "detergent",
+      "ukrainian": "миючий засіб",
+      "example": "Le détergent est utilisé pour la lessive."
+    },
+    {
+      "french": "la machine à laver",
+      "english": "washing machine",
+      "ukrainian": "пральна машина",
+      "example": "La machine à laver est dans la buanderie."
+    },
+    {
+      "french": "le lave-vitre",
+      "english": "window washer",
+      "ukrainian": "склоочисник",
+      "example": "Le lave-vitre nettoie les fenêtres efficacement."
+    },
+    {
+      "french": "le déshumidificateur",
+      "english": "dehumidifier",
+      "ukrainian": "осушувач повітря",
+      "example": "Le déshumidificateur réduit l'humidité."
+    },
+    {
+      "french": "le ventilateur",
+      "english": "fan",
+      "ukrainian": "вентилятор",
+      "example": "Le ventilateur est dans le salon."
+    }
   ]
 }

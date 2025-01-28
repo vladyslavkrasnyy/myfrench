@@ -1,25 +1,122 @@
 {
   "name": "Decor",
+  "name_uk": "Декор",
   "description": "Items used to decorate the home, such as artwork, curtains, etc.",
+  "description_uk": "Предмети для прикрашання дому, такі як картини, штори тощо",
   "words": [
-    { "french": "le tableau", "english": "painting", "example": "Le tableau est accroché au mur." },
-    { "french": "la sculpture", "english": "sculpture", "example": "La sculpture est faite en métal." },
-    { "french": "le vase", "english": "vase", "example": "Le vase est sur la table." },
-    { "french": "les rideaux", "english": "curtains", "example": "Les rideaux sont bleus." },
-    { "french": "le tapis", "english": "rug", "example": "Le tapis est dans le salon." },
-    { "french": "le miroir", "english": "mirror", "example": "Le miroir reflète la lumière." },
-    { "french": "la lampe", "english": "lamp", "example": "La lampe est allumée." },
-    { "french": "les coussins", "english": "cushions", "example": "Les coussins sont sur le canapé." },
-    { "french": "le coussin", "english": "pillow", "example": "Le coussin est confortable." },
-    { "french": "les étagères", "english": "shelves", "example": "Les étagères sont pleines de livres." },
-    { "french": "les fleurs", "english": "flowers", "example": "Les fleurs sont colorées." },
-    { "french": "la tapisserie", "english": "tapestry", "example": "La tapisserie est ancienne." },
-    { "french": "le cadre photo", "english": "photo frame", "example": "Le cadre photo est en bois." },
-    { "french": "les plantes", "english": "plants", "example": "Les plantes décorent la pièce." },
-    { "french": "le centre de table", "english": "centerpiece", "example": "Le centre de table est joli." },
-    { "french": "la chandelle", "english": "candle", "example": "La chandelle crée une ambiance chaleureuse." },
-    { "french": "les rideaux en velours", "english": "velvet curtains", "example": "Les rideaux en velours sont élégants." },
-    { "french": "le tapis d'orient", "english": "oriental rug", "example": "Le tapis d'orient est très cher." },
-    { "french": "le porte-revues", "english": "magazine rack", "example": "Le porte-revues est plein de magazines." }
+    {
+      "french": "le tableau",
+      "english": "painting",
+      "ukrainian": "картина",
+      "example": "Le tableau est accroché au mur."
+    },
+    {
+      "french": "la sculpture",
+      "english": "sculpture",
+      "ukrainian": "скульптура",
+      "example": "La sculpture est faite en métal."
+    },
+    {
+      "french": "le vase",
+      "english": "vase",
+      "ukrainian": "ваза",
+      "example": "Le vase est sur la table."
+    },
+    {
+      "french": "les rideaux",
+      "english": "curtains",
+      "ukrainian": "штори",
+      "example": "Les rideaux sont bleus."
+    },
+    {
+      "french": "le tapis",
+      "english": "rug",
+      "ukrainian": "килим",
+      "example": "Le tapis est dans le salon."
+    },
+    {
+      "french": "le miroir",
+      "english": "mirror",
+      "ukrainian": "дзеркало",
+      "example": "Le miroir reflète la lumière."
+    },
+    {
+      "french": "la lampe",
+      "english": "lamp",
+      "ukrainian": "лампа",
+      "example": "La lampe est allumée."
+    },
+    {
+      "french": "les coussins",
+      "english": "cushions",
+      "ukrainian": "подушки декоративні",
+      "example": "Les coussins sont sur le canapé."
+    },
+    {
+      "french": "le coussin",
+      "english": "pillow",
+      "ukrainian": "подушка",
+      "example": "Le coussin est confortable."
+    },
+    {
+      "french": "les étagères",
+      "english": "shelves",
+      "ukrainian": "полиці",
+      "example": "Les étagères sont pleines de livres."
+    },
+    {
+      "french": "les fleurs",
+      "english": "flowers",
+      "ukrainian": "квіти",
+      "example": "Les fleurs sont colorées."
+    },
+    {
+      "french": "la tapisserie",
+      "english": "tapestry",
+      "ukrainian": "гобелен",
+      "example": "La tapisserie est ancienne."
+    },
+    {
+      "french": "le cadre photo",
+      "english": "photo frame",
+      "ukrainian": "фоторамка",
+      "example": "Le cadre photo est en bois."
+    },
+    {
+      "french": "les plantes",
+      "english": "plants",
+      "ukrainian": "рослини",
+      "example": "Les plantes décorent la pièce."
+    },
+    {
+      "french": "le centre de table",
+      "english": "centerpiece",
+      "ukrainian": "декор для столу",
+      "example": "Le centre de table est joli."
+    },
+    {
+      "french": "la chandelle",
+      "english": "candle",
+      "ukrainian": "свічка",
+      "example": "La chandelle crée une ambiance chaleureuse."
+    },
+    {
+      "french": "les rideaux en velours",
+      "english": "velvet curtains",
+      "ukrainian": "оксамитові штори",
+      "example": "Les rideaux en velours sont élégants."
+    },
+    {
+      "french": "le tapis d'orient",
+      "english": "oriental rug",
+      "ukrainian": "східний килим",
+      "example": "Le tapis d'orient est très cher."
+    },
+    {
+      "french": "le porte-revues",
+      "english": "magazine rack",
+      "ukrainian": "журнальниця",
+      "example": "Le porte-revues est plein de magazines."
+    }
   ]
 }

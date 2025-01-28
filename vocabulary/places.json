@@ -1,26 +1,128 @@
 {
   "name": "Places",
   "description": "Common places and locations",
+  "name_uk": "Місця",
+  "description_uk": "Звичайні місця та локації",
   "words": [
-    { "french": "la maison", "english": "house", "example": "J'habite dans une maison." },
-    { "french": "l'appartement", "english": "apartment", "example": "Son appartement est au troisième étage." },
-    { "french": "le magasin", "english": "store", "example": "Je vais au magasin." },
-    { "french": "le supermarché", "english": "supermarket", "example": "Je fais les courses au supermarché." },
-    { "french": "la banque", "english": "bank", "example": "Je vais à la banque." },
-    { "french": "la poste", "english": "post office", "example": "J'envoie une lettre à la poste." },
-    { "french": "l'hôpital", "english": "hospital", "example": "L'hôpital est près d'ici." },
-    { "french": "la pharmacie", "english": "pharmacy", "example": "J'achète des médicaments à la pharmacie." },
-    { "french": "le restaurant", "english": "restaurant", "example": "Nous dînons au restaurant." },
-    { "french": "le café", "english": "cafe", "example": "Je prends un café au café." },
-    { "french": "l'école", "english": "school", "example": "Les enfants vont à l'école." },
-    { "french": "la bibliothèque", "english": "library", "example": "J'étudie à la bibliothèque." },
-    { "french": "le parc", "english": "park", "example": "Je me promène dans le parc." },
-    { "french": "la gare", "english": "train station", "example": "Le train part de la gare." },
-    { "french": "l'aéroport", "english": "airport", "example": "Je vais à l'aéroport." },
-    { "french": "le cinéma", "english": "cinema", "example": "Nous allons au cinéma." },
-    { "french": "le musée", "english": "museum", "example": "Le musée est fermé le lundi." },
-    { "french": "la plage", "english": "beach", "example": "J'aime aller à la plage." },
-    { "french": "le jardin", "english": "garden", "example": "Les fleurs poussent dans le jardin." },
-    { "french": "le bureau", "english": "office", "example": "Je travaille au bureau." }
+    {
+      "french": "la maison",
+      "english": "house",
+      "ukrainian": "будинок",
+      "example": "J'habite dans une maison."
+    },
+    {
+      "french": "l'appartement",
+      "english": "apartment",
+      "ukrainian": "квартира",
+      "example": "Son appartement est au troisième étage."
+    },
+    {
+      "french": "le magasin",
+      "english": "store",
+      "ukrainian": "магазин",
+      "example": "Je vais au magasin."
+    },
+    {
+      "french": "le supermarché",
+      "english": "supermarket",
+      "ukrainian": "супермаркет",
+      "example": "Je fais les courses au supermarché."
+    },
+    {
+      "french": "la banque",
+      "english": "bank",
+      "ukrainian": "банк",
+      "example": "Je vais à la banque."
+    },
+    {
+      "french": "la poste",
+      "english": "post office",
+      "ukrainian": "пошта",
+      "example": "J'envoie une lettre à la poste."
+    },
+    {
+      "french": "l'hôpital",
+      "english": "hospital",
+      "ukrainian": "лікарня",
+      "example": "L'hôpital est près d'ici."
+    },
+    {
+      "french": "la pharmacie",
+      "english": "pharmacy",
+      "ukrainian": "аптека",
+      "example": "J'achète des médicaments à la pharmacie."
+    },
+    {
+      "french": "le restaurant",
+      "english": "restaurant",
+      "ukrainian": "ресторан",
+      "example": "Nous dînons au restaurant."
+    },
+    {
+      "french": "le café",
+      "english": "cafe",
+      "ukrainian": "кафе",
+      "example": "Je prends un café au café."
+    },
+    {
+      "french": "l'école",
+      "english": "school",
+      "ukrainian": "школа",
+      "example": "Les enfants vont à l'école."
+    },
+    {
+      "french": "la bibliothèque",
+      "english": "library",
+      "ukrainian": "бібліотека",
+      "example": "J'étudie à la bibliothèque."
+    },
+    {
+      "french": "le parc",
+      "english": "park",
+      "ukrainian": "парк",
+      "example": "Je me promène dans le parc."
+    },
+    {
+      "french": "la gare",
+      "english": "train station",
+      "ukrainian": "залізничний вокзал",
+      "example": "Le train part de la gare."
+    },
+    {
+      "french": "l'aéroport",
+      "english": "airport",
+      "ukrainian": "аеропорт",
+      "example": "Je vais à l'aéroport."
+    },
+    {
+      "french": "le cinéma",
+      "english": "cinema",
+      "ukrainian": "кінотеатр",
+      "example": "Nous allons au cinéma."
+    },
+    {
+      "french": "le musée",
+      "english": "museum",
+      "ukrainian": "музей",
+      "example": "Le musée est fermé le lundi."
+    },
+    {
+      "french": "la plage",
+      "english": "beach",
+      "ukrainian": "пляж",
+      "example": "J'aime aller à la plage."
+    },
+    {
+      "french": "le jardin",
+      "english": "garden",
+      "ukrainian": "сад",
+      "example": "Les fleurs poussent dans le jardin."
+    },
+    {
+      "french": "le bureau",
+      "english": "office",
+      "ukrainian": "офіс",
+      "example": "Je travaille au bureau."
+    }
   ]
 }

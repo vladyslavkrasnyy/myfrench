@@ -1,24 +1,116 @@
 {
   "name": "Exterior Features",
+  "name_uk": "Зовнішні елементи будинку",
   "description": "Features related to the house's exterior, like the driveway, fences, porches, and gardens.",
+  "description_uk": "Елементи зовнішньої частини будинку, такі як під'їзна доріжка, паркан, веранда та сад",
   "words": [
-    { "french": "le jardin", "english": "garden", "example": "Le jardin est très joli en été." },
-    { "french": "l'allée", "english": "driveway", "example": "L'allée est faite de gravier." },
-    { "french": "la clôture", "english": "fence", "example": "La clôture entoure le jardin." },
-    { "french": "le porche", "english": "porch", "example": "Je me repose sur le porche." },
-    { "french": "le toit", "english": "roof", "example": "Le toit de la maison est en tuiles." },
-    { "french": "les gouttières", "english": "gutters", "example": "Les gouttières sont pleines de feuilles." },
-    { "french": "le garage", "english": "garage", "example": "La voiture est dans le garage." },
-    { "french": "l'entrée", "english": "entrance", "example": "L'entrée est décorée pour Noël." },
-    { "french": "la terrasse", "english": "terrace", "example": "La terrasse est idéale pour manger dehors." },
-    { "french": "le balcon", "english": "balcony", "example": "Le balcon offre une belle vue sur la ville." },
-    { "french": "la porte de garage", "english": "garage door", "example": "Je ferme la porte de garage après avoir garé la voiture." },
-    { "french": "le chemin", "english": "path", "example": "Le chemin mène à la porte d'entrée." },
-    { "french": "le barbecue", "english": "barbecue", "example": "Nous avons un barbecue dans le jardin." },
-    { "french": "l'escalier extérieur", "english": "outside stairs", "example": "L'escalier extérieur mène à la terrasse." },
-    { "french": "l'abri", "english": "shed", "example": "L'abri est utilisé pour stocker les outils." },
-    { "french": "le cabanon", "english": "small shed", "example": "Le cabanon est au fond du jardin." },
-    { "french": "le portail", "english": "gate", "example": "Le portail du jardin est en fer forgé." },
-    { "french": "le pavé", "english": "paving stone", "example": "Les pavés du chemin sont en pierre." }
+    {
+      "french": "le jardin",
+      "english": "garden",
+      "ukrainian": "сад",
+      "example": "Le jardin est très joli en été."
+    },
+    {
+      "french": "l'allée",
+      "english": "driveway",
+      "ukrainian": "під'їзна доріжка",
+      "example": "L'allée est faite de gravier."
+    },
+    {
+      "french": "la clôture",
+      "english": "fence",
+      "ukrainian": "паркан",
+      "example": "La clôture entoure le jardin."
+    },
+    {
+      "french": "le porche",
+      "english": "porch",
+      "ukrainian": "веранда",
+      "example": "Je me repose sur le porche."
+    },
+    {
+      "french": "le toit",
+      "english": "roof",
+      "ukrainian": "дах",
+      "example": "Le toit de la maison est en tuiles."
+    },
+    {
+      "french": "les gouttières",
+      "english": "gutters",
+      "ukrainian": "водостоки",
+      "example": "Les gouttières sont pleines de feuilles."
+    },
+    {
+      "french": "le garage",
+      "english": "garage",
+      "ukrainian": "гараж",
+      "example": "La voiture est dans le garage."
+    },
+    {
+      "french": "l'entrée",
+      "english": "entrance",
+      "ukrainian": "вхід",
+      "example": "L'entrée est décorée pour Noël."
+    },
+    {
+      "french": "la terrasse",
+      "english": "terrace",
+      "ukrainian": "тераса",
+      "example": "La terrasse est idéale pour manger dehors."
+    },
+    {
+      "french": "le balcon",
+      "english": "balcony",
+      "ukrainian": "балкон",
+      "example": "Le balcon offre une belle vue sur la ville."
+    },
+    {
+      "french": "la porte de garage",
+      "english": "garage door",
+      "ukrainian": "гаражні ворота",
+      "example": "Je ferme la porte de garage après avoir garé la voiture."
+    },
+    {
+      "french": "le chemin",
+      "english": "path",
+      "ukrainian": "стежка",
+      "example": "Le chemin mène à la porte d'entrée."
+    },
+    {
+      "french": "le barbecue",
+      "english": "barbecue",
+      "ukrainian": "мангал",
+      "example": "Nous avons un barbecue dans le jardin."
+    },
+    {
+      "french": "l'escalier extérieur",
+      "english": "outside stairs",
+      "ukrainian": "зовнішні сходи",
+      "example": "L'escalier extérieur mène à la terrasse."
+    },
+    {
+      "french": "l'abri",
+      "english": "shed",
+      "ukrainian": "сарай",
+      "example": "L'abri est utilisé pour stocker les outils."
+    },
+    {
+      "french": "le cabanon",
+      "english": "small shed",
+      "ukrainian": "комірчина",
+      "example": "Le cabanon est au fond du jardin."
+    },
+    {
+      "french": "le portail",
+      "english": "gate",
+      "ukrainian": "ворота",
+      "example": "Le portail du jardin est en fer forgé."
+    },
+    {
+      "french": "le pavé",
+      "english": "paving stone",
+      "ukrainian": "бруківка",
+      "example": "Les pavés du chemin sont en pierre."
+    }
   ]
 }

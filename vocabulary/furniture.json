@@ -1,26 +1,128 @@
 {
   "name": "Furniture",
+  "name_uk": "Меблі",
   "description": "Furniture and furnishings used in the house.",
+  "description_uk": "Меблі та обстановка, що використовуються в будинку.",
   "words": [
-    { "french": "le canapé", "english": "sofa", "example": "Le canapé est confortable." },
-    { "french": "la chaise", "english": "chair", "example": "La chaise est en bois." },
-    { "french": "la table", "english": "table", "example": "La table est ronde." },
-    { "french": "le lit", "english": "bed", "example": "Le lit est très grand." },
-    { "french": "l'étagère", "english": "shelf", "example": "L'étagère est pleine de livres." },
-    { "french": "le fauteuil", "english": "armchair", "example": "Le fauteuil est très confortable." },
-    { "french": "le bureau", "english": "desk", "example": "Je travaille à mon bureau." },
-    { "french": "la commode", "english": "dresser", "example": "La commode est près du lit." },
-    { "french": "l'armoire", "english": "wardrobe", "example": "L'armoire est pleine de vêtements." },
-    { "french": "le miroir", "english": "mirror", "example": "Le miroir est au-dessus du lavabo." },
-    { "french": "la bibliothèque", "english": "bookshelf", "example": "La bibliothèque est contre le mur." },
-    { "french": "le meuble TV", "english": "TV stand", "example": "Le meuble TV est en bois." },
-    { "french": "la lampe", "english": "lamp", "example": "La lampe éclaire la pièce." },
-    { "french": "le tapis", "english": "rug", "example": "Le tapis est au centre du salon." },
-    { "french": "le coussin", "english": "cushion", "example": "Le coussin est décoratif." },
-    { "french": "le pouf", "english": "pouf", "example": "Le pouf est dans le salon." },
-    { "french": "la table basse", "english": "coffee table", "example": "La table basse est en verre." },
-    { "french": "la chaise longue", "english": "lounger", "example": "La chaise longue est dans le jardin." },
-    { "french": "le banc", "english": "bench", "example": "Le banc est dans l'entrée." },
-    { "french": "le porte-manteau", "english": "coat rack", "example": "Le porte-manteau est dans le hall." }
+    {
+      "french": "le canapé",
+      "english": "sofa",
+      "ukrainian": "диван",
+      "example": "Le canapé est confortable."
+    },
+    {
+      "french": "la chaise",
+      "english": "chair",
+      "ukrainian": "стілець",
+      "example": "La chaise est en bois."
+    },
+    {
+      "french": "la table",
+      "english": "table",
+      "ukrainian": "стіл",
+      "example": "La table est ronde."
+    },
+    {
+      "french": "le lit",
+      "english": "bed",
+      "ukrainian": "ліжко",
+      "example": "Le lit est très grand."
+    },
+    {
+      "french": "l'étagère",
+      "english": "shelf",
+      "ukrainian": "полиця",
+      "example": "L'étagère est pleine de livres."
+    },
+    {
+      "french": "le fauteuil",
+      "english": "armchair",
+      "ukrainian": "крісло",
+      "example": "Le fauteuil est très confortable."
+    },
+    {
+      "french": "le bureau",
+      "english": "desk",
+      "ukrainian": "письмовий стіл",
+      "example": "Je travaille à mon bureau."
+    },
+    {
+      "french": "la commode",
+      "english": "dresser",
+      "ukrainian": "комод",
+      "example": "La commode est près du lit."
+    },
+    {
+      "french": "l'armoire",
+      "english": "wardrobe",
+      "ukrainian": "шафа",
+      "example": "L'armoire est pleine de vêtements."
+    },
+    {
+      "french": "le miroir",
+      "english": "mirror",
+      "ukrainian": "дзеркало",
+      "example": "Le miroir est au-dessus du lavabo."
+    },
+    {
+      "french": "la bibliothèque",
+      "english": "bookshelf",
+      "ukrainian": "книжкова шафа",
+      "example": "La bibliothèque est contre le mur."
+    },
+    {
+      "french": "le meuble TV",
+      "english": "TV stand",
+      "ukrainian": "тумба під телевізор",
+      "example": "Le meuble TV est en bois."
+    },
+    {
+      "french": "la lampe",
+      "english": "lamp",
+      "ukrainian": "лампа",
+      "example": "La lampe éclaire la pièce."
+    },
+    {
+      "french": "le tapis",
+      "english": "rug",
+      "ukrainian": "килим",
+      "example": "Le tapis est au centre du salon."
+    },
+    {
+      "french": "le coussin",
+      "english": "cushion",
+      "ukrainian": "подушка",
+      "example": "Le coussin est décoratif."
+    },
+    {
+      "french": "le pouf",
+      "english": "pouf",
+      "ukrainian": "пуф",
+      "example": "Le pouf est dans le salon."
+    },
+    {
+      "french": "la table basse",
+      "english": "coffee table",
+      "ukrainian": "журнальний столик",
+      "example": "La table basse est en verre."
+    },
+    {
+      "french": "la chaise longue",
+      "english": "lounger",
+      "ukrainian": "шезлонг",
+      "example": "La chaise longue est dans le jardin."
+    },
+    {
+      "french": "le banc",
+      "english": "bench",
+      "ukrainian": "лавка",
+      "example": "Le banc est dans l'entrée."
+    },
+    {
+      "french": "le porte-manteau",
+      "english": "coat rack",
+      "ukrainian": "вішак",
+      "example": "Le porte-manteau est dans le hall."
+    }
   ]
 }

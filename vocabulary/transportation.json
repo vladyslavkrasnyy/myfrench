@@ -1,105 +1,127 @@
 {
   "name": "Transportation",
+  "name_uk": "Транспорт",
   "description": "Common vocabulary for transportation and travel",
+  "description_uk": "Поширена лексика для транспорту та подорожей",
   "words": [
     {
       "french": "le métro",
       "english": "subway",
+      "ukrainian": "метро",
       "example": "Je prends le métro pour aller au travail."
     },
     {
       "french": "le bus",
       "english": "bus",
+      "ukrainian": "автобус",
       "example": "Le bus est à l'heure."
     },
     {
       "french": "le train",
       "english": "train",
+      "ukrainian": "потяг",
       "example": "Le train part dans dix minutes."
     },
     {
       "french": "le tramway",
       "english": "tram",
+      "ukrainian": "трамвай",
       "example": "Le tramway traverse la ville."
     },
     {
       "french": "le taxi",
       "english": "taxi",
+      "ukrainian": "таксі",
       "example": "Je prends un taxi à l'aéroport."
     },
     {
       "french": "l'avion",
       "english": "airplane",
+      "ukrainian": "літак",
       "example": "L'avion décolle à midi."
     },
     {
       "french": "le vélo",
       "english": "bicycle",
+      "ukrainian": "велосипед",
       "example": "Je fais du vélo le weekend."
     },
     {
       "french": "la voiture",
       "english": "car",
+      "ukrainian": "автомобіль",
       "example": "Ma voiture est garée là-bas."
     },
     {
       "french": "le bateau",
       "english": "boat",
+      "ukrainian": "човен",
       "example": "Le bateau traverse la rivière."
     },
     {
       "french": "la moto",
       "english": "motorcycle",
+      "ukrainian": "мотоцикл",
       "example": "Il va au travail en moto."
     },
     {
       "french": "l'autocar",
       "english": "coach",
+      "ukrainian": "автобус далекого прямування",
       "example": "L'autocar fait des voyages longue distance."
     },
     {
       "french": "le TGV",
       "english": "high-speed train",
+      "ukrainian": "швидкісний потяг",
       "example": "Le TGV est très rapide."
     },
     {
       "french": "le scooter",
       "english": "scooter",
+      "ukrainian": "скутер",
       "example": "Le scooter est pratique en ville."
     },
     {
       "french": "le ferry",
       "english": "ferry",
+      "ukrainian": "пором",
       "example": "Le ferry traverse la Manche."
     },
     {
       "french": "l'hélicoptère",
       "english": "helicopter",
+      "ukrainian": "вертоліт",
       "example": "L'hélicoptère survole la ville."
     },
     {
       "french": "la trottinette",
       "english": "scooter (kick scooter)",
+      "ukrainian": "самокат",
       "example": "Les enfants aiment la trottinette."
     },
     {
       "french": "le RER",
       "english": "regional express train",
+      "ukrainian": "приміський експрес",
       "example": "Le RER va en banlieue."
     },
     {
       "french": "le funiculaire",
       "english": "funicular",
+      "ukrainian": "фунікулер",
       "example": "Le funiculaire monte la colline."
     },
     {
       "french": "la navette",
       "english": "shuttle",
+      "ukrainian": "шатл",
       "example": "La navette va à l'aéroport."
     },
     {
       "french": "le téléphérique",
       "english": "cable car",
+      "ukrainian": "канатна дорога",
       "example": "Le téléphérique monte à la montagne."
     }
   ]

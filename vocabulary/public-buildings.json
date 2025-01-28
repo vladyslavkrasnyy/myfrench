@@ -1,105 +1,127 @@
 {
   "name": "Public Buildings",
+  "name_uk": "Громадські будівлі",
   "description": "Common vocabulary for public buildings and institutions",
+  "description_uk": "Поширена лексика для громадських будівель та установ",
   "words": [
     {
       "french": "la mairie",
       "english": "town hall",
+      "ukrainian": "ратуша",
       "example": "Je vais à la mairie pour mes papiers."
     },
     {
       "french": "l'hôpital",
       "english": "hospital",
+      "ukrainian": "лікарня",
       "example": "L'hôpital est ouvert 24 heures sur 24."
     },
     {
       "french": "la bibliothèque",
       "english": "library",
+      "ukrainian": "бібліотека",
       "example": "J'emprunte des livres à la bibliothèque."
     },
     {
       "french": "le musée",
       "english": "museum",
+      "ukrainian": "музей",
       "example": "Le musée expose des œuvres d'art."
     },
     {
       "french": "l'école",
       "english": "school",
+      "ukrainian": "школа",
       "example": "Les enfants vont à l'école."
     },
     {
       "french": "la poste",
       "english": "post office",
+      "ukrainian": "пошта",
       "example": "J'envoie une lettre à la poste."
     },
     {
       "french": "la gare",
       "english": "train station",
+      "ukrainian": "вокзал",
       "example": "Le train arrive à la gare."
     },
     {
       "french": "le théâtre",
       "english": "theater",
+      "ukrainian": "театр",
       "example": "Nous allons au théâtre ce soir."
     },
     {
       "french": "le commissariat",
       "english": "police station",
+      "ukrainian": "відділок поліції",
       "example": "Le commissariat est ouvert."
     },
     {
       "french": "la piscine",
       "english": "swimming pool",
+      "ukrainian": "басейн",
       "example": "Je nage à la piscine municipale."
     },
     {
       "french": "la caserne de pompiers",
       "english": "fire station",
+      "ukrainian": "пожежна частина",
       "example": "La caserne de pompiers est proche."
     },
     {
       "french": "l'université",
       "english": "university",
+      "ukrainian": "університет",
       "example": "Les étudiants sont à l'université."
     },
     {
       "french": "le stade",
       "english": "stadium",
+      "ukrainian": "стадіон",
       "example": "Le match a lieu au stade."
     },
     {
       "french": "l'église",
       "english": "church",
+      "ukrainian": "церква",
       "example": "L'église est au centre du village."
     },
     {
       "french": "la cathédrale",
       "english": "cathedral",
+      "ukrainian": "собор",
       "example": "La cathédrale est magnifique."
     },
     {
       "french": "le tribunal",
       "english": "courthouse",
+      "ukrainian": "суд",
       "example": "Le tribunal est un grand bâtiment."
     },
     {
       "french": "le gymnase",
       "english": "gymnasium",
+      "ukrainian": "спортзал",
       "example": "Je fais du sport au gymnase."
     },
     {
       "french": "la médiathèque",
       "english": "media library",
+      "ukrainian": "медіатека",
       "example": "La médiathèque prête des films."
     },
     {
       "french": "le conservatoire",
       "english": "music school",
+      "ukrainian": "музична школа",
       "example": "J'apprends le piano au conservatoire."
     },
     {
       "french": "le centre culturel",
       "english": "cultural center",
+      "ukrainian": "будинок культури",
       "example": "Il y a une exposition au centre culturel."
     }
   ]

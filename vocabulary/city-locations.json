@@ -1,105 +1,127 @@
 {
   "name": "City Locations",
+  "name_uk": "Місця у місті",
   "description": "Common vocabulary for places and locations in a city",
+  "description_uk": "Словник поширених місць та локацій у місті",
   "words": [
     {
       "french": "le centre-ville",
       "english": "city center",
+      "ukrainian": "центр міста",
       "example": "Je travaille dans le centre-ville."
     },
     {
       "french": "la rue",
       "english": "street",
+      "ukrainian": "вулиця",
       "example": "Cette rue est très animée."
     },
     {
       "french": "le quartier",
       "english": "neighborhood",
+      "ukrainian": "район",
       "example": "J'habite dans un nouveau quartier."
     },
     {
       "french": "le parc",
       "english": "park",
+      "ukrainian": "парк",
       "example": "Le parc est grand et vert."
     },
     {
       "french": "la place",
       "english": "square",
+      "ukrainian": "площа",
       "example": "Rendez-vous sur la place centrale."
     },
     {
       "french": "le carrefour",
       "english": "intersection",
+      "ukrainian": "перехрестя",
       "example": "Le feu est rouge au carrefour."
     },
     {
       "french": "le boulevard",
       "english": "boulevard",
+      "ukrainian": "бульвар",
       "example": "Ce boulevard est très large."
     },
     {
       "french": "le pont",
       "english": "bridge",
+      "ukrainian": "міст",
       "example": "Le pont traverse la rivière."
     },
     {
       "french": "le jardin public",
       "english": "public garden",
+      "ukrainian": "громадський сад",
       "example": "Le jardin public est fleuri."
     },
     {
       "french": "l'avenue",
       "english": "avenue",
+      "ukrainian": "проспект",
       "example": "Cette avenue mène au centre."
     },
     {
       "french": "la fontaine",
       "english": "fountain",
+      "ukrainian": "фонтан",
       "example": "La fontaine est au milieu de la place."
     },
     {
       "french": "le rond-point",
       "english": "roundabout",
+      "ukrainian": "кругове перехрестя",
       "example": "Prenez le deuxième rond-point."
     },
     {
       "french": "la ruelle",
       "english": "alley",
+      "ukrainian": "провулок",
       "example": "Cette ruelle est étroite."
     },
     {
       "french": "le trottoir",
       "english": "sidewalk",
+      "ukrainian": "тротуар",
       "example": "Marchez sur le trottoir."
     },
     {
       "french": "la zone piétonne",
       "english": "pedestrian zone",
+      "ukrainian": "пішохідна зона",
       "example": "La zone piétonne est animée."
     },
     {
       "french": "le quai",
       "english": "quay/waterfront",
+      "ukrainian": "набережна",
       "example": "Nous nous promenons sur le quai."
     },
     {
       "french": "le passage",
       "english": "passage/walkway",
+      "ukrainian": "перехід",
       "example": "Le passage mène au marché."
     },
     {
       "french": "l'impasse",
       "english": "dead end",
+      "ukrainian": "тупик",
       "example": "Cette rue est une impasse."
     },
     {
       "french": "le parking",
       "english": "parking lot",
+      "ukrainian": "парковка",
       "example": "Le parking est complet."
     },
     {
       "french": "la piste cyclable",
       "english": "bike path",
+      "ukrainian": "велосипедна доріжка",
       "example": "Je prends la piste cyclable."
     }
   ]

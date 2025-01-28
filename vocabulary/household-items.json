@@ -1,26 +1,128 @@
 {
   "name": "Household Items",
+  "name_uk": "Предмети домашнього вжитку",
   "description": "Common tools, cleaning supplies, and small items used in the house.",
+  "description_uk": "Поширені інструменти, засоби для чищення та дрібні предмети, що використовуються в домі.",
   "words": [
-    { "french": "l'aspirateur", "english": "vacuum cleaner", "example": "L'aspirateur est sous l'escalier." },
-    { "french": "le balai", "english": "broom", "example": "Le balai est dans le placard." },
-    { "french": "le panier", "english": "basket", "example": "Le panier est sur la table." },
-    { "french": "le couteau", "english": "knife", "example": "Le couteau est sur la table." },
-    { "french": "la fourchette", "english": "fork", "example": "Je mange avec une fourchette." },
-    { "french": "la cuillère", "english": "spoon", "example": "La cuillère est dans le tiroir." },
-    { "french": "l'assiette", "english": "plate", "example": "Les assiettes sont dans le placard." },
-    { "french": "le verre", "english": "glass", "example": "Je bois dans un verre." },
-    { "french": "le tapis", "english": "rug", "example": "Le tapis est dans le salon." },
-    { "french": "le rideau", "english": "curtain", "example": "Les rideaux sont bleus." },
-    { "french": "l'étagère", "english": "shelf", "example": "L'étagère est pleine de livres." },
-    { "french": "l'armoire", "english": "wardrobe", "example": "L'armoire est dans la chambre." },
-    { "french": "le canapé", "english": "sofa", "example": "Le canapé est très confortable." },
-    { "french": "la table", "english": "table", "example": "La table est en bois." },
-    { "french": "la chaise", "english": "chair", "example": "J'ai besoin d'une chaise." },
-    { "french": "la lampe", "english": "lamp", "example": "La lampe est allumée." },
-    { "french": "l'horloge", "english": "clock", "example": "L'horloge est sur le mur." },
-    { "french": "le coussin", "english": "cushion", "example": "Le coussin est sur le canapé." },
-    { "french": "la plante", "english": "plant", "example": "La plante est sur la fenêtre." },
-    { "french": "le panier à linge", "english": "laundry basket", "example": "Le panier à linge est plein." }
+    {
+      "french": "l'aspirateur",
+      "english": "vacuum cleaner",
+      "ukrainian": "пилосос",
+      "example": "L'aspirateur est sous l'escalier."
+    },
+    {
+      "french": "le balai",
+      "english": "broom",
+      "ukrainian": "мітла",
+      "example": "Le balai est dans le placard."
+    },
+    {
+      "french": "le panier",
+      "english": "basket",
+      "ukrainian": "кошик",
+      "example": "Le panier est sur la table."
+    },
+    {
+      "french": "le couteau",
+      "english": "knife",
+      "ukrainian": "ніж",
+      "example": "Le couteau est sur la table."
+    },
+    {
+      "french": "la fourchette",
+      "english": "fork",
+      "ukrainian": "виделка",
+      "example": "Je mange avec une fourchette."
+    },
+    {
+      "french": "la cuillère",
+      "english": "spoon",
+      "ukrainian": "ложка",
+      "example": "La cuillère est dans le tiroir."
+    },
+    {
+      "french": "l'assiette",
+      "english": "plate",
+      "ukrainian": "тарілка",
+      "example": "Les assiettes sont dans le placard."
+    },
+    {
+      "french": "le verre",
+      "english": "glass",
+      "ukrainian": "склянка",
+      "example": "Je bois dans un verre."
+    },
+    {
+      "french": "le tapis",
+      "english": "rug",
+      "ukrainian": "килим",
+      "example": "Le tapis est dans le salon."
+    },
+    {
+      "french": "le rideau",
+      "english": "curtain",
+      "ukrainian": "штора",
+      "example": "Les rideaux sont bleus."
+    },
+    {
+      "french": "l'étagère",
+      "english": "shelf",
+      "ukrainian": "полиця",
+      "example": "L'étagère est pleine de livres."
+    },
+    {
+      "french": "l'armoire",
+      "english": "wardrobe",
+      "ukrainian": "шафа",
+      "example": "L'armoire est dans la chambre."
+    },
+    {
+      "french": "le canapé",
+      "english": "sofa",
+      "ukrainian": "диван",
+      "example": "Le canapé est très confortable."
+    },
+    {
+      "french": "la table",
+      "english": "table",
+      "ukrainian": "стіл",
+      "example": "La table est en bois."
+    },
+    {
+      "french": "la chaise",
+      "english": "chair",
+      "ukrainian": "стілець",
+      "example": "J'ai besoin d'une chaise."
+    },
+    {
+      "french": "la lampe",
+      "english": "lamp",
+      "ukrainian": "лампа",
+      "example": "La lampe est allumée."
+    },
+    {
+      "french": "l'horloge",
+      "english": "clock",
+      "ukrainian": "годинник",
+      "example": "L'horloge est sur le mur."
+    },
+    {
+      "french": "le coussin",
+      "english": "cushion",
+      "ukrainian": "подушка",
+      "example": "Le coussin est sur le canapé."
+    },
+    {
+      "french": "la plante",
+      "english": "plant",
+      "ukrainian": "рослина",
+      "example": "La plante est sur la fenêtre."
+    },
+    {
+      "french": "le panier à linge",
+      "english": "laundry basket",
+      "ukrainian": "кошик для білизни",
+      "example": "Le panier à linge est plein."
+    }
   ]
 }

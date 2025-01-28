@@ -1,105 +1,127 @@
 {
   "name": "Hobbies and Leisure",
+  "name_uk": "Хобі та дозвілля",
   "description": "Common vocabulary for hobbies and recreational activities",
+  "description_uk": "Поширена лексика для хобі та занять у вільний час",
   "words": [
     {
       "french": "jouer de la guitare",
       "english": "to play guitar",
+      "ukrainian": "грати на гітарі",
       "example": "Je joue de la guitare tous les soirs."
     },
     {
       "french": "faire de la photographie",
       "english": "to do photography",
+      "ukrainian": "займатися фотографією",
       "example": "Je fais de la photographie le weekend."
     },
     {
       "french": "peindre un tableau",
       "english": "to paint a picture",
+      "ukrainian": "малювати картину",
       "example": "Je peins un tableau dans mon atelier."
     },
     {
       "french": "jardiner",
       "english": "to garden",
+      "ukrainian": "займатися садівництвом",
       "example": "Je jardine pendant le printemps."
     },
     {
       "french": "faire du yoga",
       "english": "to do yoga",
+      "ukrainian": "займатися йогою",
       "example": "Je fais du yoga chaque matin."
     },
     {
       "french": "cuisiner",
       "english": "to cook",
+      "ukrainian": "готувати їжу",
       "example": "J'aime cuisiner des plats nouveaux."
     },
     {
       "french": "faire de la randonnée",
       "english": "to go hiking",
+      "ukrainian": "ходити в походи",
       "example": "Je fais de la randonnée en montagne."
     },
     {
       "french": "collectionner des timbres",
       "english": "to collect stamps",
+      "ukrainian": "колекціонувати марки",
       "example": "Je collectionne des timbres rares."
     },
     {
       "french": "bricoler",
       "english": "to do DIY",
+      "ukrainian": "займатися самостійним ремонтом",
       "example": "Je bricole dans le garage."
     },
     {
       "french": "danser",
       "english": "to dance",
+      "ukrainian": "танцювати",
       "example": "Je danse le salsa le vendredi soir."
     },
     {
       "french": "faire du vélo",
       "english": "to cycle",
+      "ukrainian": "кататися на велосипеді",
       "example": "Je fais du vélo le long de la rivière."
     },
     {
       "french": "dessiner",
       "english": "to draw",
+      "ukrainian": "малювати",
       "example": "Je dessine dans mon carnet."
     },
     {
       "french": "jouer aux échecs",
       "english": "to play chess",
+      "ukrainian": "грати в шахи",
       "example": "Je joue aux échecs avec mon voisin."
     },
     {
       "french": "faire de la poterie",
       "english": "to do pottery",
+      "ukrainian": "займатися гончарством",
       "example": "Je fais de la poterie le dimanche."
     },
     {
       "french": "méditer",
       "english": "to meditate",
+      "ukrainian": "медитувати",
       "example": "Je médite pendant vingt minutes."
     },
     {
       "french": "écrire un blog",
       "english": "to write a blog",
+      "ukrainian": "писати блог",
       "example": "J'écris un blog sur la cuisine."
     },
     {
       "french": "faire du surf",
       "english": "to surf",
+      "ukrainian": "займатися серфінгом",
       "example": "Je fais du surf pendant les vacances."
     },
     {
       "french": "tricoter",
       "english": "to knit",
+      "ukrainian": "в'язати",
       "example": "Je tricote un pull pour l'hiver."
     },
     {
       "french": "jouer au tennis",
       "english": "to play tennis",
+      "ukrainian": "грати в теніс",
       "example": "Je joue au tennis le samedi matin."
     },
     {
       "french": "faire de la musique",
       "english": "to make music",
+      "ukrainian": "займатися музикою",
       "example": "Je fais de la musique avec mes amis."
     }
   ]

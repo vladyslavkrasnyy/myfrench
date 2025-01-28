@@ -1,105 +1,127 @@
 {
   "name": "Work Tasks",
   "description": "Common vocabulary for professional and work-related tasks",
+  "name_uk": "Робочі завдання",
+  "description_uk": "Загальний словник для професійних та робочих завдань",
   "words": [
     {
       "french": "envoyer un rapport",
       "english": "to send a report",
+      "ukrainian": "надіслати звіт",
       "example": "J'envoie un rapport hebdomadaire à mon patron."
     },
     {
       "french": "organiser une réunion",
       "english": "to organize a meeting",
+      "ukrainian": "організувати зустріч",
       "example": "J'organise une réunion avec l'équipe marketing."
     },
     {
       "french": "présenter un projet",
       "english": "to present a project",
+      "ukrainian": "представити проект",
       "example": "Je présente un projet aux investisseurs."
     },
     {
       "french": "analyser les données",
       "english": "to analyze data",
+      "ukrainian": "аналізувати дані",
       "example": "J'analyse les données des ventes mensuelles."
     },
     {
       "french": "gérer une équipe",
       "english": "to manage a team",
+      "ukrainian": "керувати командою",
       "example": "Je gère une équipe de dix personnes."
     },
     {
       "french": "prendre des notes",
       "english": "to take notes",
+      "ukrainian": "робити нотатки",
       "example": "Je prends des notes pendant la conférence."
     },
     {
       "french": "fixer des objectifs",
       "english": "to set goals",
+      "ukrainian": "ставити цілі",
       "example": "Je fixe des objectifs trimestriels."
     },
     {
       "french": "résoudre un problème",
       "english": "to solve a problem",
+      "ukrainian": "вирішити проблему",
       "example": "Je résous un problème technique."
     },
     {
       "french": "former un stagiaire",
       "english": "to train an intern",
+      "ukrainian": "тренувати стажера",
       "example": "Je forme un nouveau stagiaire cette semaine."
     },
     {
       "french": "négocier un contrat",
       "english": "to negotiate a contract",
+      "ukrainian": "погоджувати контракт",
       "example": "Je négocie un contrat avec un client."
     },
     {
       "french": "mettre à jour le site web",
       "english": "to update the website",
+      "ukrainian": "оновити вебсайт",
       "example": "Je mets à jour le site web de l'entreprise."
     },
     {
       "french": "faire un budget",
       "english": "to create a budget",
+      "ukrainian": "складати бюджет",
       "example": "Je fais un budget pour le prochain trimestre."
     },
     {
       "french": "planifier un événement",
       "english": "to plan an event",
+      "ukrainian": "планувати захід",
       "example": "Je planifie un événement d'entreprise."
     },
     {
       "french": "rédiger un email",
       "english": "to write an email",
+      "ukrainian": "написати електронного листа",
       "example": "Je rédige un email important au client."
     },
     {
       "french": "évaluer la performance",
       "english": "to evaluate performance",
+      "ukrainian": "оцінювати продуктивність",
       "example": "J'évalue la performance de mon équipe."
     },
     {
       "french": "développer une stratégie",
       "english": "to develop a strategy",
+      "ukrainian": "розробляти стратегію",
       "example": "Je développe une stratégie marketing."
     },
     {
       "french": "coordonner un projet",
       "english": "to coordinate a project",
+      "ukrainian": "координувати проект",
       "example": "Je coordonne un projet international."
     },
     {
       "french": "préparer une présentation",
       "english": "to prepare a presentation",
+      "ukrainian": "підготувати презентацію",
       "example": "Je prépare une présentation pour la réunion."
     },
     {
       "french": "faire des recherches",
       "english": "to do research",
+      "ukrainian": "проводити дослідження",
       "example": "Je fais des recherches sur le marché."
     },
     {
       "french": "établir un rapport",
       "english": "to establish a report",
+      "ukrainian": "скласти звіт",
       "example": "J'établis un rapport financier mensuel."
     }
   ]

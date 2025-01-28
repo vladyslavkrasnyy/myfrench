@@ -8,141 +8,121 @@
       "french": "bordeaux",
       "english": "burgundy",
       "ukrainian": "бордовий",
-      "example": "Le vin est de couleur bordeaux.",
-      "example_uk": "Вино бордового кольору."
+      "example": "Le vin est de couleur bordeaux."
     },
     {
       "french": "turquoise",
       "english": "turquoise",
       "ukrainian": "бірюзовий",
-      "example": "La mer est turquoise.",
-      "example_uk": "Море бірюзового кольору."
+      "example": "La mer est turquoise."
     },
     {
       "french": "indigo",
       "english": "indigo",
       "ukrainian": "індиго",
-      "example": "Le jean est indigo.",
-      "example_uk": "Джинси кольору індиго."
+      "example": "Le jean est indigo."
     },
     {
       "french": "écarlate",
       "english": "scarlet",
       "ukrainian": "яскраво-червоний",
-      "example": "Sa robe est écarlate.",
-      "example_uk": "Її сукня яскраво-червоного кольору."
+      "example": "Sa robe est écarlate."
     },
     {
       "french": "corail",
       "english": "coral",
       "ukrainian": "кораловий",
-      "example": "Le rouge à lèvres est corail.",
-      "example_uk": "Помада коралового кольору."
+      "example": "Le rouge à lèvres est corail."
     },
     {
       "french": "mauve",
       "english": "mauve",
       "ukrainian": "рожево-ліловий",
-      "example": "Les fleurs sont mauves.",
-      "example_uk": "Квіти рожево-лілового кольору."
+      "example": "Les fleurs sont mauves."
     },
     {
       "french": "ocre",
       "english": "ochre",
       "ukrainian": "вохра",
-      "example": "Les murs sont ocre.",
-      "example_uk": "Стіни кольору вохри."
+      "example": "Les murs sont ocre."
     },
     {
       "french": "pourpre",
       "english": "purple-red",
       "ukrainian": "пурпуровий",
-      "example": "La robe est pourpre.",
-      "example_uk": "Сукня пурпурового кольору."
+      "example": "La robe est pourpre."
     },
     {
       "french": "crème",
       "english": "cream",
       "ukrainian": "кремовий",
-      "example": "Le papier est crème.",
-      "example_uk": "Папір кремового кольору."
+      "example": "Le papier est crème."
     },
     {
       "french": "ivoire",
       "english": "ivory",
       "ukrainian": "колір слонової кістки",
-      "example": "Le piano est couleur ivoire.",
-      "example_uk": "Піаніно кольору слонової кістки."
+      "example": "Le piano est couleur ivoire."
     },
     {
       "french": "marine",
       "english": "navy blue",
       "ukrainian": "темно-синій",
-      "example": "Son costume est bleu marine.",
-      "example_uk": "Його костюм темно-синього кольору."
+      "example": "Son costume est bleu marine."
     },
     {
       "french": "safran",
       "english": "saffron",
       "ukrainian": "шафрановий",
-      "example": "L'épice est safran.",
-      "example_uk": "Спеція шафранового кольору."
+      "example": "L'épice est safran."
     },
     {
       "french": "kaki",
       "english": "khaki",
       "ukrainian": "захисний",
-      "example": "Le pantalon est kaki.",
-      "example_uk": "Штани захисного кольору."
+      "example": "Le pantalon est kaki."
     },
     {
       "french": "vermillon",
       "english": "vermilion",
       "ukrainian": "яскраво-червоний",
-      "example": "Le coucher de soleil est vermillon.",
-      "example_uk": "Захід сонця яскраво-червоного кольору."
+      "example": "Le coucher de soleil est vermillon."
     },
     {
       "french": "châtain",
       "english": "chestnut brown",
       "ukrainian": "каштановий",
-      "example": "Ses cheveux sont châtains.",
-      "example_uk": "Її волосся каштанового кольору."
+      "example": "Ses cheveux sont châtains."
     },
     {
       "french": "émeraude",
       "english": "emerald",
       "ukrainian": "смарагдовий",
-      "example": "Ses yeux sont émeraude.",
-      "example_uk": "Її очі смарагдового кольору."
+      "example": "Ses yeux sont émeraude."
     },
     {
       "french": "saumon",
       "english": "salmon pink",
       "ukrainian": "лососевий",
-      "example": "Le pull est couleur saumon.",
-      "example_uk": "Светр лососевого кольору."
+      "example": "Le pull est couleur saumon."
     },
     {
       "french": "bronze",
       "english": "bronze",
       "ukrainian": "бронзовий",
-      "example": "La statue est bronze.",
-      "example_uk": "Статуя бронзового кольору."
+      "example": "La statue est bronze."
     },
     {
       "french": "lavande",
       "english": "lavender",
       "ukrainian": "лавандовий",
-      "example": "Le savon est lavande.",
-      "example_uk": "Мило лавандового кольору."
+      "example": "Le savon est lavande."
     },
     {
       "french": "prune",
       "english": "plum",
       "ukrainian": "сливовий",
-      "example": "Le vernis est couleur prune.",
-      "example_uk": "Лак сливового кольору."
+      "example": "Le vernis est couleur prune."
     }
   ]
 }

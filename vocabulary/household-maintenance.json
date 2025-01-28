@@ -1,25 +1,122 @@
 {
   "name": "Household Maintenance",
   "description": "Tools and supplies for maintaining a home, including repairs and installations.",
+  "name_uk": "Обслуговування дому",
+  "description_uk": "Інструменти та матеріали для обслуговування дому, включаючи ремонти та установки.",
   "words": [
-    { "french": "le marteau", "english": "hammer", "example": "J'utilise le marteau pour clouer." },
-    { "french": "le tournevis", "english": "screwdriver", "example": "Le tournevis est dans la boîte à outils." },
-    { "french": "les clous", "english": "nails", "example": "Les clous sont utilisés pour fixer le bois." },
-    { "french": "la perceuse", "english": "drill", "example": "La perceuse est puissante." },
-    { "french": "le ruban adhésif", "english": "adhesive tape", "example": "Le ruban adhésif est sur le bureau." },
-    { "french": "la clé", "english": "key", "example": "La clé ouvre la porte." },
-    { "french": "le pinceau", "english": "paintbrush", "example": "Le pinceau est utilisé pour la peinture." },
-    { "french": "la clé à molette", "english": "wrench", "example": "La clé à molette est utilisée pour serrer." },
-    { "french": "les vis", "english": "screws", "example": "Les vis sont dans la boîte." },
-    { "french": "la scie", "english": "saw", "example": "La scie coupe le bois." },
-    { "french": "le seau", "english": "bucket", "example": "Le seau est rempli d'eau." },
-    { "french": "la lampe de poche", "english": "flashlight", "example": "La lampe de poche est dans le tiroir." },
-    { "french": "les gants", "english": "gloves", "example": "Je porte des gants pour réparer la fuite." },
-    { "french": "la visseuse", "english": "screwdriver", "example": "La visseuse est rechargeable." },
-    { "french": "le tuyau d'évacuation", "english": "drain hose", "example": "Le tuyau d'évacuation est bouché." },
-    { "french": "le fil électrique", "english": "electric wire", "example": "Le fil électrique est très long." },
-    { "french": "la pince", "english": "pliers", "example": "La pince est utilisée pour couper." },
-    { "french": "l'échelle", "english": "ladder", "example": "L'échelle est appuyée contre le mur." },
-    { "french": "le niveau", "english": "level", "example": "Le niveau sert à vérifier l'horizontalité." }
+    {
+      "french": "le marteau",
+      "english": "hammer",
+      "ukrainian": "молоток",
+      "example": "J'utilise le marteau pour clouer."
+    },
+    {
+      "french": "le tournevis",
+      "english": "screwdriver",
+      "ukrainian": "викрутка",
+      "example": "Le tournevis est dans la boîte à outils."
+    },
+    {
+      "french": "les clous",
+      "english": "nails",
+      "ukrainian": "цвяхи",
+      "example": "Les clous sont utilisés pour fixer le bois."
+    },
+    {
+      "french": "la perceuse",
+      "english": "drill",
+      "ukrainian": "дриль",
+      "example": "La perceuse est puissante."
+    },
+    {
+      "french": "le ruban adhésif",
+      "english": "adhesive tape",
+      "ukrainian": "клейка стрічка",
+      "example": "Le ruban adhésif est sur le bureau."
+    },
+    {
+      "french": "la clé",
+      "english": "key",
+      "ukrainian": "ключ",
+      "example": "La clé ouvre la porte."
+    },
+    {
+      "french": "le pinceau",
+      "english": "paintbrush",
+      "ukrainian": "пензель",
+      "example": "Le pinceau est utilisé pour la peinture."
+    },
+    {
+      "french": "la clé à molette",
+      "english": "wrench",
+      "ukrainian": "гаечний ключ",
+      "example": "La clé à molette est utilisée pour serrer."
+    },
+    {
+      "french": "les vis",
+      "english": "screws",
+      "ukrainian": "гвинти",
+      "example": "Les vis sont dans la boîte."
+    },
+    {
+      "french": "la scie",
+      "english": "saw",
+      "ukrainian": "пила",
+      "example": "La scie coupe le bois."
+    },
+    {
+      "french": "le seau",
+      "english": "bucket",
+      "ukrainian": "відро",
+      "example": "Le seau est rempli d'eau."
+    },
+    {
+      "french": "la lampe de poche",
+      "english": "flashlight",
+      "ukrainian": "ліхтарик",
+      "example": "La lampe de poche est dans le tiroir."
+    },
+    {
+      "french": "les gants",
+      "english": "gloves",
+      "ukrainian": "рукавички",
+      "example": "Je porte des gants pour réparer la fuite."
+    },
+    {
+      "french": "la visseuse",
+      "english": "screwdriver",
+      "ukrainian": "дриль-шуруповерт",
+      "example": "La visseuse est rechargeable."
+    },
+    {
+      "french": "le tuyau d'évacuation",
+      "english": "drain hose",
+      "ukrainian": "дренажний шланг",
+      "example": "Le tuyau d'évacuation est bouché."
+    },
+    {
+      "french": "le fil électrique",
+      "english": "electric wire",
+      "ukrainian": "електричний дріт",
+      "example": "Le fil électrique est très long."
+    },
+    {
+      "french": "la pince",
+      "english": "pliers",
+      "ukrainian": "плоскогубці",
+      "example": "La pince est utilisée pour couper."
+    },
+    {
+      "french": "l'échelle",
+      "english": "ladder",
+      "ukrainian": "драбина",
+      "example": "L'échelle est appuyée contre le mur."
+    },
+    {
+      "french": "le niveau",
+      "english": "level",
+      "ukrainian": "рівень",
+      "example": "Le niveau sert à vérifier l'horizontalité."
+    }
   ]
 }

@@ -1,105 +1,127 @@
 {
   "name": "Fruits and Vegetables",
+  "name_uk": "Фрукти та овочі",
   "description": "Common vocabulary for fruits and vegetables",
+  "description_uk": "Словник для позначення фруктів та овочів",
   "words": [
     {
       "french": "une pomme",
       "english": "an apple",
+      "ukrainian": "яблуко",
       "example": "Je mange une pomme au déjeuner."
     },
     {
       "french": "une banane",
       "english": "a banana",
+      "ukrainian": "банан",
       "example": "La banane est mûre."
     },
     {
       "french": "une carotte",
       "english": "a carrot",
+      "ukrainian": "морква",
       "example": "Les carottes sont bonnes pour la santé."
     },
     {
       "french": "une tomate",
       "english": "a tomato",
+      "ukrainian": "помідор",
       "example": "J'ajoute une tomate à ma salade."
     },
     {
       "french": "des épinards",
       "english": "spinach",
+      "ukrainian": "шпинат",
       "example": "Les épinards sont riches en fer."
     },
     {
       "french": "un brocoli",
       "english": "broccoli",
+      "ukrainian": "броколі",
       "example": "Je cuis le brocoli à la vapeur."
     },
     {
       "french": "une orange",
       "english": "an orange",
+      "ukrainian": "апельсин",
       "example": "Cette orange est juteuse."
     },
     {
       "french": "une fraise",
       "english": "a strawberry",
+      "ukrainian": "полуниця",
       "example": "Les fraises sont sucrées."
     },
     {
       "french": "un poivron",
       "english": "a bell pepper",
+      "ukrainian": "перець",
       "example": "Le poivron est rouge."
     },
     {
       "french": "un oignon",
       "english": "an onion",
+      "ukrainian": "цибуля",
       "example": "Je coupe un oignon pour la soupe."
     },
     {
       "french": "une courgette",
       "english": "a zucchini",
+      "ukrainian": "цукіні",
       "example": "La courgette est fraîche."
     },
     {
       "french": "un raisin",
       "english": "grapes",
+      "ukrainian": "виноград",
       "example": "Le raisin est délicieux."
     },
     {
       "french": "une poire",
       "english": "a pear",
+      "ukrainian": "груша",
       "example": "La poire est mûre."
     },
     {
       "french": "un champignon",
       "english": "a mushroom",
+      "ukrainian": "гриб",
       "example": "J'aime les champignons frais."
     },
     {
       "french": "un citron",
       "english": "a lemon",
+      "ukrainian": "лимон",
       "example": "Le citron est acide."
     },
     {
       "french": "une aubergine",
       "english": "an eggplant",
+      "ukrainian": "баклажан",
       "example": "Je cuisine une aubergine."
     },
     {
       "french": "un chou",
       "english": "a cabbage",
+      "ukrainian": "капуста",
       "example": "Le chou est vert."
     },
     {
       "french": "une pêche",
       "english": "a peach",
+      "ukrainian": "персик",
       "example": "La pêche est douce."
     },
     {
       "french": "un concombre",
       "english": "a cucumber",
+      "ukrainian": "огірок",
       "example": "Le concombre est rafraîchissant."
     },
     {
       "french": "une framboise",
       "english": "a raspberry",
+      "ukrainian": "малина",
       "example": "Les framboises sont fraîches."
     }
   ]

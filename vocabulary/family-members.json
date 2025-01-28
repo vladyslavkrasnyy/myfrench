@@ -1,105 +1,127 @@
 {
   "name": "Family Members",
+  "name_uk": "Члени сім'ї",
   "description": "Common vocabulary for immediate family members",
+  "description_uk": "Словник найближчих членів родини",
   "words": [
     {
       "french": "le père",
       "english": "father",
+      "ukrainian": "батько",
       "example": "Mon père travaille beaucoup."
     },
     {
       "french": "la mère",
       "english": "mother",
+      "ukrainian": "мати",
       "example": "Ma mère fait la cuisine."
     },
     {
       "french": "le fils",
       "english": "son",
+      "ukrainian": "син",
       "example": "Leur fils a dix ans."
     },
     {
       "french": "la fille",
       "english": "daughter",
+      "ukrainian": "дочка",
       "example": "Sa fille étudie à Paris."
     },
     {
       "french": "le frère",
       "english": "brother",
+      "ukrainian": "брат",
       "example": "Mon frère est plus âgé que moi."
     },
     {
       "french": "la sœur",
       "english": "sister",
+      "ukrainian": "сестра",
       "example": "Ma sœur joue du piano."
     },
     {
       "french": "les parents",
       "english": "parents",
+      "ukrainian": "батьки",
       "example": "Mes parents sont en vacances."
     },
     {
       "french": "les enfants",
       "english": "children",
+      "ukrainian": "діти",
       "example": "Les enfants jouent dans le jardin."
     },
     {
       "french": "le mari",
       "english": "husband",
+      "ukrainian": "чоловік",
       "example": "Son mari est médecin."
     },
     {
       "french": "la femme",
       "english": "wife",
+      "ukrainian": "дружина",
       "example": "Sa femme parle trois langues."
     },
     {
       "french": "le bébé",
       "english": "baby",
+      "ukrainian": "немовля",
       "example": "Le bébé dort paisiblement."
     },
     {
       "french": "les jumeaux",
       "english": "twins",
+      "ukrainian": "близнюки",
       "example": "Les jumeaux sont identiques."
     },
     {
       "french": "le papa",
       "english": "dad",
+      "ukrainian": "тато",
       "example": "Mon papa rentre du travail."
     },
     {
       "french": "la maman",
       "english": "mom",
+      "ukrainian": "мама",
       "example": "Ma maman fait du jardinage."
     },
     {
       "french": "les frères et sœurs",
       "english": "siblings",
+      "ukrainian": "брати і сестри",
       "example": "J'ai trois frères et sœurs."
     },
     {
       "french": "l'époux",
       "english": "spouse (male)",
+      "ukrainian": "подружжя (чоловік)",
       "example": "Son époux est architecte."
     },
     {
       "french": "l'épouse",
       "english": "spouse (female)",
+      "ukrainian": "подружжя (жінка)",
       "example": "Son épouse enseigne l'anglais."
     },
     {
       "french": "le nouveau-né",
       "english": "newborn",
+      "ukrainian": "новонароджений",
       "example": "Le nouveau-né a une semaine."
     },
     {
       "french": "l'aîné",
       "english": "eldest child",
+      "ukrainian": "старша дитина",
       "example": "L'aîné est responsable."
     },
     {
       "french": "le cadet",
       "english": "youngest child",
+      "ukrainian": "молодша дитина",
       "example": "Le cadet est très créatif."
     }
   ]

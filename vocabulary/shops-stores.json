@@ -1,105 +1,127 @@
 {
   "name": "Shops and Stores",
   "description": "Common vocabulary for different types of shops and retail establishments",
+  "name_uk": "Магазини та торгові заклади",
+  "description_uk": "Загальний словниковий запас для різних типів магазинів та торгових установ",
   "words": [
     {
       "french": "la boulangerie",
       "english": "bakery",
+      "ukrainian": "пекарня",
       "example": "J'achète du pain à la boulangerie."
     },
     {
       "french": "la pharmacie",
       "english": "pharmacy",
+      "ukrainian": "аптека",
       "example": "Je vais à la pharmacie pour mes médicaments."
     },
     {
       "french": "le supermarché",
       "english": "supermarket",
+      "ukrainian": "супермаркет",
       "example": "Je fais les courses au supermarché."
     },
     {
       "french": "la librairie",
       "english": "bookstore",
+      "ukrainian": "книжковий магазин",
       "example": "J'achète un livre à la librairie."
     },
     {
       "french": "la boucherie",
       "english": "butcher shop",
+      "ukrainian": "м'ясна крамниця",
       "example": "La viande de la boucherie est fraîche."
     },
     {
       "french": "le magasin de vêtements",
       "english": "clothing store",
+      "ukrainian": "магазин одягу",
       "example": "Je cherche une robe au magasin de vêtements."
     },
     {
       "french": "la pâtisserie",
       "english": "pastry shop",
+      "ukrainian": "кондитерська",
       "example": "Les gâteaux de la pâtisserie sont délicieux."
     },
     {
       "french": "le fleuriste",
       "english": "florist",
+      "ukrainian": "квітковий магазин",
       "example": "J'achète des fleurs chez le fleuriste."
     },
     {
       "french": "la bijouterie",
       "english": "jewelry store",
+      "ukrainian": "ювелірний магазин",
       "example": "Cette bijouterie vend des montres."
     },
     {
       "french": "l'épicerie",
       "english": "grocery store",
+      "ukrainian": "продуктовий магазин",
       "example": "L'épicerie du coin est pratique."
     },
     {
       "french": "le café",
       "english": "café",
+      "ukrainian": "кафе",
       "example": "On se retrouve au café."
     },
     {
       "french": "la quincaillerie",
       "english": "hardware store",
+      "ukrainian": "магазин інструментів",
       "example": "Je vais à la quincaillerie pour des outils."
     },
     {
       "french": "le salon de coiffure",
       "english": "hair salon",
+      "ukrainian": "перукарня",
       "example": "J'ai rendez-vous au salon de coiffure."
     },
     {
       "french": "la papeterie",
       "english": "stationery store",
+      "ukrainian": "канцелярський магазин",
       "example": "J'achète des cahiers à la papeterie."
     },
     {
       "french": "le pressing",
       "english": "dry cleaner's",
+      "ukrainian": "хімчистка",
       "example": "Je dépose mon costume au pressing."
     },
     {
       "french": "la poissonnerie",
       "english": "fish market",
+      "ukrainian": "риболовний ринок",
       "example": "Le poisson est frais à la poissonnerie."
     },
     {
       "french": "le tabac",
       "english": "tobacco shop",
+      "ukrainian": "тютюновий магазин",
       "example": "J'achète un journal au tabac."
     },
     {
       "french": "la parfumerie",
       "english": "perfume shop",
+      "ukrainian": "парфумерія",
       "example": "Elle travaille dans une parfumerie."
     },
     {
       "french": "le kiosque",
       "english": "newsstand",
+      "ukrainian": "книжковий кіоск",
       "example": "Je prends un magazine au kiosque."
     },
     {
       "french": "la fromagerie",
       "english": "cheese shop",
+      "ukrainian": "магазин сиру",
       "example": "Cette fromagerie vend des fromages locaux."
     }
   ]

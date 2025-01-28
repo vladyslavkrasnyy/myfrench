@@ -1,26 +1,128 @@
 {
   "name": "Domestic Animals",
+  "name_uk": "Домашні тварини",
   "description": "Common pets and farm animals",
+  "description_uk": "Поширені домашні улюбленці та сільськогосподарські тварини",
   "words": [
-    { "french": "le chat", "english": "cat", "example": "Le chat dort sur le canapé." },
-    { "french": "le chien", "english": "dog", "example": "Le chien joue dans le jardin." },
-    { "french": "le lapin", "english": "rabbit", "example": "Le lapin mange une carotte." },
-    { "french": "le hamster", "english": "hamster", "example": "Le hamster court dans sa roue." },
-    { "french": "le cochon d'Inde", "english": "guinea pig", "example": "Le cochon d'Inde aime les légumes." },
-    { "french": "le perroquet", "english": "parrot", "example": "Le perroquet parle beaucoup." },
-    { "french": "la perruche", "english": "budgie", "example": "La perruche est de couleur bleue." },
-    { "french": "le poisson rouge", "english": "goldfish", "example": "Le poisson rouge nage dans son bocal." },
-    { "french": "la tortue", "english": "turtle", "example": "La tortue mange de la laitue." },
-    { "french": "le cheval", "english": "horse", "example": "Le cheval galope dans le pré." },
-    { "french": "la vache", "english": "cow", "example": "La vache donne du lait." },
-    { "french": "le cochon", "english": "pig", "example": "Le cochon se roule dans la boue." },
-    { "french": "le mouton", "english": "sheep", "example": "Le mouton a de la laine." },
-    { "french": "l'agneau", "english": "lamb", "example": "L'agneau suit sa mère." },
-    { "french": "la poule", "english": "chicken", "example": "La poule pond des œufs." },
-    { "french": "le coq", "english": "rooster", "example": "Le coq chante le matin." },
-    { "french": "le canard", "english": "duck", "example": "Le canard nage sur le lac." },
-    { "french": "l'oie", "english": "goose", "example": "L'oie mange de l'herbe." },
-    { "french": "la chèvre", "english": "goat", "example": "La chèvre grimpe sur les rochers." },
-    { "french": "l'âne", "english": "donkey", "example": "L'âne porte des sacs lourds." }
+    {
+      "french": "le chat",
+      "english": "cat",
+      "ukrainian": "кіт",
+      "example": "Le chat dort sur le canapé."
+    },
+    {
+      "french": "le chien",
+      "english": "dog",
+      "ukrainian": "собака",
+      "example": "Le chien joue dans le jardin."
+    },
+    {
+      "french": "le lapin",
+      "english": "rabbit",
+      "ukrainian": "кролик",
+      "example": "Le lapin mange une carotte."
+    },
+    {
+      "french": "le hamster",
+      "english": "hamster",
+      "ukrainian": "хом'як",
+      "example": "Le hamster court dans sa roue."
+    },
+    {
+      "french": "le cochon d'Inde",
+      "english": "guinea pig",
+      "ukrainian": "морська свинка",
+      "example": "Le cochon d'Inde aime les légumes."
+    },
+    {
+      "french": "le perroquet",
+      "english": "parrot",
+      "ukrainian": "папуга",
+      "example": "Le perroquet parle beaucoup."
+    },
+    {
+      "french": "la perruche",
+      "english": "budgie",
+      "ukrainian": "хвилястий папужка",
+      "example": "La perruche est de couleur bleue."
+    },
+    {
+      "french": "le poisson rouge",
+      "english": "goldfish",
+      "ukrainian": "золота рибка",
+      "example": "Le poisson rouge nage dans son bocal."
+    },
+    {
+      "french": "la tortue",
+      "english": "turtle",
+      "ukrainian": "черепаха",
+      "example": "La tortue mange de la laitue."
+    },
+    {
+      "french": "le cheval",
+      "english": "horse",
+      "ukrainian": "кінь",
+      "example": "Le cheval galope dans le pré."
+    },
+    {
+      "french": "la vache",
+      "english": "cow",
+      "ukrainian": "корова",
+      "example": "La vache donne du lait."
+    },
+    {
+      "french": "le cochon",
+      "english": "pig",
+      "ukrainian": "свиня",
+      "example": "Le cochon se roule dans la boue."
+    },
+    {
+      "french": "le mouton",
+      "english": "sheep",
+      "ukrainian": "вівця",
+      "example": "Le mouton a de la laine."
+    },
+    {
+      "french": "l'agneau",
+      "english": "lamb",
+      "ukrainian": "ягня",
+      "example": "L'agneau suit sa mère."
+    },
+    {
+      "french": "la poule",
+      "english": "chicken",
+      "ukrainian": "курка",
+      "example": "La poule pond des œufs."
+    },
+    {
+      "french": "le coq",
+      "english": "rooster",
+      "ukrainian": "півень",
+      "example": "Le coq chante le matin."
+    },
+    {
+      "french": "le canard",
+      "english": "duck",
+      "ukrainian": "качка",
+      "example": "Le canard nage sur le lac."
+    },
+    {
+      "french": "l'oie",
+      "english": "goose",
+      "ukrainian": "гуска",
+      "example": "L'oie mange de l'herbe."
+    },
+    {
+      "french": "la chèvre",
+      "english": "goat",
+      "ukrainian": "коза",
+      "example": "La chèvre grimpe sur les rochers."
+    },
+    {
+      "french": "l'âne",
+      "english": "donkey",
+      "ukrainian": "осел",
+      "example": "L'âne porte des sacs lourds."
+    }
   ]
 }

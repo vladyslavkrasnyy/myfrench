@@ -1,25 +1,122 @@
 {
   "name": "Safety Equipment",
   "description": "Fire extinguishers, smoke alarms, first aid kits, etc.",
+  "name_uk": "Запобіжне обладнання",
+  "description_uk": "Вогнегасники, димові сигналізації, аптечки першої допомоги тощо.",
   "words": [
-    { "french": "l'extincteur", "english": "fire extinguisher", "example": "L'extincteur est situé près de la porte." },
-    { "french": "l'alarme incendie", "english": "fire alarm", "example": "L'alarme incendie s'est déclenchée." },
-    { "french": "la trousse de premiers secours", "english": "first aid kit", "example": "La trousse de premiers secours est dans le placard." },
-    { "french": "les bandages", "english": "bandages", "example": "J'ai utilisé un bandage pour couvrir la blessure." },
-    { "french": "les gants de protection", "english": "protective gloves", "example": "Je porte des gants de protection en cas de danger." },
-    { "french": "le casque", "english": "helmet", "example": "Je porte un casque pour travailler en sécurité." },
-    { "french": "les lunettes de sécurité", "english": "safety glasses", "example": "Les lunettes de sécurité sont nécessaires lors de l'utilisation de produits chimiques." },
-    { "french": "le masque", "english": "mask", "example": "Le masque est pour se protéger des poussières." },
-    { "french": "la couverture de survie", "english": "survival blanket", "example": "La couverture de survie est légère et compacte." },
-    { "french": "les extincteurs automatiques", "english": "automatic fire extinguishers", "example": "Les extincteurs automatiques s'activent en cas d'incendie." },
-    { "french": "le kit de protection", "english": "protection kit", "example": "Le kit de protection comprend des gants et des lunettes." },
-    { "french": "le défibrillateur", "english": "defibrillator", "example": "Le défibrillateur est installé dans le hall." },
-    { "french": "la lampe de poche", "english": "flashlight", "example": "La lampe de poche est utile en cas de panne de courant." },
-    { "french": "la sirène d'alarme", "english": "alarm siren", "example": "La sirène d'alarme est très bruyante." },
-    { "french": "le détecteur de monoxyde de carbone", "english": "carbon monoxide detector", "example": "Le détecteur de monoxyde de carbone avertit de tout danger." },
-    { "french": "le kit de secours", "english": "emergency kit", "example": "Le kit de secours contient des pansements et des antiseptiques." },
-    { "french": "la planche de secours", "english": "rescue board", "example": "La planche de secours est utilisée pour transporter les blessés." },
-    { "french": "le matériel de sauvetage", "english": "rescue equipment", "example": "Le matériel de sauvetage est essentiel lors des interventions d'urgence." },
-    { "french": "les étiquettes de sécurité", "english": "safety labels", "example": "Les étiquettes de sécurité indiquent les dangers potentiels." }
+    {
+      "french": "l'extincteur",
+      "english": "fire extinguisher",
+      "ukrainian": "вогнегасник",
+      "example": "L'extincteur est situé près de la porte."
+    },
+    {
+      "french": "l'alarme incendie",
+      "english": "fire alarm",
+      "ukrainian": "пожежна сигналізація",
+      "example": "L'alarme incendie s'est déclenchée."
+    },
+    {
+      "french": "la trousse de premiers secours",
+      "english": "first aid kit",
+      "ukrainian": "аптечка першої допомоги",
+      "example": "La trousse de premiers secours est dans le placard."
+    },
+    {
+      "french": "les bandages",
+      "english": "bandages",
+      "ukrainian": "бинти",
+      "example": "J'ai utilisé un bandage pour couvrir la blessure."
+    },
+    {
+      "french": "les gants de protection",
+      "english": "protective gloves",
+      "ukrainian": "захисні рукавички",
+      "example": "Je porte des gants de protection en cas de danger."
+    },
+    {
+      "french": "le casque",
+      "english": "helmet",
+      "ukrainian": "шолом",
+      "example": "Je porte un casque pour travailler en sécurité."
+    },
+    {
+      "french": "les lunettes de sécurité",
+      "english": "safety glasses",
+      "ukrainian": "захисні окуляри",
+      "example": "Les lunettes de sécurité sont nécessaires lors de l'utilisation de produits chimiques."
+    },
+    {
+      "french": "le masque",
+      "english": "mask",
+      "ukrainian": "маска",
+      "example": "Le masque est pour se protéger des poussières."
+    },
+    {
+      "french": "la couverture de survie",
+      "english": "survival blanket",
+      "ukrainian": "кора для виживання",
+      "example": "La couverture de survie est légère et compacte."
+    },
+    {
+      "french": "les extincteurs automatiques",
+      "english": "automatic fire extinguishers",
+      "ukrainian": "автоматичні вогнегасники",
+      "example": "Les extincteurs automatiques s'activent en cas d'incendie."
+    },
+    {
+      "french": "le kit de protection",
+      "english": "protection kit",
+      "ukrainian": "комплект захисту",
+      "example": "Le kit de protection comprend des gants et des lunettes."
+    },
+    {
+      "french": "le défibrillateur",
+      "english": "defibrillator",
+      "ukrainian": "дефібрилятор",
+      "example": "Le défibrillateur est installé dans le hall."
+    },
+    {
+      "french": "la lampe de poche",
+      "english": "flashlight",
+      "ukrainian": "факел",
+      "example": "La lampe de poche est utile en cas de panne de courant."
+    },
+    {
+      "french": "la sirène d'alarme",
+      "english": "alarm siren",
+      "ukrainian": "сигнальна сирена",
+      "example": "La sirène d'alarme est très bruyante."
+    },
+    {
+      "french": "le détecteur de monoxyde de carbone",
+      "english": "carbon monoxide detector",
+      "ukrainian": "детектор чадного газу",
+      "example": "Le détecteur de monoxyde de carbone avertit de tout danger."
+    },
+    {
+      "french": "le kit de secours",
+      "english": "emergency kit",
+      "ukrainian": "аптечка для надзвичайних ситуацій",
+      "example": "Le kit de secours contient des pansements et des antiseptiques."
+    },
+    {
+      "french": "la planche de secours",
+      "english": "rescue board",
+      "ukrainian": "рятувальна дошка",
+      "example": "La planche de secours est utilisée pour transporter les blessés."
+    },
+    {
+      "french": "le matériel de sauvetage",
+      "english": "rescue equipment",
+      "ukrainian": "рятувальне обладнання",
+      "example": "Le matériel de sauvetage est essentiel lors des interventions d'urgence."
+    },
+    {
+      "french": "les étiquettes de sécurité",
+      "english": "safety labels",
+      "ukrainian": "захисні етикетки",
+      "example": "Les étiquettes de sécurité indiquent les dangers potentiels."
+    }
   ]
 }

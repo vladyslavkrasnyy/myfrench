@@ -1,105 +1,127 @@
 {
   "name": "Beverages",
+  "name_uk": "Напої",
   "description": "Common vocabulary for drinks and beverages",
+  "description_uk": "Словник поширених напоїв",
   "words": [
     {
       "french": "l'eau",
       "english": "water",
+      "ukrainian": "вода",
       "example": "Je bois de l'eau minérale."
     },
     {
       "french": "le café",
       "english": "coffee",
+      "ukrainian": "кава",
       "example": "Je prends un café le matin."
     },
     {
       "french": "le thé",
       "english": "tea",
+      "ukrainian": "чай",
       "example": "Le thé est chaud."
     },
     {
       "french": "le vin",
       "english": "wine",
+      "ukrainian": "вино",
       "example": "Le vin rouge est excellent."
     },
     {
       "french": "la bière",
       "english": "beer",
+      "ukrainian": "пиво",
       "example": "Une bière fraîche, s'il vous plaît."
     },
     {
       "french": "le jus d'orange",
       "english": "orange juice",
+      "ukrainian": "апельсиновий сік",
       "example": "Je bois du jus d'orange frais."
     },
     {
       "french": "le chocolat chaud",
       "english": "hot chocolate",
+      "ukrainian": "гарячий шоколад",
       "example": "Le chocolat chaud est crémeux."
     },
     {
       "french": "le soda",
       "english": "soda",
+      "ukrainian": "газований напій",
       "example": "Je préfère le soda sans sucre."
     },
     {
       "french": "le champagne",
       "english": "champagne",
+      "ukrainian": "шампанське",
       "example": "Nous célébrons avec du champagne."
     },
     {
       "french": "le cidre",
       "english": "cider",
+      "ukrainian": "сидр",
       "example": "Le cidre est une boisson normande."
     },
     {
       "french": "le smoothie",
       "english": "smoothie",
+      "ukrainian": "смузі",
       "example": "Je prépare un smoothie aux fruits."
     },
     {
       "french": "le coca",
       "english": "cola",
+      "ukrainian": "кола",
       "example": "Un coca avec des glaçons."
     },
     {
       "french": "la limonade",
       "english": "lemonade",
+      "ukrainian": "лимонад",
       "example": "La limonade est rafraîchissante."
     },
     {
       "french": "le milkshake",
       "english": "milkshake",
+      "ukrainian": "молочний коктейль",
       "example": "Je commande un milkshake à la vanille."
     },
     {
       "french": "le cognac",
       "english": "cognac",
+      "ukrainian": "коньяк",
       "example": "Le cognac se boit en digestif."
     },
     {
       "french": "le jus de pomme",
       "english": "apple juice",
+      "ukrainian": "яблучний сік",
       "example": "Le jus de pomme est sucré."
     },
     {
       "french": "l'expresso",
       "english": "espresso",
+      "ukrainian": "еспресо",
       "example": "Un expresso après le repas."
     },
     {
       "french": "le cappuccino",
       "english": "cappuccino",
+      "ukrainian": "капучино",
       "example": "Le cappuccino est recouvert de mousse."
     },
     {
       "french": "le thé glacé",
       "english": "iced tea",
+      "ukrainian": "холодний чай",
       "example": "Le thé glacé est parfait en été."
     },
     {
       "french": "l'eau gazeuse",
       "english": "sparkling water",
+      "ukrainian": "газована вода",
       "example": "Je préfère l'eau gazeuse."
     }
   ]

@@ -21,7 +21,6 @@ const supportedLanguages = {
         name: 'Українська',
         code: 'uk'
     }
-    // Add more languages as needed
 };
 
 // UI text translations
@@ -37,7 +36,10 @@ const uiTranslations = {
         time: 'Time',
         summary: 'Summary',
         finalScore: 'Final Score',
-        accuracy: 'Accuracy'
+        accuracy: 'Accuracy',
+        previous: 'Previous',
+        next: 'Next',
+        back: 'Back'
     },
     ukrainian: {
         selectTopic: 'Оберіть тему',
@@ -50,7 +52,10 @@ const uiTranslations = {
         time: 'Час',
         summary: 'Підсумок',
         finalScore: 'Фінальний рахунок',
-        accuracy: 'Точність'
+        accuracy: 'Точність',
+        previous: 'Попереднє',
+        next: 'Наступне',
+        back: 'Назад'
     }
 };
 
@@ -120,6 +125,12 @@ function displayLanguageSelector() {
 function changeLanguage(langKey) {
     currentLanguage = langKey;
     updateUILanguage();
+    if (currentTopic && currentWord) {
+        displayCurrentWord(); // Refresh current word display if we're in learning mode
+    }
+    if (document.getElementById('testingMode').style.display === 'block') {
+        generateQuestion(); // Refresh testing mode if we're in it
+    }
     displayTopics();
 }
 
@@ -129,40 +140,15 @@ function updateUILanguage() {
     // Update all UI elements with translated text
     document.querySelector('#topicSelection h2').textContent = translations.selectTopic;
     document.querySelector('#modeSelection h2').textContent = translations.chooseMode;
-    // ... update other UI elements
-}
+    document.querySelector('#modeSelection button:nth-child(1)').textContent = translations.learningMode;
+    document.querySelector('#modeSelection button:nth-child(2)').textContent = translations.testingMode;
+    document.querySelector('#modeSelection button:nth-child(3)').textContent = translations.backToTopics;
 
-// Display current word in learning mode with media
-function displayCurrentWord() {
-    const word = topics[currentTopic].words[currentIndex];
-    document.getElementById('frenchWord').textContent = word.french;
-    document.getElementById('nativeWord').textContent = word[currentLanguage];
-    document.getElementById('example').textContent = word.example;
-
-    // Display image if available
-    const imageContainer = document.getElementById('wordImage');
-    imageContainer.innerHTML = `<img src="${word.media.image}" alt="${word.french}" onerror="this.style.display='none'">`;
-
-    // Add audio players
-    const audioContainer = document.getElementById('wordAudio');
-    audioContainer.innerHTML = `
-        <div class="audio-controls">
-            <button onclick="playAudio('${word.media.audio.french}')" class="audio-btn">
-                🔊 French
-            </button>
-            <button onclick="playAudio('${word.media.audio[currentLanguage]}')" class="audio-btn">
-                🔊 ${supportedLanguages[currentLanguage].name}
-            </button>
-        </div>
-    `;
-}
-
-// Audio playback function
-function playAudio(audioUrl) {
-    const audio = new Audio(audioUrl);
-    audio.play().catch(error => {
-        console.error('Error playing audio:', error);
-    });
+    // Update learning mode buttons
+    const learningControls = document.querySelector('#learningMode .controls');
+    learningControls.querySelector('button:nth-child(1)').textContent = translations.previous;
+    learningControls.querySelector('button:nth-child(2)').textContent = translations.next;
+    learningControls.querySelector('button:nth-child(3)').textContent = translations.back;
 }
 
 // Display available topics
@@ -172,7 +158,7 @@ function displayTopics() {
 
     Object.entries(topics).forEach(([id, topic]) => {
         const button = document.createElement('button');
-        button.textContent = topic.name;
+        button.textContent = currentLanguage === 'ukrainian' ? topic.name_uk : topic.name;
         button.onclick = () => selectTopic(id);
         topicList.appendChild(button);
     });
@@ -204,6 +190,39 @@ function startTestingMode() {
     questionCount = 0;
     showSection('testingMode');
     generateQuestion();
+}
+
+// Display current word in learning mode
+function displayCurrentWord() {
+    const word = topics[currentTopic].words[currentIndex];
+    document.getElementById('frenchWord').textContent = word.french;
+    document.getElementById('nativeWord').textContent = word[currentLanguage === 'english' ? 'english' : 'ukrainian'];
+    document.getElementById('example').textContent = word[`example${currentLanguage === 'ukrainian' ? '_uk' : ''}`];
+
+    // Display image if available
+    const imageContainer = document.getElementById('wordImage');
+    imageContainer.innerHTML = `<img src="${word.media.image}" alt="${word.french}" onerror="this.style.display='none'">`;
+
+    // Add audio players
+    const audioContainer = document.getElementById('wordAudio');
+    audioContainer.innerHTML = `
+        <div class="audio-controls">
+            <button onclick="playAudio('${word.media.audio.french}')" class="audio-btn">
+                🔊 French
+            </button>
+            <button onclick="playAudio('${word.media.audio[currentLanguage]}')" class="audio-btn">
+                🔊 ${supportedLanguages[currentLanguage].name}
+            </button>
+        </div>
+    `;
+}
+
+// Audio playback function
+function playAudio(audioUrl) {
+    const audio = new Audio(audioUrl);
+    audio.play().catch(error => {
+        console.error('Error playing audio:', error);
+    });
 }
 
 // Navigation in learning mode
@@ -246,7 +265,7 @@ function generateQuestion() {
 
     // Update display
     document.getElementById('testFrenchWord').textContent = currentWord.french;
-    document.getElementById('testExample').textContent = currentWord.example;
+    document.getElementById('testExample').textContent = currentWord[`example${currentLanguage === 'ukrainian' ? '_uk' : ''}`];
     document.getElementById('questionCount').textContent = questionCount;
     document.getElementById('score').textContent = score;
 
@@ -255,7 +274,7 @@ function generateQuestion() {
     optionsContainer.innerHTML = '';
     options.forEach((option, index) => {
         const button = document.createElement('button');
-        button.textContent = option.english;
+        button.textContent = option[currentLanguage === 'english' ? 'english' : 'ukrainian'];
         button.onclick = () => checkAnswer(index);
         optionsContainer.appendChild(button);
     });
@@ -303,7 +322,6 @@ function checkAnswer(index) {
     } else {
         score = Math.max(0, score - 2); // Deduct 2 points for wrong answer
         document.getElementById('score').textContent = score;
-        // Allow seeing the correct answer before next question
         setTimeout(generateQuestion, 1500);
     }
 }
@@ -319,15 +337,16 @@ function handleTimeout() {
     });
     score = Math.max(0, score - 2); // Deduct 2 points for timeout
     document.getElementById('score').textContent = score;
-    setTimeout(generateQuestion, 1000);
+    setTimeout(generateQuestion, 1500);
 }
 
 // Show summary
 function showSummary() {
+    const translations = uiTranslations[currentLanguage];
     const accuracy = Math.round((score / 10) * 100);
     document.getElementById('summaryContent').innerHTML = `
-        <p>Final Score: ${score}</p>
-        <p>Accuracy: ${accuracy}%</p>
+        <p>${translations.finalScore}: ${score}</p>
+        <p>${translations.accuracy}: ${accuracy}%</p>
     `;
     showSection('summary');
 }

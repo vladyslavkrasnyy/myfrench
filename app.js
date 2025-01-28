@@ -201,9 +201,7 @@ function displayCurrentWord() {
 
     // Handle the example with proper fallback
     const exampleElement = document.getElementById('example');
-    const exampleText = currentLanguage === 'ukrainian' && word.example_uk ?
-        word.example_uk :
-        word.example;
+    const exampleText = word.example;
 
     if (exampleText) {
         exampleElement.textContent = exampleText;

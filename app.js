@@ -284,7 +284,7 @@ function generateQuestion() {
 
 // Timer functionality
 function startTimer() {
-    let timeLeft = 20;
+    let timeLeft = 10;
     document.getElementById('timer').textContent = timeLeft;
 
     if (timer) clearInterval(timer);

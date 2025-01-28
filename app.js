@@ -192,15 +192,31 @@ function startTestingMode() {
 // Display current word in learning mode
 function displayCurrentWord() {
     const word = topics[currentTopic].words[currentIndex];
+
+    // Update the French word
     document.getElementById('frenchWord').textContent = word.french;
+
+    // Update the native translation based on selected language
     document.getElementById('nativeWord').textContent = word[currentLanguage === 'english' ? 'english' : 'ukrainian'];
-    document.getElementById('example').textContent = word[`example${currentLanguage === 'ukrainian' ? '_uk' : ''}`];
+
+    // Handle the example with proper fallback
+    const exampleElement = document.getElementById('example');
+    const exampleText = currentLanguage === 'ukrainian' && word.example_uk ?
+        word.example_uk :
+        word.example;
+
+    if (exampleText) {
+        exampleElement.textContent = exampleText;
+        exampleElement.style.display = 'block';
+    } else {
+        exampleElement.style.display = 'none';
+    }
 
     // Display image if available
     const imageContainer = document.getElementById('wordImage');
     imageContainer.innerHTML = `<img src="${word.media.image}" alt="${word.french}" onerror="this.style.display='none'">`;
 
-    // Add single audio player for French pronunciation
+    // Add audio player for French pronunciation
     const audioContainer = document.getElementById('wordAudio');
     audioContainer.innerHTML = `
         <div class="audio-controls">

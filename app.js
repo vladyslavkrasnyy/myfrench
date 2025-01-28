@@ -199,14 +199,10 @@ function displayCurrentWord() {
     // Update the native translation based on selected language
     document.getElementById('nativeWord').textContent = word[currentLanguage === 'english' ? 'english' : 'ukrainian'];
 
-    // Always display the French example regardless of interface language
+    // Display the French example
     const exampleElement = document.getElementById('example');
-    if (word.example) {
-        exampleElement.textContent = word.example;
-        exampleElement.style.display = 'block';
-    } else {
-        exampleElement.style.display = 'none';
-    }
+    exampleElement.textContent = word.example;
+    exampleElement.style.display = word.example ? 'block' : 'none';
 
     // Display image if available
     const imageContainer = document.getElementById('wordImage');

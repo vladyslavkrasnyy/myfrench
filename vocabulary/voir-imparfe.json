@@ -1,0 +1,80 @@
+{
+  "name": "Verb Voir Imparfait",
+  "name_uk": "Дієслово Voir у минулому недоконаному часі",
+  "description": "Conjugation of verb 'voir' (to see) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'voir' (бачити) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "je voyais",
+      "english": "I was seeing/used to see",
+      "ukrainian": "я бачив",
+      "example": "Je voyais la mer de ma fenêtre."
+    },
+    {
+      "french": "tu voyais",
+      "english": "you were seeing/used to see",
+      "ukrainian": "ти бачив",
+      "example": "Tu voyais ce qui se passait?"
+    },
+    {
+      "french": "il voyait",
+      "english": "he was seeing/used to see",
+      "ukrainian": "він бачив",
+      "example": "Il voyait bien sans lunettes."
+    },
+    {
+      "french": "elle voyait",
+      "english": "she was seeing/used to see",
+      "ukrainian": "вона бачила",
+      "example": "Elle voyait son ami chaque jour."
+    },
+    {
+      "french": "nous voyions",
+      "english": "we were seeing/used to see",
+      "ukrainian": "ми бачили",
+      "example": "Nous voyions nos parents le weekend."
+    },
+    {
+      "french": "vous voyiez",
+      "english": "you were seeing/used to see (formal/plural)",
+      "ukrainian": "ви бачили",
+      "example": "Vous voyiez la différence?"
+    },
+    {
+      "french": "ils voyaient",
+      "english": "they were seeing/used to see (masculine)",
+      "ukrainian": "вони бачили",
+      "example": "Ils voyaient leurs amis souvent."
+    },
+    {
+      "french": "elles voyaient",
+      "english": "they were seeing/used to see (feminine)",
+      "ukrainian": "вони бачили",
+      "example": "Elles voyaient le spectacle."
+    },
+    {
+      "french": "je ne voyais pas",
+      "english": "I wasn't seeing/couldn't see",
+      "ukrainian": "я не бачив",
+      "example": "Je ne voyais pas très bien."
+    },
+    {
+      "french": "on voyait",
+      "english": "one could see/we could see",
+      "ukrainian": "було видно",
+      "example": "On voyait les étoiles la nuit."
+    },
+    {
+      "french": "comme je le voyais",
+      "english": "as I saw it",
+      "ukrainian": "як я це бачив",
+      "example": "Comme je le voyais à l'époque."
+    },
+    {
+      "french": "que voyais-tu",
+      "english": "what did you see",
+      "ukrainian": "що ти бачив",
+      "example": "Que voyais-tu de ta chambre?"
+    }
+  ]
+}

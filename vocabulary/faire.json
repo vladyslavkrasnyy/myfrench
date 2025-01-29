@@ -1,0 +1,110 @@
+{
+  "name": "Verb Faire Usage",
+  "name_uk": "Дієслово Faire (Робити)",
+  "description": "Common phrases and conjugations with verb 'faire' (to do/make)",
+  "description_uk": "Поширені фрази та відмінювання з дієсловом 'faire' (робити)",
+  "words": [
+    {
+      "french": "je fais",
+      "english": "I do/make",
+      "ukrainian": "я роблю",
+      "example": "Je fais mes devoirs."
+    },
+    {
+      "french": "tu fais",
+      "english": "you do/make",
+      "ukrainian": "ти робиш",
+      "example": "Tu fais la cuisine."
+    },
+    {
+      "french": "il fait",
+      "english": "he does/makes",
+      "ukrainian": "він робить",
+      "example": "Il fait du sport."
+    },
+    {
+      "french": "elle fait",
+      "english": "she does/makes",
+      "ukrainian": "вона робить",
+      "example": "Elle fait les courses."
+    },
+    {
+      "french": "nous faisons",
+      "english": "we do/make",
+      "ukrainian": "ми робимо",
+      "example": "Nous faisons une fête."
+    },
+    {
+      "french": "vous faites",
+      "english": "you do/make (formal/plural)",
+      "ukrainian": "ви робите",
+      "example": "Vous faites du bon travail."
+    },
+    {
+      "french": "ils font",
+      "english": "they do/make (masculine)",
+      "ukrainian": "вони роблять",
+      "example": "Ils font leurs lits."
+    },
+    {
+      "french": "elles font",
+      "english": "they do/make (feminine)",
+      "ukrainian": "вони роблять",
+      "example": "Elles font de la gymnastique."
+    },
+    {
+      "french": "faire du sport",
+      "english": "to do sports",
+      "ukrainian": "займатися спортом",
+      "example": "Je fais du sport le weekend."
+    },
+    {
+      "french": "faire la cuisine",
+      "english": "to cook",
+      "ukrainian": "готувати їжу",
+      "example": "Elle fait la cuisine tous les soirs."
+    },
+    {
+      "french": "faire les courses",
+      "english": "to go shopping",
+      "ukrainian": "робити покупки",
+      "example": "Je fais les courses le samedi."
+    },
+    {
+      "french": "faire le ménage",
+      "english": "to clean the house",
+      "ukrainian": "прибирати",
+      "example": "Nous faisons le ménage le dimanche."
+    },
+    {
+      "french": "faire attention",
+      "english": "to pay attention",
+      "ukrainian": "бути уважним",
+      "example": "Fais attention à la route!"
+    },
+    {
+      "french": "il fait beau",
+      "english": "the weather is nice",
+      "ukrainian": "гарна погода",
+      "example": "Il fait beau aujourd'hui."
+    },
+    {
+      "french": "il fait chaud",
+      "english": "it is hot",
+      "ukrainian": "спекотно",
+      "example": "Il fait chaud en été."
+    },
+    {
+      "french": "il fait froid",
+      "english": "it is cold",
+      "ukrainian": "холодно",
+      "example": "Il fait froid en hiver."
+    },
+    {
+      "french": "ne pas faire",
+      "english": "not to do",
+      "ukrainian": "не робити",
+      "example": "Je ne fais pas de sport."
+    }
+  ]
+}

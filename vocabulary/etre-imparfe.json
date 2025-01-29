@@ -1,0 +1,80 @@
+{
+  "name": "Verb Être Imparfait",
+  "name_uk": "Дієслово Être у минулому недоконаному часі",
+  "description": "Conjugation of verb 'être' (to be) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'être' (бути) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "j'étais",
+      "english": "I was",
+      "ukrainian": "я був",
+      "example": "J'étais très fatigué."
+    },
+    {
+      "french": "tu étais",
+      "english": "you were",
+      "ukrainian": "ти був",
+      "example": "Tu étais à Paris l'année dernière."
+    },
+    {
+      "french": "il était",
+      "english": "he was",
+      "ukrainian": "він був",
+      "example": "Il était médecin."
+    },
+    {
+      "french": "elle était",
+      "english": "she was",
+      "ukrainian": "вона була",
+      "example": "Elle était professeur."
+    },
+    {
+      "french": "nous étions",
+      "english": "we were",
+      "ukrainian": "ми були",
+      "example": "Nous étions amis."
+    },
+    {
+      "french": "vous étiez",
+      "english": "you were (formal/plural)",
+      "ukrainian": "ви були",
+      "example": "Vous étiez en retard."
+    },
+    {
+      "french": "ils étaient",
+      "english": "they were (masculine)",
+      "ukrainian": "вони були",
+      "example": "Ils étaient contents."
+    },
+    {
+      "french": "elles étaient",
+      "english": "they were (feminine)",
+      "ukrainian": "вони були",
+      "example": "Elles étaient à l'école."
+    },
+    {
+      "french": "c'était",
+      "english": "it was",
+      "ukrainian": "це було",
+      "example": "C'était une belle journée."
+    },
+    {
+      "french": "il y avait",
+      "english": "there was/were",
+      "ukrainian": "був/були",
+      "example": "Il y avait beaucoup de monde."
+    },
+    {
+      "french": "je n'étais pas",
+      "english": "I was not",
+      "ukrainian": "я не був",
+      "example": "Je n'étais pas prêt."
+    },
+    {
+      "french": "quand j'étais",
+      "english": "when I was",
+      "ukrainian": "коли я був",
+      "example": "Quand j'étais petit."
+    }
+  ]
+}

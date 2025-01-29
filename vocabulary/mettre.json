@@ -1,0 +1,98 @@
+{
+  "name": "Verb Mettre Usage",
+  "name_uk": "Дієслово Mettre (Класти/Ставити)",
+  "description": "Common phrases and conjugations with verb 'mettre' (to put)",
+  "description_uk": "Поширені фрази та відмінювання з дієсловом 'mettre' (класти/ставити)",
+  "words": [
+    {
+      "french": "je mets",
+      "english": "I put",
+      "ukrainian": "я кладу",
+      "example": "Je mets mon manteau."
+    },
+    {
+      "french": "tu mets",
+      "english": "you put",
+      "ukrainian": "ти кладеш",
+      "example": "Tu mets la table?"
+    },
+    {
+      "french": "il met",
+      "english": "he puts",
+      "ukrainian": "він кладе",
+      "example": "Il met ses chaussures."
+    },
+    {
+      "french": "elle met",
+      "english": "she puts",
+      "ukrainian": "вона кладе",
+      "example": "Elle met du sel."
+    },
+    {
+      "french": "nous mettons",
+      "english": "we put",
+      "ukrainian": "ми кладемо",
+      "example": "Nous mettons les assiettes."
+    },
+    {
+      "french": "vous mettez",
+      "english": "you put (formal/plural)",
+      "ukrainian": "ви кладете",
+      "example": "Vous mettez trop de sucre."
+    },
+    {
+      "french": "ils mettent",
+      "english": "they put (masculine)",
+      "ukrainian": "вони кладуть",
+      "example": "Ils mettent leurs livres."
+    },
+    {
+      "french": "elles mettent",
+      "english": "they put (feminine)",
+      "ukrainian": "вони кладуть",
+      "example": "Elles mettent la radio."
+    },
+    {
+      "french": "mettre la table",
+      "english": "to set the table",
+      "ukrainian": "накривати на стіл",
+      "example": "Je mets la table pour dîner."
+    },
+    {
+      "french": "se mettre à",
+      "english": "to start to",
+      "ukrainian": "починати",
+      "example": "Il se met à pleuvoir."
+    },
+    {
+      "french": "mettre en place",
+      "english": "to set up",
+      "ukrainian": "встановлювати",
+      "example": "On met en place le projet."
+    },
+    {
+      "french": "mettre à jour",
+      "english": "to update",
+      "ukrainian": "оновлювати",
+      "example": "Je mets à jour mon logiciel."
+    },
+    {
+      "french": "se mettre d'accord",
+      "english": "to agree",
+      "ukrainian": "домовлятися",
+      "example": "Nous nous mettons d'accord."
+    },
+    {
+      "french": "ne pas mettre",
+      "english": "not to put",
+      "ukrainian": "не класти",
+      "example": "Ne mets pas ça ici."
+    },
+    {
+      "french": "mettre fin à",
+      "english": "to end",
+      "ukrainian": "припиняти",
+      "example": "Il met fin à la conversation."
+    }
+  ]
+}

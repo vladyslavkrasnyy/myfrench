@@ -1,0 +1,86 @@
+{
+  "name": "Verb Aller Imparfait",
+  "name_uk": "Дієслово Aller у минулому недоконаному часі",
+  "description": "Conjugation of verb 'aller' (to go) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'aller' (йти) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "j'allais",
+      "english": "I was going/used to go",
+      "ukrainian": "я йшов/ходив",
+      "example": "J'allais à l'école à pied."
+    },
+    {
+      "french": "tu allais",
+      "english": "you were going/used to go",
+      "ukrainian": "ти йшов/ходив",
+      "example": "Tu allais souvent au cinéma."
+    },
+    {
+      "french": "il allait",
+      "english": "he was going/used to go",
+      "ukrainian": "він йшов/ходив",
+      "example": "Il allait au travail en bus."
+    },
+    {
+      "french": "elle allait",
+      "english": "she was going/used to go",
+      "ukrainian": "вона йшла/ходила",
+      "example": "Elle allait à la piscine le samedi."
+    },
+    {
+      "french": "nous allions",
+      "english": "we were going/used to go",
+      "ukrainian": "ми йшли/ходили",
+      "example": "Nous allions à la plage en été."
+    },
+    {
+      "french": "vous alliez",
+      "english": "you were going/used to go (formal/plural)",
+      "ukrainian": "ви йшли/ходили",
+      "example": "Vous alliez souvent en France?"
+    },
+    {
+      "french": "ils allaient",
+      "english": "they were going/used to go (masculine)",
+      "ukrainian": "вони йшли/ходили",
+      "example": "Ils allaient au parc ensemble."
+    },
+    {
+      "french": "elles allaient",
+      "english": "they were going/used to go (feminine)",
+      "ukrainian": "вони йшли/ходили",
+      "example": "Elles allaient à la même école."
+    },
+    {
+      "french": "j'allais partir",
+      "english": "I was about to leave",
+      "ukrainian": "я збирався йти",
+      "example": "J'allais partir quand il est arrivé."
+    },
+    {
+      "french": "ça allait",
+      "english": "it was going well",
+      "ukrainian": "все було добре",
+      "example": "À cette époque, ça allait bien."
+    },
+    {
+      "french": "comment allait-il",
+      "english": "how was he doing",
+      "ukrainian": "як він почувався",
+      "example": "Comment allait-il hier?"
+    },
+    {
+      "french": "je n'allais pas",
+      "english": "I wasn't going/didn't use to go",
+      "ukrainian": "я не йшов/не ходив",
+      "example": "Je n'allais pas souvent au théâtre."
+    },
+    {
+      "french": "où allais-tu",
+      "english": "where were you going",
+      "ukrainian": "куди ти йшов",
+      "example": "Où allais-tu quand je t'ai vu?"
+    }
+  ]
+}

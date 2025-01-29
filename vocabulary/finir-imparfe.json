@@ -1,0 +1,80 @@
+{
+  "name": "Verb Finir Imparfait",
+  "name_uk": "Дієслово Finir у минулому недоконаному часі",
+  "description": "Conjugation of verb 'finir' (to finish) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'finir' (закінчувати) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "je finissais",
+      "english": "I was finishing/used to finish",
+      "ukrainian": "я закінчував",
+      "example": "Je finissais toujours mon travail à temps."
+    },
+    {
+      "french": "tu finissais",
+      "english": "you were finishing/used to finish",
+      "ukrainian": "ти закінчував",
+      "example": "Tu finissais tes devoirs tard le soir."
+    },
+    {
+      "french": "il finissait",
+      "english": "he was finishing/used to finish",
+      "ukrainian": "він закінчував",
+      "example": "Il finissait son repas rapidement."
+    },
+    {
+      "french": "elle finissait",
+      "english": "she was finishing/used to finish",
+      "ukrainian": "вона закінчувала",
+      "example": "Elle finissait son livre."
+    },
+    {
+      "french": "nous finissions",
+      "english": "we were finishing/used to finish",
+      "ukrainian": "ми закінчували",
+      "example": "Nous finissions les cours à 16h."
+    },
+    {
+      "french": "vous finissiez",
+      "english": "you were finishing/used to finish (formal/plural)",
+      "ukrainian": "ви закінчували",
+      "example": "Vous finissiez le travail tôt?"
+    },
+    {
+      "french": "ils finissaient",
+      "english": "they were finishing/used to finish (masculine)",
+      "ukrainian": "вони закінчували",
+      "example": "Ils finissaient leurs études."
+    },
+    {
+      "french": "elles finissaient",
+      "english": "they were finishing/used to finish (feminine)",
+      "ukrainian": "вони закінчували",
+      "example": "Elles finissaient leur journée."
+    },
+    {
+      "french": "je ne finissais pas",
+      "english": "I wasn't finishing/didn't use to finish",
+      "ukrainian": "я не закінчував",
+      "example": "Je ne finissais jamais mes phrases."
+    },
+    {
+      "french": "ça finissait",
+      "english": "it was ending/used to end",
+      "ukrainian": "це закінчувалось",
+      "example": "Le film finissait bien."
+    },
+    {
+      "french": "quand finissais-tu",
+      "english": "when did you finish/use to finish",
+      "ukrainian": "коли ти закінчував",
+      "example": "Quand finissais-tu tes cours?"
+    },
+    {
+      "french": "en finissant",
+      "english": "while finishing",
+      "ukrainian": "закінчуючи",
+      "example": "En finissant son travail, il pensait déjà au weekend."
+    }
+  ]
+}

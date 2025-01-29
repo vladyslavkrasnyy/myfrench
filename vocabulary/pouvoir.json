@@ -1,0 +1,98 @@
+{
+  "name": "Verb Pouvoir Usage",
+  "name_uk": "Дієслово Pouvoir (Могти)",
+  "description": "Common phrases and conjugations with verb 'pouvoir' (can/to be able)",
+  "description_uk": "Поширені фрази та відмінювання з дієсловом 'pouvoir' (могти)",
+  "words": [
+    {
+      "french": "je peux",
+      "english": "I can",
+      "ukrainian": "я можу",
+      "example": "Je peux t'aider."
+    },
+    {
+      "french": "tu peux",
+      "english": "you can",
+      "ukrainian": "ти можеш",
+      "example": "Tu peux venir demain?"
+    },
+    {
+      "french": "il peut",
+      "english": "he can",
+      "ukrainian": "він може",
+      "example": "Il peut parler français."
+    },
+    {
+      "french": "elle peut",
+      "english": "she can",
+      "ukrainian": "вона може",
+      "example": "Elle peut le faire."
+    },
+    {
+      "french": "nous pouvons",
+      "english": "we can",
+      "ukrainian": "ми можемо",
+      "example": "Nous pouvons y aller."
+    },
+    {
+      "french": "vous pouvez",
+      "english": "you can (formal/plural)",
+      "ukrainian": "ви можете",
+      "example": "Vous pouvez entrer."
+    },
+    {
+      "french": "ils peuvent",
+      "english": "they can (masculine)",
+      "ukrainian": "вони можуть",
+      "example": "Ils peuvent nous aider."
+    },
+    {
+      "french": "elles peuvent",
+      "english": "they can (feminine)",
+      "ukrainian": "вони можуть",
+      "example": "Elles peuvent danser."
+    },
+    {
+      "french": "peut-être",
+      "english": "maybe",
+      "ukrainian": "можливо",
+      "example": "Peut-être demain."
+    },
+    {
+      "french": "se peut-il que",
+      "english": "could it be that",
+      "ukrainian": "чи може бути що",
+      "example": "Se peut-il qu'il soit déjà parti?"
+    },
+    {
+      "french": "ça se peut",
+      "english": "that's possible",
+      "ukrainian": "це можливо",
+      "example": "Oui, ça se peut."
+    },
+    {
+      "french": "je ne peux pas",
+      "english": "I cannot",
+      "ukrainian": "я не можу",
+      "example": "Je ne peux pas venir."
+    },
+    {
+      "french": "peut-on",
+      "english": "can one/may one",
+      "ukrainian": "чи можна",
+      "example": "Peut-on entrer?"
+    },
+    {
+      "french": "si je peux",
+      "english": "if I can",
+      "ukrainian": "якщо я можу",
+      "example": "Je t'aiderai si je peux."
+    },
+    {
+      "french": "pouvoir faire",
+      "english": "to be able to do",
+      "ukrainian": "могти зробити",
+      "example": "Je peux faire ça."
+    }
+  ]
+}

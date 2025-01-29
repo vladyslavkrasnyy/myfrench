@@ -1,0 +1,80 @@
+{
+  "name": "Verb Pouvoir Imparfait",
+  "name_uk": "Дієслово Pouvoir у минулому недоконаному часі",
+  "description": "Conjugation of verb 'pouvoir' (can/to be able) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'pouvoir' (могти) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "je pouvais",
+      "english": "I could/was able to",
+      "ukrainian": "я міг",
+      "example": "Je pouvais courir vite."
+    },
+    {
+      "french": "tu pouvais",
+      "english": "you could/were able to",
+      "ukrainian": "ти міг",
+      "example": "Tu pouvais venir plus tôt."
+    },
+    {
+      "french": "il pouvait",
+      "english": "he could/was able to",
+      "ukrainian": "він міг",
+      "example": "Il pouvait parler trois langues."
+    },
+    {
+      "french": "elle pouvait",
+      "english": "she could/was able to",
+      "ukrainian": "вона могла",
+      "example": "Elle pouvait jouer du piano."
+    },
+    {
+      "french": "nous pouvions",
+      "english": "we could/were able to",
+      "ukrainian": "ми могли",
+      "example": "Nous pouvions sortir le soir."
+    },
+    {
+      "french": "vous pouviez",
+      "english": "you could/were able to (formal/plural)",
+      "ukrainian": "ви могли",
+      "example": "Vous pouviez m'aider?"
+    },
+    {
+      "french": "ils pouvaient",
+      "english": "they could/were able to (masculine)",
+      "ukrainian": "вони могли",
+      "example": "Ils pouvaient entrer gratuitement."
+    },
+    {
+      "french": "elles pouvaient",
+      "english": "they could/were able to (feminine)",
+      "ukrainian": "вони могли",
+      "example": "Elles pouvaient danser toute la nuit."
+    },
+    {
+      "french": "on pouvait",
+      "english": "one could/it was possible to",
+      "ukrainian": "можна було",
+      "example": "On pouvait voir la mer."
+    },
+    {
+      "french": "je ne pouvais pas",
+      "english": "I couldn't/wasn't able to",
+      "ukrainian": "я не міг",
+      "example": "Je ne pouvais pas dormir."
+    },
+    {
+      "french": "si je pouvais",
+      "english": "if I could",
+      "ukrainian": "якби я міг",
+      "example": "Si je pouvais, je t'aiderais."
+    },
+    {
+      "french": "comment pouvais-tu",
+      "english": "how could you",
+      "ukrainian": "як ти міг",
+      "example": "Comment pouvais-tu le savoir?"
+    }
+  ]
+}

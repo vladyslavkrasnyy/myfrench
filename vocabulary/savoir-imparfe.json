@@ -1,0 +1,80 @@
+{
+  "name": "Verb Savoir Imparfait",
+  "name_uk": "Дієслово Savoir у минулому недоконаному часі",
+  "description": "Conjugation of verb 'savoir' (to know) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'savoir' (знати) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "je savais",
+      "english": "I knew/used to know",
+      "ukrainian": "я знав",
+      "example": "Je savais la réponse."
+    },
+    {
+      "french": "tu savais",
+      "english": "you knew/used to know",
+      "ukrainian": "ти знав",
+      "example": "Tu savais déjà la nouvelle?"
+    },
+    {
+      "french": "il savait",
+      "english": "he knew/used to know",
+      "ukrainian": "він знав",
+      "example": "Il savait jouer du piano."
+    },
+    {
+      "french": "elle savait",
+      "english": "she knew/used to know",
+      "ukrainian": "вона знала",
+      "example": "Elle savait parler italien."
+    },
+    {
+      "french": "nous savions",
+      "english": "we knew/used to know",
+      "ukrainian": "ми знали",
+      "example": "Nous savions la vérité."
+    },
+    {
+      "french": "vous saviez",
+      "english": "you knew/used to know (formal/plural)",
+      "ukrainian": "ви знали",
+      "example": "Vous saviez conduire?"
+    },
+    {
+      "french": "ils savaient",
+      "english": "they knew/used to know (masculine)",
+      "ukrainian": "вони знали",
+      "example": "Ils savaient nager."
+    },
+    {
+      "french": "elles savaient",
+      "english": "they knew/used to know (feminine)",
+      "ukrainian": "вони знали",
+      "example": "Elles savaient danser."
+    },
+    {
+      "french": "je ne savais pas",
+      "english": "I didn't know/used not to know",
+      "ukrainian": "я не знав",
+      "example": "Je ne savais pas qu'il était là."
+    },
+    {
+      "french": "on savait",
+      "english": "we/people knew",
+      "ukrainian": "знали",
+      "example": "On savait tous que c'était faux."
+    },
+    {
+      "french": "comment savais-tu",
+      "english": "how did you know",
+      "ukrainian": "як ти знав",
+      "example": "Comment savais-tu mon adresse?"
+    },
+    {
+      "french": "si je savais",
+      "english": "if I knew",
+      "ukrainian": "якби я знав",
+      "example": "Si je savais, je te l'aurais dit."
+    }
+  ]
+}

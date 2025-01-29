@@ -1,0 +1,98 @@
+{
+  "name": "Verb Parler Usage",
+  "name_uk": "Дієслово Parler (Говорити)",
+  "description": "Common phrases and conjugations with verb 'parler' (to speak)",
+  "description_uk": "Поширені фрази та відмінювання з дієсловом 'parler' (говорити)",
+  "words": [
+    {
+      "french": "je parle",
+      "english": "I speak",
+      "ukrainian": "я говорю",
+      "example": "Je parle français."
+    },
+    {
+      "french": "tu parles",
+      "english": "you speak",
+      "ukrainian": "ти говориш",
+      "example": "Tu parles anglais?"
+    },
+    {
+      "french": "il parle",
+      "english": "he speaks",
+      "ukrainian": "він говорить",
+      "example": "Il parle trois langues."
+    },
+    {
+      "french": "elle parle",
+      "english": "she speaks",
+      "ukrainian": "вона говорить",
+      "example": "Elle parle italien."
+    },
+    {
+      "french": "nous parlons",
+      "english": "we speak",
+      "ukrainian": "ми говоримо",
+      "example": "Nous parlons espagnol."
+    },
+    {
+      "french": "vous parlez",
+      "english": "you speak (formal/plural)",
+      "ukrainian": "ви говорите",
+      "example": "Vous parlez allemand?"
+    },
+    {
+      "french": "ils parlent",
+      "english": "they speak (masculine)",
+      "ukrainian": "вони говорять",
+      "example": "Ils parlent russe."
+    },
+    {
+      "french": "elles parlent",
+      "english": "they speak (feminine)",
+      "ukrainian": "вони говорять",
+      "example": "Elles parlent japonais."
+    },
+    {
+      "french": "parler de",
+      "english": "to talk about",
+      "ukrainian": "говорити про",
+      "example": "Je parle de mon travail."
+    },
+    {
+      "french": "parler à",
+      "english": "to talk to",
+      "ukrainian": "говорити з",
+      "example": "Je parle à mon ami."
+    },
+    {
+      "french": "parler couramment",
+      "english": "to speak fluently",
+      "ukrainian": "говорити вільно",
+      "example": "Il parle couramment l'anglais."
+    },
+    {
+      "french": "en parlant de",
+      "english": "speaking of",
+      "ukrainian": "говорячи про",
+      "example": "En parlant de vacances..."
+    },
+    {
+      "french": "pour ainsi parler",
+      "english": "so to speak",
+      "ukrainian": "так би мовити",
+      "example": "C'est, pour ainsi parler, parfait."
+    },
+    {
+      "french": "ne pas parler",
+      "english": "not to speak",
+      "ukrainian": "не говорити",
+      "example": "Je ne parle pas chinois."
+    },
+    {
+      "french": "parler fort",
+      "english": "to speak loudly",
+      "ukrainian": "говорити голосно",
+      "example": "Ne parle pas si fort!"
+    }
+  ]
+}

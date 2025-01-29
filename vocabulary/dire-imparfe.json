@@ -1,0 +1,80 @@
+{
+  "name": "Verb Dire Imparfait",
+  "name_uk": "Дієслово Dire у минулому недоконаному часі",
+  "description": "Conjugation of verb 'dire' (to say) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'dire' (казати) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "je disais",
+      "english": "I was saying/used to say",
+      "ukrainian": "я казав",
+      "example": "Je disais toujours la vérité."
+    },
+    {
+      "french": "tu disais",
+      "english": "you were saying/used to say",
+      "ukrainian": "ти казав",
+      "example": "Tu disais que tu viendrais."
+    },
+    {
+      "french": "il disait",
+      "english": "he was saying/used to say",
+      "ukrainian": "він казав",
+      "example": "Il disait souvent des bêtises."
+    },
+    {
+      "french": "elle disait",
+      "english": "she was saying/used to say",
+      "ukrainian": "вона казала",
+      "example": "Elle disait toujours bonjour."
+    },
+    {
+      "french": "nous disions",
+      "english": "we were saying/used to say",
+      "ukrainian": "ми казали",
+      "example": "Nous disions la même chose."
+    },
+    {
+      "french": "vous disiez",
+      "english": "you were saying/used to say (formal/plural)",
+      "ukrainian": "ви казали",
+      "example": "Vous disiez quelque chose?"
+    },
+    {
+      "french": "ils disaient",
+      "english": "they were saying/used to say (masculine)",
+      "ukrainian": "вони казали",
+      "example": "Ils disaient toujours non."
+    },
+    {
+      "french": "elles disaient",
+      "english": "they were saying/used to say (feminine)",
+      "ukrainian": "вони казали",
+      "example": "Elles disaient du bien de toi."
+    },
+    {
+      "french": "on disait",
+      "english": "people used to say",
+      "ukrainian": "казали",
+      "example": "On disait que c'était impossible."
+    },
+    {
+      "french": "comme je disais",
+      "english": "as I was saying",
+      "ukrainian": "як я казав",
+      "example": "Comme je disais hier..."
+    },
+    {
+      "french": "je ne disais rien",
+      "english": "I wasn't saying anything",
+      "ukrainian": "я нічого не казав",
+      "example": "Je ne disais rien à personne."
+    },
+    {
+      "french": "que disais-tu",
+      "english": "what were you saying",
+      "ukrainian": "що ти казав",
+      "example": "Que disais-tu à propos de ça?"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Verb Être Conjugation",
+  "name_uk": "Дієслово Être (Бути)",
+  "description": "Complete conjugation of the verb 'être' (to be) in present tense with examples",
+  "description_uk": "Повна відмінювання дієслова 'être' (бути) в теперішньому часі з прикладами",
+  "words": [
+    {
+      "french": "je suis",
+      "english": "I am",
+      "ukrainian": "я є",
+      "example": "Je suis professeur."
+    },
+    {
+      "french": "tu es",
+      "english": "you are (informal)",
+      "ukrainian": "ти є",
+      "example": "Tu es étudiant."
+    },
+    {
+      "french": "il est",
+      "english": "he is",
+      "ukrainian": "він є",
+      "example": "Il est médecin."
+    },
+    {
+      "french": "elle est",
+      "english": "she is",
+      "ukrainian": "вона є",
+      "example": "Elle est avocate."
+    },
+    {
+      "french": "nous sommes",
+      "english": "we are",
+      "ukrainian": "ми є",
+      "example": "Nous sommes amis."
+    },
+    {
+      "french": "vous êtes",
+      "english": "you are (formal/plural)",
+      "ukrainian": "ви є",
+      "example": "Vous êtes ingénieur."
+    },
+    {
+      "french": "ils sont",
+      "english": "they are (masculine)",
+      "ukrainian": "вони є",
+      "example": "Ils sont musiciens."
+    },
+    {
+      "french": "elles sont",
+      "english": "they are (feminine)",
+      "ukrainian": "вони є",
+      "example": "Elles sont artistes."
+    },
+    {
+      "french": "c'est",
+      "english": "it is/this is",
+      "ukrainian": "це є",
+      "example": "C'est important."
+    },
+    {
+      "french": "ce sont",
+      "english": "these are/those are",
+      "ukrainian": "це є",
+      "example": "Ce sont mes livres."
+    },
+    {
+      "french": "je ne suis pas",
+      "english": "I am not",
+      "ukrainian": "я не є",
+      "example": "Je ne suis pas fatigué."
+    },
+    {
+      "french": "tu n'es pas",
+      "english": "you are not",
+      "ukrainian": "ти не є",
+      "example": "Tu n'es pas en retard."
+    }
+  ]
+}

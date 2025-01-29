@@ -1,0 +1,98 @@
+{
+  "name": "Verb Voir Usage",
+  "name_uk": "Дієслово Voir (Бачити)",
+  "description": "Common phrases and conjugations with verb 'voir' (to see)",
+  "description_uk": "Поширені фрази та відмінювання з дієсловом 'voir' (бачити)",
+  "words": [
+    {
+      "french": "je vois",
+      "english": "I see",
+      "ukrainian": "я бачу",
+      "example": "Je vois la mer."
+    },
+    {
+      "french": "tu vois",
+      "english": "you see",
+      "ukrainian": "ти бачиш",
+      "example": "Tu vois ce que je veux dire?"
+    },
+    {
+      "french": "il voit",
+      "english": "he sees",
+      "ukrainian": "він бачить",
+      "example": "Il voit le problème."
+    },
+    {
+      "french": "elle voit",
+      "english": "she sees",
+      "ukrainian": "вона бачить",
+      "example": "Elle voit la solution."
+    },
+    {
+      "french": "nous voyons",
+      "english": "we see",
+      "ukrainian": "ми бачимо",
+      "example": "Nous voyons les étoiles."
+    },
+    {
+      "french": "vous voyez",
+      "english": "you see (formal/plural)",
+      "ukrainian": "ви бачите",
+      "example": "Vous voyez la différence?"
+    },
+    {
+      "french": "ils voient",
+      "english": "they see (masculine)",
+      "ukrainian": "вони бачать",
+      "example": "Ils voient le château."
+    },
+    {
+      "french": "elles voient",
+      "english": "they see (feminine)",
+      "ukrainian": "вони бачать",
+      "example": "Elles voient le spectacle."
+    },
+    {
+      "french": "voir un ami",
+      "english": "to see a friend",
+      "ukrainian": "бачити друга",
+      "example": "Je vais voir un ami."
+    },
+    {
+      "french": "au revoir",
+      "english": "goodbye",
+      "ukrainian": "до побачення",
+      "example": "Au revoir, à bientôt!"
+    },
+    {
+      "french": "se voir",
+      "english": "to see each other",
+      "ukrainian": "бачитися",
+      "example": "On se voit demain?"
+    },
+    {
+      "french": "voyons voir",
+      "english": "let's see",
+      "ukrainian": "подивимось",
+      "example": "Voyons voir ce qu'on peut faire."
+    },
+    {
+      "french": "voir venir",
+      "english": "to see coming",
+      "ukrainian": "передбачати",
+      "example": "Je le voyais venir."
+    },
+    {
+      "french": "ne pas voir",
+      "english": "not to see",
+      "ukrainian": "не бачити",
+      "example": "Je ne vois pas bien sans lunettes."
+    },
+    {
+      "french": "aller voir",
+      "english": "to go see",
+      "ukrainian": "піти подивитися",
+      "example": "Je vais aller voir ce film."
+    }
+  ]
+}

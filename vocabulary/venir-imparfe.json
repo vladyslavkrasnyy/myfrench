@@ -1,0 +1,80 @@
+{
+  "name": "Verb Venir Imparfait",
+  "name_uk": "Дієслово Venir у минулому недоконаному часі",
+  "description": "Conjugation of verb 'venir' (to come) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'venir' (приходити) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "je venais",
+      "english": "I was coming/used to come",
+      "ukrainian": "я приходив",
+      "example": "Je venais souvent ici."
+    },
+    {
+      "french": "tu venais",
+      "english": "you were coming/used to come",
+      "ukrainian": "ти приходив",
+      "example": "Tu venais me voir tous les jours."
+    },
+    {
+      "french": "il venait",
+      "english": "he was coming/used to come",
+      "ukrainian": "він приходив",
+      "example": "Il venait toujours en retard."
+    },
+    {
+      "french": "elle venait",
+      "english": "she was coming/used to come",
+      "ukrainian": "вона приходила",
+      "example": "Elle venait d'arriver."
+    },
+    {
+      "french": "nous venions",
+      "english": "we were coming/used to come",
+      "ukrainian": "ми приходили",
+      "example": "Nous venions chaque weekend."
+    },
+    {
+      "french": "vous veniez",
+      "english": "you were coming/used to come (formal/plural)",
+      "ukrainian": "ви приходили",
+      "example": "Vous veniez souvent ici?"
+    },
+    {
+      "french": "ils venaient",
+      "english": "they were coming/used to come (masculine)",
+      "ukrainian": "вони приходили",
+      "example": "Ils venaient de Paris."
+    },
+    {
+      "french": "elles venaient",
+      "english": "they were coming/used to come (feminine)",
+      "ukrainian": "вони приходили",
+      "example": "Elles venaient à pied."
+    },
+    {
+      "french": "je ne venais pas",
+      "english": "I wasn't coming/didn't use to come",
+      "ukrainian": "я не приходив",
+      "example": "Je ne venais pas seul."
+    },
+    {
+      "french": "il venait de",
+      "english": "he had just",
+      "ukrainian": "він щойно",
+      "example": "Il venait de partir."
+    },
+    {
+      "french": "d'où venais-tu",
+      "english": "where were you coming from",
+      "ukrainian": "звідки ти йшов",
+      "example": "D'où venais-tu à cette heure?"
+    },
+    {
+      "french": "ça venait de",
+      "english": "it was coming from",
+      "ukrainian": "це йшло від",
+      "example": "Le bruit venait de la rue."
+    }
+  ]
+}

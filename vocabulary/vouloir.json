@@ -1,0 +1,98 @@
+{
+  "name": "Verb Vouloir Usage",
+  "name_uk": "Дієслово Vouloir (Хотіти)",
+  "description": "Common phrases and conjugations with verb 'vouloir' (to want)",
+  "description_uk": "Поширені фрази та відмінювання з дієсловом 'vouloir' (хотіти)",
+  "words": [
+    {
+      "french": "je veux",
+      "english": "I want",
+      "ukrainian": "я хочу",
+      "example": "Je veux du café."
+    },
+    {
+      "french": "tu veux",
+      "english": "you want",
+      "ukrainian": "ти хочеш",
+      "example": "Tu veux venir avec moi?"
+    },
+    {
+      "french": "il veut",
+      "english": "he wants",
+      "ukrainian": "він хоче",
+      "example": "Il veut partir tôt."
+    },
+    {
+      "french": "elle veut",
+      "english": "she wants",
+      "ukrainian": "вона хоче",
+      "example": "Elle veut étudier à Paris."
+    },
+    {
+      "french": "nous voulons",
+      "english": "we want",
+      "ukrainian": "ми хочемо",
+      "example": "Nous voulons voyager."
+    },
+    {
+      "french": "vous voulez",
+      "english": "you want (formal/plural)",
+      "ukrainian": "ви хочете",
+      "example": "Vous voulez boire quelque chose?"
+    },
+    {
+      "french": "ils veulent",
+      "english": "they want (masculine)",
+      "ukrainian": "вони хочуть",
+      "example": "Ils veulent danser."
+    },
+    {
+      "french": "elles veulent",
+      "english": "they want (feminine)",
+      "ukrainian": "вони хочуть",
+      "example": "Elles veulent rester."
+    },
+    {
+      "french": "vouloir dire",
+      "english": "to mean",
+      "ukrainian": "означати",
+      "example": "Qu'est-ce que ça veut dire?"
+    },
+    {
+      "french": "s'il vous plaît",
+      "english": "please (formal)",
+      "ukrainian": "будь ласка",
+      "example": "Je voudrais un café, s'il vous plaît."
+    },
+    {
+      "french": "je voudrais",
+      "english": "I would like",
+      "ukrainian": "я б хотів",
+      "example": "Je voudrais réserver une table."
+    },
+    {
+      "french": "veuillez",
+      "english": "please (formal command)",
+      "ukrainian": "будь ласка",
+      "example": "Veuillez patienter."
+    },
+    {
+      "french": "en vouloir à",
+      "english": "to be angry with",
+      "ukrainian": "сердитися на",
+      "example": "Je t'en veux."
+    },
+    {
+      "french": "je ne veux pas",
+      "english": "I don't want",
+      "ukrainian": "я не хочу",
+      "example": "Je ne veux pas sortir."
+    },
+    {
+      "french": "si tu veux",
+      "english": "if you want",
+      "ukrainian": "якщо хочеш",
+      "example": "On peut y aller, si tu veux."
+    }
+  ]
+}

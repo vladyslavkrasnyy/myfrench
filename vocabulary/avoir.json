@@ -1,0 +1,98 @@
+{
+  "name": "Verb Avoir Conjugation",
+  "name_uk": "Дієслово Avoir (Мати)",
+  "description": "Complete conjugation of the verb 'avoir' (to have) in present tense with examples",
+  "description_uk": "Повна відмінювання дієслова 'avoir' (мати) в теперішньому часі з прикладами",
+  "words": [
+    {
+      "french": "j'ai",
+      "english": "I have",
+      "ukrainian": "я маю",
+      "example": "J'ai un livre."
+    },
+    {
+      "french": "tu as",
+      "english": "you have (informal)",
+      "ukrainian": "ти маєш",
+      "example": "Tu as une voiture."
+    },
+    {
+      "french": "il a",
+      "english": "he has",
+      "ukrainian": "він має",
+      "example": "Il a un ordinateur."
+    },
+    {
+      "french": "elle a",
+      "english": "she has",
+      "ukrainian": "вона має",
+      "example": "Elle a un chat."
+    },
+    {
+      "french": "nous avons",
+      "english": "we have",
+      "ukrainian": "ми маємо",
+      "example": "Nous avons une maison."
+    },
+    {
+      "french": "vous avez",
+      "english": "you have (formal/plural)",
+      "ukrainian": "ви маєте",
+      "example": "Vous avez un rendez-vous."
+    },
+    {
+      "french": "ils ont",
+      "english": "they have (masculine)",
+      "ukrainian": "вони мають",
+      "example": "Ils ont des billets."
+    },
+    {
+      "french": "elles ont",
+      "english": "they have (feminine)",
+      "ukrainian": "вони мають",
+      "example": "Elles ont des fleurs."
+    },
+    {
+      "french": "il y a",
+      "english": "there is/are",
+      "ukrainian": "є",
+      "example": "Il y a du café."
+    },
+    {
+      "french": "avoir besoin de",
+      "english": "to need",
+      "ukrainian": "потребувати",
+      "example": "J'ai besoin d'aide."
+    },
+    {
+      "french": "avoir faim",
+      "english": "to be hungry",
+      "ukrainian": "бути голодним",
+      "example": "J'ai faim."
+    },
+    {
+      "french": "avoir soif",
+      "english": "to be thirsty",
+      "ukrainian": "хотіти пити",
+      "example": "J'ai soif."
+    },
+    {
+      "french": "je n'ai pas",
+      "english": "I do not have",
+      "ukrainian": "я не маю",
+      "example": "Je n'ai pas le temps."
+    },
+    {
+      "french": "tu n'as pas",
+      "english": "you do not have",
+      "ukrainian": "ти не маєш",
+      "example": "Tu n'as pas raison."
+    },
+    {
+      "french": "il n'y a pas",
+      "english": "there is/are not",
+      "ukrainian": "немає",
+      "example": "Il n'y a pas de problème."
+    }
+  ]
+}

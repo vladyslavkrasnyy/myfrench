@@ -1,0 +1,98 @@
+{
+  "name": "Verb Dire Usage",
+  "name_uk": "Дієслово Dire (Казати)",
+  "description": "Common phrases and conjugations with verb 'dire' (to say)",
+  "description_uk": "Поширені фрази та відмінювання з дієсловом 'dire' (казати)",
+  "words": [
+    {
+      "french": "je dis",
+      "english": "I say",
+      "ukrainian": "я кажу",
+      "example": "Je dis la vérité."
+    },
+    {
+      "french": "tu dis",
+      "english": "you say",
+      "ukrainian": "ти кажеш",
+      "example": "Tu dis toujours bonjour."
+    },
+    {
+      "french": "il dit",
+      "english": "he says",
+      "ukrainian": "він каже",
+      "example": "Il dit qu'il est fatigué."
+    },
+    {
+      "french": "elle dit",
+      "english": "she says",
+      "ukrainian": "вона каже",
+      "example": "Elle dit la même chose."
+    },
+    {
+      "french": "nous disons",
+      "english": "we say",
+      "ukrainian": "ми кажемо",
+      "example": "Nous disons au revoir."
+    },
+    {
+      "french": "vous dites",
+      "english": "you say (formal/plural)",
+      "ukrainian": "ви кажете",
+      "example": "Vous dites quelque chose?"
+    },
+    {
+      "french": "ils disent",
+      "english": "they say (masculine)",
+      "ukrainian": "вони кажуть",
+      "example": "Ils disent que c'est facile."
+    },
+    {
+      "french": "elles disent",
+      "english": "they say (feminine)",
+      "ukrainian": "вони кажуть",
+      "example": "Elles disent la vérité."
+    },
+    {
+      "french": "dire bonjour",
+      "english": "to say hello",
+      "ukrainian": "вітатися",
+      "example": "Je dis bonjour à mes voisins."
+    },
+    {
+      "french": "dire au revoir",
+      "english": "to say goodbye",
+      "ukrainian": "прощатися",
+      "example": "Nous disons au revoir aux invités."
+    },
+    {
+      "french": "dire la vérité",
+      "english": "to tell the truth",
+      "ukrainian": "казати правду",
+      "example": "Il faut dire la vérité."
+    },
+    {
+      "french": "dire des bêtises",
+      "english": "to talk nonsense",
+      "ukrainian": "говорити дурниці",
+      "example": "Tu dis des bêtises!"
+    },
+    {
+      "french": "c'est-à-dire",
+      "english": "that is to say/meaning",
+      "ukrainian": "тобто",
+      "example": "C'est-à-dire que je suis d'accord."
+    },
+    {
+      "french": "on dit que",
+      "english": "they say that",
+      "ukrainian": "кажуть що",
+      "example": "On dit que la vie est belle."
+    },
+    {
+      "french": "ne pas dire",
+      "english": "not to say",
+      "ukrainian": "не казати",
+      "example": "Je ne dis rien."
+    }
+  ]
+}

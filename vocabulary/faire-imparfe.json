@@ -1,0 +1,86 @@
+{
+  "name": "Verb Faire Imparfait",
+  "name_uk": "Дієслово Faire у минулому недоконаному часі",
+  "description": "Conjugation of verb 'faire' (to do/make) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'faire' (робити) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "je faisais",
+      "english": "I was doing/used to do",
+      "ukrainian": "я робив",
+      "example": "Je faisais du sport tous les jours."
+    },
+    {
+      "french": "tu faisais",
+      "english": "you were doing/used to do",
+      "ukrainian": "ти робив",
+      "example": "Tu faisais tes devoirs le soir."
+    },
+    {
+      "french": "il faisait",
+      "english": "he was doing/used to do",
+      "ukrainian": "він робив",
+      "example": "Il faisait la cuisine le weekend."
+    },
+    {
+      "french": "elle faisait",
+      "english": "she was doing/used to do",
+      "ukrainian": "вона робила",
+      "example": "Elle faisait du piano."
+    },
+    {
+      "french": "nous faisions",
+      "english": "we were doing/used to do",
+      "ukrainian": "ми робили",
+      "example": "Nous faisions des promenades."
+    },
+    {
+      "french": "vous faisiez",
+      "english": "you were doing/used to do (formal/plural)",
+      "ukrainian": "ви робили",
+      "example": "Vous faisiez beaucoup d'exercice."
+    },
+    {
+      "french": "ils faisaient",
+      "english": "they were doing/used to do (masculine)",
+      "ukrainian": "вони робили",
+      "example": "Ils faisaient leurs courses ensemble."
+    },
+    {
+      "french": "elles faisaient",
+      "english": "they were doing/used to do (feminine)",
+      "ukrainian": "вони робили",
+      "example": "Elles faisaient de la danse."
+    },
+    {
+      "french": "il faisait beau",
+      "english": "it was nice (weather)",
+      "ukrainian": "була гарна погода",
+      "example": "Il faisait beau cet été-là."
+    },
+    {
+      "french": "il faisait chaud",
+      "english": "it was hot",
+      "ukrainian": "було спекотно",
+      "example": "Il faisait chaud en août."
+    },
+    {
+      "french": "il faisait froid",
+      "english": "it was cold",
+      "ukrainian": "було холодно",
+      "example": "Il faisait froid en hiver."
+    },
+    {
+      "french": "je ne faisais pas",
+      "english": "I wasn't doing/didn't use to do",
+      "ukrainian": "я не робив",
+      "example": "Je ne faisais pas attention."
+    },
+    {
+      "french": "que faisais-tu",
+      "english": "what were you doing",
+      "ukrainian": "що ти робив",
+      "example": "Que faisais-tu à cette époque?"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Verb Devoir Imparfait",
+  "name_uk": "Дієслово Devoir у минулому недоконаному часі",
+  "description": "Conjugation of verb 'devoir' (must/have to) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'devoir' (мусити) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "je devais",
+      "english": "I had to/was supposed to",
+      "ukrainian": "я мусив",
+      "example": "Je devais finir mes devoirs."
+    },
+    {
+      "french": "tu devais",
+      "english": "you had to/were supposed to",
+      "ukrainian": "ти мусив",
+      "example": "Tu devais rentrer tôt."
+    },
+    {
+      "french": "il devait",
+      "english": "he had to/was supposed to",
+      "ukrainian": "він мусив",
+      "example": "Il devait travailler le dimanche."
+    },
+    {
+      "french": "elle devait",
+      "english": "she had to/was supposed to",
+      "ukrainian": "вона мусила",
+      "example": "Elle devait partir à midi."
+    },
+    {
+      "french": "nous devions",
+      "english": "we had to/were supposed to",
+      "ukrainian": "ми мусили",
+      "example": "Nous devions être à l'heure."
+    },
+    {
+      "french": "vous deviez",
+      "english": "you had to/were supposed to (formal/plural)",
+      "ukrainian": "ви мусили",
+      "example": "Vous deviez m'appeler."
+    },
+    {
+      "french": "ils devaient",
+      "english": "they had to/were supposed to (masculine)",
+      "ukrainian": "вони мусили",
+      "example": "Ils devaient étudier plus."
+    },
+    {
+      "french": "elles devaient",
+      "english": "they had to/were supposed to (feminine)",
+      "ukrainian": "вони мусили",
+      "example": "Elles devaient attendre."
+    },
+    {
+      "french": "je ne devais pas",
+      "english": "I didn't have to/wasn't supposed to",
+      "ukrainian": "я не мусив",
+      "example": "Je ne devais pas le dire."
+    },
+    {
+      "french": "on devait",
+      "english": "one had to/was supposed to",
+      "ukrainian": "треба було",
+      "example": "On devait faire attention."
+    },
+    {
+      "french": "que devais-je faire",
+      "english": "what was I supposed to do",
+      "ukrainian": "що я мав робити",
+      "example": "Que devais-je faire alors?"
+    },
+    {
+      "french": "il devait y avoir",
+      "english": "there must have been",
+      "ukrainian": "мало бути",
+      "example": "Il devait y avoir une erreur."
+    }
+  ]
+}

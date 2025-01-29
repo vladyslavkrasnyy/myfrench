@@ -1,0 +1,98 @@
+{
+  "name": "Verb Finir Usage",
+  "name_uk": "Дієслово Finir (Закінчувати)",
+  "description": "Common phrases and conjugations with verb 'finir' (to finish)",
+  "description_uk": "Поширені фрази та відмінювання з дієсловом 'finir' (закінчувати)",
+  "words": [
+    {
+      "french": "je finis",
+      "english": "I finish",
+      "ukrainian": "я закінчую",
+      "example": "Je finis mon travail."
+    },
+    {
+      "french": "tu finis",
+      "english": "you finish",
+      "ukrainian": "ти закінчуєш",
+      "example": "Tu finis à quelle heure?"
+    },
+    {
+      "french": "il finit",
+      "english": "he finishes",
+      "ukrainian": "він закінчує",
+      "example": "Il finit ses études."
+    },
+    {
+      "french": "elle finit",
+      "english": "she finishes",
+      "ukrainian": "вона закінчує",
+      "example": "Elle finit son livre."
+    },
+    {
+      "french": "nous finissons",
+      "english": "we finish",
+      "ukrainian": "ми закінчуємо",
+      "example": "Nous finissons le projet."
+    },
+    {
+      "french": "vous finissez",
+      "english": "you finish (formal/plural)",
+      "ukrainian": "ви закінчуєте",
+      "example": "Vous finissez bientôt?"
+    },
+    {
+      "french": "ils finissent",
+      "english": "they finish (masculine)",
+      "ukrainian": "вони закінчують",
+      "example": "Ils finissent leur repas."
+    },
+    {
+      "french": "elles finissent",
+      "english": "they finish (feminine)",
+      "ukrainian": "вони закінчують",
+      "example": "Elles finissent leur travail."
+    },
+    {
+      "french": "finir par",
+      "english": "to end up",
+      "ukrainian": "врешті-решт",
+      "example": "Il a fini par comprendre."
+    },
+    {
+      "french": "en finir",
+      "english": "to be done with",
+      "ukrainian": "покінчити з",
+      "example": "J'en ai fini avec ça."
+    },
+    {
+      "french": "finir de",
+      "english": "to finish (doing something)",
+      "ukrainian": "закінчити (щось робити)",
+      "example": "Je finis de manger."
+    },
+    {
+      "french": "ne pas finir",
+      "english": "not to finish",
+      "ukrainian": "не закінчувати",
+      "example": "Je ne finis pas maintenant."
+    },
+    {
+      "french": "à n'en plus finir",
+      "english": "never-ending",
+      "ukrainian": "нескінченний",
+      "example": "C'est une histoire à n'en plus finir."
+    },
+    {
+      "french": "pour finir",
+      "english": "finally/lastly",
+      "ukrainian": "нарешті",
+      "example": "Pour finir, je voudrais dire merci."
+    },
+    {
+      "french": "finir par faire",
+      "english": "to eventually do",
+      "ukrainian": "врешті-решт зробити",
+      "example": "Il finira par réussir."
+    }
+  ]
+}

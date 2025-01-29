@@ -1,0 +1,80 @@
+{
+  "name": "Verb Prendre Imparfait",
+  "name_uk": "Дієслово Prendre у минулому недоконаному часі",
+  "description": "Conjugation of verb 'prendre' (to take) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'prendre' (брати) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "je prenais",
+      "english": "I was taking/used to take",
+      "ukrainian": "я брав",
+      "example": "Je prenais le bus tous les matins."
+    },
+    {
+      "french": "tu prenais",
+      "english": "you were taking/used to take",
+      "ukrainian": "ти брав",
+      "example": "Tu prenais toujours du café."
+    },
+    {
+      "french": "il prenait",
+      "english": "he was taking/used to take",
+      "ukrainian": "він брав",
+      "example": "Il prenait son temps."
+    },
+    {
+      "french": "elle prenait",
+      "english": "she was taking/used to take",
+      "ukrainian": "вона брала",
+      "example": "Elle prenait des photos."
+    },
+    {
+      "french": "nous prenions",
+      "english": "we were taking/used to take",
+      "ukrainian": "ми брали",
+      "example": "Nous prenions le petit-déjeuner ensemble."
+    },
+    {
+      "french": "vous preniez",
+      "english": "you were taking/used to take (formal/plural)",
+      "ukrainian": "ви брали",
+      "example": "Vous preniez le train?"
+    },
+    {
+      "french": "ils prenaient",
+      "english": "they were taking/used to take (masculine)",
+      "ukrainian": "вони брали",
+      "example": "Ils prenaient des notes."
+    },
+    {
+      "french": "elles prenaient",
+      "english": "they were taking/used to take (feminine)",
+      "ukrainian": "вони брали",
+      "example": "Elles prenaient des cours de danse."
+    },
+    {
+      "french": "je ne prenais pas",
+      "english": "I wasn't taking/didn't use to take",
+      "ukrainian": "я не брав",
+      "example": "Je ne prenais pas de sucre."
+    },
+    {
+      "french": "ça prenait du temps",
+      "english": "it was taking time",
+      "ukrainian": "це забирало час",
+      "example": "Ça prenait du temps pour arriver."
+    },
+    {
+      "french": "que prenais-tu",
+      "english": "what were you taking",
+      "ukrainian": "що ти брав",
+      "example": "Que prenais-tu au petit-déjeuner?"
+    },
+    {
+      "french": "il prenait l'habitude",
+      "english": "he was getting used to",
+      "ukrainian": "він звикав",
+      "example": "Il prenait l'habitude de marcher."
+    }
+  ]
+}

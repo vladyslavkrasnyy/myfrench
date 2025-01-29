@@ -1,0 +1,80 @@
+{
+  "name": "Verb Avoir Imparfait",
+  "name_uk": "Дієслово Avoir у минулому недоконаному часі",
+  "description": "Conjugation of verb 'avoir' (to have) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'avoir' (мати) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "j'avais",
+      "english": "I had",
+      "ukrainian": "я мав",
+      "example": "J'avais une voiture rouge."
+    },
+    {
+      "french": "tu avais",
+      "english": "you had",
+      "ukrainian": "ти мав",
+      "example": "Tu avais raison."
+    },
+    {
+      "french": "il avait",
+      "english": "he had",
+      "ukrainian": "він мав",
+      "example": "Il avait un chien."
+    },
+    {
+      "french": "elle avait",
+      "english": "she had",
+      "ukrainian": "вона мала",
+      "example": "Elle avait un chat."
+    },
+    {
+      "french": "nous avions",
+      "english": "we had",
+      "ukrainian": "ми мали",
+      "example": "Nous avions une grande maison."
+    },
+    {
+      "french": "vous aviez",
+      "english": "you had (formal/plural)",
+      "ukrainian": "ви мали",
+      "example": "Vous aviez beaucoup d'amis."
+    },
+    {
+      "french": "ils avaient",
+      "english": "they had (masculine)",
+      "ukrainian": "вони мали",
+      "example": "Ils avaient faim."
+    },
+    {
+      "french": "elles avaient",
+      "english": "they had (feminine)",
+      "ukrainian": "вони мали",
+      "example": "Elles avaient soif."
+    },
+    {
+      "french": "il y avait",
+      "english": "there was/were",
+      "ukrainian": "був/були",
+      "example": "Il y avait trois livres sur la table."
+    },
+    {
+      "french": "j'avais besoin de",
+      "english": "I needed",
+      "ukrainian": "мені було потрібно",
+      "example": "J'avais besoin d'aide."
+    },
+    {
+      "french": "je n'avais pas",
+      "english": "I did not have",
+      "ukrainian": "я не мав",
+      "example": "Je n'avais pas le temps."
+    },
+    {
+      "french": "quand j'avais",
+      "english": "when I had",
+      "ukrainian": "коли я мав",
+      "example": "Quand j'avais dix ans."
+    }
+  ]
+}

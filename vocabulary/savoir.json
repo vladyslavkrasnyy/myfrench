@@ -1,0 +1,98 @@
+{
+  "name": "Verb Savoir Usage",
+  "name_uk": "Дієслово Savoir (Знати)",
+  "description": "Common phrases and conjugations with verb 'savoir' (to know)",
+  "description_uk": "Поширені фрази та відмінювання з дієсловом 'savoir' (знати)",
+  "words": [
+    {
+      "french": "je sais",
+      "english": "I know",
+      "ukrainian": "я знаю",
+      "example": "Je sais la réponse."
+    },
+    {
+      "french": "tu sais",
+      "english": "you know",
+      "ukrainian": "ти знаєш",
+      "example": "Tu sais où il est?"
+    },
+    {
+      "french": "il sait",
+      "english": "he knows",
+      "ukrainian": "він знає",
+      "example": "Il sait parler anglais."
+    },
+    {
+      "french": "elle sait",
+      "english": "she knows",
+      "ukrainian": "вона знає",
+      "example": "Elle sait danser."
+    },
+    {
+      "french": "nous savons",
+      "english": "we know",
+      "ukrainian": "ми знаємо",
+      "example": "Nous savons la vérité."
+    },
+    {
+      "french": "vous savez",
+      "english": "you know (formal/plural)",
+      "ukrainian": "ви знаєте",
+      "example": "Vous savez conduire?"
+    },
+    {
+      "french": "ils savent",
+      "english": "they know (masculine)",
+      "ukrainian": "вони знають",
+      "example": "Ils savent nager."
+    },
+    {
+      "french": "elles savent",
+      "english": "they know (feminine)",
+      "ukrainian": "вони знають",
+      "example": "Elles savent cuisiner."
+    },
+    {
+      "french": "savoir faire",
+      "english": "to know how to do",
+      "ukrainian": "вміти робити",
+      "example": "Je sais faire du vélo."
+    },
+    {
+      "french": "à savoir",
+      "english": "namely",
+      "ukrainian": "а саме",
+      "example": "Il y a trois options, à savoir..."
+    },
+    {
+      "french": "je ne sais pas",
+      "english": "I don't know",
+      "ukrainian": "я не знаю",
+      "example": "Je ne sais pas la réponse."
+    },
+    {
+      "french": "que je sache",
+      "english": "as far as I know",
+      "ukrainian": "наскільки я знаю",
+      "example": "Que je sache, il est parti."
+    },
+    {
+      "french": "savoir vivre",
+      "english": "to know how to live/manners",
+      "ukrainian": "вміти жити/манери",
+      "example": "Il a du savoir-vivre."
+    },
+    {
+      "french": "faire savoir",
+      "english": "to let know",
+      "ukrainian": "повідомляти",
+      "example": "Je te ferai savoir."
+    },
+    {
+      "french": "on ne sait jamais",
+      "english": "you never know",
+      "ukrainian": "ніколи не знаєш",
+      "example": "Prends un parapluie, on ne sait jamais."
+    }
+  ]
+}

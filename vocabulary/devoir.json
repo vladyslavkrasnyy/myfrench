@@ -1,0 +1,98 @@
+{
+  "name": "Verb Devoir Usage",
+  "name_uk": "Дієслово Devoir (Мусити)",
+  "description": "Common phrases and conjugations with verb 'devoir' (must/to have to)",
+  "description_uk": "Поширені фрази та відмінювання з дієсловом 'devoir' (мусити)",
+  "words": [
+    {
+      "french": "je dois",
+      "english": "I must/have to",
+      "ukrainian": "я мушу",
+      "example": "Je dois travailler."
+    },
+    {
+      "french": "tu dois",
+      "english": "you must/have to",
+      "ukrainian": "ти мусиш",
+      "example": "Tu dois étudier plus."
+    },
+    {
+      "french": "il doit",
+      "english": "he must/has to",
+      "ukrainian": "він мусить",
+      "example": "Il doit partir maintenant."
+    },
+    {
+      "french": "elle doit",
+      "english": "she must/has to",
+      "ukrainian": "вона мусить",
+      "example": "Elle doit finir son projet."
+    },
+    {
+      "french": "nous devons",
+      "english": "we must/have to",
+      "ukrainian": "ми мусимо",
+      "example": "Nous devons être à l'heure."
+    },
+    {
+      "french": "vous devez",
+      "english": "you must/have to (formal/plural)",
+      "ukrainian": "ви мусите",
+      "example": "Vous devez signer ici."
+    },
+    {
+      "french": "ils doivent",
+      "english": "they must/have to (masculine)",
+      "ukrainian": "вони мусять",
+      "example": "Ils doivent attendre."
+    },
+    {
+      "french": "elles doivent",
+      "english": "they must/have to (feminine)",
+      "ukrainian": "вони мусять",
+      "example": "Elles doivent répondre."
+    },
+    {
+      "french": "je devrais",
+      "english": "I should",
+      "ukrainian": "я повинен",
+      "example": "Je devrais dormir plus."
+    },
+    {
+      "french": "tu devrais",
+      "english": "you should",
+      "ukrainian": "ти повинен",
+      "example": "Tu devrais manger moins."
+    },
+    {
+      "french": "on doit",
+      "english": "one must/we have to",
+      "ukrainian": "треба",
+      "example": "On doit respecter les règles."
+    },
+    {
+      "french": "je ne dois pas",
+      "english": "I must not",
+      "ukrainian": "я не повинен",
+      "example": "Je ne dois pas être en retard."
+    },
+    {
+      "french": "dû à",
+      "english": "due to",
+      "ukrainian": "через",
+      "example": "C'est dû à la pluie."
+    },
+    {
+      "french": "se devoir de",
+      "english": "to have a duty to",
+      "ukrainian": "бути зобов'язаним",
+      "example": "Je me dois de vous aider."
+    },
+    {
+      "french": "devoir faire",
+      "english": "to have to do",
+      "ukrainian": "мусити зробити",
+      "example": "Je dois faire mes devoirs."
+    }
+  ]
+}

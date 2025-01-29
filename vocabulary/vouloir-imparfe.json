@@ -1,0 +1,80 @@
+{
+  "name": "Verb Vouloir Imparfait",
+  "name_uk": "Дієслово Vouloir у минулому недоконаному часі",
+  "description": "Conjugation of verb 'vouloir' (to want) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'vouloir' (хотіти) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "je voulais",
+      "english": "I wanted/was wanting",
+      "ukrainian": "я хотів",
+      "example": "Je voulais partir tôt."
+    },
+    {
+      "french": "tu voulais",
+      "english": "you wanted/were wanting",
+      "ukrainian": "ти хотів",
+      "example": "Tu voulais un café?"
+    },
+    {
+      "french": "il voulait",
+      "english": "he wanted/was wanting",
+      "ukrainian": "він хотів",
+      "example": "Il voulait devenir médecin."
+    },
+    {
+      "french": "elle voulait",
+      "english": "she wanted/was wanting",
+      "ukrainian": "вона хотіла",
+      "example": "Elle voulait étudier à Paris."
+    },
+    {
+      "french": "nous voulions",
+      "english": "we wanted/were wanting",
+      "ukrainian": "ми хотіли",
+      "example": "Nous voulions voyager ensemble."
+    },
+    {
+      "french": "vous vouliez",
+      "english": "you wanted/were wanting (formal/plural)",
+      "ukrainian": "ви хотіли",
+      "example": "Vous vouliez me parler?"
+    },
+    {
+      "french": "ils voulaient",
+      "english": "they wanted/were wanting (masculine)",
+      "ukrainian": "вони хотіли",
+      "example": "Ils voulaient rentrer."
+    },
+    {
+      "french": "elles voulaient",
+      "english": "they wanted/were wanting (feminine)",
+      "ukrainian": "вони хотіли",
+      "example": "Elles voulaient danser."
+    },
+    {
+      "french": "je ne voulais pas",
+      "english": "I didn't want",
+      "ukrainian": "я не хотів",
+      "example": "Je ne voulais pas partir."
+    },
+    {
+      "french": "si tu voulais",
+      "english": "if you wanted",
+      "ukrainian": "якби ти хотів",
+      "example": "Si tu voulais, tu pouvais venir."
+    },
+    {
+      "french": "que voulais-tu",
+      "english": "what did you want",
+      "ukrainian": "що ти хотів",
+      "example": "Que voulais-tu dire?"
+    },
+    {
+      "french": "comme vous vouliez",
+      "english": "as you wanted",
+      "ukrainian": "як ви хотіли",
+      "example": "C'est comme vous vouliez."
+    }
+  ]
+}

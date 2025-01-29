@@ -1,0 +1,80 @@
+{
+  "name": "Verb Parler Imparfait",
+  "name_uk": "Дієслово Parler у минулому недоконаному часі",
+  "description": "Conjugation of verb 'parler' (to speak) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'parler' (говорити) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "je parlais",
+      "english": "I was speaking/used to speak",
+      "ukrainian": "я говорив",
+      "example": "Je parlais français quand j'étais petit."
+    },
+    {
+      "french": "tu parlais",
+      "english": "you were speaking/used to speak",
+      "ukrainian": "ти говорив",
+      "example": "Tu parlais trop vite."
+    },
+    {
+      "french": "il parlait",
+      "english": "he was speaking/used to speak",
+      "ukrainian": "він говорив",
+      "example": "Il parlait de son travail."
+    },
+    {
+      "french": "elle parlait",
+      "english": "she was speaking/used to speak",
+      "ukrainian": "вона говорила",
+      "example": "Elle parlait plusieurs langues."
+    },
+    {
+      "french": "nous parlions",
+      "english": "we were speaking/used to speak",
+      "ukrainian": "ми говорили",
+      "example": "Nous parlions de nos vacances."
+    },
+    {
+      "french": "vous parliez",
+      "english": "you were speaking/used to speak (formal/plural)",
+      "ukrainian": "ви говорили",
+      "example": "Vous parliez anglais à l'époque?"
+    },
+    {
+      "french": "ils parlaient",
+      "english": "they were speaking/used to speak (masculine)",
+      "ukrainian": "вони говорили",
+      "example": "Ils parlaient tous ensemble."
+    },
+    {
+      "french": "elles parlaient",
+      "english": "they were speaking/used to speak (feminine)",
+      "ukrainian": "вони говорили",
+      "example": "Elles parlaient de leur projet."
+    },
+    {
+      "french": "je ne parlais pas",
+      "english": "I wasn't speaking/didn't use to speak",
+      "ukrainian": "я не говорив",
+      "example": "Je ne parlais pas espagnol avant."
+    },
+    {
+      "french": "on parlait",
+      "english": "people were speaking/used to speak",
+      "ukrainian": "говорили",
+      "example": "On parlait beaucoup de ce film."
+    },
+    {
+      "french": "pendant que je parlais",
+      "english": "while I was speaking",
+      "ukrainian": "поки я говорив",
+      "example": "Pendant que je parlais, il écoutait."
+    },
+    {
+      "french": "à qui parlais-tu",
+      "english": "who were you speaking to",
+      "ukrainian": "з ким ти говорив",
+      "example": "À qui parlais-tu hier soir?"
+    }
+  ]
+}

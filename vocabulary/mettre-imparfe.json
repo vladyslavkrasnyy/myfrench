@@ -1,0 +1,80 @@
+{
+  "name": "Verb Mettre Imparfait",
+  "name_uk": "Дієслово Mettre у минулому недоконаному часі",
+  "description": "Conjugation of verb 'mettre' (to put) in imperfect tense with examples",
+  "description_uk": "Відмінювання дієслова 'mettre' (класти) в імпарфекті з прикладами",
+  "words": [
+    {
+      "french": "je mettais",
+      "english": "I was putting/used to put",
+      "ukrainian": "я клав",
+      "example": "Je mettais toujours mon manteau."
+    },
+    {
+      "french": "tu mettais",
+      "english": "you were putting/used to put",
+      "ukrainian": "ти клав",
+      "example": "Tu mettais trop de sucre dans ton café."
+    },
+    {
+      "french": "il mettait",
+      "english": "he was putting/used to put",
+      "ukrainian": "він клав",
+      "example": "Il mettait ses lunettes pour lire."
+    },
+    {
+      "french": "elle mettait",
+      "english": "she was putting/used to put",
+      "ukrainian": "вона клала",
+      "example": "Elle mettait la table chaque soir."
+    },
+    {
+      "french": "nous mettions",
+      "english": "we were putting/used to put",
+      "ukrainian": "ми клали",
+      "example": "Nous mettions nos affaires dans le placard."
+    },
+    {
+      "french": "vous mettiez",
+      "english": "you were putting/used to put (formal/plural)",
+      "ukrainian": "ви клали",
+      "example": "Vous mettiez combien de temps?"
+    },
+    {
+      "french": "ils mettaient",
+      "english": "they were putting/used to put (masculine)",
+      "ukrainian": "вони клали",
+      "example": "Ils mettaient leurs livres dans le sac."
+    },
+    {
+      "french": "elles mettaient",
+      "english": "they were putting/used to put (feminine)",
+      "ukrainian": "вони клали",
+      "example": "Elles mettaient de la musique."
+    },
+    {
+      "french": "je ne mettais pas",
+      "english": "I wasn't putting/didn't use to put",
+      "ukrainian": "я не клав",
+      "example": "Je ne mettais pas de sel."
+    },
+    {
+      "french": "se mettre à",
+      "english": "to start to/begin to",
+      "ukrainian": "починати",
+      "example": "Il se mettait à pleuvoir."
+    },
+    {
+      "french": "où mettais-tu",
+      "english": "where did you put/use to put",
+      "ukrainian": "куди ти клав",
+      "example": "Où mettais-tu tes clés?"
+    },
+    {
+      "french": "ça se mettait",
+      "english": "it was getting/becoming",
+      "ukrainian": "це ставало",
+      "example": "Le temps se mettait au beau."
+    }
+  ]
+}

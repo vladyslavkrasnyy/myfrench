@@ -1,0 +1,98 @@
+{
+  "name": "Verb Prendre Usage",
+  "name_uk": "Дієслово Prendre (Брати)",
+  "description": "Common phrases and conjugations with verb 'prendre' (to take)",
+  "description_uk": "Поширені фрази та відмінювання з дієсловом 'prendre' (брати)",
+  "words": [
+    {
+      "french": "je prends",
+      "english": "I take",
+      "ukrainian": "я беру",
+      "example": "Je prends le train."
+    },
+    {
+      "french": "tu prends",
+      "english": "you take",
+      "ukrainian": "ти береш",
+      "example": "Tu prends ton petit-déjeuner."
+    },
+    {
+      "french": "il prend",
+      "english": "he takes",
+      "ukrainian": "він бере",
+      "example": "Il prend sa voiture."
+    },
+    {
+      "french": "elle prend",
+      "english": "she takes",
+      "ukrainian": "вона бере",
+      "example": "Elle prend un café."
+    },
+    {
+      "french": "nous prenons",
+      "english": "we take",
+      "ukrainian": "ми беремо",
+      "example": "Nous prenons l'avion."
+    },
+    {
+      "french": "vous prenez",
+      "english": "you take (formal/plural)",
+      "ukrainian": "ви берете",
+      "example": "Vous prenez le bus?"
+    },
+    {
+      "french": "ils prennent",
+      "english": "they take (masculine)",
+      "ukrainian": "вони беруть",
+      "example": "Ils prennent des photos."
+    },
+    {
+      "french": "elles prennent",
+      "english": "they take (feminine)",
+      "ukrainian": "вони беруть",
+      "example": "Elles prennent leur temps."
+    },
+    {
+      "french": "prendre le petit-déjeuner",
+      "english": "to have breakfast",
+      "ukrainian": "снідати",
+      "example": "Je prends mon petit-déjeuner à 8h."
+    },
+    {
+      "french": "prendre le train",
+      "english": "to take the train",
+      "ukrainian": "сідати на потяг",
+      "example": "Nous prenons le train pour Paris."
+    },
+    {
+      "french": "prendre l'avion",
+      "english": "to take the plane",
+      "ukrainian": "летіти літаком",
+      "example": "Je prends l'avion demain."
+    },
+    {
+      "french": "prendre du temps",
+      "english": "to take time",
+      "ukrainian": "витрачати час",
+      "example": "Ça prend du temps."
+    },
+    {
+      "french": "prendre une photo",
+      "english": "to take a photo",
+      "ukrainian": "робити фото",
+      "example": "Je prends une photo du paysage."
+    },
+    {
+      "french": "prendre une décision",
+      "english": "to make a decision",
+      "ukrainian": "приймати рішення",
+      "example": "Il faut prendre une décision."
+    },
+    {
+      "french": "ne pas prendre",
+      "english": "not to take",
+      "ukrainian": "не брати",
+      "example": "Je ne prends pas le bus."
+    }
+  ]
+}

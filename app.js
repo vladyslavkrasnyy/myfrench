@@ -336,11 +336,8 @@ function generateQuestion() {
 
     // Start timer
     startTimer();
-
     // Automatically play audio
-    setTimeout(() => {
-        playAudio(audioUrl);
-    }, 500);
+    playAudio(audioUrl);
 }
 
 // Timer functionality

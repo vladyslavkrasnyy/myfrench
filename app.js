@@ -237,7 +237,9 @@ function displayCurrentWord() {
     `;
 
     // Automatically play audio
-    playAudio(audioUrl);
+    setTimeout(() => {
+        playAudio(audioUrl);
+    }, 500); // 500ms delay
 }
 
 

@@ -11,11 +11,19 @@ OUTPUT_DIR = "/Users/vladyslav/proteantecs/git/myfrench/media/audio/fr"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def sanitize_filename(text):
-    """Normalize and sanitize filenames to remove accents, apostrophes, and replace spaces with underscores."""
-    text = unicodedata.normalize("NFD", text)  # Decomposes characters (é → e + ́)
-    text = text.encode("ascii", "ignore").decode("utf-8")  # Removes accents
-    text = text.replace(" ", "_")  # Replace spaces with underscores
-    text = text.replace("'", "_")  # Replace apostrophes with underscores
+    """
+    Normalize and sanitize filenames to remove accents, special characters, and replace spaces with underscores.
+    """
+    # Normalize unicode characters
+    text = unicodedata.normalize("NFD", text)
+    # Remove accents
+    text = text.encode("ascii", "ignore").decode("utf-8")
+    # Replace any non-alphanumeric characters (except hyphens and underscores) with underscores
+    text = re.sub(r'[^a-zA-Z0-9\-_]', '_', text)
+    # Replace multiple consecutive underscores with a single one
+    text = re.sub(r'_+', '_', text)
+    # Remove leading and trailing underscores
+    text = text.strip('_')
     return text
 
 def process_vocabulary_files():

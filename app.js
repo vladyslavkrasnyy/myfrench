@@ -215,22 +215,27 @@ function displayCurrentWord() {
     exampleElement.textContent = word.example;
     exampleElement.style.display = word.example ? 'block' : 'none';
 
+    // Sanitize filename for media URLs
+    const sanitizedFrench = sanitizeFilename(word.french);
+    console.log('Original word:', word.french);
+    console.log('Sanitized filename:', sanitizedFrench);
+
     // Display image if available
     const imageContainer = document.getElementById('wordImage');
-    imageContainer.innerHTML = `<img src="${word.media.image}" alt="${word.french}" onerror="this.style.display='none'">`;
+    imageContainer.innerHTML = `<img src="${basePath}/media/images/${sanitizedFrench}.jpg" alt="${word.french}" onerror="this.style.display='none'">`;
 
     // Add audio player for French pronunciation
+    const audioUrl = `${basePath}/media/audio/fr/${sanitizedFrench}.mp3`;
     const audioContainer = document.getElementById('wordAudio');
     audioContainer.innerHTML = `
         <div class="audio-controls">
-            <button onclick="playAudio('${word.media.audio}')" class="audio-btn" title="Listen in French">
+            <button onclick="playAudio('${audioUrl}')" class="audio-btn" title="Listen in French">
                 🔊
             </button>
         </div>
     `;
 
     // Automatically play audio when word is displayed
-    const audioUrl = `${basePath}/media/audio/fr/${sanitizedFrench}.mp3`;
     console.log('Attempting to play audio automatically:', audioUrl);
     playAudio(audioUrl);
 }

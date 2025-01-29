@@ -59,6 +59,13 @@ const uiTranslations = {
     }
 };
 
+function sanitizeFilename(str) {
+    return str
+        .normalize("NFD") // Decomposes characters (é → e + ́)
+        .replace(/[\u0300-\u036f]/g, '') // Removes diacritical marks
+        .replace(/\s+/g, '_'); // Replace spaces with underscores
+}
+
 async function loadTopics() {
     try {
         console.log('Starting to load topics...');
@@ -82,9 +89,10 @@ async function loadTopics() {
 
                 // Modified media configuration to only include French audio
                 for (let word of topics[topicName].words) {
+                    let sanitizedFrench = sanitizeFilename(word.french);
                     word.media = {
-                        image: `${basePath}/media/images/${word.french.replace(/\s+/g, '_')}.jpg`,
-                        audio: `${basePath}/media/audio/fr/${word.french.replace(/\s+/g, '_')}.mp3`
+                        image: `${basePath}/media/images/${sanitizedFrench}.jpg`,
+                        audio: `${basePath}/media/audio/fr/${sanitizedFrench}.mp3`
                     };
                 }
             }

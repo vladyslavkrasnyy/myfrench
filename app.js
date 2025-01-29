@@ -225,6 +225,15 @@ function displayCurrentWord() {
             </button>
         </div>
     `;
+
+    // Automatically play audio when word is displayed
+    const audioUrl = `${basePath}/media/audio/fr/${sanitizedFrench}.mp3`;
+    setTimeout(() => {
+        const audio = new Audio(audioUrl);
+        audio.play().catch(error => {
+            console.error('Error playing audio:', error);
+        });
+    }, 500); // 500ms delay
 }
 
 // Audio playback function

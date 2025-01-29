@@ -64,7 +64,7 @@ function sanitizeFilename(str) {
         .toLowerCase()
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, '')  // Remove diacritical marks
-        .replace(/[']/g, '')              // Remove apostrophes
+        .replace(/[']/g, '_')              // Remove apostrophes
         .replace(/\s+/g, '_')             // Replace spaces with underscores
         .replace(/[^a-z0-9_-]/g, '');     // Remove any other special characters
 }

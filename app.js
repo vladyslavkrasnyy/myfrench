@@ -287,7 +287,7 @@ function previousWord() {
     displayCurrentWord();
 }
 
-// Generate question for testing mode
+// First we'll update the generateQuestion function to include audio
 function generateQuestion() {
     questionCount++;
     if (questionCount > 10) {
@@ -311,6 +311,19 @@ function generateQuestion() {
     document.getElementById('questionCount').textContent = questionCount;
     document.getElementById('score').textContent = score;
 
+    // Add audio player
+    const sanitizedFrench = sanitizeFilename(currentWord.french);
+    const audioUrl = `${basePath}/media/audio/fr/${sanitizedFrench}.mp3`;
+
+    const audioContainer = document.getElementById('testAudio');
+    audioContainer.innerHTML = `
+        <div class="audio-controls">
+            <button onclick="playAudio('${audioUrl}')" class="audio-btn" title="Listen in French">
+                🔊
+            </button>
+        </div>
+    `;
+
     // Display options
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
@@ -323,6 +336,11 @@ function generateQuestion() {
 
     // Start timer
     startTimer();
+
+    // Automatically play audio
+    setTimeout(() => {
+        playAudio(audioUrl);
+    }, 500);
 }
 
 // Timer functionality

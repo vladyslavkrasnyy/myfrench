@@ -2,6 +2,7 @@ import os
 import json
 import unicodedata
 from gtts import gTTS
+import re
 
 # Paths
 VOCAB_DIR = "/Users/vladyslav/proteantecs/git/myfrench/vocabulary"

@@ -204,28 +204,29 @@ function startTestingMode() {
 function displayCurrentWord() {
     const word = topics[currentTopic].words[currentIndex];
 
-    // Update the French word
     document.getElementById('frenchWord').textContent = word.french;
-
-    // Update the native translation based on selected language
     document.getElementById('nativeWord').textContent = word[currentLanguage === 'english' ? 'english' : 'ukrainian'];
 
-    // Display the French example
     const exampleElement = document.getElementById('example');
     exampleElement.textContent = word.example;
     exampleElement.style.display = word.example ? 'block' : 'none';
 
     // Sanitize filename for media URLs
     const sanitizedFrench = sanitizeFilename(word.french);
-    console.log('Original word:', word.french);
+    console.log('Original French word:', word.french);
     console.log('Sanitized filename:', sanitizedFrench);
+
+    // Construct media URLs
+    const imageUrl = `${basePath}/media/images/${sanitizedFrench}.jpg`;
+    const audioUrl = `${basePath}/media/audio/fr/${sanitizedFrench}.mp3`;
+
+    console.log('Audio URL:', audioUrl);
 
     // Display image if available
     const imageContainer = document.getElementById('wordImage');
-    imageContainer.innerHTML = `<img src="${basePath}/media/images/${sanitizedFrench}.jpg" alt="${word.french}" onerror="this.style.display='none'">`;
+    imageContainer.innerHTML = `<img src="${imageUrl}" alt="${word.french}" onerror="this.onerror=null; this.style.display='none';">`;
 
-    // Add audio player for French pronunciation
-    const audioUrl = `${basePath}/media/audio/fr/${sanitizedFrench}.mp3`;
+    // Add audio player
     const audioContainer = document.getElementById('wordAudio');
     audioContainer.innerHTML = `
         <div class="audio-controls">
@@ -235,17 +236,34 @@ function displayCurrentWord() {
         </div>
     `;
 
-    // Automatically play audio when word is displayed
-    console.log('Attempting to play audio automatically:', audioUrl);
+    // Automatically play audio
     playAudio(audioUrl);
 }
 
+
+
 // Audio playback function
-function playAudio(audioUrl) {
-    const audio = new Audio(audioUrl);
-    audio.play().catch(error => {
-        console.error('Error playing audio:', error);
-    });
+async function playAudio(audioUrl) {
+    console.log('Attempting to play audio from URL:', audioUrl);
+    try {
+        // First check if the audio file exists
+        const response = await fetch(audioUrl);
+        if (!response.ok) {
+            throw new Error(`Audio file not found (${response.status})`);
+        }
+
+        const audio = new Audio(audioUrl);
+        await audio.play();
+        console.log('Audio playback started successfully');
+    } catch (error) {
+        if (error.name === 'NotAllowedError') {
+            console.error('Audio playback was not allowed. User interaction might be required.');
+        } else if (error.message.includes('not found')) {
+            console.error('Audio file is missing:', error.message);
+        } else {
+            console.error('Error playing audio:', error);
+        }
+    }
 }
 
 // Navigation in learning mode

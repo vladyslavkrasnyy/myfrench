@@ -245,7 +245,7 @@ function displayTopics() {
         topics: topics,
         currentLanguage: currentLanguage,
         onSelectTopic: selectTopic,
-        basePath: basePath // Pass the basePath to the component
+        basePath: basePath
     }));
     showSection('topicSelection');
 }

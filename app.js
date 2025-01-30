@@ -266,8 +266,8 @@ function displayCurrentWord() {
     exampleElement.textContent = word.example;
     exampleElement.style.display = word.example ? 'block' : 'none';
 
-    const imageContainer = document.getElementById('wordImage');
-    imageContainer.innerHTML = `<img src="${word.media.image}" alt="${word.french}" onerror="this.onerror=null; this.style.display='none';">`;
+    //const imageContainer = document.getElementById('wordImage');
+    //imageContainer.innerHTML = `<img src="${word.media.image}" alt="${word.french}" onerror="this.onerror=null; this.style.display='none';">`;
 
     const audioContainer = document.getElementById('wordAudio');
     audioContainer.innerHTML = `

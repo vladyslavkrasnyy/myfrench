@@ -1,13 +1,9 @@
 window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, basePath }) {
-    // Create a placeholder data URL instead of requesting an image
-    const placeholderImage = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Crect width='120' height='120' fill='%23f3f4f6'/%3E%3Cpath d='M50 50h20v20H50z' fill='%23d1d5db'/%3E%3C/svg%3E";
+    const placeholderImage = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Crect width='120' height='120' fill='%23f3f4f6'/%3E%3Cg fill='%23d1d5db'%3E%3Cpath d='M40 30h40v8H40zM30 50h60v6H30zM35 65h50v6H35zM45 80h30v6H45z'/%3E%3C/g%3E%3C/svg%3E";
 
     const getImageUrl = (topicId) => {
-        // Only request actual topic images, not placeholder
-        if (topics[topicId].imageUrl) {
-            return `${basePath}/images/topics/${topicId}.jpg`;
-        }
-        return placeholderImage; // Use data URL instead of requesting a file
+        // Try to load the actual topic image
+        return `${basePath}/images/topics/${topicId}.jpg`;
     };
 
     return React.createElement("div", {
@@ -54,7 +50,11 @@ window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, 
                             src: getImageUrl(id),
                             alt: "",
                             className: "w-full h-full object-cover",
-                            // Remove onError handler as we're using a data URL placeholder by default
+                            onError: (e) => {
+                                if (e.target.src !== placeholderImage) {
+                                    e.target.src = placeholderImage;
+                                }
+                            }
                         })
                     ),
                     React.createElement("span", {

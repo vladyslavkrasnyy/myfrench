@@ -17,8 +17,12 @@ window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, 
         transition-all duration-200 ease-in-out
         border border-gray-200 hover:border-gray-300
         ${topic.loaded ? 'border-l-4 border-l-green-500' : ''}
-        aspect-square w-full
+        w-full
       `,
+                style: {
+                    minHeight: '120px',
+                    maxHeight: '160px'
+                },
                 disabled: topic.loading
             },
             topic.loading ? (
@@ -43,7 +47,11 @@ window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, 
             ) : (
                 React.createElement(React.Fragment, null,
                     React.createElement("div", {
-                            className: "w-4/5 aspect-square mb-3 rounded-lg overflow-hidden bg-gray-100"
+                            className: "rounded-lg overflow-hidden bg-gray-100",
+                            style: {
+                                width: '64px',
+                                height: '64px'
+                            }
                         },
                         React.createElement("img", {
                             src: getImageUrl(id),
@@ -57,7 +65,7 @@ window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, 
                         })
                     ),
                     React.createElement("span", {
-                        className: "text-sm font-medium text-center text-gray-700 mt-auto"
+                        className: "text-sm font-medium text-center text-gray-700 mt-2"
                     }, currentLanguage === 'ukrainian' && topic.name_uk ? topic.name_uk : topic.name)
                 )
             )

@@ -2,6 +2,7 @@ window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, 
     const placeholderImage = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Crect width='120' height='120' fill='%23f3f4f6'/%3E%3Cg fill='%23d1d5db'%3E%3Cpath d='M40 30h40v8H40zM30 50h60v6H30zM35 65h50v6H35zM45 80h30v6H45z'/%3E%3C/g%3E%3C/svg%3E";
 
     const getImageUrl = (topicId) => {
+        // Updated path to include 'media' directory
         return `${basePath}/media/images/topics/${topicId}.jpg`;
     };
 
@@ -17,12 +18,8 @@ window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, 
         transition-all duration-200 ease-in-out
         border border-gray-200 hover:border-gray-300
         ${topic.loaded ? 'border-l-4 border-l-green-500' : ''}
-        w-full
+        min-h-[160px] w-full
       `,
-                style: {
-                    minHeight: '120px',
-                    maxHeight: '160px'
-                },
                 disabled: topic.loading
             },
             topic.loading ? (
@@ -47,11 +44,7 @@ window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, 
             ) : (
                 React.createElement(React.Fragment, null,
                     React.createElement("div", {
-                            className: "rounded-lg overflow-hidden bg-gray-100",
-                            style: {
-                                width: '64px',
-                                height: '64px'
-                            }
+                            className: "w-16 h-16 mb-3 rounded-lg overflow-hidden bg-gray-100"
                         },
                         React.createElement("img", {
                             src: getImageUrl(id),
@@ -65,7 +58,7 @@ window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, 
                         })
                     ),
                     React.createElement("span", {
-                        className: "text-sm font-medium text-center text-gray-700 mt-2"
+                        className: "text-sm font-medium text-center text-gray-700"
                     }, currentLanguage === 'ukrainian' && topic.name_uk ? topic.name_uk : topic.name)
                 )
             )

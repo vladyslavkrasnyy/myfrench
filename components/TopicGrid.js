@@ -2,24 +2,26 @@ window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, 
     const placeholderImage = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Crect width='120' height='120' fill='%23f3f4f6'/%3E%3Cg fill='%23d1d5db'%3E%3Cpath d='M40 30h40v8H40zM30 50h60v6H30zM35 65h50v6H35zM45 80h30v6H45z'/%3E%3C/g%3E%3C/svg%3E";
 
     const getImageUrl = (topicId) => {
-        // Updated path to include 'media' directory
         return `${basePath}/media/images/topics/${topicId}.jpg`;
     };
 
     return React.createElement("div", {
-        className: "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 p-4"
+        className: "grid grid-cols-3 gap-0 mx-auto", // Fixed to 3 columns, removed responsive columns
+        style: {
+            width: '800px' // 280px * 3 columns
+        }
     }, Object.entries(topics).map(([id, topic]) =>
         React.createElement("button", {
                 key: id,
                 onClick: () => onSelectTopic(id),
-                className: `
-        relative flex flex-col items-center justify-center p-4
-        bg-white rounded-lg shadow-sm hover:shadow-md
-        transition-all duration-200 ease-in-out
-        border border-gray-200 hover:border-gray-300
-        ${topic.loaded ? 'border-l-4 border-l-green-500' : ''}
-        min-h-[160px] w-full
-      `,
+                className: "relative group border-0 outline-none focus:outline-none rounded-lg overflow-hidden",
+                style: {
+                    lineHeight: 0,
+                    padding: 0,
+                    background: 'none',
+                    width: '262px',
+                    height: '262px'
+                },
                 disabled: topic.loading
             },
             topic.loading ? (
@@ -32,33 +34,34 @@ window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, 
                 )
             ) : topic.error ? (
                 React.createElement("div", {
-                        className: "text-center text-red-500"
+                        className: "absolute inset-0 flex items-center justify-center bg-red-50 rounded-lg"
                     },
-                    React.createElement("span", {
-                        className: "block text-lg mb-2"
-                    }, "⚠️"),
-                    React.createElement("span", {
-                        className: "text-sm"
-                    }, "Error loading topic")
+                    React.createElement("div", {
+                            className: "text-center text-red-500"
+                        },
+                        React.createElement("span", {
+                            className: "block text-lg"
+                        }, "⚠️")
+                    )
                 )
             ) : (
                 React.createElement(React.Fragment, null,
-                    React.createElement("div", {
-                            className: "w-16 h-16 mb-3 rounded-lg overflow-hidden bg-gray-100"
-                        },
-                        React.createElement("img", {
-                            src: getImageUrl(id),
-                            alt: "",
-                            className: "w-full h-full object-cover",
-                            onError: (e) => {
-                                if (e.target.src !== placeholderImage) {
-                                    e.target.src = placeholderImage;
-                                }
+                    React.createElement("img", {
+                        src: getImageUrl(id),
+                        alt: "",
+                        className: "absolute inset-0 w-full h-full object-cover rounded-lg",
+                        style: { margin: 0, display: 'block' },
+                        onError: (e) => {
+                            if (e.target.src !== placeholderImage) {
+                                e.target.src = placeholderImage;
                             }
-                        })
-                    ),
-                    React.createElement("span", {
-                        className: "text-sm font-medium text-center text-gray-700"
+                        }
+                    }),
+                    React.createElement("div", {
+                        className: "absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity rounded-lg"
+                    }),
+                    React.createElement("div", {
+                        className: "absolute bottom-0 left-0 right-0 text-center p-1 text-white text-sm bg-black bg-opacity-50 rounded-b-lg"
                     }, currentLanguage === 'ukrainian' && topic.name_uk ? topic.name_uk : topic.name)
                 )
             )

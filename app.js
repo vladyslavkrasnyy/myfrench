@@ -219,23 +219,34 @@ function updateUILanguage() {
     learningControls.querySelector('button:nth-child(3)').textContent = translations.back;
 }
 
+// function displayTopics() {
+//     const topicList = document.getElementById('topicList');
+//     topicList.innerHTML = '';
+//
+//     Object.entries(topics).forEach(([id, topic]) => {
+//         const button = document.createElement('button');
+//         button.setAttribute('data-topic', id);
+//         button.textContent = topic.loaded ?
+//             (currentLanguage === 'ukrainian' ? topic.name_uk : topic.name) :
+//             topic.name;
+//         if (topic.loaded) {
+//             button.classList.add('loaded');
+//         }
+//         button.onclick = () => selectTopic(id);
+//         topicList.appendChild(button);
+//     });
+//
+//     showSection('topicSelection');
+// }
+
 function displayTopics() {
-    const topicList = document.getElementById('topicList');
-    topicList.innerHTML = '';
-
-    Object.entries(topics).forEach(([id, topic]) => {
-        const button = document.createElement('button');
-        button.setAttribute('data-topic', id);
-        button.textContent = topic.loaded ?
-            (currentLanguage === 'ukrainian' ? topic.name_uk : topic.name) :
-            topic.name;
-        if (topic.loaded) {
-            button.classList.add('loaded');
-        }
-        button.onclick = () => selectTopic(id);
-        topicList.appendChild(button);
-    });
-
+    const root = ReactDOM.createRoot(document.getElementById('topicList'));
+    root.render(React.createElement(TopicGrid, {
+        topics: topics,
+        currentLanguage: currentLanguage,
+        onSelectTopic: selectTopic,
+        basePath: basePath // Pass the basePath to the component
+    }));
     showSection('topicSelection');
 }
 

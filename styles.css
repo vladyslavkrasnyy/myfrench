@@ -309,26 +309,101 @@ button:disabled {
     margin-right: 10px;
 }
 
-.error-state {
-    color: #e53e3e;
-    text-align: center;
-    padding: 10px;
-}
-
-.error-state button {
-    margin-top: 10px;
-    padding: 5px 15px;
-    background: #fff;
-    border: 1px solid #e53e3e;
-    color: #e53e3e;
-    border-radius: 4px;
-}
-
-button.loaded {
-    border-left: 4px solid #48bb78;
-}
-
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+/* Loading state */
+.topic-button.loading {
+    cursor: wait;
+}
+
+.loading .spinner {
+    width: 24px;
+    height: 24px;
+}
+
+/* Add to your existing styles.css */
+.topic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.topic-button {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1;
+    min-height: 120px;
+    border: 1px solid #e4e4e7;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    transition: all 0.2s ease;
+}
+
+.topic-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.topic-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.topic-name {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 8px;
+    color: #18181b;
+}
+
+.spinner {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.loading .topic-icon img {
+    opacity: 0.5;
+}
+
+.topic-button.loaded {
+    border-left: 4px solid #22c55e;
+}
+
+.topic-button.error {
+    border-color: #ef4444;
+}
+
+.error-state {
+    color: #ef4444;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.error-state button {
+    background: #fee2e2;
+    color: #ef4444;
+    border: 1px solid #fecaca;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-top: 4px;
+    font-size: 0.8rem;
 }

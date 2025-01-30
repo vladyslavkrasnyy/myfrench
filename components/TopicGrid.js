@@ -1,7 +1,10 @@
-// Remove the import/export syntax and make it global
 window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, basePath }) {
     const getImageUrl = (topicId) => {
         return `${basePath}/images/topics/${topicId}.jpg`;
+    };
+
+    const getPlaceholderUrl = () => {
+        return `${basePath}/images/topics/placeholder.jpg`;
     };
 
     return React.createElement("div", {
@@ -57,7 +60,7 @@ window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, 
                             className: "w-full h-full object-cover",
                             onError: (e) => {
                                 e.target.onerror = null;
-                                e.target.src = `${basePath}/images/placeholder.jpg`;
+                                e.target.src = getPlaceholderUrl();
                             }
                         })
                     ),

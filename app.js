@@ -73,7 +73,7 @@ async function loadTopics() {
     try {
         console.log('Starting to load topics...');
 
-        const configPath = `${basePath}/vocabulary/config.json`;
+        const configPath = `${basePath}/config.json`;
         console.log('Loading config from:', configPath);
         const configResponse = await fetch(configPath);
         if (!configResponse.ok) {

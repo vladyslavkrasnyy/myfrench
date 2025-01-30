@@ -4,7 +4,7 @@ import os
 # Define the directory containing images
 IMAGE_DIR = "/Users/vladyslav/proteantecs/git/myfrench/media/images/topics/"
 
-def resize_image(image_path, size=(240, 240)):
+def resize_image(image_path, size=(220, 240)):
     """Resize an image to the specified size and overwrite it."""
     with Image.open(image_path) as img:
         img_resized = img.resize(size, Image.LANCZOS)  # High-quality resize

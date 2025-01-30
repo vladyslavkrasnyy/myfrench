@@ -1,3 +1,4 @@
+// State management
 let topics = {};
 let currentTopic = null;
 let currentIndex = 0;
@@ -69,51 +70,113 @@ function sanitizeFilename(str) {
         .replace(/[^a-z0-9_-]/g, '');     // Remove any other special characters
 }
 
+// Load only config initially
 async function loadTopics() {
     try {
-        console.log('Starting to load topics...');
+        console.log('Loading config...');
 
-        const configPath = `${basePath}/config.json`;
-        console.log('Loading config from:', configPath);
-        const configResponse = await fetch(configPath);
+        // Show loading state
+        document.getElementById('topicList').innerHTML = `
+            <div class="loading-state">
+                <div class="spinner"></div>
+                <p>Loading...</p>
+            </div>
+        `;
+
+        const configResponse = await fetch(`${basePath}/config.json`);
         if (!configResponse.ok) {
             throw new Error(`Failed to load config: ${configResponse.statusText}`);
         }
+
         const config = await configResponse.json();
-
         if (typeof config.topics === 'object' && config.topics !== null) {
-            for (const [topicName, topicFile] of Object.entries(config.topics)) {
-                const topicPath = `${basePath}/vocabulary/${topicFile}`;
-                const response = await fetch(topicPath);
-                if (!response.ok) {
-                    throw new Error(`Failed to load topic ${topicName}`);
-                }
-                topics[topicName] = await response.json();
+            // Store only topic metadata initially
+            topics = Object.fromEntries(
+                Object.entries(config.topics).map(([name, file]) => [
+                    name,
+                    { file, name, loaded: false }
+                ])
+            );
 
-                // Modified media configuration to only include French audio
-                for (let word of topics[topicName].words) {
-                    let sanitizedFrench = sanitizeFilename(word.french);
-                    word.media = {
-                        image: `${basePath}/media/images/${sanitizedFrench}.jpg`,
-                        audio: `${basePath}/media/audio/fr/${sanitizedFrench}.mp3`
-                    };
-                }
-            }
-
-            console.log('All topics loaded:', topics);
             displayLanguageSelector();
             displayTopics();
         } else {
-            throw new Error('Invalid format: config.topics should be an object.');
+            throw new Error('Invalid config format');
         }
     } catch (error) {
-        console.error('Error loading topics:', error);
+        console.error('Error loading config:', error);
         document.getElementById('topicList').innerHTML = `
-            <div style="color: red; text-align: center;">
+            <div class="error-message">
                 Error loading topics. Please try again later.<br>
-                Error details: ${error.message}
+                ${error.message}
             </div>
         `;
+    }
+}
+
+// Load topic when selected
+async function selectTopic(topicId) {
+    const topicButton = document.querySelector(`button[data-topic="${topicId}"]`);
+    if (!topics[topicId].loaded) {
+        try {
+            // Show loading state
+            topicButton.disabled = true;
+            topicButton.innerHTML = `
+                <span class="spinner"></span>
+                Loading...
+            `;
+
+            // Load topic data
+            const response = await fetch(`${basePath}/vocabulary/${topics[topicId].file}`);
+            if (!response.ok) {
+                throw new Error(`Failed to load topic ${topicId}`);
+            }
+
+            const topicData = await response.json();
+
+            // Process words and add media paths
+            topicData.words = topicData.words.map(word => {
+                const sanitizedFrench = sanitizeFilename(word.french);
+                return {
+                    ...word,
+                    media: {
+                        image: `${basePath}/media/images/${sanitizedFrench}.jpg`,
+                        audio: `${basePath}/media/audio/fr/${sanitizedFrench}.mp3`
+                    }
+                };
+            });
+
+            // Store the loaded topic
+            topics[topicId] = {
+                ...topics[topicId],
+                ...topicData,
+                loaded: true
+            };
+
+            // Reset button state
+            topicButton.disabled = false;
+            topicButton.textContent = topics[topicId][currentLanguage === 'ukrainian' ? 'name_uk' : 'name'];
+            topicButton.classList.add('loaded');
+
+            // Set as current topic and show mode selection
+            currentTopic = topicId;
+            currentIndex = 0;
+            showModeSelection();
+
+        } catch (error) {
+            console.error('Error loading topic:', error);
+            topicButton.innerHTML = `
+                <div class="error-state">
+                    Error loading topic<br>
+                    <button onclick="selectTopic('${topicId}')">Retry</button>
+                </div>
+            `;
+        }
+    } else {
+        // Topic already loaded
+        currentTopic = topicId;
+        currentIndex = 0;
+        showModeSelection();
     }
 }
 
@@ -134,10 +197,10 @@ function changeLanguage(langKey) {
     currentLanguage = langKey;
     updateUILanguage();
     if (currentTopic && currentWord) {
-        displayCurrentWord(); // Refresh current word display if we're in learning mode
+        displayCurrentWord();
     }
     if (document.getElementById('testingMode').style.display === 'block') {
-        generateQuestion(); // Refresh testing mode if we're in it
+        generateQuestion();
     }
     displayTopics();
 }
@@ -145,28 +208,31 @@ function changeLanguage(langKey) {
 function updateUILanguage() {
     const translations = uiTranslations[currentLanguage];
 
-    // Update all UI elements with translated text
     document.querySelector('#topicSelection h2').textContent = translations.selectTopic;
     document.querySelector('#modeSelection h2').textContent = translations.chooseMode;
     document.querySelector('#modeSelection button:nth-child(1)').textContent = translations.learningMode;
     document.querySelector('#modeSelection button:nth-child(2)').textContent = translations.testingMode;
     document.querySelector('#modeSelection button:nth-child(3)').textContent = translations.backToTopics;
 
-    // Update learning mode buttons
     const learningControls = document.querySelector('#learningMode .controls');
     learningControls.querySelector('button:nth-child(1)').textContent = translations.previous;
     learningControls.querySelector('button:nth-child(2)').textContent = translations.next;
     learningControls.querySelector('button:nth-child(3)').textContent = translations.back;
 }
 
-// Display available topics
 function displayTopics() {
     const topicList = document.getElementById('topicList');
     topicList.innerHTML = '';
 
     Object.entries(topics).forEach(([id, topic]) => {
         const button = document.createElement('button');
-        button.textContent = currentLanguage === 'ukrainian' ? topic.name_uk : topic.name;
+        button.setAttribute('data-topic', id);
+        button.textContent = topic.loaded ?
+            (currentLanguage === 'ukrainian' ? topic.name_uk : topic.name) :
+            topic.name;
+        if (topic.loaded) {
+            button.classList.add('loaded');
+        }
         button.onclick = () => selectTopic(id);
         topicList.appendChild(button);
     });
@@ -174,25 +240,15 @@ function displayTopics() {
     showSection('topicSelection');
 }
 
-// Topic selection
-function selectTopic(topicId) {
-    currentTopic = topicId;
-    currentIndex = 0;
-    showModeSelection();
-}
-
-// Show mode selection
 function showModeSelection() {
     showSection('modeSelection');
 }
 
-// Start learning mode
 function startLearningMode() {
     showSection('learningMode');
     displayCurrentWord();
 }
 
-// Start testing mode
 function startTestingMode() {
     score = 0;
     questionCount = 0;
@@ -200,7 +256,6 @@ function startTestingMode() {
     generateQuestion();
 }
 
-// Display current word in learning mode
 function displayCurrentWord() {
     const word = topics[currentTopic].words[currentIndex];
 
@@ -211,26 +266,13 @@ function displayCurrentWord() {
     exampleElement.textContent = word.example;
     exampleElement.style.display = word.example ? 'block' : 'none';
 
-    // Sanitize filename for media URLs
-    const sanitizedFrench = sanitizeFilename(word.french);
-    console.log('Original French word:', word.french);
-    console.log('Sanitized filename:', sanitizedFrench);
-
-    // Construct media URLs
-    const imageUrl = `${basePath}/media/images/${sanitizedFrench}.jpg`;
-    const audioUrl = `${basePath}/media/audio/fr/${sanitizedFrench}.mp3`;
-
-    console.log('Audio URL:', audioUrl);
-
-    // Display image if available
     const imageContainer = document.getElementById('wordImage');
-    imageContainer.innerHTML = `<img src="${imageUrl}" alt="${word.french}" onerror="this.onerror=null; this.style.display='none';">`;
+    imageContainer.innerHTML = `<img src="${word.media.image}" alt="${word.french}" onerror="this.onerror=null; this.style.display='none';">`;
 
-    // Add audio player
     const audioContainer = document.getElementById('wordAudio');
     audioContainer.innerHTML = `
         <div class="audio-controls">
-            <button onclick="playAudio('${audioUrl}')" class="audio-btn" title="Listen in French">
+            <button onclick="playAudio('${word.media.audio}')" class="audio-btn" title="Listen in French">
                 🔊
             </button>
         </div>
@@ -238,17 +280,13 @@ function displayCurrentWord() {
 
     // Automatically play audio
     setTimeout(() => {
-        playAudio(audioUrl);
-    }, 500); // 500ms delay
+        playAudio(word.media.audio);
+    }, 500);
 }
 
-
-
-// Audio playback function
 async function playAudio(audioUrl) {
     console.log('Attempting to play audio from URL:', audioUrl);
     try {
-        // First check if the audio file exists
         const response = await fetch(audioUrl);
         if (!response.ok) {
             throw new Error(`Audio file not found (${response.status})`);
@@ -258,17 +296,10 @@ async function playAudio(audioUrl) {
         await audio.play();
         console.log('Audio playback started successfully');
     } catch (error) {
-        if (error.name === 'NotAllowedError') {
-            console.error('Audio playback was not allowed. User interaction might be required.');
-        } else if (error.message.includes('not found')) {
-            console.error('Audio file is missing:', error.message);
-        } else {
-            console.error('Error playing audio:', error);
-        }
+        console.error('Error playing audio:', error);
     }
 }
 
-// Navigation in learning mode
 function nextWord() {
     if (currentIndex < topics[currentTopic].words.length - 1) {
         currentIndex++;
@@ -287,7 +318,6 @@ function previousWord() {
     displayCurrentWord();
 }
 
-// First we'll update the generateQuestion function to include audio
 function generateQuestion() {
     questionCount++;
     if (questionCount > 10) {
@@ -298,7 +328,6 @@ function generateQuestion() {
     const words = topics[currentTopic].words;
     currentWord = words[Math.floor(Math.random() * words.length)];
 
-    // Generate options
     const wrongOptions = words
         .filter(word => word !== currentWord)
         .sort(() => Math.random() - 0.5)
@@ -306,25 +335,19 @@ function generateQuestion() {
 
     options = [...wrongOptions, currentWord].sort(() => Math.random() - 0.5);
 
-    // Update display
     document.getElementById('testFrenchWord').textContent = currentWord.french;
     document.getElementById('questionCount').textContent = questionCount;
     document.getElementById('score').textContent = score;
 
-    // Add audio player
-    const sanitizedFrench = sanitizeFilename(currentWord.french);
-    const audioUrl = `${basePath}/media/audio/fr/${sanitizedFrench}.mp3`;
-
     const audioContainer = document.getElementById('testAudio');
     audioContainer.innerHTML = `
         <div class="audio-controls">
-            <button onclick="playAudio('${audioUrl}')" class="audio-btn" title="Listen in French">
+            <button onclick="playAudio('${currentWord.media.audio}')" class="audio-btn" title="Listen in French">
                 🔊
             </button>
         </div>
     `;
 
-    // Display options
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
     options.forEach((option, index) => {
@@ -334,13 +357,10 @@ function generateQuestion() {
         optionsContainer.appendChild(button);
     });
 
-    // Start timer
     startTimer();
-    // Automatically play audio
-    playAudio(audioUrl);
+    playAudio(currentWord.media.audio);
 }
 
-// Timer functionality
 function startTimer() {
     let timeLeft = 10;
     document.getElementById('timer').textContent = timeLeft;
@@ -357,7 +377,6 @@ function startTimer() {
     }, 1000);
 }
 
-// Handle answer selection
 function checkAnswer(index) {
     clearInterval(timer);
     const buttons = document.querySelectorAll('#options button');
@@ -377,13 +396,12 @@ function checkAnswer(index) {
         document.getElementById('score').textContent = score;
         setTimeout(generateQuestion, 1000);
     } else {
-        score = Math.max(0, score - 2); // Deduct 2 points for wrong answer
+        score = Math.max(0, score - 2);
         document.getElementById('score').textContent = score;
         setTimeout(generateQuestion, 1500);
     }
 }
 
-// Handle timeout
 function handleTimeout() {
     const buttons = document.querySelectorAll('#options button');
     buttons.forEach((button, i) => {
@@ -392,12 +410,11 @@ function handleTimeout() {
         }
         button.disabled = true;
     });
-    score = Math.max(0, score - 2); // Deduct 2 points for timeout
+    score = Math.max(0, score - 2);
     document.getElementById('score').textContent = score;
     setTimeout(generateQuestion, 1500);
 }
 
-// Show summary
 function showSummary() {
     const translations = uiTranslations[currentLanguage];
     const accuracy = Math.round((score / 10) * 100);
@@ -408,7 +425,6 @@ function showSummary() {
     showSection('summary');
 }
 
-// Utility function to show specific section
 function showSection(sectionId) {
     const sections = ['topicSelection', 'modeSelection', 'learningMode', 'testingMode', 'summary'];
     sections.forEach(id => {
@@ -416,7 +432,6 @@ function showSection(sectionId) {
     });
 }
 
-// Helper function to go back to topics
 function showTopics() {
     if (timer) clearInterval(timer);
     displayTopics();

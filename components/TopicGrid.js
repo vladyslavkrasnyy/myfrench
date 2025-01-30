@@ -1,10 +1,13 @@
 window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, basePath }) {
-    const getImageUrl = (topicId) => {
-        return `${basePath}/images/topics/${topicId}.jpg`;
-    };
+    // Create a placeholder data URL instead of requesting an image
+    const placeholderImage = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Crect width='120' height='120' fill='%23f3f4f6'/%3E%3Cpath d='M50 50h20v20H50z' fill='%23d1d5db'/%3E%3C/svg%3E";
 
-    const getPlaceholderUrl = () => {
-        return `${basePath}/images/topics/placeholder.jpg`;
+    const getImageUrl = (topicId) => {
+        // Only request actual topic images, not placeholder
+        if (topics[topicId].imageUrl) {
+            return `${basePath}/images/topics/${topicId}.jpg`;
+        }
+        return placeholderImage; // Use data URL instead of requesting a file
     };
 
     return React.createElement("div", {
@@ -40,14 +43,7 @@ window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, 
                     }, "⚠️"),
                     React.createElement("span", {
                         className: "text-sm"
-                    }, "Error loading topic"),
-                    React.createElement("button", {
-                        onClick: (e) => {
-                            e.stopPropagation();
-                            onSelectTopic(id);
-                        },
-                        className: "mt-2 text-xs bg-red-50 text-red-500 px-2 py-1 rounded"
-                    }, "Retry")
+                    }, "Error loading topic")
                 )
             ) : (
                 React.createElement(React.Fragment, null,
@@ -58,18 +54,12 @@ window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, 
                             src: getImageUrl(id),
                             alt: "",
                             className: "w-full h-full object-cover",
-                            onError: (e) => {
-                                e.target.onerror = null;
-                                e.target.src = getPlaceholderUrl();
-                            }
+                            // Remove onError handler as we're using a data URL placeholder by default
                         })
                     ),
                     React.createElement("span", {
                         className: "text-sm font-medium text-center text-gray-700"
-                    }, currentLanguage === 'ukrainian' && topic.name_uk ? topic.name_uk : topic.name),
-                    topic.loaded && React.createElement("span", {
-                        className: "absolute top-2 right-2 text-xs text-green-500"
-                    }, "✓")
+                    }, currentLanguage === 'ukrainian' && topic.name_uk ? topic.name_uk : topic.name)
                 )
             )
         )

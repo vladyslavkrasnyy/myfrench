@@ -8,6 +8,8 @@ let score = 0;
 let questionCount = 0;
 let timer = null;
 let currentLanguage = 'english'; // Default language
+let isLoadingTopics = false;
+let lastRenderedTopics = null;
 
 // Base path for GitHub Pages
 const basePath = '/myfrench';
@@ -70,9 +72,11 @@ function sanitizeFilename(str) {
         .replace(/[^a-z0-9_-]/g, '');     // Remove any other special characters
 }
 
-// Load only config initially
 async function loadTopics() {
+    if (isLoadingTopics) return;
+
     try {
+        isLoadingTopics = true;
         console.log('Loading config...');
 
         // Show loading state
@@ -83,14 +87,16 @@ async function loadTopics() {
             </div>
         `;
 
-        const configResponse = await fetch(`${basePath}/config.json`);
+        const configResponse = await fetch(`${basePath}/config.json`, {
+            cache: 'force-cache'
+        });
+
         if (!configResponse.ok) {
             throw new Error(`Failed to load config: ${configResponse.statusText}`);
         }
 
         const config = await configResponse.json();
         if (typeof config.topics === 'object' && config.topics !== null) {
-            // Store only topic metadata initially
             topics = Object.fromEntries(
                 Object.entries(config.topics).map(([name, file]) => [
                     name,
@@ -111,23 +117,24 @@ async function loadTopics() {
                 ${error.message}
             </div>
         `;
+    } finally {
+        isLoadingTopics = false;
     }
 }
 
-// Load topic when selected
 async function selectTopic(topicId) {
-    const topicButton = document.querySelector(`button[data-topic="${topicId}"]`);
-    if (!topics[topicId].loaded) {
-        try {
-            // Show loading state
-            topicButton.disabled = true;
-            topicButton.innerHTML = `
-                <span class="spinner"></span>
-                Loading...
-            `;
+    const topic = topics[topicId];
+    if (!topic || topic.loading) return;
 
-            // Load topic data
-            const response = await fetch(`${basePath}/vocabulary/${topics[topicId].file}`);
+    if (!topic.loaded) {
+        try {
+            topic.loading = true;
+            displayTopics(); // Update UI to show loading state
+
+            const response = await fetch(`${basePath}/vocabulary/${topic.file}`, {
+                cache: 'force-cache'
+            });
+
             if (!response.ok) {
                 throw new Error(`Failed to load topic ${topicId}`);
             }
@@ -149,13 +156,9 @@ async function selectTopic(topicId) {
             topics[topicId] = {
                 ...topics[topicId],
                 ...topicData,
-                loaded: true
+                loaded: true,
+                loading: false
             };
-
-            // Reset button state
-            topicButton.disabled = false;
-            topicButton.textContent = topics[topicId][currentLanguage === 'ukrainian' ? 'name_uk' : 'name'];
-            topicButton.classList.add('loaded');
 
             // Set as current topic and show mode selection
             currentTopic = topicId;
@@ -164,12 +167,9 @@ async function selectTopic(topicId) {
 
         } catch (error) {
             console.error('Error loading topic:', error);
-            topicButton.innerHTML = `
-                <div class="error-state">
-                    Error loading topic<br>
-                    <button onclick="selectTopic('${topicId}')">Retry</button>
-                </div>
-            `;
+            topics[topicId].loading = false;
+            topics[topicId].error = true;
+            displayTopics(); // Refresh to show error state
         }
     } else {
         // Topic already loaded
@@ -209,37 +209,29 @@ function updateUILanguage() {
 
     document.querySelector('#topicSelection h2').textContent = translations.selectTopic;
     document.querySelector('#modeSelection h2').textContent = translations.chooseMode;
-    document.querySelector('#modeSelection button:nth-child(1)').textContent = translations.learningMode;
-    document.querySelector('#modeSelection button:nth-child(2)').textContent = translations.testingMode;
-    document.querySelector('#modeSelection button:nth-child(3)').textContent = translations.backToTopics;
 
-    const learningControls = document.querySelector('#learningMode .controls');
-    learningControls.querySelector('button:nth-child(1)').textContent = translations.previous;
-    learningControls.querySelector('button:nth-child(2)').textContent = translations.next;
-    learningControls.querySelector('button:nth-child(3)').textContent = translations.back;
+    const modeButtons = document.querySelectorAll('#modeSelection button');
+    if (modeButtons.length >= 3) {
+        modeButtons[0].textContent = translations.learningMode;
+        modeButtons[1].textContent = translations.testingMode;
+        modeButtons[2].textContent = translations.backToTopics;
+    }
+
+    const learningControls = document.querySelectorAll('#learningMode .controls button');
+    if (learningControls.length >= 3) {
+        learningControls[0].textContent = translations.previous;
+        learningControls[1].textContent = translations.next;
+        learningControls[2].textContent = translations.back;
+    }
 }
 
-// function displayTopics() {
-//     const topicList = document.getElementById('topicList');
-//     topicList.innerHTML = '';
-//
-//     Object.entries(topics).forEach(([id, topic]) => {
-//         const button = document.createElement('button');
-//         button.setAttribute('data-topic', id);
-//         button.textContent = topic.loaded ?
-//             (currentLanguage === 'ukrainian' ? topic.name_uk : topic.name) :
-//             topic.name;
-//         if (topic.loaded) {
-//             button.classList.add('loaded');
-//         }
-//         button.onclick = () => selectTopic(id);
-//         topicList.appendChild(button);
-//     });
-//
-//     showSection('topicSelection');
-// }
-
 function displayTopics() {
+    const topicsString = JSON.stringify(topics);
+    if (lastRenderedTopics === topicsString) {
+        return; // Skip if nothing changed
+    }
+    lastRenderedTopics = topicsString;
+
     const root = ReactDOM.createRoot(document.getElementById('topicList'));
     root.render(React.createElement(TopicGrid, {
         topics: topics,
@@ -267,17 +259,18 @@ function startTestingMode() {
 }
 
 function displayCurrentWord() {
+    if (!currentTopic || !topics[currentTopic] || !topics[currentTopic].words) return;
+
     const word = topics[currentTopic].words[currentIndex];
+    if (!word) return;
 
     document.getElementById('frenchWord').textContent = word.french;
-    document.getElementById('nativeWord').textContent = word[currentLanguage === 'english' ? 'english' : 'ukrainian'];
+    document.getElementById('nativeWord').textContent =
+        word[currentLanguage === 'english' ? 'english' : 'ukrainian'];
 
     const exampleElement = document.getElementById('example');
-    exampleElement.textContent = word.example;
+    exampleElement.textContent = word.example || '';
     exampleElement.style.display = word.example ? 'block' : 'none';
-
-    //const imageContainer = document.getElementById('wordImage');
-    //imageContainer.innerHTML = `<img src="${word.media.image}" alt="${word.french}" onerror="this.onerror=null; this.style.display='none';">`;
 
     const audioContainer = document.getElementById('wordAudio');
     audioContainer.innerHTML = `
@@ -288,14 +281,13 @@ function displayCurrentWord() {
         </div>
     `;
 
-    // Automatically play audio
+    // Delayed audio playback
     setTimeout(() => {
-        playAudio(word.media.audio);
+        playAudio(word.media.audio).catch(console.error);
     }, 500);
 }
 
 async function playAudio(audioUrl) {
-    console.log('Attempting to play audio from URL:', audioUrl);
     try {
         const response = await fetch(audioUrl);
         if (!response.ok) {
@@ -304,13 +296,14 @@ async function playAudio(audioUrl) {
 
         const audio = new Audio(audioUrl);
         await audio.play();
-        console.log('Audio playback started successfully');
     } catch (error) {
         console.error('Error playing audio:', error);
     }
 }
 
 function nextWord() {
+    if (!currentTopic || !topics[currentTopic] || !topics[currentTopic].words) return;
+
     if (currentIndex < topics[currentTopic].words.length - 1) {
         currentIndex++;
     } else {
@@ -320,6 +313,8 @@ function nextWord() {
 }
 
 function previousWord() {
+    if (!currentTopic || !topics[currentTopic] || !topics[currentTopic].words) return;
+
     if (currentIndex > 0) {
         currentIndex--;
     } else {
@@ -329,6 +324,8 @@ function previousWord() {
 }
 
 function generateQuestion() {
+    if (!currentTopic || !topics[currentTopic] || !topics[currentTopic].words) return;
+
     questionCount++;
     if (questionCount > 10) {
         showSummary();
@@ -368,7 +365,7 @@ function generateQuestion() {
     });
 
     startTimer();
-    playAudio(currentWord.media.audio);
+    playAudio(currentWord.media.audio).catch(console.error);
 }
 
 function startTimer() {
@@ -438,7 +435,10 @@ function showSummary() {
 function showSection(sectionId) {
     const sections = ['topicSelection', 'modeSelection', 'learningMode', 'testingMode', 'summary'];
     sections.forEach(id => {
-        document.getElementById(id).style.display = id === sectionId ? 'block' : 'none';
+        const element = document.getElementById(id);
+        if (element) {
+            element.style.display = id === sectionId ? 'block' : 'none';
+        }
     });
 }
 

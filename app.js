@@ -140,7 +140,6 @@ async function selectTopic(topicId) {
                 return {
                     ...word,
                     media: {
-                        image: `${basePath}/media/images/${sanitizedFrench}.jpg`,
                         audio: `${basePath}/media/audio/fr/${sanitizedFrench}.mp3`
                     }
                 };

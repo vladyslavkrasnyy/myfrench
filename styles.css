@@ -21,7 +21,7 @@ h1 {
     text-align: center;
     color: #18181b;
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin: 0;
 }
 
 .section {
@@ -406,4 +406,23 @@ button:disabled {
     border-radius: 4px;
     margin-top: 4px;
     font-size: 0.8rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.language-selection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+
+.header-container h1 {
+    margin: 0;
+    text-align: left;
 }

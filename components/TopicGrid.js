@@ -62,7 +62,7 @@ window.TopicGrid = function TopicGrid({ topics, currentLanguage, onSelectTopic, 
                     }),
                     React.createElement("div", {
                         className: "absolute bottom-0 left-0 right-0 text-center p-1 text-white text-sm bg-black bg-opacity-50 rounded-b-lg"
-                    }, currentLanguage === 'ukrainian' && topic.name_uk ? topic.name_uk : topic.name)
+                    }, currentLanguage === 'ukrainian' ? topic.name_uk : topic.name_en)
                 )
             )
         )

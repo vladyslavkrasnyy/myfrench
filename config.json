@@ -1,86 +1,414 @@
 {
   "topics": {
-    "numbers": "numbers.json",
-    "large-numbers": "large-numbers.json",
-    "basic-colors": "basic-colors.json",
-    "daily-activities": "daily-activities.json",
-    "gardening": "gardening.json",
-    "hobbies": "hobbies.json",
-    "work-tasks": "work-tasks.json",
-    "advanced-colors": "advanced-colors.json",
-    "windows-doors": "windows-doors.json",
-    "beverages": "beverages.json",
-    "dairy-products": "dairy-products.json",
-    "food": "food.json",
-    "fruits-vegetables": "fruits-vegetables.json",
-    "meat-fish": "meat-fish.json",
-    "basic-clothing": "basic-clothing.json",
-    "clothing": "clothing.json",
-    "clothing-accessories": "clothing-accessories.json",
-    "seasonal-clothing": "seasonal-clothing.json",
-    "shoes": "shoes.json",
-    "bathroom-items": "bathroom-items.json",
-    "decor": "decor.json",
-    "exterior-features": "exterior-features.json",
-    "flooring": "flooring.json",
-    "furniture": "furniture.json",
-    "heating-cooling": "heating-cooling.json",
-    "home-improvement": "home-improvement.json",
-    "home-items": "home-items.json",
-    "household-items": "household-items.json",
-    "household-maintenance": "household-maintenance.json",
-    "kitchen-appliances": "kitchen-appliances.json",
-    "lighting": "lighting.json",
-    "rooms": "rooms.json",
-    "storage-solutions": "storage-solutions.json",
-    "cleaning-appliances": "cleaning-appliances.json",
-    "cleaning-supplies": "cleaning-supplies.json",
-    "waste-management": "waste-management.json",
-    "age-groups": "age-groups.json",
-    "body-parts": "body-parts.json",
-    "relatives": "extended-family.json",
-    "family": "family-members.json",
-    "relationships": "relationships.json",
-    "city-locations": "city-locations.json",
-    "places": "places.json",
-    "public-buildings": "public-buildings.json",
-    "shops-stores": "shops-stores.json",
-    "domestic-animals": "domestic-animals.json",
-    "forest-animals": "forest-animals.json",
-    "wild-animals": "wild-animals.json",
-    "personal-items": "personal-items.json",
-    "safety-equipment": "safety-equipment.json",
-    "security": "security.json",
-    "technology": "technology.json",
-    "transportation": "transportation.json",
-    "etre": "etre.json",
-    "etre-imparfe": "etre-imparfe.json",
-    "avoir": "avoir.json",
-    "avoir-imparfe": "avoir-imparfe.json",
-    "aller": "aller.json",
-    "aller-imparfe": "aller-imparfe.json",
-    "faire": "faire.json",
-    "faire-imparfe": "faire-imparfe.json",
-    "dire": "dire.json",
-    "dire-imparfe": "dire-imparfe.json",
-    "pouvoir": "pouvoir.json",
-    "pouvoir-imparfe": "pouvoir-imparfe.json",
-    "vouloir": "vouloir.json",
-    "vouloir-imparfe": "vouloir-imparfe.json",
-    "voir": "voir.json",
-    "voir-imparfe": "voir-imparfe.json",
-    "savoir": "savoir.json",
-    "savoir-imparfe": "savoir-imparfe.json",
-    "venir": "venir.json",
-    "venir-imparfe": "venir-imparfe.json",
-    "devoir": "devoir.json",
-    "devoir-imparfe": "devoir-imparfe.json",
-    "parler": "parler.json",
-    "finir": "finir.json",
-    "finir-imparfe": "finir-imparfe.json",
-    "mettre": "mettre.json",
-    "mettre-imparfe": "mettre-imparfe.json",
-    "prendre": "prendre.json",
-    "prendre-imparfe": "prendre-imparfe.json"
+    "numbers": {
+      "file": "numbers.json",
+      "name_en": "Numbers",
+      "name_uk": "Числа"
+    },
+    "large-numbers": {
+      "file": "large-numbers.json",
+      "name_en": "Large Numbers",
+      "name_uk": "Великі числа"
+    },
+    "basic-colors": {
+      "file": "basic-colors.json",
+      "name_en": "Basic Colors",
+      "name_uk": "Основні кольори"
+    },
+    "daily-activities": {
+      "file": "daily-activities.json",
+      "name_en": "Daily Activities",
+      "name_uk": "Щоденні справи"
+    },
+    "gardening": {
+      "file": "gardening.json",
+      "name_en": "Gardening",
+      "name_uk": "Садівництво"
+    },
+    "hobbies": {
+      "file": "hobbies.json",
+      "name_en": "Hobbies",
+      "name_uk": "Хобі"
+    },
+    "work-tasks": {
+      "file": "work-tasks.json",
+      "name_en": "Work Tasks",
+      "name_uk": "Робочі завдання"
+    },
+    "advanced-colors": {
+      "file": "advanced-colors.json",
+      "name_en": "Advanced Colors",
+      "name_uk": "Складні кольори"
+    },
+    "windows-doors": {
+      "file": "windows-doors.json",
+      "name_en": "Windows & Doors",
+      "name_uk": "Вікна та двері"
+    },
+    "beverages": {
+      "file": "beverages.json",
+      "name_en": "Beverages",
+      "name_uk": "Напої"
+    },
+    "dairy-products": {
+      "file": "dairy-products.json",
+      "name_en": "Dairy Products",
+      "name_uk": "Молочні продукти"
+    },
+    "food": {
+      "file": "food.json",
+      "name_en": "Food",
+      "name_uk": "Їжа"
+    },
+    "fruits-vegetables": {
+      "file": "fruits-vegetables.json",
+      "name_en": "Fruits & Vegetables",
+      "name_uk": "Фрукти та овочі"
+    },
+    "meat-fish": {
+      "file": "meat-fish.json",
+      "name_en": "Meat & Fish",
+      "name_uk": "М'ясо та риба"
+    },
+    "basic-clothing": {
+      "file": "basic-clothing.json",
+      "name_en": "Basic Clothing",
+      "name_uk": "Базовий одяг"
+    },
+    "clothing": {
+      "file": "clothing.json",
+      "name_en": "Clothing",
+      "name_uk": "Одяг"
+    },
+    "clothing-accessories": {
+      "file": "clothing-accessories.json",
+      "name_en": "Clothing Accessories",
+      "name_uk": "Аксесуари"
+    },
+    "seasonal-clothing": {
+      "file": "seasonal-clothing.json",
+      "name_en": "Seasonal Clothing",
+      "name_uk": "Сезонний одяг"
+    },
+    "shoes": {
+      "file": "shoes.json",
+      "name_en": "Shoes",
+      "name_uk": "Взуття"
+    },
+    "bathroom-items": {
+      "file": "bathroom-items.json",
+      "name_en": "Bathroom Items",
+      "name_uk": "Ванна кімната"
+    },
+    "decor": {
+      "file": "decor.json",
+      "name_en": "Decor",
+      "name_uk": "Декор"
+    },
+    "exterior-features": {
+      "file": "exterior-features.json",
+      "name_en": "Exterior Features",
+      "name_uk": "Зовнішні елементи"
+    },
+    "flooring": {
+      "file": "flooring.json",
+      "name_en": "Flooring",
+      "name_uk": "Підлогове покриття"
+    },
+    "furniture": {
+      "file": "furniture.json",
+      "name_en": "Furniture",
+      "name_uk": "Меблі"
+    },
+    "heating-cooling": {
+      "file": "heating-cooling.json",
+      "name_en": "Heating & Cooling",
+      "name_uk": "Опалення та охолодження"
+    },
+    "home-improvement": {
+      "file": "home-improvement.json",
+      "name_en": "Home Improvement",
+      "name_uk": "Ремонт будинку"
+    },
+    "home-items": {
+      "file": "home-items.json",
+      "name_en": "Home Items",
+      "name_uk": "Домашні речі"
+    },
+    "household-items": {
+      "file": "household-items.json",
+      "name_en": "Household Items",
+      "name_uk": "Побутові речі"
+    },
+    "household-maintenance": {
+      "file": "household-maintenance.json",
+      "name_en": "Household Maintenance",
+      "name_uk": "Догляд за будинком"
+    },
+    "kitchen-appliances": {
+      "file": "kitchen-appliances.json",
+      "name_en": "Kitchen Appliances",
+      "name_uk": "Кухонна техніка"
+    },
+    "lighting": {
+      "file": "lighting.json",
+      "name_en": "Lighting",
+      "name_uk": "Освітлення"
+    },
+    "rooms": {
+      "file": "rooms.json",
+      "name_en": "Rooms",
+      "name_uk": "Кімнати"
+    },
+    "storage-solutions": {
+      "file": "storage-solutions.json",
+      "name_en": "Storage Solutions",
+      "name_uk": "Зберігання"
+    },
+    "cleaning-appliances": {
+      "file": "cleaning-appliances.json",
+      "name_en": "Cleaning Appliances",
+      "name_uk": "Техніка для прибирання"
+    },
+    "cleaning-supplies": {
+      "file": "cleaning-supplies.json",
+      "name_en": "Cleaning Supplies",
+      "name_uk": "Засоби для прибирання"
+    },
+    "waste-management": {
+      "file": "waste-management.json",
+      "name_en": "Waste Management",
+      "name_uk": "Утилізація відходів"
+    },
+    "age-groups": {
+      "file": "age-groups.json",
+      "name_en": "Age Groups",
+      "name_uk": "Вікові групи"
+    },
+    "body-parts": {
+      "file": "body-parts.json",
+      "name_en": "Body Parts",
+      "name_uk": "Частини тіла"
+    },
+    "relatives": {
+      "file": "extended-family.json",
+      "name_en": "Relatives",
+      "name_uk": "Родичі"
+    },
+    "family": {
+      "file": "family-members.json",
+      "name_en": "Family",
+      "name_uk": "Сім'я"
+    },
+    "relationships": {
+      "file": "relationships.json",
+      "name_en": "Relationships",
+      "name_uk": "Стосунки"
+    },
+    "city-locations": {
+      "file": "city-locations.json",
+      "name_en": "City Locations",
+      "name_uk": "Місця у місті"
+    },
+    "places": {
+      "file": "places.json",
+      "name_en": "Places",
+      "name_uk": "Місця"
+    },
+    "public-buildings": {
+      "file": "public-buildings.json",
+      "name_en": "Public Buildings",
+      "name_uk": "Громадські будівлі"
+    },
+    "shops-stores": {
+      "file": "shops-stores.json",
+      "name_en": "Shops & Stores",
+      "name_uk": "Магазини"
+    },
+    "domestic-animals": {
+      "file": "domestic-animals.json",
+      "name_en": "Domestic Animals",
+      "name_uk": "Домашні тварини"
+    },
+    "forest-animals": {
+      "file": "forest-animals.json",
+      "name_en": "Forest Animals",
+      "name_uk": "Лісові тварини"
+    },
+    "wild-animals": {
+      "file": "wild-animals.json",
+      "name_en": "Wild Animals",
+      "name_uk": "Дикі тварини"
+    },
+    "personal-items": {
+      "file": "personal-items.json",
+      "name_en": "Personal Items",
+      "name_uk": "Особисті речі"
+    },
+    "safety-equipment": {
+      "file": "safety-equipment.json",
+      "name_en": "Safety Equipment",
+      "name_uk": "Засоби безпеки"
+    },
+    "security": {
+      "file": "security.json",
+      "name_en": "Security",
+      "name_uk": "Безпека"
+    },
+    "technology": {
+      "file": "technology.json",
+      "name_en": "Technology",
+      "name_uk": "Технології"
+    },
+    "transportation": {
+      "file": "transportation.json",
+      "name_en": "Transportation",
+      "name_uk": "Транспорт"
+    },
+    "etre": {
+      "file": "etre.json",
+      "name_en": "Être (To Be)",
+      "name_uk": "Être (Бути)"
+    },
+    "etre-imparfe": {
+      "file": "etre-imparfe.json",
+      "name_en": "Être - Imparfait",
+      "name_uk": "Être - минулий час"
+    },
+    "avoir": {
+      "file": "avoir.json",
+      "name_en": "Avoir (To Have)",
+      "name_uk": "Avoir (Мати)"
+    },
+    "avoir-imparfe": {
+      "file": "avoir-imparfe.json",
+      "name_en": "Avoir - Imparfait",
+      "name_uk": "Avoir - минулий час"
+    },
+    "aller": {
+      "file": "aller.json",
+      "name_en": "Aller (To Go)",
+      "name_uk": "Aller (Йти)"
+    },
+    "aller-imparfe": {
+      "file": "aller-imparfe.json",
+      "name_en": "Aller - Imparfait",
+      "name_uk": "Aller - минулий час"
+    },
+    "faire": {
+      "file": "faire.json",
+      "name_en": "Faire (To Do/Make)",
+      "name_uk": "Faire (Робити)"
+    },
+    "faire-imparfe": {
+      "file": "faire-imparfe.json",
+      "name_en": "Faire - Imparfait",
+      "name_uk": "Faire - минулий час"
+    },
+    "dire": {
+      "file": "dire.json",
+      "name_en": "Dire (To Say)",
+      "name_uk": "Dire (Сказати)"
+    },
+    "dire-imparfe": {
+      "file": "dire-imparfe.json",
+      "name_en": "Dire - Imparfait",
+      "name_uk": "Dire - минулий час"
+    },
+    "pouvoir": {
+      "file": "pouvoir.json",
+      "name_en": "Pouvoir (Can/To Be Able)",
+      "name_uk": "Pouvoir (Могти)"
+    },
+    "pouvoir-imparfe": {
+      "file": "pouvoir-imparfe.json",
+      "name_en": "Pouvoir - Imparfait",
+      "name_uk": "Pouvoir - минулий час"
+    },
+    "vouloir": {
+      "file": "vouloir.json",
+      "name_en": "Vouloir (To Want)",
+      "name_uk": "Vouloir (Хотіти)"
+    },
+    "vouloir-imparfe": {
+      "file": "vouloir-imparfe.json",
+      "name_en": "Vouloir - Imparfait",
+      "name_uk": "Vouloir - минулий час"
+    },
+    "voir": {
+      "file": "voir.json",
+      "name_en": "Voir (To See)",
+      "name_uk": "Voir (Бачити)"
+    },
+    "voir-imparfe": {
+      "file": "voir-imparfe.json",
+      "name_en": "Voir - Imparfait",
+      "name_uk": "Voir - минулий час"
+    },
+    "savoir": {
+      "file": "savoir.json",
+      "name_en": "Savoir (To Know)",
+      "name_uk": "Savoir (Знати)"
+    },
+    "savoir-imparfe": {
+      "file": "savoir-imparfe.json",
+      "name_en": "Savoir - Imparfait",
+      "name_uk": "Savoir - минулий час"
+    },
+    "venir": {
+      "file": "venir.json",
+      "name_en": "Venir (To Come)",
+      "name_uk": "Venir (Приходити)"
+    },
+    "venir-imparfe": {
+      "file": "venir-imparfe.json",
+      "name_en": "Venir - Imparfait",
+      "name_uk": "Venir - минулий час"
+    },
+    "devoir": {
+      "file": "devoir.json",
+      "name_en": "Devoir (Must/Should)",
+      "name_uk": "Devoir (Мусити)"
+    },
+    "devoir-imparfe": {
+      "file": "devoir-imparfe.json",
+      "name_en": "Devoir - Imparfait",
+      "name_uk": "Devoir - минулий час"
+    },
+    "parler": {
+      "file": "parler.json",
+      "name_en": "Parler (To Speak)",
+      "name_uk": "Parler (Говорити)"
+    },
+    "finir": {
+      "file": "finir.json",
+      "name_en": "Finir (To Finish)",
+      "name_uk": "Finir (Закінчувати)"
+    },
+    "finir-imparfe": {
+      "file": "finir-imparfe.json",
+      "name_en": "Finir - Imparfait",
+      "name_uk": "Finir - минулий час"
+    },
+    "mettre": {
+      "file": "mettre.json",
+      "name_en": "Mettre (To Put)",
+      "name_uk": "Mettre (Класти)"
+    },
+    "mettre-imparfe": {
+      "file": "mettre-imparfe.json",
+      "name_en": "Mettre - Imparfait",
+      "name_uk": "Mettre - минулий час"
+    },
+    "prendre": {
+      "file": "prendre.json",
+      "name_en": "Prendre (To Take)",
+      "name_uk": "Prendre (Брати)"
+    },
+    "prendre-imparfe": {
+      "file": "prendre-imparfe.json",
+      "name_en": "Prendre - Imparfait",
+      "name_uk": "Prendre - минулий час"
+    }
   }
 }

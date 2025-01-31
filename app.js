@@ -10,9 +10,19 @@ let timer = null;
 let currentLanguage = 'english'; // Default language
 let isLoadingTopics = false;
 let lastRenderedTopics = null;
+let topicsRoot = null;
 
 // Base path for GitHub Pages
 const basePath = '/myfrench';
+
+// Fetch configuration
+const fetchConfig = {
+    cache: 'force-cache',
+    headers: {
+        'Cache-Control': 'max-age=3600',
+        'Pragma': 'no-cache'
+    }
+};
 
 // Supported languages configuration
 const supportedLanguages = {
@@ -87,9 +97,7 @@ async function loadTopics() {
             </div>
         `;
 
-        const configResponse = await fetch(`${basePath}/config.json`, {
-            cache: 'force-cache'
-        });
+        const configResponse = await fetch(`${basePath}/config.json`, fetchConfig);
 
         if (!configResponse.ok) {
             throw new Error(`Failed to load config: ${configResponse.statusText}`);
@@ -98,9 +106,14 @@ async function loadTopics() {
         const config = await configResponse.json();
         if (typeof config.topics === 'object' && config.topics !== null) {
             topics = Object.fromEntries(
-                Object.entries(config.topics).map(([name, file]) => [
-                    name,
-                    { file, name, loaded: false }
+                Object.entries(config.topics).map(([id, topicData]) => [
+                    id,
+                    {
+                        file: topicData.file,
+                        name_en: topicData.name_en,
+                        name_uk: topicData.name_uk,
+                        loaded: false
+                    }
                 ])
             );
 
@@ -131,9 +144,7 @@ async function selectTopic(topicId) {
             topic.loading = true;
             displayTopics(); // Update UI to show loading state
 
-            const response = await fetch(`${basePath}/vocabulary/${topic.file}`, {
-                cache: 'force-cache'
-            });
+            const response = await fetch(`${basePath}/vocabulary/${topic.file}`, fetchConfig);
 
             if (!response.ok) {
                 throw new Error(`Failed to load topic ${topicId}`);
@@ -156,6 +167,8 @@ async function selectTopic(topicId) {
             topics[topicId] = {
                 ...topics[topicId],
                 ...topicData,
+                name_en: topics[topicId].name_en, // Preserve the names
+                name_uk: topics[topicId].name_uk,
                 loaded: true,
                 loading: false
             };
@@ -226,18 +239,28 @@ function updateUILanguage() {
 }
 
 function displayTopics() {
-    const topicsString = JSON.stringify(topics);
+    // Force re-render on language change by setting lastRenderedTopics to null
+    if (lastRenderedTopics && currentLanguage !== lastLanguage) {
+        lastRenderedTopics = null;
+    }
+
+    const topicsString = JSON.stringify(topics) + currentLanguage; // Include language in cache key
     if (lastRenderedTopics === topicsString) {
         return; // Skip if nothing changed
     }
     lastRenderedTopics = topicsString;
+    lastLanguage = currentLanguage; // Store current language
 
-    const root = ReactDOM.createRoot(document.getElementById('topicList'));
-    root.render(React.createElement(TopicGrid, {
+    if (!topicsRoot) {
+        topicsRoot = ReactDOM.createRoot(document.getElementById('topicList'));
+    }
+
+    topicsRoot.render(React.createElement(TopicGrid, {
         topics: topics,
         currentLanguage: currentLanguage,
         onSelectTopic: selectTopic,
-        basePath: basePath
+        basePath: basePath,
+        key: currentLanguage // Add key to force re-render
     }));
     showSection('topicSelection');
 }
@@ -273,23 +296,27 @@ function displayCurrentWord() {
     exampleElement.style.display = word.example ? 'block' : 'none';
 
     const audioContainer = document.getElementById('wordAudio');
-    audioContainer.innerHTML = `
-        <div class="audio-controls">
-            <button onclick="playAudio('${word.media.audio}')" class="audio-btn" title="Listen in French">
-                🔊
-            </button>
-        </div>
-    `;
+    if (word.media && word.media.audio) {
+        audioContainer.innerHTML = `
+            <div class="audio-controls">
+                <button onclick="playAudio('${word.media.audio}')" class="audio-btn" title="Listen in French">
+                    🔊
+                </button>
+            </div>
+        `;
 
-    // Delayed audio playback
-    setTimeout(() => {
-        playAudio(word.media.audio).catch(console.error);
-    }, 500);
+        // Delayed audio playback
+        setTimeout(() => {
+            playAudio(word.media.audio).catch(console.error);
+        }, 500);
+    } else {
+        audioContainer.innerHTML = ''; // Clear if no audio available
+    }
 }
 
 async function playAudio(audioUrl) {
     try {
-        const response = await fetch(audioUrl);
+        const response = await fetch(audioUrl, fetchConfig);
         if (!response.ok) {
             throw new Error(`Audio file not found (${response.status})`);
         }
@@ -326,13 +353,20 @@ function previousWord() {
 function generateQuestion() {
     if (!currentTopic || !topics[currentTopic] || !topics[currentTopic].words) return;
 
+    const words = topics[currentTopic].words;
+
+    // Check if we have enough words for options
+    if (words.length < 4) {
+        console.error('Not enough words for generating options');
+        return;
+    }
+
     questionCount++;
     if (questionCount > 10) {
         showSummary();
         return;
     }
 
-    const words = topics[currentTopic].words;
     currentWord = words[Math.floor(Math.random() * words.length)];
 
     const wrongOptions = words
@@ -347,13 +381,18 @@ function generateQuestion() {
     document.getElementById('score').textContent = score;
 
     const audioContainer = document.getElementById('testAudio');
-    audioContainer.innerHTML = `
-        <div class="audio-controls">
-            <button onclick="playAudio('${currentWord.media.audio}')" class="audio-btn" title="Listen in French">
-                🔊
-            </button>
-        </div>
-    `;
+    if (currentWord.media && currentWord.media.audio) {
+        audioContainer.innerHTML = `
+            <div class="audio-controls">
+                <button onclick="playAudio('${currentWord.media.audio}')" class="audio-btn" title="Listen in French">
+                    🔊
+                </button>
+            </div>
+        `;
+        playAudio(currentWord.media.audio).catch(console.error);
+    } else {
+        audioContainer.innerHTML = '';
+    }
 
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
@@ -365,7 +404,6 @@ function generateQuestion() {
     });
 
     startTimer();
-    playAudio(currentWord.media.audio).catch(console.error);
 }
 
 function startTimer() {
@@ -447,7 +485,19 @@ function showTopics() {
     displayTopics();
 }
 
+// Cleanup function for unmounting
+function cleanup() {
+    if (timer) clearInterval(timer);
+    if (topicsRoot) {
+        topicsRoot.unmount();
+        topicsRoot = null;
+    }
+}
+
 // Initialize the app
 window.onload = function() {
     loadTopics().catch(console.error);
 };
+
+// Add cleanup on page unload
+window.onunload = cleanup;

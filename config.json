@@ -5,15 +5,10 @@
       "name_en": "Numbers",
       "name_uk": "Числа"
     },
-    "large-numbers": {
-      "file": "large-numbers.json",
-      "name_en": "Large Numbers",
-      "name_uk": "Великі числа"
-    },
-    "basic-colors": {
-      "file": "basic-colors.json",
-      "name_en": "Basic Colors",
-      "name_uk": "Основні кольори"
+    "colors": {
+      "file": "colors.json",
+      "name_en": "Colors",
+      "name_uk": "Kольори"
     },
     "daily-activities": {
       "file": "daily-activities.json",
@@ -34,11 +29,6 @@
       "file": "work-tasks.json",
       "name_en": "Work Tasks",
       "name_uk": "Робочі завдання"
-    },
-    "advanced-colors": {
-      "file": "advanced-colors.json",
-      "name_en": "Advanced Colors",
-      "name_uk": "Складні кольори"
     },
     "windows-doors": {
       "file": "windows-doors.json",
@@ -70,11 +60,6 @@
       "name_en": "Meat & Fish",
       "name_uk": "М'ясо та риба"
     },
-    "basic-clothing": {
-      "file": "basic-clothing.json",
-      "name_en": "Basic Clothing",
-      "name_uk": "Базовий одяг"
-    },
     "clothing": {
       "file": "clothing.json",
       "name_en": "Clothing",
@@ -84,11 +69,6 @@
       "file": "clothing-accessories.json",
       "name_en": "Clothing Accessories",
       "name_uk": "Аксесуари"
-    },
-    "seasonal-clothing": {
-      "file": "seasonal-clothing.json",
-      "name_en": "Seasonal Clothing",
-      "name_uk": "Сезонний одяг"
     },
     "shoes": {
       "file": "shoes.json",

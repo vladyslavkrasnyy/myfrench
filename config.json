@@ -220,11 +220,6 @@
       "name_en": "Wild Animals",
       "name_uk": "Дикі тварини"
     },
-    "personal-items": {
-      "file": "personal-items.json",
-      "name_en": "Personal Items",
-      "name_uk": "Особисті речі"
-    },
     "safety-equipment": {
       "file": "safety-equipment.json",
       "name_en": "Safety Equipment",

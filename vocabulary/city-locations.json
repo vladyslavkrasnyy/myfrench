@@ -123,6 +123,246 @@
       "english": "bike path",
       "ukrainian": "велосипедна доріжка",
       "example": "Je prends la piste cyclable."
+    },
+    {
+      "french": "la maison",
+      "english": "house",
+      "ukrainian": "будинок",
+      "example": "J'habite dans une maison."
+    },
+    {
+      "french": "l'appartement",
+      "english": "apartment",
+      "ukrainian": "квартира",
+      "example": "Son appartement est au troisième étage."
+    },
+    {
+      "french": "le magasin",
+      "english": "store",
+      "ukrainian": "магазин",
+      "example": "Je vais au magasin."
+    },
+    {
+      "french": "le supermarché",
+      "english": "supermarket",
+      "ukrainian": "супермаркет",
+      "example": "Je fais les courses au supermarché."
+    },
+    {
+      "french": "la banque",
+      "english": "bank",
+      "ukrainian": "банк",
+      "example": "Je vais à la banque."
+    },
+    {
+      "french": "la poste",
+      "english": "post office",
+      "ukrainian": "пошта",
+      "example": "J'envoie une lettre à la poste."
+    },
+    {
+      "french": "l'hôpital",
+      "english": "hospital",
+      "ukrainian": "лікарня",
+      "example": "L'hôpital est près d'ici."
+    },
+    {
+      "french": "la pharmacie",
+      "english": "pharmacy",
+      "ukrainian": "аптека",
+      "example": "J'achète des médicaments à la pharmacie."
+    },
+    {
+      "french": "le restaurant",
+      "english": "restaurant",
+      "ukrainian": "ресторан",
+      "example": "Nous dînons au restaurant."
+    },
+    {
+      "french": "le café",
+      "english": "cafe",
+      "ukrainian": "кафе",
+      "example": "Je prends un café au café."
+    },
+    {
+      "french": "l'école",
+      "english": "school",
+      "ukrainian": "школа",
+      "example": "Les enfants vont à l'école."
+    },
+    {
+      "french": "la bibliothèque",
+      "english": "library",
+      "ukrainian": "бібліотека",
+      "example": "J'étudie à la bibliothèque."
+    },
+    {
+      "french": "le parc",
+      "english": "park",
+      "ukrainian": "парк",
+      "example": "Je me promène dans le parc."
+    },
+    {
+      "french": "la gare",
+      "english": "train station",
+      "ukrainian": "залізничний вокзал",
+      "example": "Le train part de la gare."
+    },
+    {
+      "french": "l'aéroport",
+      "english": "airport",
+      "ukrainian": "аеропорт",
+      "example": "Je vais à l'aéroport."
+    },
+    {
+      "french": "le cinéma",
+      "english": "cinema",
+      "ukrainian": "кінотеатр",
+      "example": "Nous allons au cinéma."
+    },
+    {
+      "french": "le musée",
+      "english": "museum",
+      "ukrainian": "музей",
+      "example": "Le musée est fermé le lundi."
+    },
+    {
+      "french": "la plage",
+      "english": "beach",
+      "ukrainian": "пляж",
+      "example": "J'aime aller à la plage."
+    },
+    {
+      "french": "le jardin",
+      "english": "garden",
+      "ukrainian": "сад",
+      "example": "Les fleurs poussent dans le jardin."
+    },
+    {
+      "french": "le bureau",
+      "english": "office",
+      "ukrainian": "офіс",
+      "example": "Je travaille au bureau."
+    },
+    {
+      "french": "la mairie",
+      "english": "town hall",
+      "ukrainian": "ратуша",
+      "example": "Je vais à la mairie pour mes papiers."
+    },
+    {
+      "french": "l'hôpital",
+      "english": "hospital",
+      "ukrainian": "лікарня",
+      "example": "L'hôpital est ouvert 24 heures sur 24."
+    },
+    {
+      "french": "la bibliothèque",
+      "english": "library",
+      "ukrainian": "бібліотека",
+      "example": "J'emprunte des livres à la bibliothèque."
+    },
+    {
+      "french": "le musée",
+      "english": "museum",
+      "ukrainian": "музей",
+      "example": "Le musée expose des œuvres d'art."
+    },
+    {
+      "french": "l'école",
+      "english": "school",
+      "ukrainian": "школа",
+      "example": "Les enfants vont à l'école."
+    },
+    {
+      "french": "la poste",
+      "english": "post office",
+      "ukrainian": "пошта",
+      "example": "J'envoie une lettre à la poste."
+    },
+    {
+      "french": "la gare",
+      "english": "train station",
+      "ukrainian": "вокзал",
+      "example": "Le train arrive à la gare."
+    },
+    {
+      "french": "le théâtre",
+      "english": "theater",
+      "ukrainian": "театр",
+      "example": "Nous allons au théâtre ce soir."
+    },
+    {
+      "french": "le commissariat",
+      "english": "police station",
+      "ukrainian": "відділок поліції",
+      "example": "Le commissariat est ouvert."
+    },
+    {
+      "french": "la piscine",
+      "english": "swimming pool",
+      "ukrainian": "басейн",
+      "example": "Je nage à la piscine municipale."
+    },
+    {
+      "french": "la caserne de pompiers",
+      "english": "fire station",
+      "ukrainian": "пожежна частина",
+      "example": "La caserne de pompiers est proche."
+    },
+    {
+      "french": "l'université",
+      "english": "university",
+      "ukrainian": "університет",
+      "example": "Les étudiants sont à l'université."
+    },
+    {
+      "french": "le stade",
+      "english": "stadium",
+      "ukrainian": "стадіон",
+      "example": "Le match a lieu au stade."
+    },
+    {
+      "french": "l'église",
+      "english": "church",
+      "ukrainian": "церква",
+      "example": "L'église est au centre du village."
+    },
+    {
+      "french": "la cathédrale",
+      "english": "cathedral",
+      "ukrainian": "собор",
+      "example": "La cathédrale est magnifique."
+    },
+    {
+      "french": "le tribunal",
+      "english": "courthouse",
+      "ukrainian": "суд",
+      "example": "Le tribunal est un grand bâtiment."
+    },
+    {
+      "french": "le gymnase",
+      "english": "gymnasium",
+      "ukrainian": "спортзал",
+      "example": "Je fais du sport au gymnase."
+    },
+    {
+      "french": "la médiathèque",
+      "english": "media library",
+      "ukrainian": "медіатека",
+      "example": "La médiathèque prête des films."
+    },
+    {
+      "french": "le conservatoire",
+      "english": "music school",
+      "ukrainian": "музична школа",
+      "example": "J'apprends le piano au conservatoire."
+    },
+    {
+      "french": "le centre culturel",
+      "english": "cultural center",
+      "ukrainian": "будинок культури",
+      "example": "Il y a une exposition au centre culturel."
     }
   ]
 }

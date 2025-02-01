@@ -110,16 +110,6 @@
       "name_en": "Home Improvement",
       "name_uk": "Ремонт будинку"
     },
-    "home-items": {
-      "file": "home-items.json",
-      "name_en": "Home Items",
-      "name_uk": "Домашні речі"
-    },
-    "household-items": {
-      "file": "household-items.json",
-      "name_en": "Household Items",
-      "name_uk": "Побутові речі"
-    },
     "household-maintenance": {
       "file": "household-maintenance.json",
       "name_en": "Household Maintenance",
@@ -150,11 +140,6 @@
       "name_en": "Cleaning Appliances",
       "name_uk": "Техніка для прибирання"
     },
-    "cleaning-supplies": {
-      "file": "cleaning-supplies.json",
-      "name_en": "Cleaning Supplies",
-      "name_uk": "Засоби для прибирання"
-    },
     "waste-management": {
       "file": "waste-management.json",
       "name_en": "Waste Management",
@@ -176,7 +161,7 @@
       "name_uk": "Родичі"
     },
     "family": {
-      "file": "family-members.json",
+      "file": "family.json",
       "name_en": "Family",
       "name_uk": "Сім'я"
     },
@@ -189,16 +174,6 @@
       "file": "city-locations.json",
       "name_en": "City Locations",
       "name_uk": "Місця у місті"
-    },
-    "places": {
-      "file": "places.json",
-      "name_en": "Places",
-      "name_uk": "Місця"
-    },
-    "public-buildings": {
-      "file": "public-buildings.json",
-      "name_en": "Public Buildings",
-      "name_uk": "Громадські будівлі"
     },
     "shops-stores": {
       "file": "shops-stores.json",

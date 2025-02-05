@@ -243,34 +243,29 @@ function displayTopics() {
     const topicListContainer = document.getElementById('topicList');
     if (!topicListContainer) return;
 
-    // Always ensure clean container
-    if (!topicsRoot) {
-        topicListContainer.innerHTML = '';
-        try {
-            topicsRoot = ReactDOM.createRoot(topicListContainer);
-        } catch (e) {
-            console.error('Error creating React root:', e);
-            return;
-        }
-    }
+    // Clear the container
+    topicListContainer.innerHTML = '';
 
-    // Create a unique key for the current state
-    const currentState = {
-        topics,
-        currentLanguage,
-        timestamp: Date.now() // Force re-render
-    };
-
+    // Create new React root
     try {
+        topicsRoot = ReactDOM.createRoot(topicListContainer);
+
+        // Render the TopicGrid with a forced update key
         topicsRoot.render(React.createElement(TopicGrid, {
             topics: topics,
             currentLanguage: currentLanguage,
             onSelectTopic: selectTopic,
             basePath: basePath,
-            key: currentState.timestamp // Force fresh render
+            key: Date.now() // Force fresh render
         }));
     } catch (e) {
-        console.error('Error rendering TopicGrid:', e);
+        console.error('Error rendering topics:', e);
+        // Show error state to user
+        topicListContainer.innerHTML = `
+            <div class="error-state">
+                Error loading topics. Please try refreshing the page.
+            </div>
+        `;
     }
 }
 
@@ -489,35 +484,26 @@ function showSection(sectionId) {
     });
 }
 
-function showTopics() {
-    // Clear any existing timers
-    if (timer) {
-        clearInterval(timer);
-        timer = null;
-    }
 
-    // Reset all state
+function showTopics() {
+    // First, clean up any existing state
+    cleanup();
+
+    // Reset all state variables
     currentIndex = 0;
     score = 0;
     questionCount = 0;
     currentWord = null;
     options = [];
-
-    // Force fresh render of topics
-    if (topicsRoot) {
-        try {
-            topicsRoot.unmount();
-            topicsRoot = null;
-        } catch (e) {
-            console.error('Error unmounting React root:', e);
-        }
-    }
+    lastRenderedTopics = null; // Force re-render of topics
 
     // Show the topics section
     showSection('topicSelection');
 
-    // Create new React root and render topics
-    displayTopics();
+    // Request a fresh display of topics
+    requestAnimationFrame(() => {
+        displayTopics();
+    });
 }
 
 // Enhanced cleanup function
@@ -530,15 +516,11 @@ function cleanup() {
     if (topicsRoot) {
         try {
             topicsRoot.unmount();
-            topicsRoot = null;
         } catch (e) {
-            console.error('Error during cleanup:', e);
+            console.error('Error unmounting React root:', e);
         }
+        topicsRoot = null;
     }
-
-    // Reset all state variables
-    lastRenderedTopics = null;
-    lastLanguage = null;
 }
 
 // Add this to handle React errors
@@ -564,5 +546,10 @@ window.onload = function() {
     loadTopics().catch(console.error);
 };
 
-// Add cleanup on page unload
-window.onunload = cleanup;
+function backFromTest() {
+    showTopics();
+}
+
+function backFromLearning() {
+    showTopics();
+}

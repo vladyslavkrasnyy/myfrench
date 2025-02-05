@@ -37,7 +37,6 @@
     <!-- Learning Mode -->
     <div id="learningMode" class="section" style="display: none;">
         <div class="word-card">
-            <div id="wordImage" class="word-image"></div>
             <div id="frenchWord" class="french-word"></div>
             <div id="nativeWord" class="native-word"></div>
             <div id="example" class="example"></div>
@@ -46,7 +45,7 @@
         <div class="controls">
             <button onclick="previousWord()">Previous</button>
             <button onclick="nextWord()">Next</button>
-            <button onclick="showModeSelection()" class="secondary">Back</button>
+            <button onclick="backFromLearning()" class="secondary">Back to Topics</button>
         </div>
     </div>
 
@@ -58,11 +57,13 @@
             <span>Time: <span id="timer">10</span>s</span>
         </div>
         <div class="word-card">
-            <div id="wordImage" class="word-image"></div>
             <div id="testFrenchWord" class="french-word"></div>
             <div id="testAudio" class="word-audio"></div>
         </div>
         <div id="options" class="options grid"></div>
+        <div class="controls">
+            <button onclick="backFromTest()" class="secondary">Back to Topics</button>
+        </div>
     </div>
 
     <!-- Summary -->

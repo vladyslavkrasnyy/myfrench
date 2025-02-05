@@ -11,6 +11,7 @@ let currentLanguage = 'english'; // Default language
 let isLoadingTopics = false;
 let lastRenderedTopics = null;
 let topicsRoot = null;
+let lastLanguage = null;
 
 // Base path for GitHub Pages
 const basePath = '/myfrench';
@@ -239,30 +240,38 @@ function updateUILanguage() {
 }
 
 function displayTopics() {
-    // Force re-render on language change by setting lastRenderedTopics to null
-    if (lastRenderedTopics && currentLanguage !== lastLanguage) {
-        lastRenderedTopics = null;
-    }
+    const topicListContainer = document.getElementById('topicList');
+    if (!topicListContainer) return;
 
-    const topicsString = JSON.stringify(topics) + currentLanguage; // Include language in cache key
-    if (lastRenderedTopics === topicsString) {
-        return; // Skip if nothing changed
-    }
-    lastRenderedTopics = topicsString;
-    lastLanguage = currentLanguage; // Store current language
-
+    // Always ensure clean container
     if (!topicsRoot) {
-        topicsRoot = ReactDOM.createRoot(document.getElementById('topicList'));
+        topicListContainer.innerHTML = '';
+        try {
+            topicsRoot = ReactDOM.createRoot(topicListContainer);
+        } catch (e) {
+            console.error('Error creating React root:', e);
+            return;
+        }
     }
 
-    topicsRoot.render(React.createElement(TopicGrid, {
-        topics: topics,
-        currentLanguage: currentLanguage,
-        onSelectTopic: selectTopic,
-        basePath: basePath,
-        key: currentLanguage // Add key to force re-render
-    }));
-    showSection('topicSelection');
+    // Create a unique key for the current state
+    const currentState = {
+        topics,
+        currentLanguage,
+        timestamp: Date.now() // Force re-render
+    };
+
+    try {
+        topicsRoot.render(React.createElement(TopicGrid, {
+            topics: topics,
+            currentLanguage: currentLanguage,
+            onSelectTopic: selectTopic,
+            basePath: basePath,
+            key: currentState.timestamp // Force fresh render
+        }));
+    } catch (e) {
+        console.error('Error rendering TopicGrid:', e);
+    }
 }
 
 function showModeSelection() {
@@ -481,21 +490,77 @@ function showSection(sectionId) {
 }
 
 function showTopics() {
-    if (timer) clearInterval(timer);
+    // Clear any existing timers
+    if (timer) {
+        clearInterval(timer);
+        timer = null;
+    }
+
+    // Reset all state
+    currentIndex = 0;
+    score = 0;
+    questionCount = 0;
+    currentWord = null;
+    options = [];
+
+    // Force fresh render of topics
+    if (topicsRoot) {
+        try {
+            topicsRoot.unmount();
+            topicsRoot = null;
+        } catch (e) {
+            console.error('Error unmounting React root:', e);
+        }
+    }
+
+    // Show the topics section
+    showSection('topicSelection');
+
+    // Create new React root and render topics
     displayTopics();
 }
 
-// Cleanup function for unmounting
+// Enhanced cleanup function
 function cleanup() {
-    if (timer) clearInterval(timer);
-    if (topicsRoot) {
-        topicsRoot.unmount();
-        topicsRoot = null;
+    if (timer) {
+        clearInterval(timer);
+        timer = null;
     }
+
+    if (topicsRoot) {
+        try {
+            topicsRoot.unmount();
+            topicsRoot = null;
+        } catch (e) {
+            console.error('Error during cleanup:', e);
+        }
+    }
+
+    // Reset all state variables
+    lastRenderedTopics = null;
+    lastLanguage = null;
 }
+
+// Add this to handle React errors
+window.addEventListener('error', function(event) {
+    if (event.error && event.error.message.includes('React')) {
+        console.error('React error:', event.error);
+        // Attempt recovery
+        if (topicsRoot) {
+            try {
+                topicsRoot.unmount();
+                topicsRoot = null;
+                displayTopics(); // Try to re-render
+            } catch (e) {
+                console.error('Error during recovery:', e);
+            }
+        }
+    }
+});
 
 // Initialize the app
 window.onload = function() {
+    cleanup(); // Ensure clean state
     loadTopics().catch(console.error);
 };
 
